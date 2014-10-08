@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Temp/Xilinx PCI Express/ML605_ISE13.3/tf64_pcie_trn_isim_beh.exe" -prj "C:/Temp/Xilinx PCI Express/ML605_ISE13.3/tf64_pcie_trn_beh.prj" "work.tf64_pcie_trn" "work.glbl" 
