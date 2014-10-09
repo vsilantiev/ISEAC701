@@ -15,7 +15,7 @@
 
   <!--                                                          -->
 
-  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
 
   <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
 
@@ -30,37 +30,13 @@
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
-    <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="ipcore_dir/v7_pcie_readme.txt"/>
-    <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="ipcore_dir_ISE13.3/blk_mem_gen_v6_2_readme.txt" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="ipcore_dir_ISE13.3/fifo_generator_v8_3_readme.txt" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_ASY" xil_pn:name="ipcore_dir_ISE13.3/v6_bram4096x64.asy" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ipcore_dir_ISE13.3/v6_bram4096x64.ngc" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ipcore_dir_ISE13.3/v6_bram4096x64.sym" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="ipcore_dir_ISE13.3/v6_bram4096x64.vhd" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir_ISE13.3/v6_bram4096x64.vho" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_ASY" xil_pn:name="ipcore_dir_ISE13.3/v6_eb_fifo_counted_resized.asy" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ipcore_dir_ISE13.3/v6_eb_fifo_counted_resized.ngc" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ipcore_dir_ISE13.3/v6_eb_fifo_counted_resized.sym" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="ipcore_dir_ISE13.3/v6_eb_fifo_counted_resized.vhd" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir_ISE13.3/v6_eb_fifo_counted_resized.vho" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_ASY" xil_pn:name="ipcore_dir_ISE13.3/v6_mBuf_128x72.asy" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ipcore_dir_ISE13.3/v6_mBuf_128x72.ngc" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="ipcore_dir_ISE13.3/v6_mBuf_128x72.vhd" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir_ISE13.3/v6_mBuf_128x72.vho" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_ASY" xil_pn:name="ipcore_dir_ISE13.3/v6_prime_fifo_plain.asy" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ipcore_dir_ISE13.3/v6_prime_fifo_plain.ngc" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="ipcore_dir_ISE13.3/v6_prime_fifo_plain.vhd" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir_ISE13.3/v6_prime_fifo_plain.vho" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_ASY" xil_pn:name="ipcore_dir_ISE13.3/v6_sfifo_15x128.asy" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ipcore_dir_ISE13.3/v6_sfifo_15x128.ngc" xil_pn:origination="imported"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="ipcore_dir_ISE13.3/v6_sfifo_15x128.vhd" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ipcore_dir_ISE13.3/v6_sfifo_15x128.vho" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="v6pcieDMA.bgn" xil_pn:subbranch="FPGAConfiguration"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="v6pcieDMA.bit" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="v6pcieDMA.bld"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="v6pcieDMA.cmd_log"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="v6pcieDMA.drc" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="v6pcieDMA.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="v6pcieDMA.ncd" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="v6pcieDMA.ngc"/>
@@ -96,6 +72,9 @@
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="v6pcieDMA_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="v6pcieDMA_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="v6pcieDMA_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="v6pciedma.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="v6pciedma.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="v6pciedma.drc" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
@@ -103,15 +82,15 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1412312573" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1412312573">
+    <transform xil_pn:end_ts="1412881512" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1412881512">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412312573" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1328977379267615232" xil_pn:start_ts="1412312573">
+    <transform xil_pn:end_ts="1412881512" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1328977379267615232" xil_pn:start_ts="1412881512">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412764691" xil_pn:in_ck="8638184623838149379" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2208595034280238460" xil_pn:start_ts="1412764690">
+    <transform xil_pn:end_ts="1412881512" xil_pn:in_ck="-545070394683434600" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2208595034280238460" xil_pn:start_ts="1412881512">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="ipcore_dir/fifomodule.ngc"/>
@@ -125,23 +104,23 @@
       <outfile xil_pn:name="ipcore_dir_ISE13.3/v6_prime_fifo_plain.ngc"/>
       <outfile xil_pn:name="ipcore_dir_ISE13.3/v6_prime_fifo_plain.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1412312574" xil_pn:in_ck="2641074239717127917" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1412312574">
+    <transform xil_pn:end_ts="1412881512" xil_pn:in_ck="-8184188313174798966" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1412881512">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412312574" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="671255789342568418" xil_pn:start_ts="1412312574">
+    <transform xil_pn:end_ts="1412881512" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="671255789342568418" xil_pn:start_ts="1412881512">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412312574" xil_pn:in_ck="2641074239717127917" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8680532996107492458" xil_pn:start_ts="1412312574">
+    <transform xil_pn:end_ts="1412881512" xil_pn:in_ck="-8184188313174798966" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8680532996107492458" xil_pn:start_ts="1412881512">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412312574" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6423059255618412594" xil_pn:start_ts="1412312574">
+    <transform xil_pn:end_ts="1412881512" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-6423059255618412594" xil_pn:start_ts="1412881512">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412766628" xil_pn:in_ck="-3074457494044518843" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="7046497939857611807" xil_pn:start_ts="1412766527">
+    <transform xil_pn:end_ts="1412881689" xil_pn:in_ck="-3101954601382808237" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="7046497939857611807" xil_pn:start_ts="1412881512">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -159,11 +138,11 @@
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1412679316" xil_pn:in_ck="-4338250800188427804" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="5013254933163173335" xil_pn:start_ts="1412679316">
+    <transform xil_pn:end_ts="1412881689" xil_pn:in_ck="-4338250800188427804" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="5013254933163173335" xil_pn:start_ts="1412881689">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412766692" xil_pn:in_ck="5655278069564365122" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4993620823033948991" xil_pn:start_ts="1412766628">
+    <transform xil_pn:end_ts="1412881937" xil_pn:in_ck="3832807288404297427" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4993620823033948991" xil_pn:start_ts="1412881689">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -175,7 +154,7 @@
       <outfile xil_pn:name="v6pcieDMA_cs.ngc"/>
       <outfile xil_pn:name="v6pcieDMA_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1412767379" xil_pn:in_ck="-3944898192365098454" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="6313243538976376503" xil_pn:start_ts="1412766692">
+    <transform xil_pn:end_ts="1412882887" xil_pn:in_ck="-3944898192365098454" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="6313243538976376503" xil_pn:start_ts="1412881937">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -189,7 +168,7 @@
       <outfile xil_pn:name="v6pcieDMA_summary.xml"/>
       <outfile xil_pn:name="v6pcieDMA_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1412767694" xil_pn:in_ck="-3504420022616244669" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-6993472051956009272" xil_pn:start_ts="1412767379">
+    <transform xil_pn:end_ts="1412883287" xil_pn:in_ck="-3504420022616244669" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-6993472051956009272" xil_pn:start_ts="1412882887">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -204,24 +183,27 @@
       <outfile xil_pn:name="v6pcieDMA_pad.txt"/>
       <outfile xil_pn:name="v6pcieDMA_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1412767865" xil_pn:in_ck="-3197664643026418366" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="-1247737766609970542" xil_pn:start_ts="1412767694">
+    <transform xil_pn:end_ts="1412883501" xil_pn:in_ck="-3197664643026418366" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="-1247737766609970542" xil_pn:start_ts="1412883287">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
       <outfile xil_pn:name="usage_statistics_webtalk.html"/>
-      <outfile xil_pn:name="v6pcieDMA.bgn"/>
-      <outfile xil_pn:name="v6pcieDMA.bit"/>
-      <outfile xil_pn:name="v6pcieDMA.drc"/>
       <outfile xil_pn:name="v6pcieDMA.ut"/>
+      <outfile xil_pn:name="v6pciedma.bgn"/>
+      <outfile xil_pn:name="v6pciedma.bit"/>
+      <outfile xil_pn:name="v6pciedma.drc"/>
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
     <transform xil_pn:end_ts="1412767865" xil_pn:in_ck="-3197664643026431220" xil_pn:name="TRAN_analyzeDesignUsingChipscope" xil_pn:prop_ck="4993620823033948991" xil_pn:start_ts="1412767865">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1412767694" xil_pn:in_ck="-3944898192365098586" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1412767659">
+    <transform xil_pn:end_ts="1412883287" xil_pn:in_ck="-3944898192365098586" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1412883244">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>

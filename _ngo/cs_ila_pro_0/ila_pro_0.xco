@@ -1,7 +1,7 @@
 ##############################################################
 #
-# Xilinx Core Generator version 14.7
-# Date: Wed Oct  8 08:36:46 2014
+# Xilinx Core Generator version 14.2
+# Date: Thu Oct 09 19:08:23 2014
 #
 ##############################################################
 #
@@ -39,7 +39,7 @@ SET vhdlsim = true
 SELECT ILA_(ChipScope_Pro_-_Integrated_Logic_Analyzer) family Xilinx,_Inc. 1.05.a
 # END Select
 # BEGIN Parameters
-CSET check_bramcount=true
+CSET check_bramcount=false
 CSET component_name=ila_pro_0
 CSET constraint_type=embedded
 CSET counter_width_1=Disabled
@@ -135,7 +135,7 @@ CSET trigger_port_width_9=1
 CSET use_rpms=true
 # END Parameters
 # BEGIN Extra information
-MISC pkg_timestamp=2013-10-13T14:13:15Z
+MISC pkg_timestamp=2012-07-21T03:12:02Z
 # END Extra information
 GENERATE
-# CRC: 19add8c0
+# CRC: 3ca763a2
