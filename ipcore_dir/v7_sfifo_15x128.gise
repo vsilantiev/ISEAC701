@@ -28,23 +28,19 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1412312574" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1412312574">
+    <transform xil_pn:end_ts="1412931043" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3094225034763067940" xil_pn:start_ts="1412931043">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412312574" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3094225034763067940" xil_pn:start_ts="1412312574">
+    <transform xil_pn:end_ts="1412931043" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-4253362599214050936" xil_pn:start_ts="1412931043">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412312574" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-4253362599214050936" xil_pn:start_ts="1412312574">
+    <transform xil_pn:end_ts="1412931043" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1412931043">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1412312574" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1412312574">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1412312574" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-952330350687060986" xil_pn:start_ts="1412312574">
+    <transform xil_pn:end_ts="1412931043" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-952330350687060986" xil_pn:start_ts="1412931043">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>

@@ -1,14 +1,15 @@
 Release 14.7 - par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Wed Oct  8 15:27:36 2014
+Fri Oct 10 14:26:52 2014
 
 All signals are completely routed.
 
-WARNING:ParHelpers:361 - There are 82 loadless signals in this design. This design will cause Bitgen to issue DRC
+WARNING:ParHelpers:361 - There are 83 loadless signals in this design. This design will cause Bitgen to issue DRC
    warnings.
 
    DDRs_ctrl_module/DDR_pipe_read_D_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/rstbt/power_on_rd_rst<1>
+   ad9467_1/delay_rst_s
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<100>
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<101>
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<102>

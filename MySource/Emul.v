@@ -1,6 +1,6 @@
 module ADC_emul(
 					 	
-	//			    input trn_clk,
+				    input trn_clk,
  					 
 					 input debug_data,
 					 input debug_data1,
@@ -105,7 +105,7 @@ parameter WIDTH=16;
 /*Variable*/
 //
 
-//	wire trn_clk;
+	wire trn_clk;
 
 
 //Input Reg
@@ -322,15 +322,30 @@ parameter WIDTH=16;
 	
 	reg[31:0] wasfifoerror;
  
+	reg redirect_flag;
 	
 //
 /*Gluing data ADC*/
 //
-always @ (posedge clk)
-    begin
-        //adc_dmode_m1 <= up_dmode;
+always @ (posedge trn_clk)
+    begin 
+	 if (!reset)
+	 begin
+	 real_data <=0;
+	 redirect_flag<=1;
+	 end
+	 else begin
+		case (real_data)
+			1:redirect_flag <= 1;
+			11843 : redirect_flag <=0;
+		endcase
+		case (redirect_flag)
+			0:real_data<=real_data-256;
+			1:real_data<=real_data+256;
+	   endcase
+			//adc_dmode_m1 <= up_dmode;
         //adc_dmode <= adc_dmode_m1;
-        
+        /*
         adc_data_p <= adc_data_p_s;
         adc_data_n <= adc_data_n_s;
         
@@ -367,7 +382,10 @@ always @ (posedge clk)
                 adc_or_count <= adc_or_count + 1'b1;
             end
             adc_or <= adc_or_count[4];
-    end
+    */
+	 
+	 end
+	 end
 	 reg [1:0] count;
 	 reg [11:0] count_ref; 
 	 reg [63:0] real_data_out;
@@ -377,7 +395,7 @@ always @ (posedge clk)
 
 
  //  always @(posedge clk) begin 
-always @(posedge clk) begin
+always @(posedge trn_clk) begin
 
    if (!reset) begin
 	
@@ -388,10 +406,6 @@ always @(posedge clk) begin
 		reg04_soa_length_cur <= 'd8;	// 80 ns
 		
 		reg06_rd_testbandwith_speed<=0;
-		debug_data_reg <= 0;
-		debug_data1_reg <= 0;
-		debug_data2_reg <= 0;
-		debug_data3_reg <= 0;
     end 
 	 else
 
@@ -499,33 +513,7 @@ always @(posedge clk) begin
 		reg07_rd <= real_data_out; //50
 	   reg07_rv <= 1;		
 	
-	begin if (debug_data != 0)
-		begin
-		debug_data_reg <= debug_data;
-      end
-		end
-		
-		begin if (debug_data1 != 0)
-		begin
-		debug_data1_reg <= debug_data1_reg + 1;
-		reg09_rd <= debug_data1_reg; //52
-	   reg09_rv <= 1;//1;
-		end
-		end
-		begin if (debug_data2 != 0)
-		begin
-		debug_data2_reg <= debug_data2_reg + 1;
-		reg10_rd <= debug_data2_reg; //53
-	   reg10_rv <= 1;
-		end
-		end
-		begin if (debug_data3 != 0)
-		begin
-		debug_data3_reg <= debug_data3_reg + 1;
-		reg11_rd <= debug_data3_reg;  //54
-	   reg11_rv <= 1;		
-		end
-		end
+
 
 		
       reg13_rd <= 'd1000;
@@ -536,7 +524,7 @@ always @(posedge clk) begin
   end
 
 //  always @(posedge clk) begin
-always @(posedge clk) begin 
+always @(posedge trn_clk) begin 
     if (!reset) begin
       bram_addr <= 0;
 	   count <= 0;
@@ -704,7 +692,7 @@ always @(posedge clk) begin
     end	 
   end
     
-  always @(posedge clk) 
+  always @(posedge trn_clk) 
   begin
     if (count_ref == 0)
 	 begin
@@ -717,7 +705,7 @@ always @(posedge clk) begin
   reg user_int_2o;
   reg user_int_3o;
    
-  always @(posedge clk) begin
+  always @(posedge trn_clk) begin
   //  count_irq <= 0;
   //  if (count_ref <= 10) 
 	//     user_int_1o <= 1;
@@ -898,7 +886,7 @@ IDDR #(
 
 assign bram_wr_addr=bram_addr;
  
-assign fifowr_clk = clk;
+assign fifowr_clk = trn_clk;
 assign bram_wr_din = real_data_out;
 //assign strobe_adc = strobe_adccur;
 

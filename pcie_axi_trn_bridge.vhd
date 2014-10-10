@@ -136,7 +136,7 @@ architecture rtl of pcie_axi_trn_bridge is
   signal trn_tsrc_rdy_derived : std_logic := '0';
   signal in_packet_reg        : std_logic;
   signal m_axis_rx_tready_int : std_logic;
-  
+  constant TCQ1               : time           := 1 ns;
 begin
 
 
@@ -248,9 +248,9 @@ begin
     begin
       if rising_edge(user_clk) then
         if user_reset = '1' then
-          in_packet_reg <= '0';
+          in_packet_reg <= '0' after TCQ1;
         elsif (m_axis_rx_tvalid = '1' and m_axis_rx_tready_int = '1') then
-          in_packet_reg <= not(m_axis_rx_tlast);
+          in_packet_reg <= not(m_axis_rx_tlast) after TCQ1;
         end if;
       end if;
     end process;
@@ -293,9 +293,9 @@ begin
   
     if rising_edge(user_clk) then
       if user_reset = '1' then
-        trn_rsrc_dsc <= '1';     
+        trn_rsrc_dsc <= '1' after TCQ1;     
       else
-        trn_rsrc_dsc <= not(user_lnk_up);
+        trn_rsrc_dsc <= not(user_lnk_up) after TCQ1;
       end if;
     end if;
   end process;

@@ -6,9 +6,7 @@ ise -dd _ngo -sd MyUserLogic/UserLogic_00 -sd ipcore_dir -sd ipcore_dir_ISE13.3
 -nt timestamp -uc MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf -p xc7a200t-fbg676-2
 v6pcieDMA_cs.ngc v6pcieDMA.ngd
 
-Reading NGO file
-"/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/v6pcieDMA_cs.ngc"
-...
+Reading NGO file "/home/vladimir/ISEAC701/v6pcieDMA_cs.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -83,38 +81,6 @@ WARNING:NgdBuild:452 - logical net 'user_wr_addrA<3>' has no driver
 WARNING:NgdBuild:452 - logical net 'user_wr_addrA<2>' has no driver
 WARNING:NgdBuild:452 - logical net 'user_wr_addrA<1>' has no driver
 WARNING:NgdBuild:452 - logical net 'user_wr_addrA<0>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<31>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<30>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<29>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<28>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<27>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<26>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<25>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<24>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<23>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<22>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<21>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<20>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<19>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<18>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<17>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<16>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<15>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<14>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<13>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<12>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<11>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<10>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<9>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<8>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<7>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<6>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<5>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<4>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<3>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<2>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<1>' has no driver
-WARNING:NgdBuild:452 - logical net 'reg11_rd<0>' has no driver
 WARNING:NgdBuild:452 - logical net 'reg05_td<31>' has no driver
 WARNING:NgdBuild:452 - logical net 'reg05_td<30>' has no driver
 WARNING:NgdBuild:452 - logical net 'reg05_td<29>' has no driver
@@ -2212,12 +2178,12 @@ Partition Implementation Status
 
 NGDBUILD Design Results Summary:
   Number of errors:     0
-  Number of warnings: 1450
+  Number of warnings: 1418
 
-Total memory usage is 655800 kilobytes
+Total memory usage is 654052 kilobytes
 
 Writing NGD file "v6pcieDMA.ngd" ...
-Total REAL time to NGDBUILD completion:  52 sec
-Total CPU time to NGDBUILD completion:   52 sec
+Total REAL time to NGDBUILD completion:  53 sec
+Total CPU time to NGDBUILD completion:   53 sec
 
 Writing NGDBUILD log file "v6pcieDMA.bld"...

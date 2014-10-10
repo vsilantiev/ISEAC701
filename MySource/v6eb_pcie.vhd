@@ -375,7 +375,7 @@ architecture Behavioral of v6pcieDMA is
 			debug_data2 :in std_logic;
 			debug_data3 :in std_logic;
 --			fifo_re :out std_logic;
---			 trn_clk					  : in  std_logic;
+			 trn_clk					  : in  std_logic;
 			 adc_clk_in_p          : in  std_logic;
 			 adc_clk_in_n          : in  std_logic;
 			 adc_data_in_p         : in  std_logic_vector(7 downto 0);
@@ -1439,7 +1439,7 @@ begin
 			debug_data2 => eb_re, --53
 			debug_data3 => eb_rst, --54
 	--		fifo_re => my_eb_re,
-	--      trn_clk		=> trn_clk,
+	     trn_clk		=> trn_clk,
 			adc_clk_in_p => adc_clk_in_p,          
 			adc_clk_in_n => adc_clk_in_n,          
 			adc_data_in_p => adc_data_in_p,        
