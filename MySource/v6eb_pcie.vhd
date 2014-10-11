@@ -375,7 +375,7 @@ architecture Behavioral of v6pcieDMA is
 			debug_data2 :in std_logic;
 			debug_data3 :in std_logic;
 --			fifo_re :out std_logic;
---			 trn_clk					  : in  std_logic;
+			 trn_clk					  : in  std_logic;
 			 adc_clk_in_p          : in  std_logic;
 			 adc_clk_in_n          : in  std_logic;
 			 adc_data_in_p         : in  std_logic_vector(7 downto 0);
@@ -1439,7 +1439,7 @@ begin
 			debug_data2 => eb_re, --53
 			debug_data3 => eb_rst, --54
 	--		fifo_re => my_eb_re,
-	--      trn_clk		=> trn_clk,
+	      trn_clk		=> trn_clk,
 			adc_clk_in_p => adc_clk_in_p,          
 			adc_clk_in_n => adc_clk_in_n,          
 			adc_data_in_p => adc_data_in_p,        
@@ -1802,7 +1802,7 @@ begin
    tx_cfg_gnt 				 <= not trn_tcfg_gnt_n;
 	trn_tstr					<= not trn_tstr_n;
 
-
+   trn_tbuf_av				<= tx_buf_av;
 
    cfg_err_cor_n              <= '1';
    cfg_err_ur_n               <= '1';
@@ -2057,7 +2057,7 @@ begin
            trn_rnp_ok_n                => trn_rnp_ok_n            ,
            trn_tsrc_dsc_n              => trn_tsrc_dsc_n          ,
            trn_tdst_dsc_n              => trn_tdst_dsc_n          ,
-           trn_tbuf_av                 => tx_buf_av,--trn_tbuf_av             ,
+           trn_tbuf_av                 => trn_tbuf_av             ,
            trn_terrfwd_n               => trn_terrfwd_n           ,
 
            trn_clk                     => trn_clk                 ,
@@ -2320,7 +2320,7 @@ begin
   s_axis_tx_tlast                            => s_axis_tx_tlast ,
   s_axis_tx_tvalid                           => s_axis_tx_tvalid ,
   s_axis_tx_tuser                            => s_axis_tx_tuser,
-  tx_cfg_gnt                                 => '1',--tx_cfg_gnt,--'1',--tx_cfg_gnt ,
+  tx_cfg_gnt                                 => tx_cfg_gnt,--'1',--tx_cfg_gnt ,
 
   -- RX
   m_axis_rx_tdata                            => m_axis_rx_tdata ,

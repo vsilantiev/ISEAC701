@@ -5,10 +5,10 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="LIT" num="701" delta="old" ><arg fmt="%s" index="1">PAD symbol &quot;delay_clk&quot;</arg> has an undefined IOSTANDARD.
+<msg type="warning" file="LIT" num="702" delta="old" ><arg fmt="%s" index="1">PAD symbol &quot;delay_clk&quot;</arg> is not constrained (LOC) to a specific location.
 </msg>
 
-<msg type="warning" file="LIT" num="702" delta="old" ><arg fmt="%s" index="1">PAD symbol &quot;delay_clk&quot;</arg> is not constrained (LOC) to a specific location.
+<msg type="warning" file="LIT" num="701" delta="old" ><arg fmt="%s" index="1">PAD symbol &quot;pci_exp_rxp&lt;3&gt;&quot;</arg> has an undefined IOSTANDARD.
 </msg>
 
 <msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">m_axis_rx_tuser&lt;20&gt;</arg> has no load.

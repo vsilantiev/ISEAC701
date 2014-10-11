@@ -1,6 +1,6 @@
 module ADC_emul(
 					 	
-	//			    input trn_clk,
+				    input trn_clk,
  					 
 					 input debug_data,
 					 input debug_data1,
@@ -105,7 +105,7 @@ parameter WIDTH=16;
 /*Variable*/
 //
 
-//	wire trn_clk;
+	wire trn_clk;
 
 
 //Input Reg

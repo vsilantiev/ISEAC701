@@ -11,7 +11,16 @@
 <msg type="warning" file="NgdBuild" num="931" delta="old" >The value of SIM_DEVICE on instance &apos;<arg fmt="%s" index="1">DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1</arg>&apos; of type <arg fmt="%s" index="2">FIFO36E1</arg> has been changed from &apos;<arg fmt="%s" index="3">VIRTEX6</arg>&apos; to &apos;<arg fmt="%s" index="4">7SERIES</arg>&apos; to correct post-ngdbuild and timing simulation for this primitive.  In order for functional simulation to be correct, the value of SIM_DEVICE should be changed in this same manner in the source netlist or constraint file. For additional information on retargeting this primitive to 7SERIES, please see http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migration.pdf.
 </msg>
 
-<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;NET &quot;userclk_200MHz_p&quot; PERIOD = 200 MHz HIGH 50% |&gt; [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(213)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+<msg type="warning" file="ConstraintSystem" num="119" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;userclk_66MHz&quot; IOSTANDARD = LVCMOS18;&gt; [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(301)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;userclk_66MHz&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LEDs_IO_pin[7]&quot; IOSTANDARD = LVCMOS18;&gt; [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(302)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;LEDs_IO_pin[7]&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;LEDs_IO_pin[5]&quot; IOSTANDARD = LVCMOS18;&gt; [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(304)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;LEDs_IO_pin[5]&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;NET &quot;userclk_200MHz_p&quot; PERIOD = 200 MHz HIGH 50 %;&gt; [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(222)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
 </msg>
 
 <msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">m_axis_rx_tuser&lt;20&gt;</arg>&apos; has no driver

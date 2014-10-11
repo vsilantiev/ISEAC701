@@ -6,9 +6,7 @@ ise -dd _ngo -sd MyUserLogic/UserLogic_00 -sd ipcore_dir -sd ipcore_dir_ISE13.3
 -nt timestamp -uc MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf -p xc7a200t-fbg676-2
 v6pcieDMA_cs.ngc v6pcieDMA.ngd
 
-Reading NGO file
-"/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/v6pcieDMA_cs.ngc"
-...
+Reading NGO file "/home/vladimir/ISEAC701/v6pcieDMA_cs.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -36,8 +34,26 @@ WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
    n.pdf.
 Resolving constraint associations...
 Checking Constraint Associations...
+WARNING:ConstraintSystem:119 - Constraint <NET "userclk_66MHz" IOSTANDARD =
+   LVCMOS18;> [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(301)]: This constraint
+   cannot be distributed from the design objects matching 'NET "userclk_66MHz"'
+   because those design objects do not contain or drive any instances of the
+   correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "LEDs_IO_pin[7]" IOSTANDARD =
+   LVCMOS18;> [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(302)]: This constraint
+   cannot be distributed from the design objects matching 'NET "LEDs_IO_pin[7]"'
+   because those design objects do not contain or drive any instances of the
+   correct type.
+
+WARNING:ConstraintSystem:119 - Constraint <NET "LEDs_IO_pin[5]" IOSTANDARD =
+   LVCMOS18;> [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(304)]: This constraint
+   cannot be distributed from the design objects matching 'NET "LEDs_IO_pin[5]"'
+   because those design objects do not contain or drive any instances of the
+   correct type.
+
 INFO:ConstraintSystem - The Period constraint <NET "userclk_200MHz_p" PERIOD =
-   200 MHz HIGH 50% |> [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(213)], is
+   200 MHz HIGH 50 %;> [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(222)], is
    specified using the Net Period method which is not recommended. Please use
    the Timespec PERIOD method.
 
@@ -2212,12 +2228,12 @@ Partition Implementation Status
 
 NGDBUILD Design Results Summary:
   Number of errors:     0
-  Number of warnings: 1450
+  Number of warnings: 1453
 
-Total memory usage is 655800 kilobytes
+Total memory usage is 654792 kilobytes
 
 Writing NGD file "v6pcieDMA.ngd" ...
-Total REAL time to NGDBUILD completion:  52 sec
-Total CPU time to NGDBUILD completion:   52 sec
+Total REAL time to NGDBUILD completion:  55 sec
+Total CPU time to NGDBUILD completion:   55 sec
 
 Writing NGDBUILD log file "v6pcieDMA.bld"...
