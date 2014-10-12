@@ -263,3 +263,177 @@ WARNING:NetListWriters:304 - Port bus ila0_trig0<65 : 6> on block v7_pcie is not
 Writing EDIF netlist file v6pcieDMA_cs.edif ...
 ngc2edif: Total memory usage is 185768 kilobytes
 
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design v6pcieDMA_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus ila0_trig0<61 : 21> on block
+   pcie_axi_trn_bridge is not reconstructed, because there are some missing bus
+   pins.
+WARNING:NetListWriters:306 - Signal bus s_axis_tx_tuser<3 : 1> on block
+   pcie_axi_trn_bridge is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus trn_rrem_n_r1[3 : 0] on block
+   rx_CplD_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus RegAddr_us_Dex[6 : 0] on block
+   rx_CplD_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus RegAddr_ds_Dex[6 : 0] on block
+   rx_CplD_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:304 - Port bus ila0_trig3<223 : 208> on block
+   rx_MRd_Transact is not reconstructed, because there are some missing bus
+   pins.
+WARNING:NetListWriters:306 - Signal bus pioCplD_Qout_wire[127 : 0] on block
+   rx_MRd_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus pioCplD_Qout_i[127 : 0] on block
+   rx_MRd_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus pioCplD_Qout_reg[127 : 0] on block
+   rx_MRd_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ChBuf_WrDin_i<127 : 0> on block
+   DMA_FSM_NO1 is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   DMA_State[2]_ChBuf_WrDin_i[127]_wide_mux_34_OUT<127 : 0> on block DMA_FSM_NO1
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus usTlp_Qout_i[127 : 0] on block
+   usDMA_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus usTlp_Qout_wire[127 : 0] on block
+   usDMA_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DMA_Status_i[7 : 0] on block
+   usDMA_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus usTlp_Qout_reg[127 : 10] on block
+   usDMA_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ChBuf_WrDin_i<127 : 0> on block DMA_FSM
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   DMA_State[2]_ChBuf_WrDin_i[127]_wide_mux_34_OUT<127 : 0> on block DMA_FSM is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DMA_Status_i[7 : 0] on block
+   dsDMA_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus trn_rrem_n_r1[3 : 0] on block RxIn_Delay
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DDR_rdc_din_i<43 : 0> on block
+   tx_Mem_Reader is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Mmux_TxMReader_State[2]_ebFIFO_Rd_Counter[9]_wide_mux_86_OUT_rs_A<3 : 0> on
+   block tx_Mem_Reader is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Madd_RdNumber[9]_GND_158_o_add_69_OUT_cy<8 : 4> on block tx_Mem_Reader is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Mmux_TxMReader_State[2]_DDR_Rd_Counter[9]_wide_mux_77_OUT_rs_lut<9 : 1> on
+   block tx_Mem_Reader is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Mmux_TxMReader_State[2]_ebFIFO_Rd_Counter[9]_wide_mux_86_OUT_rs_cy<6 : 3> on
+   block tx_Mem_Reader is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mbuf_Qout[70 : 0] on block tx_Transact
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Irpt_Qout_to_TLP[58 : 12] on block
+   tx_Transact is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus pioCplD_Qout_to_TLP[127 : 0] on block
+   tx_Transact is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus dsMRd_Qout_to_TLP[127 : 0] on block
+   tx_Transact is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus usTlp_Qout_to_TLP[127 : 0] on block
+   tx_Transact is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Trn_Qout_reg[127 : 0] on block
+   tx_Transact is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus GND_157_o_GND_157_o_mux_6_OUT[58 : 16]
+   on block tx_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus GND_157_o_pioCplD_Qout[64]_mux_9_OUT[127
+   : 0] on block tx_Transact is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus GND_157_o_usTlp_Qout[61]_mux_16_OUT[127
+   : 8] on block tx_Transact is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus GND_157_o_dsMRd_Qout[93]_mux_20_OUT[127
+   : 8] on block tx_Transact is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Trn_Qout_wire[127 : 0] on block
+   tx_Transact is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Reg_WrMuxer_Hi<33 : 0> on block
+   Regs_Group is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Reg_RdMuxer_Hi<51 : 0> on block
+   Regs_Group is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Reg_RdMuxer_Lo<36 : 0> on block
+   Regs_Group is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus eb_FIFO_Status_r1<17 : 0> on block
+   Regs_Group is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Sys_Int_Enable_i[15]_Sys_Int_Status_i[15]_and_36_OUT<5 : 0> on block
+   Regs_Group is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus ila0_trig0<77 : 0> on block tlpControl is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus m_axis_rx_tuser_xhdl1<21 : 2> on block
+   v7_pcie_axi_basic_rx_pipeline is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus reg_tkeep<7 : 0> on block
+   v7_pcie_axi_basic_rx_pipeline is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus is_eof[4]_NULL_IS_EOF[4]_mux_16_OUT<21 :
+   2> on block v7_pcie_axi_basic_rx_pipeline is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus txeq_preset<17 : 0> on block
+   v7_pcie_pipe_eq_NO3 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   txeq_preset[18]_EQ_TXEQ_PRESET_DEFAULT[3]_mux_38_OUT<17 : 0> on block
+   v7_pcie_pipe_eq_NO3 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus txeq_preset<17 : 0> on block
+   v7_pcie_pipe_eq_NO2 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   txeq_preset[18]_EQ_TXEQ_PRESET_DEFAULT[3]_mux_38_OUT<17 : 0> on block
+   v7_pcie_pipe_eq_NO2 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus txeq_preset<17 : 0> on block
+   v7_pcie_pipe_eq_NO1 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   txeq_preset[18]_EQ_TXEQ_PRESET_DEFAULT[3]_mux_38_OUT<17 : 0> on block
+   v7_pcie_pipe_eq_NO1 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus txeq_preset<17 : 0> on block
+   v7_pcie_pipe_eq is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   txeq_preset[18]_EQ_TXEQ_PRESET_DEFAULT[3]_mux_38_OUT<17 : 0> on block
+   v7_pcie_pipe_eq is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus gt_rx_data_wire_filter<111 : 0> on block
+   v7_pcie_gt_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus gt_rx_data_k_wire_filter<13 : 0> on
+   block v7_pcie_gt_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:304 - Port bus ila0_trig0<65 : 6> on block v7_pcie is not
+   reconstructed, because there are some missing bus pins.
+  finished :Prep
+Writing EDIF netlist file v6pcieDMA_cs.edif ...
+ngc2edif: Total memory usage is 185768 kilobytes
+

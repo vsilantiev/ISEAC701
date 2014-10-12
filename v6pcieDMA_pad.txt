@@ -1,7 +1,7 @@
 Release 14.7 - par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Sat Oct 11 01:17:29 2014
+Sun Oct 12 11:29:53 2014
 
 
 INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
@@ -358,7 +358,7 @@ Pinout by Pin Number:
 |G24       |                  |IOB33M   |IO_L19P_T3_A22_15           |UNUSED   |           |15            |          |         |           |         |         |          |           |                |
 |G25       |                  |IOB33M   |IO_L23P_T3_FOE_B_15         |UNUSED   |           |15            |          |         |           |         |         |          |           |                |
 |G26       |                  |IOB33S   |IO_L22N_T3_A16_15           |UNUSED   |           |15            |          |         |           |         |         |          |           |                |
-|H1        |                  |IOB33S   |IO_L10N_T1_34               |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
+|H1        |real_soa_signal   |IOB      |IO_L10N_T1_34               |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
 |H2        |                  |IOB33M   |IO_L10P_T1_34               |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |H3        |                  |IOB33    |IO_25_35                    |UNUSED   |           |35            |          |         |           |         |         |          |           |                |
 |H4        |                  |IOB33S   |IO_L9N_T1_DQS_AD7N_35       |UNUSED   |           |35            |          |         |           |         |         |          |           |                |
@@ -439,8 +439,8 @@ Pinout by Pin Number:
 |L1        |                  |         |VCCO_34                     |         |           |34            |          |         |           |         |1.80     |          |           |                |
 |L2        |                  |IOB33S   |IO_L11N_T1_SRCC_34          |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |L3        |                  |IOB33M   |IO_L8P_T1_34                |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
-|L4        |real_strobe_signal|IOB      |IO_L3N_T0_DQS_34            |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
-|L5        |LEDs_IO_pin<1>    |IOB      |IO_L4P_T0_34                |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|L4        |                  |IOB33S   |IO_L3N_T0_DQS_34            |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
+|L5        |                  |IOB33M   |IO_L4P_T0_34                |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |L6        |                  |         |GND                         |         |           |              |          |         |           |         |         |          |           |                |
 |L7        |LEDs_IO_pin<4>    |IOB      |IO_L2N_T0_34                |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
 |L8        |                  |IOB33M   |IO_L8P_T1_AD14P_35          |UNUSED   |           |35            |          |         |           |         |         |          |           |                |
@@ -462,10 +462,10 @@ Pinout by Pin Number:
 |L24       |                  |IOB33M   |IO_L9P_T1_DQS_14            |UNUSED   |           |14            |          |         |           |         |         |          |           |                |
 |L25       |                  |IOB33S   |IO_L9N_T1_DQS_D13_14        |UNUSED   |           |14            |          |         |           |         |         |          |           |                |
 |L26       |                  |         |GND                         |         |           |              |          |         |           |         |         |          |           |                |
-|M1        |                  |IOB33S   |IO_L9N_T1_DQS_34            |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
+|M1        |real_strobe_signal|IOB      |IO_L9N_T1_DQS_34            |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
 |M2        |                  |IOB33M   |IO_L11P_T1_SRCC_34          |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |M3        |                  |         |GND                         |         |           |              |          |         |           |         |         |          |           |                |
-|M4        |real_soa_signal   |IOB      |IO_L3P_T0_DQS_34            |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|M4        |LEDs_IO_pin<1>    |IOB      |IO_L3P_T0_DQS_34            |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
 |M5        |                  |IOB33S   |IO_L6N_T0_VREF_34           |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |M6        |                  |IOB33M   |IO_L6P_T0_34                |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |M7        |LEDs_IO_pin<3>    |IOB      |IO_L2P_T0_34                |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-10-11T00:01:21</DateModified>
+  <DateModified>2014-10-12T11:16:34</DateModified>
   <ModuleName>v6pcieDMA</ModuleName>
-  <SummaryTimeStamp>2014-10-10T14:30:45</SummaryTimeStamp>
+  <SummaryTimeStamp>2014-10-11T22:54:12</SummaryTimeStamp>
   <ImplementationReportsDirectory>/home/vladimir/ISEAC701/</ImplementationReportsDirectory>
   <DateInitialized>2014-10-10T10:59:44</DateInitialized>
   <SavedFilePath>/home/vladimir/ISEAC701/iseconfig/v6pcieDMA.xreport</SavedFilePath>
@@ -11,7 +11,7 @@
  </header>
  <body>
   <viewgroup label="Design Overview" >
-   <view inputState="Unknown" program="implementation" ShowPartitionData="false" type="FPGASummary" file="v6pcieDMA_summary.html" label="Summary" >
+   <view inputState="Unknown" program="implementation" ShowPartitionData="false" type="FPGASummary" file="v6pcieDMA_summary.html" label="Summary" ExpandClockNets="false" >
     <toc-item title="Design Overview" target="Design Overview" />
     <toc-item title="Design Utilization Summary" target="Design Utilization Summary" />
     <toc-item title="Performance Summary" target="Performance Summary" />

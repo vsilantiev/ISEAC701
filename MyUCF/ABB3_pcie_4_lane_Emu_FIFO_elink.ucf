@@ -171,18 +171,18 @@ INST "v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/us
 ###############################################################################
 
 NET "sys_clk_c" TNM_NET = "SYSCLK";
-NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz" TNM_NET = "CLK_125";
+#NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz" TNM_NET = "CLK_125";
 NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_250mhz" TNM_NET = "CLK_250";
 NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_250mhz" TIG;
-NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1" TNM_NET = "CLK_USERCLK";
-NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2" TNM_NET = "CLK_USERCLK2";
-NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2" TIG;
+#NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1" TNM_NET = "CLK_USERCLK";
+#NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2" TNM_NET = "CLK_USERCLK2";
+#NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2" TIG;
 
 TIMESPEC TS_SYSCLK = PERIOD "SYSCLK" 100 MHz HIGH 50 %;
 TIMESPEC TS_CLK_250 = PERIOD "CLK_250" TS_SYSCLK * 2.5 HIGH 50 % PRIORITY 1;
-TIMESPEC TS_CLK_125 = PERIOD "CLK_125" TS_SYSCLK * 1.25 HIGH 50 % PRIORITY 2;
-TIMESPEC TS_CLK_USERCLK = PERIOD "CLK_USERCLK" TS_SYSCLK * 2.5 HIGH 50 %;
-TIMESPEC TS_CLK_USERCLK2 = PERIOD "CLK_USERCLK2" TS_SYSCLK * 2.5 HIGH 50 %;
+#TIMESPEC TS_CLK_125 = PERIOD "CLK_125" TS_SYSCLK * 1.25 HIGH 50 % PRIORITY 2;
+#TIMESPEC TS_CLK_USERCLK = PERIOD "CLK_USERCLK" TS_SYSCLK * 2.5 HIGH 50 %;
+#TIMESPEC TS_CLK_USERCLK2 = PERIOD "CLK_USERCLK2" TS_SYSCLK * 2.5 HIGH 50 %;
 
 
 
