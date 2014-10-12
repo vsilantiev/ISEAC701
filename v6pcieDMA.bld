@@ -34,8 +34,14 @@ WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
    n.pdf.
 Resolving constraint associations...
 Checking Constraint Associations...
+WARNING:ConstraintSystem:3 - Constraint <TIMESPEC "TS_PIPE_RATE" = FROM
+   "MC_PIPE" TS_CLK_USERCLK*0.5;>
+   [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(197)]: This constraint will be
+   ignored because the relative clock constraint named 'TS_CLK_USERCLK' was not
+   found.
+
 INFO:ConstraintSystem - The Period constraint <NET "userclk_200MHz_p" PERIOD =
-   200 MHz HIGH 50% |> [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(213)], is
+   200 MHz HIGH 50% |> [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(215)], is
    specified using the Net Period method which is not recommended. Please use
    the Timespec PERIOD method.
 
@@ -2210,12 +2216,12 @@ Partition Implementation Status
 
 NGDBUILD Design Results Summary:
   Number of errors:     0
-  Number of warnings: 1450
+  Number of warnings: 1451
 
-Total memory usage is 377288 kilobytes
+Total memory usage is 379964 kilobytes
 
 Writing NGD file "v6pcieDMA.ngd" ...
-Total REAL time to NGDBUILD completion:  52 sec
-Total CPU time to NGDBUILD completion:   51 sec
+Total REAL time to NGDBUILD completion:  53 sec
+Total CPU time to NGDBUILD completion:   53 sec
 
 Writing NGDBUILD log file "v6pcieDMA.bld"...

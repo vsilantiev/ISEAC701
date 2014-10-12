@@ -1,7 +1,7 @@
 Release 14.2 - par P.28xd (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-Thu Oct 09 23:33:57 2014
+Sun Oct 12 17:19:19 2014
 
 
 INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
@@ -412,7 +412,7 @@ Pinout by Pin Number:
 |J26       |                  |IOB33S   |IO_L24N_T3_RS0_15           |UNUSED   |           |15            |          |         |           |         |         |          |           |                |
 |K1        |                  |IOB33M   |IO_L7P_T1_34                |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |K2        |                  |IOB33S   |IO_L8N_T1_34                |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
-|K3        |real_soa_signal   |IOB      |IO_L1P_T0_34                |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|K3        |real_strobe_signal|IOB      |IO_L1P_T0_34                |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
 |K4        |                  |         |VCCO_34                     |         |           |34            |          |         |           |         |1.80     |          |           |                |
 |K5        |                  |IOB33S   |IO_L4N_T0_34                |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |K6        |                  |IOB33S   |IO_L10N_T1_AD15N_35         |UNUSED   |           |35            |          |         |           |         |         |          |           |                |
@@ -439,10 +439,10 @@ Pinout by Pin Number:
 |L1        |                  |         |VCCO_34                     |         |           |34            |          |         |           |         |1.80     |          |           |                |
 |L2        |                  |IOB33S   |IO_L11N_T1_SRCC_34          |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |L3        |                  |IOB33M   |IO_L8P_T1_34                |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
-|L4        |real_strobe_signal|IOB      |IO_L3N_T0_DQS_34            |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
-|L5        |                  |IOB33M   |IO_L4P_T0_34                |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
+|L4        |real_soa_signal   |IOB      |IO_L3N_T0_DQS_34            |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|L5        |LEDs_IO_pin<1>    |IOB      |IO_L4P_T0_34                |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
 |L6        |                  |         |GND                         |         |           |              |          |         |           |         |         |          |           |                |
-|L7        |LEDs_IO_pin<4>    |IOB      |IO_L2N_T0_34                |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|L7        |LEDs_IO_pin<0>    |IOB      |IO_L2N_T0_34                |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
 |L8        |                  |IOB33M   |IO_L8P_T1_AD14P_35          |UNUSED   |           |35            |          |         |           |         |         |          |           |                |
 |L9        |                  |         |VCCAUX                      |         |           |              |          |         |           |         |1.8      |          |           |                |
 |L10       |                  |         |GND                         |         |           |              |          |         |           |         |         |          |           |                |
@@ -465,8 +465,8 @@ Pinout by Pin Number:
 |M1        |                  |IOB33S   |IO_L9N_T1_DQS_34            |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |M2        |                  |IOB33M   |IO_L11P_T1_SRCC_34          |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |M3        |                  |         |GND                         |         |           |              |          |         |           |         |         |          |           |                |
-|M4        |LEDs_IO_pin<1>    |IOB      |IO_L3P_T0_DQS_34            |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
-|M5        |LEDs_IO_pin<6>    |IOB      |IO_L6N_T0_VREF_34           |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|M4        |LEDs_IO_pin<6>    |IOB      |IO_L3P_T0_DQS_34            |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|M5        |                  |IOB33S   |IO_L6N_T0_VREF_34           |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |M6        |                  |IOB33M   |IO_L6P_T0_34                |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |M7        |LEDs_IO_pin<3>    |IOB      |IO_L2P_T0_34                |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
 |M8        |                  |         |VCCO_34                     |         |           |34            |          |         |           |         |1.80     |          |           |                |
@@ -495,7 +495,7 @@ Pinout by Pin Number:
 |N5        |                  |         |VCCO_34                     |         |           |34            |          |         |           |         |1.80     |          |           |                |
 |N6        |                  |IOB33S   |IO_L5N_T0_34                |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
 |N7        |                  |IOB33M   |IO_L5P_T0_34                |UNUSED   |           |34            |          |         |           |         |         |          |           |                |
-|N8        |LEDs_IO_pin<0>    |IOB      |IO_0_34                     |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
+|N8        |LEDs_IO_pin<4>    |IOB      |IO_0_34                     |OUTPUT   |LVCMOS18*  |34            |12        |SLOW     |           |         |         |UNLOCATED |NO         |NONE            |
 |N9        |                  |         |VCCAUX                      |         |           |              |          |         |           |         |1.8      |          |           |                |
 |N10       |                  |         |GND                         |         |           |              |          |         |           |         |         |          |           |                |
 |N11       |                  |         |VREFN_0                     |         |           |              |          |         |           |         |         |          |           |                |
