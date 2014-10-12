@@ -1,9 +1,9 @@
 Release 14.2 par P.28xd (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-VVS::  Sun Oct 12 17:17:20 2014
+VVS::  Sun Oct 12 21:35:44 2014
 
-par -w -intstyle ise -ol high -xe n -mt off -k v6pcieDMA_map.ncd v6pcieDMA.ncd
+par -w -intstyle ise -ol high -xe n -mt 4 v6pcieDMA_map.ncd v6pcieDMA.ncd
 v6pcieDMA.pcf 
 
 
@@ -27,11 +27,11 @@ Slice Logic Utilization:
     Number used as Latches:                      2
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                      9,430 out of 134,600    7%
-    Number used as logic:                    7,125 out of 134,600    5%
-      Number using O6 output only:           4,810
-      Number using O5 output only:             616
-      Number using O5 and O6:                1,699
+  Number of Slice LUTs:                      9,504 out of 134,600    7%
+    Number used as logic:                    7,140 out of 134,600    5%
+      Number using O6 output only:           4,815
+      Number using O5 output only:             613
+      Number using O5 and O6:                1,712
       Number used as ROM:                        0
     Number used as Memory:                   1,296 out of  46,200    2%
       Number used as Dual Port RAM:              0
@@ -40,17 +40,17 @@ Slice Logic Utilization:
         Number using O6 output only:           938
         Number using O5 output only:             1
         Number using O5 and O6:                357
-    Number used exclusively as route-thrus:  1,009
-      Number with same-slice register load:    968
-      Number with same-slice carry load:        41
+    Number used exclusively as route-thrus:  1,068
+      Number with same-slice register load:  1,024
+      Number with same-slice carry load:        44
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                 3,241 out of  33,650    9%
-  Number of LUT Flip Flop pairs used:       11,456
-    Number with an unused Flip Flop:         2,445 out of  11,456   21%
-    Number with an unused LUT:               2,026 out of  11,456   17%
-    Number of fully used LUT-FF pairs:       6,985 out of  11,456   60%
+  Number of occupied Slices:                 3,281 out of  33,650    9%
+  Number of LUT Flip Flop pairs used:       11,525
+    Number with an unused Flip Flop:         2,605 out of  11,525   22%
+    Number with an unused LUT:               2,021 out of  11,525   17%
+    Number of fully used LUT-FF pairs:       6,899 out of  11,525   59%
     Number of slice register sites lost
       to control set restrictions:               0 out of 269,200    0%
 
@@ -116,127 +116,56 @@ Specific Feature Utilization:
 Overall effort level (-ol):   High 
 Router effort level (-rl):    High 
 
+PAR will use up to 4 processors
 INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
    Command Line Tools User Guide for information on generating a TSI report.
-Starting initial Timing Analysis.  REAL time: 35 secs 
-Finished initial Timing Analysis.  REAL time: 35 secs 
-
 WARNING:Par:288 - The signal DDRs_ctrl_module/DDR_pipe_read_D_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/rstbt/power_on_rd_rst<1> has
    no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<95> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<98> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<73> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<92> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<86> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<91> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<77> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<93> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<85> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<78> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<13> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<80> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<68> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<84> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<89> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<71> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<69> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<76> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<88> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<97> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<82> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<99> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<74> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<101> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<87> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<100> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<81> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<75> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<83> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<70> has
-   no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<10
-   0> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<99
-   > has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<97
-   > has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<12
-   > has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <12> has no load.  PAR will not attempt to route this signal.
+   <102> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
    <98> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <100> has no load.  PAR will not attempt to route this signal.
+   <12> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <96> has no load.  PAR will not attempt to route this signal.
+   <100> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<99> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<87> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<76> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<81> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<70> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<100> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<97> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<13> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<92> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<88> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<98> has
+   no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<12> has
    no load.  PAR will not attempt to route this signal.
@@ -247,35 +176,77 @@ WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<79> has
    no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<80> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<91> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<73> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<86> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<82> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<75> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<72> has
    no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<83> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<95> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<68> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<71> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<84> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<77> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<85> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<101> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<78> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<89> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<74> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<69> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/MRd_Channel/pioCplD_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<93> has
+   no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
+   <96> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
+   <103> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
    <97> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <102> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <103> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<95
-   > has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<98
-   > has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<13
-   > has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<10
-   1> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<96
-   > has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <101> has no load.  PAR will not attempt to route this signal.
+   <99> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
    <95> has no load.  PAR will not attempt to route this signal.
@@ -284,7 +255,10 @@ WARNING:Par:288 - The signal
    <13> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <99> has no load.  PAR will not attempt to route this signal.
+   <101> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
+   <28> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
    <27> has no load.  PAR will not attempt to route this signal.
@@ -293,110 +267,127 @@ WARNING:Par:288 - The signal
    <29> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <28> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <115> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
    <104> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <106> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
    <117> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <105> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
    <114> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <109> has no load.  PAR will not attempt to route this signal.
+   <105> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <122> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <124> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <118> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <127> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <108> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <107> has no load.  PAR will not attempt to route this signal.
+   <106> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
    <110> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <119> has no load.  PAR will not attempt to route this signal.
+   <107> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <125> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <126> has no load.  PAR will not attempt to route this signal.
-WARNING:Par:288 - The signal
-   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <111> has no load.  PAR will not attempt to route this signal.
+   <109> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
    <112> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <113> has no load.  PAR will not attempt to route this signal.
+   <122> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <116> has no load.  PAR will not attempt to route this signal.
+   <123> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
    <120> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <121> has no load.  PAR will not attempt to route this signal.
+   <127> has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal
    theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
-   <123> has no load.  PAR will not attempt to route this signal.
-Starting Router
+   <113> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
+   <125> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
+   <108> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
+   <116> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
+   <119> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
+   <111> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
+   <118> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
+   <124> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
+   <126> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<99
+   > has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
+   <115> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<13
+   > has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<98
+   > has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<12
+   > has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Downstream_DMA_Engine/DMA_DSP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem
+   <121> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<97
+   > has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<10
+   1> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<10
+   0> has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<96
+   > has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal
+   theTlpControl/rx_Itf/Upstream_DMA_Engine/US_TLP_Buffer/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gsm.sm/dout_mem<95
+   > has no load.  PAR will not attempt to route this signal.
+Starting Multi-threaded Router
 
 
-Phase  1  : 73554 unrouted;      REAL time: 41 secs 
+Phase  1  : 73575 unrouted;      REAL time: 39 secs 
 
-Phase  2  : 52754 unrouted;      REAL time: 45 secs 
+Phase  2  : 52813 unrouted;      REAL time: 43 secs 
 
-Phase  3  : 17227 unrouted;      REAL time: 1 mins 18 secs 
+Phase  3  : 20467 unrouted;      REAL time: 1 mins 4 secs 
 
-Phase  4  : 17221 unrouted; (Setup:5, Hold:8391, Component Switching Limit:0)     REAL time: 1 mins 29 secs 
+Phase  4  : 20473 unrouted; (Setup:0, Hold:902, Component Switching Limit:0)     REAL time: 1 mins 15 secs 
 
 Updating file: v6pcieDMA.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:5, Hold:7312, Component Switching Limit:0)     REAL time: 1 mins 51 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:889, Component Switching Limit:0)     REAL time: 1 mins 31 secs 
 
-Phase  6  : 0 unrouted; (Setup:5, Hold:7312, Component Switching Limit:0)     REAL time: 1 mins 52 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:889, Component Switching Limit:0)     REAL time: 1 mins 31 secs 
 
-Phase  7  : 0 unrouted; (Setup:5, Hold:7312, Component Switching Limit:0)     REAL time: 1 mins 52 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:889, Component Switching Limit:0)     REAL time: 1 mins 31 secs 
 
-Phase  8  : 0 unrouted; (Setup:5, Hold:7312, Component Switching Limit:0)     REAL time: 1 mins 52 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:889, Component Switching Limit:0)     REAL time: 1 mins 31 secs 
 
-Phase  9  : 0 unrouted; (Setup:5, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 54 secs 
-Total REAL time to Router completion: 1 mins 55 secs 
-Total CPU time to Router completion: 1 mins 56 secs 
-
-Partition Implementation Status
--------------------------------
-
-  No Partitions were found in this design.
-
--------------------------------
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 1 mins 34 secs 
+Total REAL time to Router completion: 1 mins 34 secs 
+Total CPU time to Router completion (all processors): 2 mins 31 secs 
 
 Generating "PAR" statistics.
 
@@ -407,13 +398,13 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|  v7_pcie_i/pipe_clk | BUFGCTRL_X0Y0| No   |  174 |  0.434     |  1.682      |
+|     ila0_trig2<172> | BUFGCTRL_X0Y3| No   | 1937 |  0.363     |  1.592      |
 +---------------------+--------------+------+------+------------+-------------+
-|     ila0_trig2<172> | BUFGCTRL_X0Y3| No   | 1838 |  0.362     |  1.592      |
+|  v7_pcie_i/pipe_clk | BUFGCTRL_X0Y0| No   |  188 |  0.430     |  1.682      |
 +---------------------+--------------+------+------+------------+-------------+
-|          fifowr_clk |BUFGCTRL_X0Y30| No   |  308 |  0.468     |  1.701      |
+|          fifowr_clk |BUFGCTRL_X0Y30| No   |  169 |  0.436     |  1.701      |
 +---------------------+--------------+------+------+------------+-------------+
-|    icon_control0<0> |BUFGCTRL_X0Y29| No   |  212 |  0.140     |  1.392      |
+|    icon_control0<0> |BUFGCTRL_X0Y29| No   |  212 |  0.089     |  1.326      |
 +---------------------+--------------+------+------+------------+-------------+
 |     delay_clk_BUFGP | BUFGCTRL_X0Y4| No   |   12 |  0.251     |  1.606      |
 +---------------------+--------------+------+------+------------+-------------+
@@ -426,11 +417,13 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |v7_pcie_i/gt_top_i/p |              |      |      |            |             |
 |ipe_wrapper_i/clk_dc |              |      |      |            |             |
-|                  lk | BUFGCTRL_X0Y1| No   |   55 |  0.413     |  1.682      |
+|                  lk | BUFGCTRL_X0Y1| No   |   59 |  0.417     |  1.682      |
 +---------------------+--------------+------+------+------------+-------------+
-|          clk_200MHz |         Local|      |  702 |  6.135     |  8.030      |
+|          clk_200MHz |         Local|      |  701 |  7.240     |  9.143      |
 +---------------------+--------------+------+------+------------+-------------+
-|      ila0_trig0<52> |         Local|      |    1 |  0.000     |  0.614      |
+|   icon_control0<13> |         Local|      |    4 |  0.000     |  0.730      |
++---------------------+--------------+------+------+------------+-------------+
+|      ila0_trig0<52> |         Local|      |    1 |  0.000     |  0.627      |
 +---------------------+--------------+------+------+------------+-------------+
 |v7_pcie_i/gt_top_i/p |              |      |      |            |             |
 |ipe_wrapper_i/pipe_c |              |      |      |            |             |
@@ -438,7 +431,7 @@ Generating Clock Report
 |           i/mmcm_fb |         Local|      |    1 |  0.000     |  0.012      |
 +---------------------+--------------+------+------+------------+-------------+
 |U_icon_pro/U0/iUPDAT |              |      |      |            |             |
-|               E_OUT |         Local|      |    1 |  0.000     |  0.666      |
+|               E_OUT |         Local|      |    1 |  0.000     |  0.635      |
 +---------------------+--------------+------+------+------------+-------------+
 |           sys_clk_c |         Local|      |    1 |  0.000     |  0.000      |
 +---------------------+--------------+------+------+------------+-------------+
@@ -448,21 +441,19 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |v7_pcie_i/gt_top_i/p |              |      |      |            |             |
 |ipe_wrapper_i/user_o |              |      |      |            |             |
-|            obclk<2> |         Local|      |    1 |  0.000     |  1.814      |
+|            obclk<2> |         Local|      |    1 |  0.000     |  2.054      |
 +---------------------+--------------+------+------+------------+-------------+
 |v7_pcie_i/gt_top_i/p |              |      |      |            |             |
 |ipe_wrapper_i/user_o |              |      |      |            |             |
-|            obclk<0> |         Local|      |    1 |  0.000     |  2.275      |
+|            obclk<0> |         Local|      |    1 |  0.000     |  2.413      |
 +---------------------+--------------+------+------+------------+-------------+
 |v7_pcie_i/gt_top_i/p |              |      |      |            |             |
 |ipe_wrapper_i/user_o |              |      |      |            |             |
-|            obclk<3> |         Local|      |    1 |  0.000     |  1.287      |
+|            obclk<3> |         Local|      |    1 |  0.000     |  1.620      |
 +---------------------+--------------+------+------+------------+-------------+
 |v7_pcie_i/gt_top_i/p |              |      |      |            |             |
 |ipe_wrapper_i/user_o |              |      |      |            |             |
-|            obclk<1> |         Local|      |    1 |  0.000     |  2.159      |
-+---------------------+--------------+------+------+------------+-------------+
-|   icon_control0<13> |         Local|      |    4 |  0.000     |  0.656      |
+|            obclk<1> |         Local|      |    1 |  0.000     |  2.096      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -473,24 +464,11 @@ the minimum and maximum path delays which includes logic delays.
 * The fanout is the number of component pins not the individual BEL loads,
 for example SLICE loads not FF loads.
 
-Timing Score: 5 (Setup: 5, Hold: 0, Component Switching Limit: 0)
+Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
 
-WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your design.
-
-   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
-   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
-
-   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to ensure the best options
-   are set in the tools for timing closure.
-
-   Use the Xilinx "SmartXplorer" script to try special combinations of
-   options known to produce very good results.
-
-   Visit the Xilinx technical support web at http://support.xilinx.com and go to
-   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
-   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
-   in your design.
-
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more 
+   information, see the TSI report.  Please consult the Xilinx Command Line 
+   Tools User Guide for information on generating a TSI report.
 Number of Timing Constraints that were not applied: 4
 
 Asterisk (*) preceding a constraint indicates it was not met.
@@ -500,17 +478,17 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-* NET "clk_200MHz" PERIOD = 5 ns HIGH 50%   | SETUP       |    -0.005ns|     5.005ns|       1|           5
-                                            | HOLD        |     0.001ns|            |       0|           0
-----------------------------------------------------------------------------------------------------------
-  TS_CLK_250 = PERIOD TIMEGRP "CLK_250" TS_ | SETUP       |     0.005ns|     3.995ns|       0|           0
-  SYSCLK * 2.5 HIGH 50% PRIORITY 1          | HOLD        |     0.013ns|            |       0|           0
+  TS_CLK_250 = PERIOD TIMEGRP "CLK_250" TS_ | SETUP       |     0.003ns|     3.997ns|       0|           0
+  SYSCLK * 2.5 HIGH 50% PRIORITY 1          | HOLD        |     0.010ns|            |       0|           0
                                             | MINPERIOD   |     0.000ns|     4.000ns|       0|           0
 ----------------------------------------------------------------------------------------------------------
-  TS_adc_clk_in_n = PERIOD TIMEGRP "adc_clk | SETUP       |     0.004ns|     7.996ns|       0|           0
-  _in_n" 125 MHz HIGH 50%                   | HOLD        |     0.001ns|            |       0|           0
+  NET "clk_200MHz" PERIOD = 5 ns HIGH 50%   | SETUP       |     0.063ns|     4.937ns|       0|           0
+                                            | HOLD        |     0.011ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  TS_CLK_125 = PERIOD TIMEGRP "CLK_125" TS_ | SETUP       |     2.335ns|     5.060ns|       0|           0
+  TS_adc_clk_in_n = PERIOD TIMEGRP "adc_clk | SETUP       |     0.121ns|     7.879ns|       0|           0
+  _in_n" 125 MHz HIGH 50%                   | HOLD        |     0.129ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_CLK_125 = PERIOD TIMEGRP "CLK_125" TS_ | SETUP       |     2.077ns|     5.001ns|       0|           0
   SYSCLK * 1.25 HIGH 50% PRIORITY 2         | HOLD        |     0.152ns|            |       0|           0
                                             | MINPERIOD   |     1.590ns|     6.410ns|       0|           0
 ----------------------------------------------------------------------------------------------------------
@@ -520,26 +498,26 @@ Asterisk (*) preceding a constraint indicates it was not met.
   TS_SYSCLK = PERIOD TIMEGRP "SYSCLK" 100 M | MINPERIOD   |     8.462ns|     1.538ns|       0|           0
   Hz HIGH 50%                               |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_U_TO_J = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    13.107ns|     1.893ns|       0|           0
-   TO TIMEGRP "J_CLK" 15 ns                 | HOLD        |     0.536ns|            |       0|           0
+  TS_U_TO_J = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    12.520ns|     2.480ns|       0|           0
+   TO TIMEGRP "J_CLK" 15 ns                 | HOLD        |     0.748ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  TS_U_TO_U = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    14.105ns|     0.895ns|       0|           0
+  TS_U_TO_U = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    14.103ns|     0.897ns|       0|           0
    TO TIMEGRP "U_CLK" 15 ns                 | HOLD        |     0.271ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  TS_J_CLK = PERIOD TIMEGRP "J_CLK" 30 ns H | SETUP       |    19.726ns|    10.274ns|       0|           0
-  IGH 50%                                   | HOLD        |     0.152ns|            |       0|           0
+  TS_J_CLK = PERIOD TIMEGRP "J_CLK" 30 ns H | SETUP       |    19.637ns|    10.363ns|       0|           0
+  IGH 50%                                   | HOLD        |     0.157ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_D2_TO_T2_path" TIG               | SETUP       |         N/A|     2.756ns|     N/A|           0
+  PATH "TS_D2_TO_T2_path" TIG               | SETUP       |         N/A|     2.641ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
   PATH "TS_J2_TO_D2_path" TIG               | N/A         |         N/A|         N/A|     N/A|         N/A
 ----------------------------------------------------------------------------------------------------------
   PATH "TS_J3_TO_D2_path" TIG               | N/A         |         N/A|         N/A|     N/A|         N/A
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_J4_TO_D2_path" TIG               | MAXDELAY    |         N/A|     3.169ns|     N/A|           0
+  PATH "TS_J4_TO_D2_path" TIG               | MAXDELAY    |         N/A|     2.942ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_J_TO_D_path" TIG                 | SETUP       |         N/A|     5.301ns|     N/A|           0
+  PATH "TS_J_TO_D_path" TIG                 | SETUP       |         N/A|     5.673ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
-  PATH "TS_D_TO_J_path" TIG                 | SETUP       |         N/A|     3.422ns|     N/A|           0
+  PATH "TS_D_TO_J_path" TIG                 | MAXDELAY    |         N/A|     3.162ns|     N/A|           0
 ----------------------------------------------------------------------------------------------------------
 
 
@@ -558,7 +536,7 @@ Derived Constraints for TS_SYSCLK
 | TS_CLK_125                    |      8.000ns|      6.410ns|          N/A|            0|            0|          995|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
-1 constraint not met.
+All constraints were met.
 INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
    constraint is not analyzed due to the following: No paths covered by this 
    constraint; Other constraints intersect with this constraint; or This 
@@ -572,17 +550,17 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 82 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 1 mins 59 secs 
-Total CPU time to PAR completion: 2 mins 
+Total REAL time to PAR completion: 1 mins 38 secs 
+Total CPU time to PAR completion (all processors): 2 mins 35 secs 
 
-Peak Memory Usage:  1144 MB
+Peak Memory Usage:  991 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.
-Timing: Completed - 1 errors found.
+Timing: Completed - No errors found.
 
 Number of error messages: 0
-Number of warning messages: 85
+Number of warning messages: 84
 Number of info messages: 1
 
 Writing design to file v6pcieDMA.ncd

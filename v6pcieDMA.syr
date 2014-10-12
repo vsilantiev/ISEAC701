@@ -4,13 +4,13 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: v6pcieDMA.prj
 
@@ -142,6 +142,7 @@ Analyzing Verilog file "C:\Users\vsilantiev\Documents\ISEAC701\v7_pcie_pipe_wrap
 Parsing module <v7_pcie_pipe_wrapper>.
 Analyzing Verilog file "C:\Users\vsilantiev\Documents\ISEAC701\MySource\Emul.v" into library work
 Parsing module <ADC_emul>.
+WARNING:HDLCompiler:751 - "C:\Users\vsilantiev\Documents\ISEAC701\MySource\Emul.v" Line 108: Redeclaration of ansi port trn_clk is not allowed
 WARNING:HDLCompiler:751 - "C:\Users\vsilantiev\Documents\ISEAC701\MySource\Emul.v" Line 112: Redeclaration of ansi port reg01_td is not allowed
 WARNING:HDLCompiler:751 - "C:\Users\vsilantiev\Documents\ISEAC701\MySource\Emul.v" Line 113: Redeclaration of ansi port reg01_tv is not allowed
 WARNING:HDLCompiler:751 - "C:\Users\vsilantiev\Documents\ISEAC701\MySource\Emul.v" Line 114: Redeclaration of ansi port reg02_td is not allowed
@@ -6382,16 +6383,16 @@ WARNING:Xst:2404 -  FFs/Latches <reg06_rd<31:1>> (without init value) have a con
 WARNING:Xst:2404 -  FFs/Latches <DDR_rdc_din_i<63:44>> (without init value) have a constant value of 0 in block <tx_Mem_Reader>.
 
 Synthesizing (advanced) Unit <ADC_emul>.
-The following registers are absorbed into counter <debug_data3_reg>: 1 register on signal <debug_data3_reg>.
-The following registers are absorbed into counter <debug_data2_reg>: 1 register on signal <debug_data2_reg>.
-The following registers are absorbed into counter <delay_rst_cnt>: 1 register on signal <delay_rst_cnt>.
 The following registers are absorbed into counter <count>: 1 register on signal <count>.
 The following registers are absorbed into counter <reflength_counter>: 1 register on signal <reflength_counter>.
+The following registers are absorbed into counter <debug_data2_reg>: 1 register on signal <debug_data2_reg>.
 The following registers are absorbed into counter <debug_data1_reg>: 1 register on signal <debug_data1_reg>.
+The following registers are absorbed into counter <debug_data3_reg>: 1 register on signal <debug_data3_reg>.
 The following registers are absorbed into counter <bram_addr>: 1 register on signal <bram_addr>.
 The following registers are absorbed into counter <wasfifoerror>: 1 register on signal <wasfifoerror>.
-The following registers are absorbed into counter <strobe_counter>: 1 register on signal <strobe_counter>.
 The following registers are absorbed into counter <soa_counter>: 1 register on signal <soa_counter>.
+The following registers are absorbed into counter <strobe_counter>: 1 register on signal <strobe_counter>.
+The following registers are absorbed into counter <delay_rst_cnt>: 1 register on signal <delay_rst_cnt>.
 Unit <ADC_emul> synthesized (advanced).
 
 Synthesizing (advanced) Unit <DDR_Blink>.
@@ -7355,38 +7356,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <m_axis_rx_tuser_xhd
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <m_axis_rx_tuser_xhdl1_13> has a constant value of 0 in block <v7_pcie_axi_basic_rx_pipeline>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <m_axis_rx_tuser_xhdl1_15> has a constant value of 0 in block <v7_pcie_axi_basic_rx_pipeline>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <m_axis_rx_tuser_xhdl1_16> has a constant value of 0 in block <v7_pcie_axi_basic_rx_pipeline>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:2677 - Node <debug_data3_reg_32> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_33> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_34> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_35> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_36> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_37> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_38> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_39> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_40> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_41> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_42> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_43> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_44> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_45> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_46> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_47> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_48> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_49> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_50> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_51> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_52> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_53> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_54> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_55> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_56> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_57> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_58> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_59> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_60> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_61> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_62> of sequential type is unconnected in block <ADC_emul>.
-WARNING:Xst:2677 - Node <debug_data3_reg_63> of sequential type is unconnected in block <ADC_emul>.
 WARNING:Xst:2677 - Node <debug_data2_reg_32> of sequential type is unconnected in block <ADC_emul>.
 WARNING:Xst:2677 - Node <debug_data2_reg_33> of sequential type is unconnected in block <ADC_emul>.
 WARNING:Xst:2677 - Node <debug_data2_reg_34> of sequential type is unconnected in block <ADC_emul>.
@@ -7451,6 +7420,38 @@ WARNING:Xst:2677 - Node <debug_data1_reg_60> of sequential type is unconnected i
 WARNING:Xst:2677 - Node <debug_data1_reg_61> of sequential type is unconnected in block <ADC_emul>.
 WARNING:Xst:2677 - Node <debug_data1_reg_62> of sequential type is unconnected in block <ADC_emul>.
 WARNING:Xst:2677 - Node <debug_data1_reg_63> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_32> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_33> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_34> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_35> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_36> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_37> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_38> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_39> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_40> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_41> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_42> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_43> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_44> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_45> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_46> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_47> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_48> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_49> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_50> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_51> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_52> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_53> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_54> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_55> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_56> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_57> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_58> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_59> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_60> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_61> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_62> of sequential type is unconnected in block <ADC_emul>.
+WARNING:Xst:2677 - Node <debug_data3_reg_63> of sequential type is unconnected in block <ADC_emul>.
 WARNING:Xst:2677 - Node <trn_Blinker_cnt_27> of sequential type is unconnected in block <tlpControl>.
 WARNING:Xst:2677 - Node <trn_Blinker_cnt_28> of sequential type is unconnected in block <tlpControl>.
 WARNING:Xst:2677 - Node <trn_Blinker_cnt_29> of sequential type is unconnected in block <tlpControl>.
@@ -11306,16 +11307,16 @@ Top Level Output File Name         : v6pcieDMA.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 12653
+# BELS                             : 12684
 #      GND                         : 76
-#      INV                         : 332
+#      INV                         : 331
 #      LUT1                        : 669
-#      LUT2                        : 2391
-#      LUT3                        : 1005
+#      LUT2                        : 2390
+#      LUT3                        : 1037
 #      LUT4                        : 1303
 #      LUT5                        : 1014
 #      LUT6                        : 2931
-#      MUXCY                       : 1465
+#      MUXCY                       : 1466
 #      MUXF7                       : 95
 #      VCC                         : 53
 #      XORCY                       : 1319
@@ -11364,16 +11365,16 @@ Selected Device : 7a200tfbg676-2
 
 Slice Logic Utilization: 
  Number of Slice Registers:            9262  out of  269200     3%  
- Number of Slice LUTs:                10050  out of  134600     7%  
-    Number used as Logic:              9645  out of  134600     7%  
+ Number of Slice LUTs:                10080  out of  134600     7%  
+    Number used as Logic:              9675  out of  134600     7%  
     Number used as Memory:              405  out of  46200     0%  
        Number used as SRL:              405
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:  13476
-   Number with an unused Flip Flop:    4214  out of  13476    31%  
-   Number with an unused LUT:          3426  out of  13476    25%  
-   Number of fully used LUT-FF pairs:  5836  out of  13476    43%  
+ Number of LUT Flip Flop pairs used:  13481
+   Number with an unused Flip Flop:    4219  out of  13481    31%  
+   Number with an unused LUT:          3401  out of  13481    25%  
+   Number of fully used LUT-FF pairs:  5861  out of  13481    43%  
    Number of unique control sets:       299
 
 IO Utilization: 
@@ -11407,11 +11408,11 @@ Clock Information:
 --------------------------------------------------------------------------------------------+----------------------------------------------------+-------+
 Clock Signal                                                                                | Clock buffer(FF name)                              | Load  |
 --------------------------------------------------------------------------------------------+----------------------------------------------------+-------+
-v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2                      | BUFG                                               | 6504  |
+v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2                      | BUFG                                               | 7119  |
 v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz                    | BUFGCTRL                                           | 2399  |
 v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1                      | BUFG                                               | 8     |
-adc_clk_in_p                                                                                | IBUFGDS+BUFG                                       | 862   |
 delay_clk                                                                                   | BUFGP                                              | 9     |
+adc_clk_in_p                                                                                | IBUFGDS+BUFG                                       | 247   |
 pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived_G(pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived_G:O)| NONE(*)(pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived)| 1     |
 --------------------------------------------------------------------------------------------+----------------------------------------------------+-------+
 (*) This 1 clock signal(s) are generated by combinatorial logic,
@@ -11424,7 +11425,7 @@ Asynchronous Control Signals Information:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                                                                                                                                                                                                                                                                                      | Buffer(FF name)                                                                                                                                                                                                                     | Load  |
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/DBITERR(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/XST_GND:G)| NONE(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[52].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram)| 228   |
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/DBITERR(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/XST_GND:G)| NONE(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[50].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram)| 228   |
 v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
 v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
 v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
@@ -11451,7 +11452,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2'
   Clock period: 4.314ns (frequency: 231.828MHz)
-  Total number of paths / destination ports: 76811 / 16038
+  Total number of paths / destination ports: 231797 / 17353
 -------------------------------------------------------------------------
 Delay:               4.314ns (Levels of Logic = 10)
   Source:            v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/rx_pipeline_inst/m_axis_rx_tdata_xhdl0_0 (FF)
@@ -11508,72 +11509,6 @@ Delay:               3.437ns (Levels of Logic = 5)
                                        (27.3% logic, 72.7% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'adc_clk_in_p'
-  Clock period: 4.124ns (frequency: 242.497MHz)
-  Total number of paths / destination ports: 136285 / 1679
--------------------------------------------------------------------------
-Delay:               4.124ns (Levels of Logic = 45)
-  Source:            ad9467_1/reg01_rd_current_reflength_2 (FF)
-  Destination:       ad9467_1/reflength_counter_31 (FF)
-  Source Clock:      adc_clk_in_p rising
-  Destination Clock: adc_clk_in_p rising
-
-  Data Path: ad9467_1/reg01_rd_current_reflength_2 to ad9467_1/reflength_counter_31
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDRE:C->Q             2   0.398   0.798  reg01_rd_current_reflength_2 (reg01_rd_current_reflength_2)
-     LUT6:I0->O            1   0.105   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_lut<0> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_lut<0>)
-     MUXCY:S->O            1   0.392   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<0> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<0>)
-     MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<1> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<1>)
-     MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<2> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<2>)
-     MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<3> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<3>)
-     MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<4> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<4>)
-     MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<5> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<5>)
-     MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<6> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<6>)
-     MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<7> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<7>)
-     MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<8> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<8>)
-     MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<9> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<9>)
-     MUXCY:CI->O         111   0.025   0.502  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<10> (reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o)
-     LUT2:I1->O            1   0.105   0.000  Mcount_reflength_counter_lut<0> (Mcount_reflength_counter_lut<0>)
-     MUXCY:S->O            1   0.392   0.000  Mcount_reflength_counter_cy<0> (Mcount_reflength_counter_cy<0>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<1> (Mcount_reflength_counter_cy<1>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<2> (Mcount_reflength_counter_cy<2>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<3> (Mcount_reflength_counter_cy<3>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<4> (Mcount_reflength_counter_cy<4>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<5> (Mcount_reflength_counter_cy<5>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<6> (Mcount_reflength_counter_cy<6>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<7> (Mcount_reflength_counter_cy<7>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<8> (Mcount_reflength_counter_cy<8>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<9> (Mcount_reflength_counter_cy<9>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<10> (Mcount_reflength_counter_cy<10>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<11> (Mcount_reflength_counter_cy<11>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<12> (Mcount_reflength_counter_cy<12>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<13> (Mcount_reflength_counter_cy<13>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<14> (Mcount_reflength_counter_cy<14>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<15> (Mcount_reflength_counter_cy<15>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<16> (Mcount_reflength_counter_cy<16>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<17> (Mcount_reflength_counter_cy<17>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<18> (Mcount_reflength_counter_cy<18>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<19> (Mcount_reflength_counter_cy<19>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<20> (Mcount_reflength_counter_cy<20>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<21> (Mcount_reflength_counter_cy<21>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<22> (Mcount_reflength_counter_cy<22>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<23> (Mcount_reflength_counter_cy<23>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<24> (Mcount_reflength_counter_cy<24>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<25> (Mcount_reflength_counter_cy<25>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<26> (Mcount_reflength_counter_cy<26>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<27> (Mcount_reflength_counter_cy<27>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<28> (Mcount_reflength_counter_cy<28>)
-     MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<29> (Mcount_reflength_counter_cy<29>)
-     MUXCY:CI->O           0   0.025   0.000  Mcount_reflength_counter_cy<30> (Mcount_reflength_counter_cy<30>)
-     XORCY:CI->O           1   0.417   0.000  Mcount_reflength_counter_xor<31> (Mcount_reflength_counter31)
-     FDR:D                     0.015          reflength_counter_31
-    ----------------------------------------
-    Total                      4.124ns (2.824ns logic, 1.300ns route)
-                                       (68.5% logic, 31.5% route)
-
-=========================================================================
 Timing constraint: Default period analysis for Clock 'delay_clk'
   Clock period: 1.834ns (frequency: 545.212MHz)
   Total number of paths / destination ports: 45 / 17
@@ -11597,15 +11532,46 @@ Delay:               1.834ns (Levels of Logic = 9)
      MUXCY:CI->O           1   0.025   0.000  Mcount_delay_rst_cnt_cy<4> (Mcount_delay_rst_cnt_cy<4>)
      MUXCY:CI->O           1   0.025   0.000  Mcount_delay_rst_cnt_cy<5> (Mcount_delay_rst_cnt_cy<5>)
      MUXCY:CI->O           0   0.025   0.000  Mcount_delay_rst_cnt_cy<6> (Mcount_delay_rst_cnt_cy<6>)
-     XORCY:CI->O           1   0.417   0.000  Mcount_delay_rst_cnt_xor<7> (Result<7>)
+     XORCY:CI->O           1   0.417   0.000  Mcount_delay_rst_cnt_xor<7> (Result<7>5)
      FDE:D                     0.015          delay_rst_cnt_7
     ----------------------------------------
     Total                      1.834ns (1.495ns logic, 0.339ns route)
                                        (81.5% logic, 18.5% route)
 
 =========================================================================
+Timing constraint: Default period analysis for Clock 'adc_clk_in_p'
+  Clock period: 2.557ns (frequency: 391.053MHz)
+  Total number of paths / destination ports: 1377 / 335
+-------------------------------------------------------------------------
+Delay:               2.557ns (Levels of Logic = 10)
+  Source:            LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d1_1 (FF)
+  Destination:       LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i (FF)
+  Source Clock:      adc_clk_in_p rising
+  Destination Clock: adc_clk_in_p rising
+
+  Data Path: LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d1_1 to LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.398   0.661  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d1_1 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d1<1>)
+     LUT4:I0->O            1   0.105   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/v1<0>1 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/v1<0>)
+     MUXCY:S->O            1   0.392   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.gm[0].gm1.m1 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.carrynet<0>)
+     MUXCY:CI->O           1   0.025   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.gm[1].gms.ms (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.carrynet<1>)
+     MUXCY:CI->O           1   0.025   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.gm[2].gms.ms (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.carrynet<2>)
+     MUXCY:CI->O           1   0.025   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.gm[3].gms.ms (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.carrynet<3>)
+     MUXCY:CI->O           1   0.025   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.gm[4].gms.ms (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.carrynet<4>)
+     MUXCY:CI->O           1   0.025   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.gm[5].gms.ms (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.carrynet<5>)
+     MUXCY:CI->O           1   0.025   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.gm[6].gms.ms (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.carrynet<6>)
+     MUXCY:CI->O           1   0.280   0.451  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/c1/gmux.gm[7].gms.ms (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/comp1)
+     LUT5:I3->O            2   0.105   0.000  U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/Mmux_comp1_GND_4358_o_MUX_53_o11 (U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/comp1_GND_4358_o_MUX_53_o)
+     FDP:D                     0.015          U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_fb_i
+    ----------------------------------------
+    Total                      2.557ns (1.445ns logic, 1.112ns route)
+                                       (56.5% logic, 43.5% route)
+
+=========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2'
-  Total number of paths / destination ports: 364 / 264
+  Total number of paths / destination ports: 979 / 879
 -------------------------------------------------------------------------
 Offset:              2.512ns (Levels of Logic = 5)
   Source:            v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_block_i:TRNTBUFAV4 (PAD)
@@ -11633,7 +11599,7 @@ Offset:              2.512ns (Levels of Logic = 5)
 Timing constraint: Default OFFSET IN BEFORE for Clock 'v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz'
   Total number of paths / destination ports: 119 / 119
 -------------------------------------------------------------------------
-Offset:              1.360ns (Levels of Logic = 4)
+Offset:              1.366ns (Levels of Logic = 4)
   Source:            sys_reset_n (PAD)
   Destination:       v7_pcie_i/gt_top_i/pipe_wrapper_i/reset_n_reg1 (FF)
   Destination Clock: v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz rising
@@ -11642,15 +11608,15 @@ Offset:              1.360ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           174   0.001   0.495  sys_reset_n_ibuf (sys_reset_n_c)
+     IBUF:I->O           205   0.001   0.501  sys_reset_n_ibuf (sys_reset_n_c)
      begin scope: 'v7_pcie_i:sys_rst_n'
      begin scope: 'v7_pcie_i/gt_top_i:sys_rst_n'
      begin scope: 'v7_pcie_i/gt_top_i/pipe_wrapper_i:PIPE_RESET_N'
      INV:I->O              2   0.123   0.344  PIPE_RESET_N_inv1_INV_0 (PIPE_RESET_N_inv)
      FDC:CLR                   0.397          reset_n_reg1
     ----------------------------------------
-    Total                      1.360ns (0.521ns logic, 0.839ns route)
-                                       (38.3% logic, 61.7% route)
+    Total                      1.366ns (0.521ns logic, 0.845ns route)
+                                       (38.1% logic, 61.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1'
@@ -11677,28 +11643,26 @@ Offset:              0.980ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'adc_clk_in_p'
-  Total number of paths / destination ports: 631 / 631
+  Total number of paths / destination ports: 16 / 16
 -------------------------------------------------------------------------
-Offset:              1.597ns (Levels of Logic = 3)
-  Source:            sys_reset_n (PAD)
-  Destination:       ad9467_1/fifowasoverflowonvalue_2 (FF)
+Offset:              0.339ns (Levels of Logic = 0)
+  Source:            ad9467_1/g_adc_if[0].i_data_ddr:Q2 (PAD)
+  Destination:       ad9467_1/Mshreg_real_data_0 (FF)
   Destination Clock: adc_clk_in_p rising
 
-  Data Path: sys_reset_n to ad9467_1/fifowasoverflowonvalue_2
+  Data Path: ad9467_1/g_adc_if[0].i_data_ddr:Q2 to ad9467_1/Mshreg_real_data_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           174   0.001   0.607  sys_reset_n_ibuf (sys_reset_n_c)
-     begin scope: 'ad9467_1:reset'
-     LUT2:I0->O          126   0.105   0.486  Mcount_count_val1 (Mcount_count_val)
-     FDR:R                     0.397          count_0
+    IDDR_2CLK:Q2           1   0.000   0.339  g_adc_if[0].i_data_ddr (adc_data_n_s<0>)
+     SRLC16E:D                -0.006          Mshreg_real_data_0
     ----------------------------------------
-    Total                      1.597ns (0.503ns logic, 1.094ns route)
-                                       (31.5% logic, 68.5% route)
+    Total                      0.339ns (0.000ns logic, 0.339ns route)
+                                       (0.0% logic, 100.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2'
-  Total number of paths / destination ports: 114 / 96
+  Total number of paths / destination ports: 116 / 98
 -------------------------------------------------------------------------
 Offset:              3.333ns (Levels of Logic = 12)
   Source:            theTlpControl/tx_Itf/trn_tsof_n_i (FF)
@@ -11732,26 +11696,6 @@ Offset:              3.333ns (Levels of Logic = 12)
     ----------------------------------------
     Total                      3.333ns (0.959ns logic, 2.374ns route)
                                        (28.8% logic, 71.2% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'adc_clk_in_p'
-  Total number of paths / destination ports: 2 / 2
--------------------------------------------------------------------------
-Offset:              0.737ns (Levels of Logic = 2)
-  Source:            ad9467_1/real_strobe_signal (FF)
-  Destination:       real_strobe_signal (PAD)
-  Source Clock:      adc_clk_in_p rising
-
-  Data Path: ad9467_1/real_strobe_signal to real_strobe_signal
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FDR:C->Q              1   0.398   0.339  real_strobe_signal (real_strobe_signal)
-     end scope: 'ad9467_1:real_strobe_signal'
-     OBUF:I->O                 0.000          real_strobe_signal_OBUF (real_strobe_signal)
-    ----------------------------------------
-    Total                      0.737ns (0.398ns logic, 0.339ns route)
-                                       (54.0% logic, 46.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz'
@@ -11838,8 +11782,8 @@ Clock to Setup on destination clock adc_clk_in_p
                                                                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                                                          |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------------------------------------------------------+---------+---------+---------+---------+
-adc_clk_in_p                                                          |    4.124|         |         |         |
-v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2|    4.667|         |         |         |
+adc_clk_in_p                                                          |    2.557|         |         |         |
+v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2|    2.135|         |         |         |
 ----------------------------------------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock delay_clk
@@ -11879,14 +11823,14 @@ v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2|    4.314
 =========================================================================
 
 
-Total REAL time to Xst completion: 173.00 secs
-Total CPU time to Xst completion: 173.42 secs
+Total REAL time to Xst completion: 160.00 secs
+Total CPU time to Xst completion: 160.18 secs
  
 --> 
 
-Total memory usage is 516964 kilobytes
+Total memory usage is 520024 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings : 5174 (   0 filtered)
+Number of warnings : 5175 (   0 filtered)
 Number of infos    :  694 (   0 filtered)
 
