@@ -180,3 +180,9 @@ map -intstyle ise -p xc7a200t-fbg676-2 -w -logic_opt off -ol high -xe n -t 1 -xt
 par -w -intstyle ise -ol high -xe n -mt off v6pcieDMA_map.ncd v6pcieDMA.ncd v6pcieDMA.pcf 
 trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml v6pcieDMA.twx v6pcieDMA.ncd -o v6pcieDMA.twr v6pcieDMA.pcf 
 bitgen -intstyle ise -f v6pcieDMA.ut v6pcieDMA.ncd 
+xst -intstyle ise -ifn "C:/Users/vsilantiev/Documents/ISEAC701/v6pcieDMA.xst" -ofn "C:/Users/vsilantiev/Documents/ISEAC701/v6pcieDMA.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd MyUserLogic/UserLogic_00 -sd ipcore_dir -sd ipcore_dir_ISE13.3 -nt timestamp -uc MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf -p xc7a200t-fbg676-2 v6pcieDMA_cs.ngc v6pcieDMA.ngd  
+map -intstyle ise -p xc7a200t-fbg676-2 -w -logic_opt off -ol high -xe n -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -ignore_keep_hierarchy -pr off -lc off -power off -o v6pcieDMA_map.ncd v6pcieDMA.ngd v6pcieDMA.pcf 
+par -w -intstyle ise -ol high -xe n -mt off v6pcieDMA_map.ncd v6pcieDMA.ncd v6pcieDMA.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml v6pcieDMA.twx v6pcieDMA.ncd -o v6pcieDMA.twr v6pcieDMA.pcf 
+bitgen -intstyle ise -f v6pcieDMA.ut v6pcieDMA.ncd 

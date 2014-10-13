@@ -27,27 +27,27 @@ Generating ISE project...
 XCO file found: ila_pro_0.xco
 XMDF file found: ila_pro_0_xmdf.tcl
 Adding
-/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/_ngo/cs_ila_pro_0/
-tmp/_cg/ila_pro_0.ngc -view all -origin_type created
+C:/Users/vsilantiev/Documents/ISEAC701/_ngo/cs_ila_pro_0/tmp/_cg/ila_pro_0.ngc
+-view all -origin_type created
 Checking file
-"/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/_ngo/cs_ila_pro_0
-/tmp/_cg/ila_pro_0.ngc" for project device match ...
+"C:/Users/vsilantiev/Documents/ISEAC701/_ngo/cs_ila_pro_0/tmp/_cg/ila_pro_0.ngc"
+for project device match ...
 File
-"/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/_ngo/cs_ila_pro_0
-/tmp/_cg/ila_pro_0.ngc" device information matches project device.
+"C:/Users/vsilantiev/Documents/ISEAC701/_ngo/cs_ila_pro_0/tmp/_cg/ila_pro_0.ngc"
+device information matches project device.
 Adding
-/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/_ngo/cs_ila_pro_0/
-tmp/_cg/ila_pro_0.ucf -view all -origin_type created
+C:/Users/vsilantiev/Documents/ISEAC701/_ngo/cs_ila_pro_0/tmp/_cg/ila_pro_0.ucf
+-view all -origin_type created
 Adding
-/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/_ngo/cs_ila_pro_0/
-tmp/_cg/ila_pro_0.vhd -view all -origin_type created
+C:/Users/vsilantiev/Documents/ISEAC701/_ngo/cs_ila_pro_0/tmp/_cg/ila_pro_0.vhd
+-view all -origin_type created
 INFO:HDLCompiler:1061 - Parsing VHDL file
-   "/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/_ngo/cs_ila_pr
-   o_0/tmp/_cg/ila_pro_0.vhd" into library work
+   "C:/Users/vsilantiev/Documents/ISEAC701/_ngo/cs_ila_pro_0/tmp/_cg/ila_pro_0.v
+   hd" into library work
 INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
 Adding
-/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/_ngo/cs_ila_pro_0/
-tmp/_cg/ila_pro_0.vho -view all -origin_type imported
+C:/Users/vsilantiev/Documents/ISEAC701/_ngo/cs_ila_pro_0/tmp/_cg/ila_pro_0.vho
+-view all -origin_type imported
 INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
    Please set the new top explicitly by running the "project set top" command.
    To re-calculate the new top automatically, set the "Auto Implementation Top"

@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Wed Oct 08 15:22:49 2014
+// Written by: Map P.28xd on Mon Oct 13 22:41:14 2014
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -71,16 +71,6 @@ COMP
 PIN v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_block_i_pins<1446> = BEL
         "v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_block_i" PINNAME USERCLK2;
 PIN
-        theTlpControl/tx_Itf/ABB_Tx_MBuffer/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<144>
-        = BEL
-        "theTlpControl/tx_Itf/ABB_Tx_MBuffer/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1"
-        PINNAME RDCLKU;
-PIN
-        theTlpControl/tx_Itf/ABB_Tx_MBuffer/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<143>
-        = BEL
-        "theTlpControl/tx_Itf/ABB_Tx_MBuffer/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1"
-        PINNAME RDCLKL;
-PIN
         theTlpControl/tx_Itf/ABB_Tx_MBuffer/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<155>
         = BEL
         "theTlpControl/tx_Itf/ABB_Tx_MBuffer/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1"
@@ -91,16 +81,6 @@ PIN
         "theTlpControl/tx_Itf/ABB_Tx_MBuffer/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1"
         PINNAME WRCLKL;
 PIN
-        DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<87>
-        = BEL
-        "DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1"
-        PINNAME RDCLKU;
-PIN
-        DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<86>
-        = BEL
-        "DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1"
-        PINNAME RDCLKL;
-PIN
         DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<98>
         = BEL
         "DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1"
@@ -110,16 +90,6 @@ PIN
         = BEL
         "DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1"
         PINNAME WRCLKL;
-PIN
-        DDRs_ctrl_module/DDR_pipe_read_D_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<140>
-        = BEL
-        "DDRs_ctrl_module/DDR_pipe_read_D_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1"
-        PINNAME RDCLKU;
-PIN
-        DDRs_ctrl_module/DDR_pipe_read_D_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<139>
-        = BEL
-        "DDRs_ctrl_module/DDR_pipe_read_D_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1"
-        PINNAME RDCLKL;
 PIN
         LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram_pins<65>
         = BEL
@@ -9502,26 +9472,20 @@ TIMEGRP CLK_USERCLK2 = BEL "s_axis_tx_tready_i" BEL "v7_pcie_i/user_lnk_up_d"
         BEL
         "LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.gpe.rdpe/prog_empty_i"
         BEL "trn_lnk_up_n_int_i" BEL "trn_reset_n_i" BEL
-        "U_ila_pro_0/U0/I_TQ2.G_TW[172].U_TQ" PIN
-        "theTlpControl/tx_Itf/ABB_Tx_MBuffer/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<144>"
-        PIN
-        "theTlpControl/tx_Itf/ABB_Tx_MBuffer/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<143>"
+        "U_ila_pro_0/U0/I_TQ2.G_TW[172].U_TQ" BEL
+        "theTlpControl/tx_Itf/ABB_Tx_MBuffer/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1"
         PIN
         "theTlpControl/tx_Itf/ABB_Tx_MBuffer/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<155>"
         PIN
         "theTlpControl/tx_Itf/ABB_Tx_MBuffer/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<154>"
-        PIN
-        "DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<87>"
-        PIN
-        "DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<86>"
+        BEL
+        "DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1"
         PIN
         "DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<98>"
         PIN
         "DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<97>"
-        PIN
-        "DDRs_ctrl_module/DDR_pipe_read_D_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<140>"
-        PIN
-        "DDRs_ctrl_module/DDR_pipe_read_D_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1_pins<139>"
+        BEL
+        "DDRs_ctrl_module/DDR_pipe_read_D_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1"
         PIN
         "LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram_pins<65>"
         PIN
@@ -16667,11 +16631,6 @@ TIMEGRP adc_clk_in_n = BEL "ad9467_1/reg01_rd_current_reflength_0" BEL
         PIN
         "LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram_pins<62>";
 PIN
-        U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_A7.U_CS_BRAM_CASCADE_A7/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B18KGT0.u_ramb18/U_RAMB18E1_pins<32>
-        = BEL
-        "U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_A7.U_CS_BRAM_CASCADE_A7/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B18KGT0.u_ramb18/U_RAMB18E1"
-        PINNAME CLKARDCLK;
-PIN
         U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_A7.U_CS_BRAM_CASCADE_A7/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36KGT0.G_RAMB36[0].u_ramb36/U_RAMB36_pins<63>
         = BEL
         "U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_A7.U_CS_BRAM_CASCADE_A7/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36KGT0.G_RAMB36[0].u_ramb36/U_RAMB36"
@@ -18010,8 +17969,8 @@ TIMEGRP J_CLK = BEL
         BEL
         "U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/I_MULT_ROW.U_RD_COL_ADDR_DLY/G_REG_BIT[8].U_FDRE"
         BEL "U_ila_pro_0/U0/I_NO_D.U_ILA/U_STAT/U_DIRTY_FDPE" BEL
-        "U_ila_pro_0/U0/I_NO_D.U_ILA/U_STAT/U_DIRTY_FDCE" PIN
-        "U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_A7.U_CS_BRAM_CASCADE_A7/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B18KGT0.u_ramb18/U_RAMB18E1_pins<32>"
+        "U_ila_pro_0/U0/I_NO_D.U_ILA/U_STAT/U_DIRTY_FDCE" BEL
+        "U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_A7.U_CS_BRAM_CASCADE_A7/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B18KGT0.u_ramb18/U_RAMB18E1"
         PIN
         "U_ila_pro_0/U0/I_NO_D.U_ILA/U_CAPSTOR/I_CASE1.I_YES_TB.U_TRACE_BUFFER/U_RAM/I_A7.U_CS_BRAM_CASCADE_A7/I_DEPTH_LTEQ_32K.U_SBRAM_0/I_B36KGT0.G_RAMB36[0].u_ramb36/U_RAMB36_pins<63>"
         PIN
@@ -25806,14 +25765,14 @@ TIMEGRP D_CLK = BEL
 TIMEGRP D2_CLK = BEL "U_ila_pro_0/U0/I_NO_D.U_ILA/U_STAT/U_DIRTY_LDC";
 NET "clk_200MHz" PERIOD = 5 ns HIGH 50%;
 TIMEGRP "FFS" = FFS(*);
-PATH TS_D2_TO_T2_ila_pro_0_path = FROM TIMEGRP "D2_CLK" TO TIMEGRP "FFS";
-PATH "TS_D2_TO_T2_ila_pro_0_path" TIG;
-PATH TS_J2_TO_D2_ila_pro_0_path = FROM TIMEGRP "FFS" TO TIMEGRP "D2_CLK";
-PATH "TS_J2_TO_D2_ila_pro_0_path" TIG;
-PATH TS_J3_TO_D2_ila_pro_0_path = FROM TIMEGRP "FFS" TO TIMEGRP "D2_CLK";
-PATH "TS_J3_TO_D2_ila_pro_0_path" TIG;
-PATH TS_J4_TO_D2_ila_pro_0_path = FROM TIMEGRP "FFS" TO TIMEGRP "D2_CLK";
-PATH "TS_J4_TO_D2_ila_pro_0_path" TIG;
+PATH TS_D2_TO_T2_path = FROM TIMEGRP "D2_CLK" TO TIMEGRP "FFS";
+PATH "TS_D2_TO_T2_path" TIG;
+PATH TS_J2_TO_D2_path = FROM TIMEGRP "FFS" TO TIMEGRP "D2_CLK";
+PATH "TS_J2_TO_D2_path" TIG;
+PATH TS_J3_TO_D2_path = FROM TIMEGRP "FFS" TO TIMEGRP "D2_CLK";
+PATH "TS_J3_TO_D2_path" TIG;
+PATH TS_J4_TO_D2_path = FROM TIMEGRP "FFS" TO TIMEGRP "D2_CLK";
+PATH "TS_J4_TO_D2_path" TIG;
 TS_J_CLK = PERIOD TIMEGRP "J_CLK" 30 ns HIGH 50%;
 TS_U_TO_J = MAXDELAY FROM TIMEGRP "U_CLK" TO TIMEGRP "J_CLK" 15 ns;
 TS_U_TO_U = MAXDELAY FROM TIMEGRP "U_CLK" TO TIMEGRP "U_CLK" 15 ns;

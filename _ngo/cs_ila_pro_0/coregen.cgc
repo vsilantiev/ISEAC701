@@ -47,7 +47,6 @@
             <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MATCH_UNITS_16">1</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.CONSTRAINT_TYPE">embedded</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.NUMBER_OF_TRIGGER_PORTS">4</spirit:configurableElementValue>
-            <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.CHECK_BRAMCOUNT">true</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.SAMPLE_ON">Rising</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.COUNTER_WIDTH_10">Disabled</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.COUNTER_WIDTH_11">Disabled</spirit:configurableElementValue>
@@ -102,6 +101,7 @@
             <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.TRIGGER_PORT_WIDTH_4">224</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.TRIGGER_PORT_WIDTH_5">1</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.EXAMPLE_DESIGN">false</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.CHECK_BRAMCOUNT">false</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.DISABLE_SAVE_KEEP">false</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_M9_TYPE">0</spirit:configurableElementValue>
             <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_TRIG5_WIDTH">1</spirit:configurableElementValue>
@@ -263,7 +263,7 @@
                   <xilinx:foundationSym>false</xilinx:foundationSym>
                </xilinx:simulationOptions>
                <xilinx:packageInfo>
-                  <xilinx:sourceCoreCreationDate>2013-10-13+14:13</xilinx:sourceCoreCreationDate>
+                  <xilinx:sourceCoreCreationDate>2012-07-21+03:12</xilinx:sourceCoreCreationDate>
                </xilinx:packageInfo>
             </xilinx:instanceProperties>
             <xilinx:generationHistory>
@@ -275,9 +275,9 @@
                   <xilinx:file>
                      <xilinx:name>./ila_pro_0.xco</xilinx:name>
                      <xilinx:userFileType>xco</xilinx:userFileType>
-                     <xilinx:timeStamp>Wed Oct 08 08:36:46 GMT 2014</xilinx:timeStamp>
-                     <xilinx:checkSum>0xF64209E1</xilinx:checkSum>
-                     <xilinx:generationId>generationID_1879581046</xilinx:generationId>
+                     <xilinx:timeStamp>Mon Oct 13 18:21:43 GMT 2014</xilinx:timeStamp>
+                     <xilinx:checkSum>0x6DD59432</xilinx:checkSum>
+                     <xilinx:generationId>generationID_4013899584</xilinx:generationId>
                   </xilinx:file>
                </xilinx:fileSet>
                <xilinx:fileSet>
@@ -285,38 +285,38 @@
                   <xilinx:file>
                      <xilinx:name>./ila_pro_0.cdc</xilinx:name>
                      <xilinx:userFileType>unknown</xilinx:userFileType>
-                     <xilinx:timeStamp>Wed Oct 08 08:39:04 GMT 2014</xilinx:timeStamp>
-                     <xilinx:checkSum>0xFA2E7B58</xilinx:checkSum>
-                     <xilinx:generationId>generationID_1879581046</xilinx:generationId>
+                     <xilinx:timeStamp>Mon Oct 13 18:24:35 GMT 2014</xilinx:timeStamp>
+                     <xilinx:checkSum>0xCDE259FB</xilinx:checkSum>
+                     <xilinx:generationId>generationID_4013899584</xilinx:generationId>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./ila_pro_0.ngc</xilinx:name>
                      <xilinx:userFileType>ngc</xilinx:userFileType>
-                     <xilinx:timeStamp>Wed Oct 08 08:39:04 GMT 2014</xilinx:timeStamp>
-                     <xilinx:checkSum>0x3837952D</xilinx:checkSum>
-                     <xilinx:generationId>generationID_1879581046</xilinx:generationId>
+                     <xilinx:timeStamp>Mon Oct 13 18:24:35 GMT 2014</xilinx:timeStamp>
+                     <xilinx:checkSum>0x7F6B3CA2</xilinx:checkSum>
+                     <xilinx:generationId>generationID_4013899584</xilinx:generationId>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./ila_pro_0.ucf</xilinx:name>
                      <xilinx:userFileType>ucf</xilinx:userFileType>
-                     <xilinx:timeStamp>Wed Oct 08 08:38:57 GMT 2014</xilinx:timeStamp>
-                     <xilinx:checkSum>0x408E3AC9</xilinx:checkSum>
-                     <xilinx:generationId>generationID_1879581046</xilinx:generationId>
+                     <xilinx:timeStamp>Mon Oct 13 18:24:26 GMT 2014</xilinx:timeStamp>
+                     <xilinx:checkSum>0x1084ABF5</xilinx:checkSum>
+                     <xilinx:generationId>generationID_4013899584</xilinx:generationId>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./ila_pro_0.vhd</xilinx:name>
                      <xilinx:userFileType>vhdl</xilinx:userFileType>
                      <xilinx:userFileType>vhdlSynthesis</xilinx:userFileType>
-                     <xilinx:timeStamp>Wed Oct 08 08:38:57 GMT 2014</xilinx:timeStamp>
-                     <xilinx:checkSum>0xC8211490</xilinx:checkSum>
-                     <xilinx:generationId>generationID_1879581046</xilinx:generationId>
+                     <xilinx:timeStamp>Mon Oct 13 18:24:26 GMT 2014</xilinx:timeStamp>
+                     <xilinx:checkSum>0xF9ADCC4C</xilinx:checkSum>
+                     <xilinx:generationId>generationID_4013899584</xilinx:generationId>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./ila_pro_0.vho</xilinx:name>
                      <xilinx:userFileType>vho</xilinx:userFileType>
-                     <xilinx:timeStamp>Wed Oct 08 08:38:57 GMT 2014</xilinx:timeStamp>
-                     <xilinx:checkSum>0xBF1ABB5F</xilinx:checkSum>
-                     <xilinx:generationId>generationID_1879581046</xilinx:generationId>
+                     <xilinx:timeStamp>Mon Oct 13 18:24:26 GMT 2014</xilinx:timeStamp>
+                     <xilinx:checkSum>0x00843943</xilinx:checkSum>
+                     <xilinx:generationId>generationID_4013899584</xilinx:generationId>
                   </xilinx:file>
                </xilinx:fileSet>
                <xilinx:fileSet>
@@ -324,9 +324,9 @@
                   <xilinx:file>
                      <xilinx:name>./ila_pro_0.vho</xilinx:name>
                      <xilinx:userFileType>vho</xilinx:userFileType>
-                     <xilinx:timeStamp>Wed Oct 08 08:39:04 GMT 2014</xilinx:timeStamp>
-                     <xilinx:checkSum>0xBF1ABB5F</xilinx:checkSum>
-                     <xilinx:generationId>generationID_1879581046</xilinx:generationId>
+                     <xilinx:timeStamp>Mon Oct 13 18:24:35 GMT 2014</xilinx:timeStamp>
+                     <xilinx:checkSum>0x00843943</xilinx:checkSum>
+                     <xilinx:generationId>generationID_4013899584</xilinx:generationId>
                   </xilinx:file>
                </xilinx:fileSet>
                <xilinx:fileSet>
@@ -338,9 +338,9 @@
                      <xilinx:name>./ila_pro_0_xmdf.tcl</xilinx:name>
                      <xilinx:userFileType>tclXmdf</xilinx:userFileType>
                      <xilinx:userFileType>tcl</xilinx:userFileType>
-                     <xilinx:timeStamp>Wed Oct 08 08:39:04 GMT 2014</xilinx:timeStamp>
+                     <xilinx:timeStamp>Mon Oct 13 18:24:35 GMT 2014</xilinx:timeStamp>
                      <xilinx:checkSum>0x1DED86E2</xilinx:checkSum>
-                     <xilinx:generationId>generationID_1879581046</xilinx:generationId>
+                     <xilinx:generationId>generationID_4013899584</xilinx:generationId>
                   </xilinx:file>
                </xilinx:fileSet>
                <xilinx:fileSet>
@@ -349,17 +349,17 @@
                      <xilinx:name>./ila_pro_0.gise</xilinx:name>
                      <xilinx:userFileType>ignore</xilinx:userFileType>
                      <xilinx:userFileType>gise</xilinx:userFileType>
-                     <xilinx:timeStamp>Wed Oct 08 08:39:07 GMT 2014</xilinx:timeStamp>
-                     <xilinx:checkSum>0xEC473DF5</xilinx:checkSum>
-                     <xilinx:generationId>generationID_1879581046</xilinx:generationId>
+                     <xilinx:timeStamp>Mon Oct 13 18:24:38 GMT 2014</xilinx:timeStamp>
+                     <xilinx:checkSum>0x73F15626</xilinx:checkSum>
+                     <xilinx:generationId>generationID_4013899584</xilinx:generationId>
                   </xilinx:file>
                   <xilinx:file>
                      <xilinx:name>./ila_pro_0.xise</xilinx:name>
                      <xilinx:userFileType>ignore</xilinx:userFileType>
                      <xilinx:userFileType>xise</xilinx:userFileType>
-                     <xilinx:timeStamp>Wed Oct 08 08:39:07 GMT 2014</xilinx:timeStamp>
-                     <xilinx:checkSum>0x330F8693</xilinx:checkSum>
-                     <xilinx:generationId>generationID_1879581046</xilinx:generationId>
+                     <xilinx:timeStamp>Mon Oct 13 18:24:38 GMT 2014</xilinx:timeStamp>
+                     <xilinx:checkSum>0x3B70732F</xilinx:checkSum>
+                     <xilinx:generationId>generationID_4013899584</xilinx:generationId>
                   </xilinx:file>
                </xilinx:fileSet>
                <xilinx:fileSet>
@@ -369,9 +369,9 @@
                      <xilinx:userFileType>ignore</xilinx:userFileType>
                      <xilinx:userFileType>txtReadme</xilinx:userFileType>
                      <xilinx:userFileType>txt</xilinx:userFileType>
-                     <xilinx:timeStamp>Wed Oct 08 08:39:07 GMT 2014</xilinx:timeStamp>
-                     <xilinx:checkSum>0x62EFF76B</xilinx:checkSum>
-                     <xilinx:generationId>generationID_1879581046</xilinx:generationId>
+                     <xilinx:timeStamp>Mon Oct 13 18:24:38 GMT 2014</xilinx:timeStamp>
+                     <xilinx:checkSum>0x65BC1001</xilinx:checkSum>
+                     <xilinx:generationId>generationID_4013899584</xilinx:generationId>
                   </xilinx:file>
                </xilinx:fileSet>
                <xilinx:fileSet>
@@ -381,9 +381,9 @@
                      <xilinx:userFileType>ignore</xilinx:userFileType>
                      <xilinx:userFileType>txtFlist</xilinx:userFileType>
                      <xilinx:userFileType>txt</xilinx:userFileType>
-                     <xilinx:timeStamp>Wed Oct 08 08:39:08 GMT 2014</xilinx:timeStamp>
+                     <xilinx:timeStamp>Mon Oct 13 18:24:38 GMT 2014</xilinx:timeStamp>
                      <xilinx:checkSum>0x2759FC4B</xilinx:checkSum>
-                     <xilinx:generationId>generationID_1879581046</xilinx:generationId>
+                     <xilinx:generationId>generationID_4013899584</xilinx:generationId>
                   </xilinx:file>
                </xilinx:fileSet>
             </xilinx:generationHistory>
@@ -399,10 +399,10 @@
             <xilinx:subWorkingDirectory>./tmp/_cg/</xilinx:subWorkingDirectory>
          </xilinx:projectOptions>
          <xilinx:part>
-            <xilinx:device>xc7vx330t</xilinx:device>
+            <xilinx:device>xc7vh290t</xilinx:device>
             <xilinx:deviceFamily>virtex7</xilinx:deviceFamily>
-            <xilinx:package>ffg1157</xilinx:package>
-            <xilinx:speedGrade>-3</xilinx:speedGrade>
+            <xilinx:package>hcg1155</xilinx:package>
+            <xilinx:speedGrade>-2</xilinx:speedGrade>
          </xilinx:part>
          <xilinx:flowOptions>
             <xilinx:busFormat>BusFormatAngleBracketNotRipped</xilinx:busFormat>

@@ -1,14 +1,12 @@
-Release 14.7 ngdbuild P.20131013 (lin64)
-Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Release 14.2 ngdbuild P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
-ise -dd _ngo -sd MyUserLogic/UserLogic_00 -sd ipcore_dir -sd ipcore_dir_ISE13.3
--nt timestamp -uc MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf -p xc7a200t-fbg676-2
-v6pcieDMA_cs.ngc v6pcieDMA.ngd
+Command Line: C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd MyUserLogic/UserLogic_00 -sd ipcore_dir -sd
+ipcore_dir_ISE13.3 -nt timestamp -uc MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf
+-p xc7a200t-fbg676-2 v6pcieDMA_cs.ngc v6pcieDMA.ngd
 
-Reading NGO file
-"/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/v6pcieDMA_cs.ngc"
-...
+Reading NGO file "C:/Users/vsilantiev/Documents/ISEAC701/v6pcieDMA_cs.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -2214,10 +2212,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings: 1450
 
-Total memory usage is 655800 kilobytes
+Total memory usage is 381692 kilobytes
 
 Writing NGD file "v6pcieDMA.ngd" ...
-Total REAL time to NGDBUILD completion:  52 sec
-Total CPU time to NGDBUILD completion:   52 sec
+Total REAL time to NGDBUILD completion:  51 sec
+Total CPU time to NGDBUILD completion:   50 sec
 
 Writing NGDBUILD log file "v6pcieDMA.bld"...

@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/v6pcieDMA.ncd
-OUTFILE=/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/v6pcieDMA.bit
+INFILE=C:\Users\vsilantiev\Documents\ISEAC701\v6pcieDMA.ncd
+OUTFILE=C:\Users\vsilantiev\Documents\ISEAC701\v6pcieDMA.bit
 FAMILY=Artix7
 PART=xc7a200t-2fbg676
-WORKINGDIR=/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605
+WORKINGDIR=C:\Users\vsilantiev\Documents\ISEAC701
 LICENSE=WebPack
 USER_INFO=__0_0_0
