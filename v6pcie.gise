@@ -168,12 +168,10 @@
       <outfile xil_pn:name="v6pcieDMA_cs.ngc"/>
       <outfile xil_pn:name="v6pcieDMA_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1413267301" xil_pn:in_ck="-3944898192365098454" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="6170997345395242690" xil_pn:start_ts="1413266580">
+    <transform xil_pn:end_ts="1413270075" xil_pn:in_ck="-3944898192365098454" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="6313243538976376503" xil_pn:start_ts="1413269391">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="v6pcieDMA.pcf"/>
       <outfile xil_pn:name="v6pcieDMA_map.map"/>
@@ -184,7 +182,7 @@
       <outfile xil_pn:name="v6pcieDMA_summary.xml"/>
       <outfile xil_pn:name="v6pcieDMA_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1413267948" xil_pn:in_ck="-3504420022616244669" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-6993472051956009272" xil_pn:start_ts="1413267301">
+    <transform xil_pn:end_ts="1413270383" xil_pn:in_ck="-3504420022616244669" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-6993472051956009272" xil_pn:start_ts="1413270075">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -199,7 +197,7 @@
       <outfile xil_pn:name="v6pcieDMA_pad.txt"/>
       <outfile xil_pn:name="v6pcieDMA_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1413268158" xil_pn:in_ck="-3197664643026418366" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="-1247737766609970542" xil_pn:start_ts="1413267948">
+    <transform xil_pn:end_ts="1413270552" xil_pn:in_ck="-3197664643026418366" xil_pn:name="TRANEXT_bitFile_virtex7" xil_pn:prop_ck="-1247737766609970542" xil_pn:start_ts="1413270383">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -212,11 +210,11 @@
       <outfile xil_pn:name="webtalk.log"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1413268325" xil_pn:in_ck="-3197664643026431220" xil_pn:name="TRAN_analyzeDesignUsingChipscope" xil_pn:prop_ck="4993620823033948991" xil_pn:start_ts="1413268324">
+    <transform xil_pn:end_ts="1413270552" xil_pn:in_ck="-3197664643026431220" xil_pn:name="TRAN_analyzeDesignUsingChipscope" xil_pn:prop_ck="4993620823033948991" xil_pn:start_ts="1413270552">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1413267948" xil_pn:in_ck="-3944898192365098586" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1413267914">
+    <transform xil_pn:end_ts="1413270383" xil_pn:in_ck="-3944898192365098586" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1413270348">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
