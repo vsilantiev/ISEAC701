@@ -2,7 +2,7 @@ module ADC_emul(
 					 	
 				    input trn_clk,
  					 
-					 input debug_data,
+				//	 input debug_data,
 					 input debug_data1,
 					 input debug_data2,
 					 input debug_data3,
@@ -148,8 +148,8 @@ parameter WIDTH=16;
 		
 //	 reg [31:0] r01_td;
 //	 reg 
-	 wire [15:0] debug_data;
-	 reg  [15:0] debug_data_reg;
+//	 wire [15:0] debug_data;
+//	 reg  [15:0] debug_data_reg;
 	 wire [63:0] debug_data1;
 	 reg  [63:0] debug_data1_reg;
 	 wire  debug_data2;
@@ -388,7 +388,7 @@ always @(posedge clk) begin
 		reg04_soa_length_cur <= 'd8;	// 80 ns
 		
 		reg06_rd_testbandwith_speed<=0;
-		debug_data_reg <= 0;
+//		debug_data_reg <= 0;
 		debug_data1_reg <= 0;
 		debug_data2_reg <= 0;
 		debug_data3_reg <= 0;
@@ -499,11 +499,11 @@ always @(posedge clk) begin
 		reg07_rd <= real_data_out; //50
 	   reg07_rv <= 1;		
 	
-	begin if (debug_data != 0)
-		begin
-		debug_data_reg <= debug_data;
-      end
-		end
+//	begin if (debug_data != 0)
+//		begin
+//		debug_data_reg <= debug_data;
+//     end
+//		end
 		
 		begin if (debug_data1 != 0)
 		begin

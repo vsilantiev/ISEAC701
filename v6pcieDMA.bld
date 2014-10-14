@@ -74,18 +74,6 @@ WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<10>' has no driver
 WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<9>' has no driver
 WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<1>' has no driver
 WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<0>' has no driver
-WARNING:NgdBuild:452 - logical net 'cfg_dstatus<15>' has no driver
-WARNING:NgdBuild:452 - logical net 'cfg_dstatus<14>' has no driver
-WARNING:NgdBuild:452 - logical net 'cfg_dstatus<13>' has no driver
-WARNING:NgdBuild:452 - logical net 'cfg_dstatus<12>' has no driver
-WARNING:NgdBuild:452 - logical net 'cfg_dstatus<11>' has no driver
-WARNING:NgdBuild:452 - logical net 'cfg_dstatus<10>' has no driver
-WARNING:NgdBuild:452 - logical net 'cfg_dstatus<9>' has no driver
-WARNING:NgdBuild:452 - logical net 'cfg_dstatus<8>' has no driver
-WARNING:NgdBuild:452 - logical net 'cfg_dstatus<7>' has no driver
-WARNING:NgdBuild:452 - logical net 'cfg_dstatus<6>' has no driver
-WARNING:NgdBuild:452 - logical net 'cfg_dstatus<5>' has no driver
-WARNING:NgdBuild:452 - logical net 'cfg_dstatus<4>' has no driver
 WARNING:NgdBuild:452 - logical net 'cfg_dcommand<15>' has no driver
 WARNING:NgdBuild:452 - logical net 'user_wr_addrA<11>' has no driver
 WARNING:NgdBuild:452 - logical net 'user_wr_addrA<10>' has no driver
@@ -597,6 +585,18 @@ WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<6>' has no driver
 WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<5>' has no driver
 WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<4>' has no driver
 WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dstatus<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dstatus<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dstatus<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dstatus<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dstatus<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dstatus<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dstatus<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dstatus<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dstatus<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dstatus<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dstatus<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dstatus<4>' has no driver
 WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_lstatus<12>' has no driver
 WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_lstatus<10>' has no driver
 WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_lstatus<3>' has no driver
@@ -2230,7 +2230,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings: 1453
 
-Total memory usage is 654716 kilobytes
+Total memory usage is 654776 kilobytes
 
 Writing NGD file "v6pcieDMA.ngd" ...
 Total REAL time to NGDBUILD completion:  50 sec

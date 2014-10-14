@@ -370,7 +370,7 @@ architecture Behavioral of v6pcieDMA is
  
  component ADC_emul
 	port (
-			 debug_data				   :in std_logic_vector (15 downto 0);
+--			 debug_data				   :in std_logic_vector (15 downto 0);
 			debug_data1					:in std_logic_vector (63 downto 0);
 			debug_data2 :in std_logic;
 			debug_data3 :in std_logic;
@@ -1434,7 +1434,7 @@ begin
 
    ad9467_1: ADC_emul
 	  port map (
-		   debug_data(15 downto 0)   => cfg_dstatus(15 downto 0), -- 51
+--		   debug_data(15 downto 0)   => cfg_dstatus(15 downto 0), -- 51
 			debug_data1(63 downto 0)  => eb_dout(63 downto 0), --52
 			debug_data2 => eb_re, --53
 			debug_data3 => eb_rst, --54
