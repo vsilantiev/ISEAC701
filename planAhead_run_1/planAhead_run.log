@@ -1,0 +1,296 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/vladimir/ISEAC701/pa.fromNcd.tcl
+# create_project -name v6pcie -dir "/home/vladimir/ISEAC701/planAhead_run_1" -part xc7a200tfbg676-2
+# set srcset [get_property srcset [current_run -impl]]
+# set_property design_mode GateLvl $srcset
+# set_property edif_top_file "/home/vladimir/ISEAC701/v6pcieDMA_cs.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {/home/vladimir/ISEAC701} {MyUserLogic/UserLogic_00} {ipcore_dir} {ipcore_dir_ISE13.3} }
+# add_files [list {ipcore_dir/v7_mBuf_128x72.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/v7_eb_fifo_counted_resized.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/v7_sfifo_15x128.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir/fifomodule.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir_ISE13.3/v6_eb_fifo_counted_new.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir_ISE13.3/v6_bram4096x64.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir_ISE13.3/v6_mBuf_128x72.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir_ISE13.3/v6_prime_fifo_plain.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir_ISE13.3/v6_eb_fifo_counted_resized.ncf}] -fileset [get_property constrset [current_run]]
+# add_files [list {ipcore_dir_ISE13.3/v6_sfifo_15x128.ncf}] -fileset [get_property constrset [current_run]]
+# set_property target_constrs_file "/home/vladimir/ISEAC701/MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf" [current_fileset -constrset]
+Adding file '/home/vladimir/ISEAC701/MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf' to fileset 'constrs_1'
+# add_files [list {/home/vladimir/ISEAC701/MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc7a200tfbg676-2
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design v6pcieDMA_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus ila0_trig0<61 : 21> on block
+   pcie_axi_trn_bridge is not reconstructed, because there are some missing bus
+   pins.
+WARNING:NetListWriters:306 - Signal bus s_axis_tx_tuser<3 : 1> on block
+   pcie_axi_trn_bridge is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus trn_rrem_n_r1[3 : 0] on block
+   rx_CplD_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus RegAddr_us_Dex[6 : 0] on block
+   rx_CplD_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus RegAddr_ds_Dex[6 : 0] on block
+   rx_CplD_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:304 - Port bus ila0_trig3<223 : 208> on block
+   rx_MRd_Transact is not reconstructed, because there are some missing bus
+   pins.
+WARNING:NetListWriters:306 - Signal bus pioCplD_Qout_wire[127 : 0] on block
+   rx_MRd_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus pioCplD_Qout_i[127 : 0] on block
+   rx_MRd_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus pioCplD_Qout_reg[127 : 0] on block
+   rx_MRd_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ChBuf_WrDin_i<127 : 0> on block
+   DMA_FSM_NO1 is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   DMA_State[2]_ChBuf_WrDin_i[127]_wide_mux_34_OUT<127 : 0> on block DMA_FSM_NO1
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus usTlp_Qout_i[127 : 0] on block
+   usDMA_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus usTlp_Qout_wire[127 : 0] on block
+   usDMA_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus DMA_Status_i[7 : 0] on block
+   usDMA_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus usTlp_Qout_reg[127 : 10] on block
+   usDMA_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus ChBuf_WrDin_i<127 : 0> on block DMA_FSM
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   DMA_State[2]_ChBuf_WrDin_i[127]_wide_mux_34_OUT<127 : 0> on block DMA_FSM is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DMA_Status_i[7 : 0] on block
+   dsDMA_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus trn_rrem_n_r1[3 : 0] on block RxIn_Delay
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus DDR_rdc_din_i<43 : 0> on block
+   tx_Mem_Reader is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Mmux_TxMReader_State[2]_ebFIFO_Rd_Counter[9]_wide_mux_86_OUT_rs_A<3 : 0> on
+   block tx_Mem_Reader is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Madd_RdNumber[9]_GND_158_o_add_69_OUT_cy<8 : 4> on block tx_Mem_Reader is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Mmux_TxMReader_State[2]_DDR_Rd_Counter[9]_wide_mux_77_OUT_rs_lut<9 : 1> on
+   block tx_Mem_Reader is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   Mmux_TxMReader_State[2]_ebFIFO_Rd_Counter[9]_wide_mux_86_OUT_rs_cy<6 : 3> on
+   block tx_Mem_Reader is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus mbuf_Qout[70 : 0] on block tx_Transact
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Irpt_Qout_to_TLP[58 : 12] on block
+   tx_Transact is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus pioCplD_Qout_to_TLP[127 : 0] on block
+   tx_Transact is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus dsMRd_Qout_to_TLP[127 : 0] on block
+   tx_Transact is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus usTlp_Qout_to_TLP[127 : 0] on block
+   tx_Transact is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Trn_Qout_reg[127 : 0] on block
+   tx_Transact is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus GND_157_o_GND_157_o_mux_6_OUT[58 : 16]
+   on block tx_Transact is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus GND_157_o_pioCplD_Qout[64]_mux_9_OUT[127
+   : 0] on block tx_Transact is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus GND_157_o_usTlp_Qout[61]_mux_16_OUT[127
+   : 8] on block tx_Transact is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus GND_157_o_dsMRd_Qout[93]_mux_20_OUT[127
+   : 8] on block tx_Transact is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Trn_Qout_wire[127 : 0] on block
+   tx_Transact is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Reg_WrMuxer_Hi<33 : 0> on block
+   Regs_Group is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Reg_RdMuxer_Hi<51 : 0> on block
+   Regs_Group is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus Reg_RdMuxer_Lo<36 : 0> on block
+   Regs_Group is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus eb_FIFO_Status_r1<17 : 0> on block
+   Regs_Group is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   Sys_Int_Enable_i[15]_Sys_Int_Status_i[15]_and_36_OUT<5 : 0> on block
+   Regs_Group is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:304 - Port bus ila0_trig0<77 : 0> on block tlpControl is
+   not reconstructed, because there are some missing bus pins.
+WARNING:NetListWriters:306 - Signal bus m_axis_rx_tuser_xhdl1<21 : 2> on block
+   v7_pcie_axi_basic_rx_pipeline is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus reg_tkeep<7 : 0> on block
+   v7_pcie_axi_basic_rx_pipeline is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus is_eof[4]_NULL_IS_EOF[4]_mux_16_OUT<21 :
+   2> on block v7_pcie_axi_basic_rx_pipeline is not reconstructed, because there
+   are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus txeq_preset<17 : 0> on block
+   v7_pcie_pipe_eq_NO3 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   txeq_preset[18]_EQ_TXEQ_PRESET_DEFAULT[3]_mux_38_OUT<17 : 0> on block
+   v7_pcie_pipe_eq_NO3 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus txeq_preset<17 : 0> on block
+   v7_pcie_pipe_eq_NO2 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   txeq_preset[18]_EQ_TXEQ_PRESET_DEFAULT[3]_mux_38_OUT<17 : 0> on block
+   v7_pcie_pipe_eq_NO2 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus txeq_preset<17 : 0> on block
+   v7_pcie_pipe_eq_NO1 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   txeq_preset[18]_EQ_TXEQ_PRESET_DEFAULT[3]_mux_38_OUT<17 : 0> on block
+   v7_pcie_pipe_eq_NO1 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus txeq_preset<17 : 0> on block
+   v7_pcie_pipe_eq is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   txeq_preset[18]_EQ_TXEQ_PRESET_DEFAULT[3]_mux_38_OUT<17 : 0> on block
+   v7_pcie_pipe_eq is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus gt_rx_data_wire_filter<111 : 0> on block
+   v7_pcie_gt_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus gt_rx_data_k_wire_filter<13 : 0> on
+   block v7_pcie_gt_top is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:304 - Port bus ila0_trig0<65 : 6> on block v7_pcie is not
+   reconstructed, because there are some missing bus pins.
+  finished :Prep
+Writing EDIF netlist file v6pcieDMA_cs.edif ...
+ngc2edif: Total memory usage is 185752 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/v6pcie.data/cache/v6pcieDMA_cs_ngc_250ddbe6.edif]
+Finished Parsing EDIF File [./planAhead_run_1/v6pcie.data/cache/v6pcieDMA_cs_ngc_250ddbe6.edif]
+CRITICAL WARNING: [Netlist 29-64] The value of SIM_DEVICE on instance 'DDRs_ctrl_module/DDR_pipe_read_D_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1' of type 'FIFO36E1' has been changed from 'VIRTEX6' to '7SERIES' to correct post-unisim transformation and timing simulation for this primitive.  In order for functional simulation to be correct, the value of SIM_DEVICE should be changed in this same manner in the source netlist or constraint file. For additional information on retargeting this primitive to 7SERIES, please see http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migration.pdf
+CRITICAL WARNING: [Netlist 29-64] The value of SIM_DEVICE on instance 'DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.sngfifo36e1' of type 'FIFO36E1' has been changed from 'VIRTEX6' to '7SERIES' to correct post-unisim transformation and timing simulation for this primitive.  In order for functional simulation to be correct, the value of SIM_DEVICE should be changed in this same manner in the source netlist or constraint file. For additional information on retargeting this primitive to 7SERIES, please see http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migration.pdf
+INFO: [Netlist 29-17] Analyzing 10625 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+Loading clock regions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/artix7/xc7a200t/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/artix7/xc7a200t/ClockBuffers.xml
+Loading clock placement rules from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/PinFunctions.xml...
+Loading package from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/artix7/xc7a200t/fbg676/Package.xml
+Loading io standards from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/artix7/drc.xml
+Parsing UCF File [/home/vladimir/ISEAC701/ipcore_dir/v7_mBuf_128x72.ncf]
+Finished Parsing UCF File [/home/vladimir/ISEAC701/ipcore_dir/v7_mBuf_128x72.ncf]
+Parsing UCF File [/home/vladimir/ISEAC701/ipcore_dir/v7_eb_fifo_counted_resized.ncf]
+Finished Parsing UCF File [/home/vladimir/ISEAC701/ipcore_dir/v7_eb_fifo_counted_resized.ncf]
+Parsing UCF File [/home/vladimir/ISEAC701/ipcore_dir/v7_sfifo_15x128.ncf]
+Finished Parsing UCF File [/home/vladimir/ISEAC701/ipcore_dir/v7_sfifo_15x128.ncf]
+Parsing UCF File [/home/vladimir/ISEAC701/ipcore_dir/fifomodule.ncf]
+Finished Parsing UCF File [/home/vladimir/ISEAC701/ipcore_dir/fifomodule.ncf]
+Parsing UCF File [/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_prime_fifo_plain.ncf]
+Finished Parsing UCF File [/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_prime_fifo_plain.ncf]
+Parsing UCF File [/home/vladimir/ISEAC701/.Xil/PlanAhead-25166-ubuntu/ngc2edif/v6pcieDMA_cs.xncf]
+Finished Parsing UCF File [/home/vladimir/ISEAC701/.Xil/PlanAhead-25166-ubuntu/ngc2edif/v6pcieDMA_cs.xncf]
+Parsing UCF File [/home/vladimir/ISEAC701/MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf]
+INFO: [Designutils 20-22] PART constraint ignored, using PlanAhead selected device [/home/vladimir/ISEAC701/MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf:58]
+Finished Parsing UCF File [/home/vladimir/ISEAC701/MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 10546 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+  FD => FDCE: 3530 instances
+  FDC => FDCE: 2151 instances
+  FDE => FDCE: 455 instances
+  FDP => FDPE: 1884 instances
+  FDR => FDRE: 1175 instances
+  FDS => FDSE: 46 instances
+  IBUFGDS => IBUFDS: 1 instances
+  LD => LDCE: 1 instances
+  LDC => LDCE: 1 instances
+  MUXCY_L => MUXCY: 478 instances
+  MUXF5 => LUT3: 2 instances
+  MUXF6 => LUT3: 1 instances
+  RAMB36 => RAMB36E1: 22 instances
+  SRL16 => SRL16E: 798 instances
+
+Phase 0 | Netlist Checksum: 2cfc7b56
+link_design: Time (s): cpu = 00:00:33 ; elapsed = 00:00:23 . Memory (MB): peak = 3094.691 ; gain = 427.598
+# read_xdl -file "/home/vladimir/ISEAC701/v6pcieDMA.ncd"
+Release 14.7 - xdl P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+WARNING:XDL:213 - The resulting xdl output will not have LUT equation strings or RAM INIT strings.
+Loading device for application Rf_Device from file '7a200t.nph' in environment /opt/Xilinx/14.7/ISE_DS/ISE/.
+   "v6pcieDMA" is an NCD, version 3.2, device xc7a200t, package fbg676, speed -2
+Successfully converted design '/home/vladimir/ISEAC701/v6pcieDMA.ncd' to '/home/vladimir/ISEAC701/v6pcieDMA.xdl'.
+INFO: [Designutils 20-669] Parsing Placement File : /home/vladimir/ISEAC701/v6pcieDMA.ncd
+INFO: [Designutils 20-658] Finished Parsing Placement File : /home/vladimir/ISEAC701/v6pcieDMA.ncd
+INFO: [Designutils 20-671] Placed 24470 instances
+read_xdl: Time (s): cpu = 00:00:37 ; elapsed = 00:00:29 . Memory (MB): peak = 3097.691 ; gain = 3.000
+# if {[catch {read_twx -name results_1 -file "/home/vladimir/ISEAC701/v6pcieDMA.twx"} eInfo]} {
+#    puts "WARNING: there was a problem importing \"/home/vladimir/ISEAC701/v6pcieDMA.twx\": $eInfo"
+# }
+report_drc -name drc_1
+INFO: [Drc 23-27] Running DRC with 4 threads
+set_property is_loc_fixed true [get_ports [list  real_soa_signal]]
+set_property is_loc_fixed true [get_ports [list  real_strobe_signal]]
+set_property iostandard LVCMOS25 [get_ports [list real_strobe_signal]]
+set_property iostandard LVCMOS25 [get_ports [list real_soa_signal]]
+startgroup
+set_property package_pin M4 [get_ports real_soa_signal]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports real_soa_signal]
+endgroup
+startgroup
+set_property package_pin L4 [get_ports real_strobe_signal]
+endgroup
+set_property is_loc_fixed false [get_ports [list  real_strobe_signal]]
+set_property is_loc_fixed false [get_ports [list  real_soa_signal]]
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Oct 14 12:33:30 2014...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Tue Oct 14 12:22:53 2014
+# Process ID: 25166
+# Log file: /home/vladimir/ISEAC701/planAhead_run_1/planAhead.log
+# Journal file: /home/vladimir/ISEAC701/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/vladimir/ISEAC701/pa.fromNcd.tcl
+report_drc -name drc_1
+set_property is_loc_fixed true [get_ports [list  real_soa_signal]]
+set_property is_loc_fixed true [get_ports [list  real_strobe_signal]]
+set_property iostandard LVCMOS25 [get_ports [list real_strobe_signal]]
+set_property iostandard LVCMOS25 [get_ports [list real_soa_signal]]
+startgroup
+set_property package_pin M4 [get_ports real_soa_signal]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports real_soa_signal]
+endgroup
+startgroup
+set_property package_pin L4 [get_ports real_strobe_signal]
+endgroup
+set_property is_loc_fixed false [get_ports [list  real_strobe_signal]]
+set_property is_loc_fixed false [get_ports [list  real_soa_signal]]
