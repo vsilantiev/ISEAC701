@@ -8,7 +8,259 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/DDR_Blinker.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/DMA_Calculate.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/DMA_FSM.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/MySource/Emul.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/FF_tagram64x36.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/FIFO_Wrapper.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/FIFO_Wrapper_Loopback.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/Interrupts.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/Registers.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/RxIn_Delays.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/Tx_Output_Arbitor.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/bram_DDRs_Control.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/bram_DDRs_Control_Loopback.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/rx_CplD_Channel.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/rx_MRd_Channel.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/rx_MWr_Channel.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/rx_Transact.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/rx_dsDMA_Channel.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/rx_usDMA_Channel.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/tlpControl.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/tx_Mem_Reader.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/tx_Transact.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/v6abb64Package_efifo_elink.vhd&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/MyUserLogic/UserLogic_00/PCIe_UserLogic_00.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ddrfifodatamodule.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/gtx_drp_chanalign_fix_3752_v6.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/gtx_drp_chanalign_fix_3752_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/gtx_rx_valid_filter_v6.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/gtx_rx_valid_filter_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/gtx_tx_sync_rate_v6.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/gtx_tx_sync_rate_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/gtx_wrapper_v6.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/gtx_wrapper_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_2_0_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_bram_top_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_bram_v6.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_bram_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_brams_v6.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_brams_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_clocking_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_gtx_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_pipe_lane_v6.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_pipe_lane_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_pipe_misc_v6.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_pipe_misc_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_pipe_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_reset_delay_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/pcie_upconfig_fix_3451_v6.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir_ISE13.3/v6_pcie_v1_7_x4/source/v6_pcie_v1_7_x4.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/pcie_axi_trn_bridge.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_axi_basic_rx.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_axi_basic_rx_null_gen.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_axi_basic_rx_pipeline.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_axi_basic_top.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_axi_basic_tx.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_axi_basic_tx_pipeline.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_axi_basic_tx_thrtl_ctl.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_gt_rx_valid_filter_7x.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_gt_top.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_gt_wrapper.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_gtp_pipe_drp.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_gtp_pipe_rate.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_gtp_pipe_reset.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_pcie_7x.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_pcie_bram_7x.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_pcie_bram_top_7x.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_pcie_brams_7x.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_pcie_pipe_lane.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_pcie_pipe_misc.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_pcie_pipe_pipeline.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/v7_pcie_pcie_top.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_pipe_clock.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_pipe_drp.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_pipe_eq.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_pipe_rate.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_pipe_reset.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_pipe_sync.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_pipe_user.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_pipe_wrapper.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_qpll_drp.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_qpll_reset.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_qpll_wrapper.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/vladimir/ISEAC701/v7_pcie_rxeq_scan.v&quot; into library work</arg>
 </msg>
 
 </messages>

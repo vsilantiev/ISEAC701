@@ -38,6 +38,7 @@ entity v6pcieDMA is
    constant pcieLanes            : integer     := 4; --C_NUM_PCIE_LANES
    PCIE_EXT_CLK                  : string :="FALSE";  -- Use External Clocking Module
    PL_FAST_TRAIN                 : string := "FALSE";
+	UPSTREAM_FACING					: string := "TRUE";
    C_DATA_WIDTH                  : integer range 64 to 128 := 64
   );
   port 
@@ -1733,7 +1734,9 @@ begin
   trn_tdst_rdy_n        <= not trn_tdst_rdy; -- c моста in tlp <= out bridge
 
 
+ -- trn_rnp_ok            <= not trn_rnp_ok_n;
   trn_rnp_ok            <= not trn_rnp_ok_n;
+  rx_np_ok					<= trn_rnp_ok;
 
  --  trn_rbar_hit_n        <= 	not trn_rbar_hit(7) & not trn_rbar_hit(6) &
  --                            not trn_rbar_hit(5) & not trn_rbar_hit(4) &
@@ -2273,7 +2276,9 @@ begin
 
   v7_pcie_i : v7_pcie  generic map(
           PL_FAST_TRAIN                         => PL_FAST_TRAIN,
-      PCIE_EXT_CLK                          => PCIE_EXT_CLK
+      PCIE_EXT_CLK                          => PCIE_EXT_CLK,
+		UPSTREAM_FACING => UPSTREAM_FACING
+		
       )
   port map(
   -------------------------------------------------------------------------------------------------------------------
@@ -2329,7 +2334,7 @@ begin
   m_axis_rx_tvalid                           => m_axis_rx_tvalid ,
   m_axis_rx_tready                           => m_axis_rx_tready ,
   m_axis_rx_tuser                            => m_axis_rx_tuser,
-  rx_np_ok                                   => trn_rnp_ok,--rx_np_ok ,
+  rx_np_ok                                   => rx_np_ok ,--trn_rnp_ok,--rx_np_ok ,
   rx_np_req                                  => rx_np_req ,
 
   -- Flow Control

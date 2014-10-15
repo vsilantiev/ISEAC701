@@ -28,7 +28,7 @@ NGCBUILD Design Results Summary:
 Total memory usage is 488728 kilobytes
 
 Writing NGC file "/home/vladimir/ISEAC701/v6pcieDMA_cs.ngc" ...
-Total REAL time to NGCBUILD completion:  5 sec
-Total CPU time to NGCBUILD completion:   5 sec
+Total REAL time to NGCBUILD completion:  4 sec
+Total CPU time to NGCBUILD completion:   4 sec
 
 Writing NGCBUILD log file "/home/vladimir/ISEAC701/v6pcieDMA_cs.blc"...
