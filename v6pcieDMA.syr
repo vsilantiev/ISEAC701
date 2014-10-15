@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Reading design: v6pcieDMA.prj
@@ -410,6 +410,7 @@ Back to vhdl to continue elaboration
 WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1636: Assignment to dma_host2board_busy ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1637: Assignment to dma_host2board_done ignored, since the identifier is never used
 WARNING:HDLCompiler:92 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1643: user_reset should be on the sensitivity list of the process
+WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1641: Assignment to s_axis_tx_tready_i ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1650: Assignment to user_reset_q ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1751: Assignment to cfg_pcie_link_state_n ignored, since the identifier is never used
 WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1806: Assignment to trn_tstr ignored, since the identifier is never used
@@ -861,9 +862,7 @@ WARNING:Xst:653 - Signal <cfg_pm_halt_aspm_l0s> is used but never assigned. This
 WARNING:Xst:653 - Signal <cfg_pm_halt_aspm_l1> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <cfg_pm_force_state_en> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <cfg_mgmt_wr_readonly> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-    Found 1-bit register for signal <s_axis_tx_tready_i>.
     Summary:
-	inferred   1 D-type flip-flop(s).
 Unit <v6pcieDMA> synthesized.
 
 Synthesizing Unit <ADC_emul>.
@@ -5514,8 +5513,8 @@ Macro Statistics
  64-bit subtractor                                     : 2
  8-bit adder                                           : 3
  8-bit subtractor                                      : 4
-# Registers                                            : 2115
- 1-bit register                                        : 1509
+# Registers                                            : 2114
+ 1-bit register                                        : 1508
  10-bit register                                       : 8
  11-bit register                                       : 1
  12-bit register                                       : 10
@@ -6729,8 +6728,8 @@ Macro Statistics
  8-bit up counter                                      : 2
 # Accumulators                                         : 1
  12-bit up accumulator                                 : 1
-# Registers                                            : 14124
- Flip-Flops                                            : 14124
+# Registers                                            : 14123
+ Flip-Flops                                            : 14123
 # Comparators                                          : 44
  10-bit comparator equal                               : 1
  10-bit comparator greater                             : 1
@@ -11284,8 +11283,8 @@ Unit <ad9467_1> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 8416
- Flip-Flops                                            : 8416
+# Registers                                            : 8415
+ Flip-Flops                                            : 8415
 # Shift Registers                                      : 20
  2-bit shift register                                  : 3
  3-bit shift register                                  : 17
@@ -11324,9 +11323,9 @@ Primitive and Black Box Usage:
 #      MUXF7                       : 95
 #      VCC                         : 53
 #      XORCY                       : 1319
-# FlipFlops/Latches                : 9262
+# FlipFlops/Latches                : 9261
 #      FD                          : 1933
-#      FDC                         : 2142
+#      FDC                         : 2141
 #      FDCE                        : 2743
 #      FDE                         : 391
 #      FDP                         : 283
@@ -11368,18 +11367,18 @@ Selected Device : 7a200tfbg676-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            9262  out of  269200     3%  
+ Number of Slice Registers:            9261  out of  269200     3%  
  Number of Slice LUTs:                10050  out of  134600     7%  
     Number used as Logic:              9645  out of  134600     7%  
     Number used as Memory:              405  out of  46200     0%  
        Number used as SRL:              405
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:  13476
-   Number with an unused Flip Flop:    4214  out of  13476    31%  
-   Number with an unused LUT:          3426  out of  13476    25%  
-   Number of fully used LUT-FF pairs:  5836  out of  13476    43%  
-   Number of unique control sets:       299
+ Number of LUT Flip Flop pairs used:  13475
+   Number with an unused Flip Flop:    4214  out of  13475    31%  
+   Number with an unused LUT:          3425  out of  13475    25%  
+   Number of fully used LUT-FF pairs:  5836  out of  13475    43%  
+   Number of unique control sets:       298
 
 IO Utilization: 
  Number of IOs:                          53
@@ -11412,7 +11411,7 @@ Clock Information:
 --------------------------------------------------------------------------------------------+----------------------------------------------------+-------+
 Clock Signal                                                                                | Clock buffer(FF name)                              | Load  |
 --------------------------------------------------------------------------------------------+----------------------------------------------------+-------+
-v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2                      | BUFG                                               | 6504  |
+v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2                      | BUFG                                               | 6503  |
 v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz                    | BUFGCTRL                                           | 2399  |
 v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1                      | BUFG                                               | 8     |
 adc_clk_in_p                                                                                | IBUFGDS+BUFG                                       | 862   |
@@ -11426,19 +11425,19 @@ INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered
 
 Asynchronous Control Signals Information:
 ----------------------------------------
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-Control Signal                                                                                                                                                                                                                                                                                                                                                      | Buffer(FF name)                                                                                                                                                                                                                    | Load  |
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/DBITERR(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/XST_GND:G)| NONE(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram)| 228   |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[3].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[3].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[3].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[0].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[0].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[0].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[1].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[1].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[1].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[2].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[2].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[2].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                                                                                                                                                                                                                                                                                                                                                      | Buffer(FF name)                                                                                                                                                                                                                     | Load  |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/DBITERR(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/XST_GND:G)| NONE(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[51].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram)| 228   |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[3].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[3].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[3].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[0].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[0].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[0].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[1].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[1].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[1].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[2].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[2].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[2].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 
 Timing Summary:
 ---------------
@@ -11456,7 +11455,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2'
   Clock period: 4.314ns (frequency: 231.828MHz)
-  Total number of paths / destination ports: 76811 / 16038
+  Total number of paths / destination ports: 76809 / 16036
 -------------------------------------------------------------------------
 Delay:               4.314ns (Levels of Logic = 10)
   Source:            v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/rx_pipeline_inst/m_axis_rx_tdata_xhdl0_0 (FF)
@@ -11884,15 +11883,15 @@ v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2|    4.314
 =========================================================================
 
 
-Total REAL time to Xst completion: 100.00 secs
-Total CPU time to Xst completion: 95.62 secs
+Total REAL time to Xst completion: 98.00 secs
+Total CPU time to Xst completion: 93.47 secs
  
 --> 
 
 
-Total memory usage is 673824 kilobytes
+Total memory usage is 673548 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings : 5175 (   0 filtered)
+Number of warnings : 5176 (   0 filtered)
 Number of infos    :  694 (   0 filtered)
 

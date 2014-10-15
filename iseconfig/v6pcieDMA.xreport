@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-10-15T13:51:25</DateModified>
+  <DateModified>2014-10-15T17:02:51</DateModified>
   <ModuleName>v6pcieDMA</ModuleName>
-  <SummaryTimeStamp>2014-10-15T13:01:13</SummaryTimeStamp>
+  <SummaryTimeStamp>2014-10-15T16:38:36</SummaryTimeStamp>
   <ImplementationReportsDirectory>/home/vladimir/ISEAC701/</ImplementationReportsDirectory>
   <DateInitialized>2014-10-10T10:59:44</DateInitialized>
   <SavedFilePath>/home/vladimir/ISEAC701/iseconfig/v6pcieDMA.xreport</SavedFilePath>
@@ -24,7 +24,7 @@
    <view inputState="Translated" program="map" locator="MAP_MODULE_HIERARCHY" contextTags="FPGA_ONLY" type="Module_Utilization" file="v6pcieDMA_map.xrpt" label="Module Level Utilization" />
    <view inputState="Mapped" program="par" locator="CONSTRAINT_TABLE" contextTags="FPGA_ONLY" type="ConstraintsData" file="v6pcieDMA.ptwx" showConstraints="0" label="Timing Constraints" translator="ptwxToTableXML.xslt" />
    <view inputState="Mapped" program="par" locator="PAR_PINOUT_BY_PIN_NUMBER" contextTags="FPGA_ONLY" type="PinoutData" file="v6pcieDMA_par.xrpt" label="Pinout Report" />
-   <view inputState="Mapped" program="par" locator="PAR_CLOCK_TABLE" contextTags="FPGA_ONLY" type="ClocksData" file="v6pcieDMA_par.xrpt" label="Clock Report" />
+   <view inputState="Mapped" program="par" locator="PAR_CLOCK_TABLE" contextTags="FPGA_ONLY" type="ClocksData" file="v6pcieDMA_par.xrpt" showConstraints="0" label="Clock Report" />
    <view inputState="Mapped" program="par" contextTags="FPGA_ONLY,EDK_OFF" type="Timing_Analyzer" file="v6pcieDMA.twx" label="Static Timing" />
    <view inputState="Translated" program="cpldfit" contextTags="CPLD_ONLY,EDK_OFF" hidden="true" type="EXTERNAL_HTML" file="v6pcieDMA_html/fit/report.htm" label="CPLD Fitter Report" />
    <view inputState="Fitted" program="taengine" contextTags="CPLD_ONLY,EDK_OFF" hidden="true" type="EXTERNAL_HTML" file="v6pcieDMA_html/tim/report.htm" label="CPLD Timing Report" />

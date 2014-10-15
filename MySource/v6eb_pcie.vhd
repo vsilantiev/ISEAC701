@@ -1693,7 +1693,7 @@ begin
   trn_reset_n_int1 <= not user_reset;
   trn_lnk_up_n_int1 <= not user_lnk_up;
   
-  
+  trn_clk <= user_clk;
   
 -- trn_rrem_n <= X"0F" when (trn_rrem_n_my(0) = '1') else 
  --                    X"00";
@@ -2311,7 +2311,7 @@ begin
   -- 3. AXI-S Interface                                                                                            --
   -------------------------------------------------------------------------------------------------------------------
   -- Common
-  user_clk_out                               => trn_clk ,
+  user_clk_out                               => user_clk ,
   user_reset_out                             => user_reset,
   user_lnk_up                                => user_lnk_up,
 
@@ -2551,8 +2551,8 @@ begin
 
     s_axis_tx_tdata        => s_axis_tx_tdata,
     s_axis_tx_tvalid       => s_axis_tx_tvalid,
-	 s_axis_tx_tready       => s_axis_tx_tready_i,
---	 s_axis_tx_tready 		=> s_axis_tx_tready,
+----	 s_axis_tx_tready       => s_axis_tx_tready_i,
+	 s_axis_tx_tready 		=> s_axis_tx_tready,
 	 s_axis_tx_tkeep        => s_axis_tx_tkeep,
     s_axis_tx_tlast        => s_axis_tx_tlast,
     s_axis_tx_tuser        => s_axis_tx_tuser,

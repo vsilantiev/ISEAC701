@@ -1946,28 +1946,28 @@
 <msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/np_counter&lt;0&gt;</arg>&apos; has no driver
 </msg>
 
-<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tkeep&lt;3&gt;</arg>&apos; has no driver
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tkeep&lt;3&gt;</arg>&apos; has no driver
 </msg>
 
-<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tkeep&lt;2&gt;</arg>&apos; has no driver
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tkeep&lt;2&gt;</arg>&apos; has no driver
 </msg>
 
-<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tkeep&lt;1&gt;</arg>&apos; has no driver
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tkeep&lt;1&gt;</arg>&apos; has no driver
 </msg>
 
-<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tkeep&lt;0&gt;</arg>&apos; has no driver
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tkeep&lt;0&gt;</arg>&apos; has no driver
 </msg>
 
 <msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_is_eof&lt;2&gt;</arg>&apos; has no driver
 </msg>
 
-<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_is_eof&lt;1&gt;</arg>&apos; has no driver
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_is_eof&lt;1&gt;</arg>&apos; has no driver
 </msg>
 
-<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_is_eof&lt;0&gt;</arg>&apos; has no driver
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_is_eof&lt;0&gt;</arg>&apos; has no driver
 </msg>
 
-<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tvalid</arg>&apos; has no driver
+<msg type="warning" file="NgdBuild" num="452" delta="new" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tvalid</arg>&apos; has no driver
 </msg>
 
 <msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">v7_pcie_i/pcie_top_i/pcie_pipe_pipeline_i/pipe_tx_reset_o</arg>&apos; has no driver
