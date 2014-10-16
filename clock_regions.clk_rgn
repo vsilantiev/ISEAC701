@@ -1,0 +1,193 @@
+Release 14.7 - reportgen P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Oct 16 14:17:10 2014
+
+SUMMARY
+-------
+There are 10 clock regions:
+
+Clock Reports by Clock Regions
+------------------------------
+
+Clock Region X0Y0:
+------------------
+Number of global clocks in this region: 0
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 0
+
+Summary of components used in this region:
+
+Number of       IOB33M:     1 used out of    24     4%
+
+Clock Region X1Y0:
+------------------
+Number of global clocks in this region: 0
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 0
+
+Summary of components used in this region:
+
+
+Clock Region X0Y1:
+------------------
+Number of global clocks in this region: 2
+List of global clocks in this region:
+   v7_pcie_i/user_clk2 driven by BUFGCTRL_X0Y3 
+   fifowr_clk driven by BUFGCTRL_X0Y30 
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 0
+
+Summary of components used in this region:
+
+Number of RAMBFIFO36E1:     1 used out of    50     2%
+Number of       SLICEL:     4 used out of  2800     1%
+Number of       SLICEM:     7 used out of  1400     1%
+
+Clock Region X1Y1:
+------------------
+Number of global clocks in this region: 0
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 0
+
+Summary of components used in this region:
+
+
+Clock Region X0Y2:
+------------------
+Number of global clocks in this region: 3
+List of global clocks in this region:
+   v7_pcie_i/user_clk2 driven by BUFGCTRL_X0Y3 
+   fifowr_clk driven by BUFGCTRL_X0Y30 
+   v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/refclk driven by BUFGCTRL_X0Y31 
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 1
+List of local clocks in this region:
+   v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/mmcm_fb driven by MMCME2_ADV_X0Y2 
+
+Summary of components used in this region:
+
+Number of       IOB33M:     2 used out of    24     8%
+Number of       IOB33S:     1 used out of    24     4%
+Number of   MMCME2_ADV:     1 used out of     1   100%
+Number of RAMBFIFO36E1:    30 used out of    50    60%
+Number of       SLICEL:   274 used out of  2200    12%
+Number of       SLICEM:   161 used out of  1400    11%
+
+Clock Region X1Y2:
+------------------
+Number of global clocks in this region: 2
+List of global clocks in this region:
+   v7_pcie_i/user_clk2 driven by BUFGCTRL_X0Y3 
+   fifowr_clk driven by BUFGCTRL_X0Y30 
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 0
+
+Summary of components used in this region:
+
+Number of RAMBFIFO36E1:     9 used out of    40    22%
+Number of       SLICEL:     5 used out of  2600     1%
+Number of       SLICEM:     4 used out of  1400     1%
+
+Clock Region X0Y3:
+------------------
+Number of global clocks in this region: 5
+List of global clocks in this region:
+   v7_pcie_i/user_clk2 driven by BUFGCTRL_X0Y3 
+   v7_pcie_i/gt_top_i/pipe_wrapper_i/clk_dclk driven by BUFGCTRL_X0Y1 
+   v7_pcie_i/gt_top_i/pipe_wrapper_i/clk_oobclk driven by BUFGCTRL_X0Y0 
+   fifowr_clk driven by BUFGCTRL_X0Y30 
+   delay_clk_BUFGP driven by BUFGCTRL_X0Y4 
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 1
+List of local clocks in this region:
+   pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived_G driven by SLICE_X36Y180 
+
+Summary of components used in this region:
+
+Number of       IOB33M:     2 used out of    24     8%
+Number of RAMBFIFO36E1:    17 used out of    50    34%
+Number of       SLICEL:  1121 used out of  2200    50%
+Number of       SLICEM:   822 used out of  1400    58%
+
+Clock Region X1Y3:
+------------------
+Number of global clocks in this region: 4
+List of global clocks in this region:
+   v7_pcie_i/user_clk2 driven by BUFGCTRL_X0Y3 
+   v7_pcie_i/gt_top_i/pipe_wrapper_i/clk_dclk driven by BUFGCTRL_X0Y1 
+   v7_pcie_i/gt_top_i/pipe_wrapper_i/clk_oobclk driven by BUFGCTRL_X0Y0 
+   fifowr_clk driven by BUFGCTRL_X0Y30 
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 0
+
+Summary of components used in this region:
+
+Number of RAMBFIFO36E1:     1 used out of    40     2%
+Number of       SLICEL:    28 used out of  2600     1%
+Number of       SLICEM:    19 used out of  1400     1%
+
+Clock Region X0Y4:
+------------------
+Number of global clocks in this region: 6
+List of global clocks in this region:
+   v7_pcie_i/user_clk2 driven by BUFGCTRL_X0Y3 
+   v7_pcie_i/gt_top_i/pipe_wrapper_i/clk_dclk driven by BUFGCTRL_X0Y1 
+   v7_pcie_i/gt_top_i/pipe_wrapper_i/clk_oobclk driven by BUFGCTRL_X0Y0 
+   fifowr_clk driven by BUFGCTRL_X0Y30 
+   delay_clk_BUFGP driven by BUFGCTRL_X0Y4 
+   v7_pcie_i/user_clk driven by BUFGCTRL_X0Y2 
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 6
+List of local clocks in this region:
+   v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_user_i/oobclk driven by SLICE_X79Y194 
+   v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_user_i/oobclk driven by SLICE_X79Y194 
+   v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i/oobclk driven by SLICE_X78Y194 
+   sys_clk_c driven by IBUFDS_GTE2_X0Y2 
+   v7_pcie_i/gt_top_i/pipe_wrapper_i/qpll_qplloutclk driven by GTPE2_COMMON_X0Y1 
+   v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i/oobclk driven by SLICE_X80Y194 
+
+Summary of components used in this region:
+
+Number of GTPE2_CHANNEL:     4 used out of     4   100%
+Number of GTPE2_COMMON:     1 used out of     1   100%
+Number of  IBUFDS_GTE2:     1 used out of     2    50%
+Number of   IDELAYCTRL:     1 used out of     1   100%
+Number of     IDELAYE2:     8 used out of    50    16%
+Number of     ILOGICE3:     8 used out of    50    16%
+Number of       IOB33M:     9 used out of    24    37%
+Number of       IOB33S:     9 used out of    24    37%
+Number of         IPAD:    10 used out of    12    83%
+Number of         OPAD:     8 used out of     8   100%
+Number of     PCIE_2_1:     1 used out of     1   100%
+Number of RAMBFIFO36E1:     8 used out of    25    32%
+
+Clock Region X1Y4:
+------------------
+Number of global clocks in this region: 0
+
+Number of regional clocks in this region: 0
+
+Number of local clocks in this region: 0
+
+Summary of components used in this region:
+
+

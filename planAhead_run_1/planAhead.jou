@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Thu Oct 16 14:01:31 2014
+# Process ID: 18352
+# Log file: /home/vladimir/ISEAC701/planAhead_run_1/planAhead.log
+# Journal file: /home/vladimir/ISEAC701/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/vladimir/ISEAC701/pa.fromNetlist.tcl

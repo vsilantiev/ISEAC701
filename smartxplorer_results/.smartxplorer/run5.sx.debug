@@ -1,0 +1,49 @@
+strategySpecString = ':oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsregister_duplication:spon:sp:dst:sp3:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:sp:clslhome:clslvladimir:clslISEAC701:sp:dsp:spxc7a200t:dsfbg676:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spv6pcieDMA.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp5:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapRegDup:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sq:slhome:slvladimir:slISEAC701:sq:cc'
+Xilinx Environment Variables:
+
+{'XILINX': '/opt/Xilinx/14.7/ISE_DS/ISE/'
+'PATH': '/opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/root/XILINX/u-boot-xlnx/tools:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64:/home/vladimir/PROJECT/MICROBLASE/linuxwrk_lnx/scripts/dtc:/opt/Xilinx/Vivado/2013.3/bin'
+'LD_LIBRARY_PATH': '/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64'}
+envDict = {}
+PATH = ['/opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/root/XILINX/u-boot-xlnx/tools', '/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64', '/home/vladimir/PROJECT/MICROBLASE/linuxwrk_lnx/scripts/dtc', '/opt/Xilinx/Vivado/2013.3/bin']
+Found xst at /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/xst.
+Found ngdbuild at /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/ngdbuild.
+Found map at /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/map.
+Found par at /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/par.
+Found trce at /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/trce.
+Found xpwr at /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/xpwr.
+Found bitgen at /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/bitgen.
+ubuntu_0.stat:/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/.sx.keepAlive.ubuntu_0
+INFO: total number of threads running this host 649
+...searching for file: mapregdup.xds
+Creating XDS file ... mapregdup.xds
+###################################
+
+      <property name = "Map:Placer Effort Level"
+               value = "High" />
+      <property name = "Map:Register Duplication"
+               value = "On" />
+      <property name = "Map:Starting Placer Cost Table (1-100)"
+               value = "3" />
+      <property name = "Place &amp; Route:Place &amp; Route Effort Level (Overall)"
+               value = "High" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Number of Paths in Error/Verbose Report"
+               value = "3" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Report Type"
+               value = "Verbose Report" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Change Device Speed To"
+               value = "-2" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Report Paths by Endpoint"
+               value = "3" />
+      <property name = "Generate Post-Place &amp; Route Static Timing:Report Fastest Path(s) in Each Constraint"
+               value = "true" />
+###################################
+launching map with options  -ol high -register_duplication on -t 3 -w  -p xc7a200t-fbg676-2 -o v6pcieDMA_map.ncd  :slhome:slvladimir:slISEAC701:slsmartxplorer_results:slrun5:slv6pcieDMA.pcf...
+runTask: map v6pcieDMA.ngd -ol high -register_duplication on -t 3 -w -p xc7a200t-fbg676-2 -o v6pcieDMA_map.ncd /home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA.pcf
+args = ['map', 'v6pcieDMA.ngd', '-ol', 'high', '-register_duplication', 'on', '-t', '3', '-w', '-p', 'xc7a200t-fbg676-2', '-o', 'v6pcieDMA_map.ncd', '/home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA.pcf']
+launching par with options  -ol high  -w v6pcieDMA.ncd  :slhome:slvladimir:slISEAC701:slsmartxplorer_results:slrun5:slv6pcieDMA.pcf...
+runTask: par v6pcieDMA_map.ncd -ol high -w v6pcieDMA.ncd /home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA.pcf
+args = ['par', 'v6pcieDMA_map.ncd', '-ol', 'high', '-w', 'v6pcieDMA.ncd', '/home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA.pcf']
+launching trce...
+runTask: trce /home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA.ncd /home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA.pcf -xml /home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA.twx -v 3 -s 2 -n 3 -fastpaths -o /home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA.twr
+args = ['trce', '/home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA.ncd', '/home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA.pcf', '-xml', '/home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA.twx', '-v', '3', '-s', '2', '-n', '3', '-fastpaths', '-o', '/home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA.twr']

@@ -1,0 +1,202 @@
+
+<smartXplorerReport>
+    <command>smartxplorer -p xc7a200t-fbg676-2 -b -wd smartxplorer_results v6pcieDMA.ngd -to "-v 3 -s 2 -n 3 -fastpaths -xml v6pcieDMA.twx " -max_runs 7
+    </command>
+    <programStatus>Done
+    </programStatus>
+    <programPID>6880
+    </programPID>
+    
+    <strategy name="MapRunTime">
+        <strategyData>map  -ol high -w ; par  -ol high 
+        </strategyData>
+        <xdsFile>mapruntime.xds
+        </xdsFile>
+        <host name="ubuntu">
+            <hostData>Linux, x86_64, 4-processor, 12G RAM
+            </hostData>
+        </host>
+        <runIndex>run1
+        </runIndex>
+        <status>Done
+        </status>
+        <logFile>v6pcieDMA_sx.log
+        </logFile>
+        <timingScore>21478
+        </timingScore>
+        <WorstCaseSlack>-1.590ns
+        </WorstCaseSlack>
+        <Luts>9,983 (7%)
+	</Luts>
+	<SliceRegisters>11,715 (4%)
+	</SliceRegisters>
+	<runTime>0h 19m 35s
+        </runTime>
+    </strategy>
+    <strategy name="MapLogicOpt">
+        <strategyData>map  -ol high -xe n -logic_opt on -t 2 -w ; par  -ol high -xe n 
+        </strategyData>
+        <xdsFile>maplogicopt.xds
+        </xdsFile>
+        <host name="ubuntu">
+            <hostData>Linux, x86_64, 4-processor, 12G RAM
+            </hostData>
+        </host>
+        <runIndex>run2
+        </runIndex>
+        <status>Done
+        </status>
+        <logFile>v6pcieDMA_sx.log
+        </logFile>
+        <timingScore>25187
+        </timingScore>
+        <WorstCaseSlack>-1.284ns
+        </WorstCaseSlack>
+        <Luts>10,116 (7%)
+	</Luts>
+	<SliceRegisters>11,715 (4%)
+	</SliceRegisters>
+	<runTime>0h 19m 55s
+        </runTime>
+    </strategy>
+    <strategy name="MapTimingExtraEffort">
+        <strategyData>map  -ol high -xe n -t 3 -w ; par  -ol high 
+        </strategyData>
+        <xdsFile>maptimingextraeffort.xds
+        </xdsFile>
+        <host name="ubuntu">
+            <hostData>Linux, x86_64, 4-processor, 12G RAM
+            </hostData>
+        </host>
+        <runIndex>run3
+        </runIndex>
+        <status>Done
+        </status>
+        <logFile>v6pcieDMA_sx.log
+        </logFile>
+        <timingScore>12355
+        </timingScore>
+        <WorstCaseSlack>-1.005ns
+        </WorstCaseSlack>
+        <Luts>10,186 (7%)
+	</Luts>
+	<SliceRegisters>11,715 (4%)
+	</SliceRegisters>
+	<runTime>0h 15m 0s
+        </runTime>
+    </strategy>
+    <strategy name="MapLogicOptRegDup">
+        <strategyData>map  -ol high -xe n -logic_opt on -register_duplication on -t 2 -w ; par  -ol high -xe n 
+        </strategyData>
+        <xdsFile>maplogicoptregdup.xds
+        </xdsFile>
+        <host name="ubuntu">
+            <hostData>Linux, x86_64, 4-processor, 12G RAM
+            </hostData>
+        </host>
+        <runIndex>run4
+        </runIndex>
+        <status>Done
+        </status>
+        <logFile>v6pcieDMA_sx.log
+        </logFile>
+        <timingScore>24896
+        </timingScore>
+        <WorstCaseSlack>-1.201ns
+        </WorstCaseSlack>
+        <Luts>10,119 (7%)
+	</Luts>
+	<SliceRegisters>11,743 (4%)
+	</SliceRegisters>
+	<runTime>0h 18m 40s
+        </runTime>
+    </strategy>
+    <strategy name="MapRegDup">
+        <strategyData>map  -ol high -register_duplication on -t 3 -w ; par  -ol high 
+        </strategyData>
+        <xdsFile>mapregdup.xds
+        </xdsFile>
+        <host name="ubuntu">
+            <hostData>Linux, x86_64, 4-processor, 12G RAM
+            </hostData>
+        </host>
+        <runIndex>run5
+        </runIndex>
+        <status>Done
+        </status>
+        <logFile>v6pcieDMA_sx.log
+        </logFile>
+        <timingScore>16751
+        </timingScore>
+        <WorstCaseSlack>-0.977ns
+        </WorstCaseSlack>
+        <Luts>10,200 (7%)
+	</Luts>
+	<SliceRegisters>11,715 (4%)
+	</SliceRegisters>
+	<runTime>0h 15m 5s
+        </runTime>
+    </strategy>
+    <strategy name="MapLogicOptIOReg">
+        <strategyData>map  -ol high -logic_opt on -pr b -w  ; par  -ol high -xe c 
+        </strategyData>
+        <xdsFile>maplogicoptioreg.xds
+        </xdsFile>
+        <host name="ubuntu">
+            <hostData>Linux, x86_64, 4-processor, 12G RAM
+            </hostData>
+        </host>
+        <runIndex>run6
+        </runIndex>
+        <status>Done
+        </status>
+        <logFile>v6pcieDMA_sx.log
+        </logFile>
+        <timingScore>15872
+        </timingScore>
+        <WorstCaseSlack>-0.809ns
+        </WorstCaseSlack>
+        <Luts>10,270 (7%)
+	</Luts>
+	<SliceRegisters>11,711 (4%)
+	</SliceRegisters>
+	<runTime>0h 15m 35s
+        </runTime>
+    </strategy>
+    <strategy name="MapLogicOptRegDupIOReg">
+        <strategyData>map  -ol high -logic_opt on -register_duplication on -pr b -w ; par  -ol high -xe c 
+        </strategyData>
+        <xdsFile>maplogicoptregdupioreg.xds
+        </xdsFile>
+        <host name="ubuntu">
+            <hostData>Linux, x86_64, 4-processor, 12G RAM
+            </hostData>
+        </host>
+        <runIndex>run7
+        </runIndex>
+        <status>Done
+        </status>
+        <logFile>v6pcieDMA_sx.log
+        </logFile>
+        <timingScore>15063
+        </timingScore>
+        <WorstCaseSlack>-0.621ns
+        </WorstCaseSlack>
+        <Luts>10,271 (7%)
+	</Luts>
+	<SliceRegisters>11,712 (4%)
+	</SliceRegisters>
+	<runTime>0h 15m 10s
+        </runTime>
+    </strategy>
+    <bestStrategy>MapTimingExtraEffort
+    </bestStrategy>
+    <envVariables>
+        <env name="PATH"  value="/opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/root/XILINX/u-boot-xlnx/tools:/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64:/home/vladimir/PROJECT/MICROBLASE/linuxwrk_lnx/scripts/dtc:/opt/Xilinx/Vivado/2013.3/bin"/>
+        <env name="LD_LIBRARY_PATH"  value="/opt/Xilinx/14.7/ISE_DS/ISE//lib/lin64"/>
+        <env name="XILINX"  value="/opt/Xilinx/14.7/ISE_DS/ISE/"/>
+        
+    </envVariables>
+    <copyResult>MapTimingExtraEffort
+    </copyResult>
+</smartXplorerReport>

@@ -1,0 +1,123 @@
+----------------------------------------------------------------------
+FPGA SmartXplorer (tm) Version 14.7
+
+----------------------------------------------------------------------
+ Strategy : MapRunTime
+----------------------------------------------------------------------
+ Run index                           : run1
+ Map options                         : -ol high -w 
+ Par options                         : -ol high 
+ Number of Luts                      : 9,983 (7%)
+ Number of Slice Registers           : 11,715 (4%)
+ Status                              : Done
+ Achieved Timing Score               : 21478
+ Worst Case Slack                : -1.590ns
+
+ Current Best (Lowest) Timing Score  : 21478
+ Current Best Strategy               : MapRunTime
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+ Strategy : MapLogicOpt
+----------------------------------------------------------------------
+ Run index                           : run2
+ Map options                         : -ol high -xe n -logic_opt on -t 2 -w 
+ Par options                         : -ol high -xe n 
+ Number of Luts                      : 10,116 (7%)
+ Number of Slice Registers           : 11,715 (4%)
+ Status                              : Done
+ Achieved Timing Score               : 25187
+ Worst Case Slack                : -1.284ns
+
+ Current Best (Lowest) Timing Score  : 21478
+ Current Best Strategy               : MapRunTime
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+ Strategy : MapTimingExtraEffort
+----------------------------------------------------------------------
+ Run index                           : run3
+ Map options                         : -ol high -xe n -t 3 -w 
+ Par options                         : -ol high 
+ Number of Luts                      : 10,186 (7%)
+ Number of Slice Registers           : 11,715 (4%)
+ Status                              : Done
+ Achieved Timing Score               : 12355
+ Worst Case Slack                : -1.005ns
+
+ Current Best (Lowest) Timing Score  : 12355
+ Current Best Strategy               : MapTimingExtraEffort
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+ Strategy : MapLogicOptRegDup
+----------------------------------------------------------------------
+ Run index                           : run4
+ Map options                         : -ol high -xe n -logic_opt on -register_duplication on -t 2 -w 
+ Par options                         : -ol high -xe n 
+ Number of Luts                      : 10,119 (7%)
+ Number of Slice Registers           : 11,743 (4%)
+ Status                              : Done
+ Achieved Timing Score               : 24896
+ Worst Case Slack                : -1.201ns
+
+ Current Best (Lowest) Timing Score  : 12355
+ Current Best Strategy               : MapTimingExtraEffort
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+ Strategy : MapRegDup
+----------------------------------------------------------------------
+ Run index                           : run5
+ Map options                         : -ol high -register_duplication on -t 3 -w 
+ Par options                         : -ol high 
+ Number of Luts                      : 10,200 (7%)
+ Number of Slice Registers           : 11,715 (4%)
+ Status                              : Done
+ Achieved Timing Score               : 16751
+ Worst Case Slack                : -0.977ns
+
+ Current Best (Lowest) Timing Score  : 12355
+ Current Best Strategy               : MapTimingExtraEffort
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+ Strategy : MapLogicOptIOReg
+----------------------------------------------------------------------
+ Run index                           : run6
+ Map options                         : -ol high -logic_opt on -pr b -w  
+ Par options                         : -ol high -xe c 
+ Number of Luts                      : 10,270 (7%)
+ Number of Slice Registers           : 11,711 (4%)
+ Status                              : Done
+ Achieved Timing Score               : 15872
+ Worst Case Slack                : -0.809ns
+
+ Current Best (Lowest) Timing Score  : 12355
+ Current Best Strategy               : MapTimingExtraEffort
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+ Strategy : MapLogicOptRegDupIOReg
+----------------------------------------------------------------------
+ Run index                           : run7
+ Map options                         : -ol high -logic_opt on -register_duplication on -pr b -w 
+ Par options                         : -ol high -xe c 
+ Number of Luts                      : 10,271 (7%)
+ Number of Slice Registers           : 11,712 (4%)
+ Status                              : Done
+ Achieved Timing Score               : 15063
+ Worst Case Slack                : -0.621ns
+
+ Current Best (Lowest) Timing Score  : 12355
+ Current Best Strategy               : MapTimingExtraEffort
+----------------------------------------------------------------------
+######################################################################
+ BestStrategy : MapTimingExtraEffort
+######################################################################
+ Run index                           : run3
+ Map options                         : -ol high -xe n -t 3 -w 
+ Par options                         : -ol high 
+ Number of Luts                      : 10,186 (7%)
+ Number of Slice Registers           : 11,715 (4%)
+ Achieved Timing Score               : 12355
+ Worst Case Slack                : -1.005ns
+
+######################################################################
+
+Total Real Time:7246.4(secs)
+SmartXplorer Done

@@ -1,0 +1,78 @@
+Release 14.7 Physical Synthesis Report P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc. All rights reserved.
+
+TABLE OF CONTENTS
+  1) Physical Synthesis Options Summary
+  2) Optimizations statistics and details
+
+
+=========================================================================
+*                 Physical Synthesis Options Summary                    *
+=========================================================================
+---- Options
+Global Optimization                 : OFF
+    Retiming                        : OFF
+    Equivalent Register Removal     : OFF
+Timing-Driven Packing and Placement : ON
+    Logic Optimization              : ON
+    Register Duplication            : ON
+
+---- Intelligent clock gating       : OFF
+
+---- Target Parameters
+Target Device                       : 7a200tfbg676-2
+
+=========================================================================
+
+
+=========================================================================
+*                        Optimizations                                  *
+=========================================================================
+---- Statistics
+   Number of registers added by Replication                  | 28              
+   Number of LUTs added by Replication                       | 6               
+
+   Overall change in number of design objects                | +34              
+
+
+---- Details
+
+New or modified components                             | Optimization             | Objective           
+-------------------------------------------------------|--------------------------|----------------------
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<0>_REPLICA_10| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<0>_REPLICA_11| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<0>_REPLICA_12| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<0>_REPLICA_13| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<0>_REPLICA_14| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<0>_REPLICA_15| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<0>_REPLICA_16| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<0>_REPLICA_17| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<0>_REPLICA_18| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<0>_REPLICA_6| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<0>_REPLICA_7| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<0>_REPLICA_8| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<0>_REPLICA_9| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_19| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_20| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_21| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_22| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_23| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_24| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_25| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_26| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_27| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_28| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_29| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_30| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_31| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_32| Replication              | Fanout Optimization
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>_REPLICA_33| Replication              | Fanout Optimization
+theTlpControl/rx_Itf/CplD_Channel/trn_reset_n_inv_REPLICA_0| Replication              | Fanout Optimization
+theTlpControl/rx_Itf/CplD_Channel/trn_reset_n_inv_REPLICA_1| Replication              | Fanout Optimization
+theTlpControl/rx_Itf/CplD_Channel/trn_reset_n_inv_REPLICA_2| Replication              | Fanout Optimization
+theTlpControl/rx_Itf/CplD_Channel/trn_reset_n_inv_REPLICA_3| Replication              | Fanout Optimization
+theTlpControl/rx_Itf/CplD_Channel/trn_reset_n_inv_REPLICA_4| Replication              | Fanout Optimization
+theTlpControl/rx_Itf/CplD_Channel/trn_reset_n_inv_REPLICA_5| Replication              | Fanout Optimization
+
+   Flops added for Enable Generation                       
+-------------------------

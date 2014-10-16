@@ -1,0 +1,117 @@
+#-------------------------------------------------------------------------------
+# Clock Net Topology
+# Design: /home/vladimir/v7pcieDMA/v7pcieDMA.ncd
+# Physical Constraints File: /home/vladimir/v7pcieDMA/v7pcieDMA.pcf
+# Generated: Thu Oct 16 13:48:37 2014
+# Release 14.7 Timing Analyzer
+#-------------------------------------------------------------------------------
+
+
+5 clock inputs:
+  adc_clk_in_n
+  adc_clk_in_p
+  delay_clk
+  sys_clk_n
+  sys_clk_p
+
+
+16 leaf clock nets:
+  delay_clk_BUFGP
+  fifowr_clk
+  pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived_G
+  sys_clk_c
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/clk_dclk
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/clk_oobclk
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_250mhz
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/mmcm_fb
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_user_i/oobclk
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_user_i/oobclk
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i/oobclk
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i/oobclk
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/qpll_qplloutclk
+  v7_pcie_i/user_clk
+  v7_pcie_i/user_clk2
+**Leaf clock nets are the lowest level networks in the clock network topology.
+
+5 primary input clock nets:
+  ad9467_1/clk_buf
+  ad9467_1/i_clk_ibuf/SLAVEBUF.DIFFIN
+  delay_clk_BUFGP/IBUFG
+  sys_clk_n_IBUF
+  sys_clk_p_IBUF
+**Primary input clock nets are the clock networks directly driven by clock inputs/pads.
+
+16 non-primary input clock nets:
+  pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived
+  s_axis_tx_tready_i
+  trn_teof_n
+  trn_tsof_n
+  trn_tsrc_rdy_n
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_250mhz
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/mmcm_fb
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_user_i/oobclk
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_user_i/oobclk
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i/oobclk
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i/oobclk
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/qpll_qplloutclk
+  v7_pcie_i/PIPE_TXOUTCLK_OUT
+**Non-primary input clock nets are driverless top level clock networks in the clock network topology.
+
+30 clock nets in total.
+
+Clock Network Topology:
+--------------------------------------------------------------------------------
+
+  sys_clk_n_IBUF [Input: sys_clk_n]
+    sys_clk_c 
+
+  sys_clk_p_IBUF [Input: sys_clk_p]
+    sys_clk_c 
+
+  ad9467_1/i_clk_ibuf/SLAVEBUF.DIFFIN [Input: adc_clk_in_n]
+    ad9467_1/clk_buf [Input: adc_clk_in_p]
+      fifowr_clk 
+
+  delay_clk_BUFGP/IBUFG [Input: delay_clk]
+    delay_clk_BUFGP 
+
+  s_axis_tx_tready_i 
+    pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived_G 
+
+  trn_tsrc_rdy_n 
+    pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived_G 
+
+  trn_teof_n 
+    pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived_G 
+
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_user_i/oobclk 
+
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_user_i/oobclk 
+
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i/oobclk 
+
+  pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived 
+    pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived_G 
+
+  trn_tsof_n 
+    pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived_G 
+
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/qpll_qplloutclk 
+
+  v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i/oobclk 
+
+  v7_pcie_i/PIPE_TXOUTCLK_OUT 
+    v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/refclk 
+      v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/mmcm_fb (Transformed) 
+      v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz (Transformed) 
+        v7_pcie_i/gt_top_i/pipe_wrapper_i/clk_dclk 
+        v7_pcie_i/gt_top_i/pipe_wrapper_i/clk_oobclk 
+      v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_250mhz (Transformed) 
+      v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1 (Transformed) 
+        v7_pcie_i/user_clk 
+      v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2 (Transformed) 
+        v7_pcie_i/user_clk2 

@@ -1,7 +1,7 @@
 
 # PlanAhead Launch Script for Post-Synthesis floorplanning, created by Project Navigator
 
-create_project -name v6pcie -dir "/home/vladimir/ISEAC701/planAhead_run_2" -part xc7a200tfbg676-2
+create_project -name v6pcie -dir "/home/vladimir/ISEAC701/planAhead_run_1" -part xc7a200tfbg676-2
 set_property design_mode GateLvl [get_property srcset [current_run -impl]]
 set_property edif_top_file "/home/vladimir/ISEAC701/v6pcieDMA_cs.ngc" [ get_property srcset [ current_run ] ]
 add_files -norecurse { {/home/vladimir/ISEAC701} {MyUserLogic/UserLogic_00} {ipcore_dir} {ipcore_dir_ISE13.3} }
