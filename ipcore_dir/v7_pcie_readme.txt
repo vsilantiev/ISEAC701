@@ -1,5 +1,5 @@
 The following files were generated for 'v7_pcie' in directory
-/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/ipcore_dir/
+/home/vladimir/ISEAC701/ipcore_dir/
 
 Generate XCO file:
    CORE Generator input file containing the parameters used to generate a core.
@@ -24,8 +24,8 @@ Generate EJava outputs:
    * v7_pcie/example_design/pcie_app_7x.vhd
    * v7_pcie/example_design/v7_pcie_fast_cfg_init_cntr.vhd
    * v7_pcie/example_design/xilinx_pcie_2_1_ep_7x.vhd
-   * v7_pcie/example_design/xilinx_pcie_2_1_ep_7x_04_lane_gen2_xc7a200t-fbg676-2-PCIE_X0Y0.ucf
-   * v7_pcie/example_design/xilinx_pcie_2_1_ep_7x_04_lane_gen2_xc7a200t-fbg676-2-PCIE_X0Y0.xdc
+   * v7_pcie/example_design/xilinx_pcie_2_1_ep_7x_04_lane_gen1_xc7a200t-fbg676-2_AC701.ucf
+   * v7_pcie/example_design/xilinx_pcie_2_1_ep_7x_04_lane_gen1_xc7a200t-fbg676-2_AC701.xdc
    * v7_pcie/hierarchy.txt
    * v7_pcie/implement/implement.bat
    * v7_pcie/implement/implement.sh

@@ -3,7 +3,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
 ise -dd _ngo -sd MyUserLogic/UserLogic_00 -sd ipcore_dir -sd ipcore_dir_ISE13.3
--nt timestamp -uc MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf -p xc7a200t-fbg676-2
+-nt timestamp -uc ABB3_pcie_4_lane_Emu_FIFO_elink.ucf -p xc7a200t-fbg676-2
 v6pcieDMA_cs.ngc v6pcieDMA.ngd
 
 Reading NGO file "/home/vladimir/ISEAC701/v6pcieDMA_cs.ngc" ...
@@ -11,7 +11,7 @@ Gathering constraint information from source properties...
 Done.
 
 Annotating constraints to design from ucf file
-"MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf" ...
+"ABB3_pcie_4_lane_Emu_FIFO_elink.ucf" ...
 WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
    'DDRs_ctrl_module/DDR_pipe_read_D_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbi
    v5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.s
@@ -35,27 +35,27 @@ WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
 Resolving constraint associations...
 Checking Constraint Associations...
 WARNING:ConstraintSystem:119 - Constraint <NET "userclk_66MHz" IOSTANDARD =
-   LVCMOS18;> [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(301)]: This constraint
-   cannot be distributed from the design objects matching 'NET "userclk_66MHz"'
-   because those design objects do not contain or drive any instances of the
-   correct type.
+   LVCMOS18;> [ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(301)]: This constraint cannot
+   be distributed from the design objects matching 'NET "userclk_66MHz"' because
+   those design objects do not contain or drive any instances of the correct
+   type.
 
 WARNING:ConstraintSystem:119 - Constraint <NET "LEDs_IO_pin[7]" IOSTANDARD =
-   LVCMOS18;> [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(302)]: This constraint
-   cannot be distributed from the design objects matching 'NET "LEDs_IO_pin[7]"'
+   LVCMOS18;> [ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(302)]: This constraint cannot
+   be distributed from the design objects matching 'NET "LEDs_IO_pin[7]"'
    because those design objects do not contain or drive any instances of the
    correct type.
 
 WARNING:ConstraintSystem:119 - Constraint <NET "LEDs_IO_pin[5]" IOSTANDARD =
-   LVCMOS18;> [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(304)]: This constraint
-   cannot be distributed from the design objects matching 'NET "LEDs_IO_pin[5]"'
+   LVCMOS18;> [ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(304)]: This constraint cannot
+   be distributed from the design objects matching 'NET "LEDs_IO_pin[5]"'
    because those design objects do not contain or drive any instances of the
    correct type.
 
 INFO:ConstraintSystem - The Period constraint <NET "userclk_200MHz_p" PERIOD =
-   200 MHz HIGH 50 %;> [MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(222)], is
-   specified using the Net Period method which is not recommended. Please use
-   the Timespec PERIOD method.
+   200 MHz HIGH 50 %;> [ABB3_pcie_4_lane_Emu_FIFO_elink.ucf(222)], is specified
+   using the Net Period method which is not recommended. Please use the Timespec
+   PERIOD method.
 
 Done...
 
@@ -2230,10 +2230,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings: 1453
 
-Total memory usage is 654788 kilobytes
+Total memory usage is 653872 kilobytes
 
 Writing NGD file "v6pcieDMA.ngd" ...
-Total REAL time to NGDBUILD completion:  52 sec
-Total CPU time to NGDBUILD completion:   51 sec
+Total REAL time to NGDBUILD completion:  57 sec
+Total CPU time to NGDBUILD completion:   57 sec
 
 Writing NGDBUILD log file "v6pcieDMA.bld"...

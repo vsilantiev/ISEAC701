@@ -71,7 +71,7 @@ entity v7_pcie is
     CFG_SUBSYS_VEND_ID                             : std_logic_vector := X"0084";
     CFG_SUBSYS_ID                                  : std_logic_vector := X"ABB3";
     ALLOW_X8_GEN2                                  : string     := "FALSE";
-    PIPE_PIPELINE_STAGES                           : integer    := 1;
+    PIPE_PIPELINE_STAGES                           : integer    := 0;
     AER_BASE_PTR                                   : bit_vector := X"000";
     AER_CAP_ECRC_CHECK_CAPABLE                     : string     := "FALSE";
     AER_CAP_ECRC_GEN_CAPABLE                       : string     := "FALSE";
@@ -128,14 +128,14 @@ entity v7_pcie is
     LINK_CAP_ASPM_OPTIONALITY                      : string     := "FALSE";
     LINK_CAP_DLL_LINK_ACTIVE_REPORTING_CAP         : string     := "FALSE";
     LINK_CAP_LINK_BANDWIDTH_NOTIFICATION_CAP       : string     := "FALSE";
-    LINK_CAP_MAX_LINK_SPEED                        : bit_vector := X"2";
-    LINK_CAP_MAX_LINK_SPEED_int                    : integer    := 2;
+    LINK_CAP_MAX_LINK_SPEED                        : bit_vector := X"1";
+    LINK_CAP_MAX_LINK_SPEED_int                    : integer    := 1;
     LINK_CAP_MAX_LINK_WIDTH                        : bit_vector := X"04";
     LINK_CAP_MAX_LINK_WIDTH_int                    : integer    := 4;
 
     LINK_CTRL2_DEEMPHASIS                          : string     := "FALSE";
     LINK_CTRL2_HW_AUTONOMOUS_SPEED_DISABLE         : string     := "FALSE";
-    LINK_CTRL2_TARGET_LINK_SPEED                   : bit_vector := X"2";
+    LINK_CTRL2_TARGET_LINK_SPEED                   : bit_vector := X"0";
     LINK_STATUS_SLOT_CLOCK_CONFIG                  : string     := "FALSE";
 
     LL_ACK_TIMEOUT                                 : bit_vector := X"0000";
@@ -229,7 +229,7 @@ entity v7_pcie is
     UR_ATOMIC                                      : string     := "FALSE";
     UR_INV_REQ                                     : string     := "FALSE";
     UR_PRS_RESPONSE                                : string     := "FALSE";
-    USER_CLK_FREQ                                  : integer    := 3;
+    USER_CLK_FREQ                                  : integer    := 2;
     USER_CLK2_DIV2                                 : string     := "FALSE";
 
     VC_BASE_PTR                                    : bit_vector := X"000";
@@ -658,7 +658,7 @@ end v7_pcie;
 
    attribute CORE_GENERATION_INFO : string;
    attribute CORE_GENERATION_INFO of pcie_7x : ARCHITECTURE is
-     "v7_pcie,pcie_7x_v1_11,{LINK_CAP_MAX_LINK_SPEED=2,LINK_CAP_MAX_LINK_WIDTH=04,PCIE_CAP_DEVICE_PORT_TYPE=0000,DEV_CAP_MAX_PAYLOAD_SUPPORTED=2,USER_CLK_FREQ=3,REF_CLK_FREQ=0,MSI_CAP_ON=TRUE,MSI_CAP_MULTIMSGCAP=0,MSI_CAP_MULTIMSG_EXTENSION=0,MSIX_CAP_ON=FALSE,TL_TX_RAM_RADDR_LATENCY=0,TL_TX_RAM_RDATA_LATENCY=2,TL_RX_RAM_RADDR_LATENCY=0,TL_RX_RAM_RDATA_LATENCY=2,TL_RX_RAM_WRITE_LATENCY=0,VC0_TX_LASTPACKET=29,VC0_RX_RAM_LIMIT=7FF,VC0_TOTAL_CREDITS_PH=32,VC0_TOTAL_CREDITS_PD=437,VC0_TOTAL_CREDITS_NPH=12,VC0_TOTAL_CREDITS_NPD=24,VC0_TOTAL_CREDITS_CH=36,VC0_TOTAL_CREDITS_CD=461,VC0_CPL_INFINITE=TRUE,DEV_CAP_PHANTOM_FUNCTIONS_SUPPORT=0,DEV_CAP_EXT_TAG_SUPPORTED=FALSE,LINK_STATUS_SLOT_CLOCK_CONFIG=FALSE,ENABLE_RX_TD_ECRC_TRIM=DISABLE_LANE_REVERSAL=TRUE,DISABLE_SCRAMBLING=FALSE,DSN_CAP_ON=TRUE,REVISION_ID=06,VC_CAP_ON=FALSE}";
+     "v7_pcie,pcie_7x_v1_11,{LINK_CAP_MAX_LINK_SPEED=1,LINK_CAP_MAX_LINK_WIDTH=04,PCIE_CAP_DEVICE_PORT_TYPE=0000,DEV_CAP_MAX_PAYLOAD_SUPPORTED=2,USER_CLK_FREQ=2,REF_CLK_FREQ=0,MSI_CAP_ON=TRUE,MSI_CAP_MULTIMSGCAP=0,MSI_CAP_MULTIMSG_EXTENSION=0,MSIX_CAP_ON=FALSE,TL_TX_RAM_RADDR_LATENCY=0,TL_TX_RAM_RDATA_LATENCY=2,TL_RX_RAM_RADDR_LATENCY=0,TL_RX_RAM_RDATA_LATENCY=2,TL_RX_RAM_WRITE_LATENCY=0,VC0_TX_LASTPACKET=29,VC0_RX_RAM_LIMIT=7FF,VC0_TOTAL_CREDITS_PH=32,VC0_TOTAL_CREDITS_PD=437,VC0_TOTAL_CREDITS_NPH=12,VC0_TOTAL_CREDITS_NPD=24,VC0_TOTAL_CREDITS_CH=36,VC0_TOTAL_CREDITS_CD=461,VC0_CPL_INFINITE=TRUE,DEV_CAP_PHANTOM_FUNCTIONS_SUPPORT=0,DEV_CAP_EXT_TAG_SUPPORTED=FALSE,LINK_STATUS_SLOT_CLOCK_CONFIG=FALSE,ENABLE_RX_TD_ECRC_TRIM=DISABLE_LANE_REVERSAL=TRUE,DISABLE_SCRAMBLING=FALSE,DSN_CAP_ON=TRUE,REVISION_ID=06,VC_CAP_ON=FALSE}";
     component v7_pcie_pcie_top is
       generic (
         C_DATA_WIDTH                                   : INTEGER range 32 to 128 := 64;

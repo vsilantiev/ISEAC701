@@ -245,10 +245,10 @@ generic map (
       LINK_CAP_MAX_LINK_WIDTH => X"04",
       LINK_CAP_MAX_LINK_WIDTH_int => 4,
       DEVICE_ID => X"6024",
-      LINK_CAP_MAX_LINK_SPEED => X"2",
-      LINK_CAP_MAX_LINK_SPEED_int => 2,
-      PIPE_PIPELINE_STAGES        => 1,
-      LINK_CTRL2_TARGET_LINK_SPEED => X"2",
+      LINK_CAP_MAX_LINK_SPEED => X"1",
+      LINK_CAP_MAX_LINK_SPEED_int => 1,
+      PIPE_PIPELINE_STAGES        => 0,
+      LINK_CTRL2_TARGET_LINK_SPEED => X"1",
       DEV_CAP_MAX_PAYLOAD_SUPPORTED => 2,
       TRN_DW => "FALSE",
       VC0_TX_LASTPACKET => 29,
@@ -256,7 +256,7 @@ generic map (
       VC0_CPL_INFINITE => "TRUE",
       VC0_TOTAL_CREDITS_PD => 437,
       VC0_TOTAL_CREDITS_CD => 461,
-      USER_CLK_FREQ => 3,
+      USER_CLK_FREQ => 2,
       USER_CLK2_DIV2 => "FALSE",
       LTSSM_MAX_LINK_WIDTH => X"04"
 

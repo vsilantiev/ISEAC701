@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.7
-# Date: Mon Oct  6 13:29:03 2014
+# Date: Thu Oct 16 13:21:49 2014
 #
 ##############################################################
 #
@@ -187,7 +187,7 @@ CSET interface_width=64_bit
 CSET intx_generation=true
 CSET io_base_limit_registers=Disabled
 CSET legacy_interrupt=INTA
-CSET link_speed=5.0_GT/s
+CSET link_speed=2.5_GT/s
 CSET max_payload_size=512_bytes
 CSET maximum_link_width=X4
 CSET mode_selection=Basic
@@ -224,7 +224,7 @@ CSET rbar_num=0
 CSET rcb=64_byte
 CSET receive_np_request=false
 CSET recrc_check=0
-CSET recrc_check_trim=true
+CSET recrc_check_trim=false
 CSET ref_clk_freq=100_MHz
 CSET replay_timeout_func=Add
 CSET replay_timeout_value=0000
@@ -248,21 +248,21 @@ CSET subsystem_id=ABB3
 CSET subsystem_vendor_id=0084
 CSET tph_completer_supported=00
 CSET trans_buf_pipeline=None
-CSET trgt_link_speed=4'h2
+CSET trgt_link_speed=4'h1
 CSET upconfigure_capable=true
 CSET ur_atomic=false
 CSET ur_inv_req=false
 CSET ur_prs_response=false
 CSET use_class_code_lookup_assistant=false
-CSET user_clk_freq=250
+CSET user_clk_freq=125
 CSET vc_cap_enabled=false
 CSET vc_cap_reject_snoop=false
 CSET vendor_id=10EE
 CSET vsec_enabled=false
-CSET xlnx_ref_board=None
+CSET xlnx_ref_board=AC701
 # END Parameters
 # BEGIN Extra information
 MISC pkg_timestamp=2013-06-19T17:03:47Z
 # END Extra information
 GENERATE
-# CRC: e35604bc
+# CRC: 749e27e7

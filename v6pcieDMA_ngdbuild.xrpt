@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="NgdBuild" timeStamp="Wed Oct 15 13:41:27 2014">
+  <application stringID="NgdBuild" timeStamp="Thu Oct 16 20:06:26 2014">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -33,7 +33,7 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Core(TM) i5-2500K CPU @ 3.30GHz"/>
-          <item stringID="speed" value="2900.000 MHz"/>
+          <item stringID="speed" value="1600.000 MHz"/>
         </row>
       </table>
     </section>
@@ -43,7 +43,7 @@
         <item DEFAULT="None" label="-dd" stringID="NGDBUILD_output_dir" value="_ngo"/>
         <item DEFAULT="None" label="-p" stringID="NGDBUILD_partname" value="xc7a200t-fbg676-2"/>
         <item DEFAULT="None" label="-sd" stringID="NGDBUILD_search_path" value="ipcore_dir_ISE13.3"/>
-        <item DEFAULT="None" label="-uc" stringID="NGDBUILD_ucf_file" value="MyUCF/ABB3_pcie_4_lane_Emu_FIFO_elink.ucf"/>
+        <item DEFAULT="None" label="-uc" stringID="NGDBUILD_ucf_file" value="ABB3_pcie_4_lane_Emu_FIFO_elink.ucf"/>
       </section>
     </task>
     <task stringID="NGDBUILD_REPORT">
@@ -59,15 +59,15 @@
         <item dataType="int" stringID="NGDBUILD_NUM_BUFG" value="6"/>
         <item dataType="int" stringID="NGDBUILD_NUM_BUFGCTRL" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_BUFGP" value="1"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="3530"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="3522"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDC" value="2151"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDCE" value="2759"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDE" value="455"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDP" value="1884"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDPE" value="49"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_FDR" value="1175"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDR" value="990"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDRE" value="591"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_FDS" value="46"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDS" value="41"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDSE" value="71"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FIFO36E1" value="3"/>
         <item dataType="int" stringID="NGDBUILD_NUM_GND" value="181"/>
@@ -78,11 +78,11 @@
         <item dataType="int" stringID="NGDBUILD_NUM_IDDR_2CLK" value="9"/>
         <item dataType="int" stringID="NGDBUILD_NUM_IDELAYCTRL" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_IDELAYE2" value="9"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_INV" value="338"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INV" value="339"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LD" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LDC" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT1" value="736"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="2419"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="2411"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="1024"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="1396"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="1018"/>
@@ -107,15 +107,15 @@
         <item dataType="int" stringID="NGDBUILD_NUM_BSCANE2" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_BUFG" value="7"/>
         <item dataType="int" stringID="NGDBUILD_NUM_BUFGCTRL" value="1"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="3530"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FD" value="3522"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDC" value="2151"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDCE" value="2759"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDE" value="455"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDP" value="1884"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDPE" value="49"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_FDR" value="1175"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDR" value="990"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDRE" value="591"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_FDS" value="46"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_FDS" value="41"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FDSE" value="71"/>
         <item dataType="int" stringID="NGDBUILD_NUM_FIFO36E1" value="3"/>
         <item dataType="int" stringID="NGDBUILD_NUM_GND" value="181"/>
@@ -127,11 +127,11 @@
         <item dataType="int" stringID="NGDBUILD_NUM_IDDR_2CLK" value="9"/>
         <item dataType="int" stringID="NGDBUILD_NUM_IDELAYCTRL" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_IDELAYE2" value="9"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_INV" value="338"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INV" value="339"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LD" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LDC" value="1"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT1" value="736"/>
-        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="2419"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_LUT2" value="2411"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT3" value="1024"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT4" value="1396"/>
         <item dataType="int" stringID="NGDBUILD_NUM_LUT5" value="1018"/>
@@ -184,7 +184,7 @@
             </scope>
             <scope stringID="NGDBUILD_CORE_INSTANCE" value="v7_pcie">
               <item stringID="NGDBUILD_CORE_INFO" type="pcie_7x_v1_11" value="v7_pcie"/>
-              <item DEV_CAP_EXT_TAG_SUPPORTED="FALSE" DEV_CAP_MAX_PAYLOAD_SUPPORTED="2" DEV_CAP_PHANTOM_FUNCTIONS_SUPPORT="0" DISABLE_SCRAMBLING="FALSE" DSN_CAP_ON="TRUE" ENABLE_RX_TD_ECRC_TRIM="DISABLE_LANE_REVERSAL=TRUE" LINK_CAP_MAX_LINK_SPEED="2" LINK_CAP_MAX_LINK_WIDTH="04" LINK_STATUS_SLOT_CLOCK_CONFIG="FALSE" MSIX_CAP_ON="FALSE" MSI_CAP_MULTIMSGCAP="0" MSI_CAP_MULTIMSG_EXTENSION="0" MSI_CAP_ON="TRUE" PCIE_CAP_DEVICE_PORT_TYPE="0000" REF_CLK_FREQ="0" REVISION_ID="06" TL_RX_RAM_RADDR_LATENCY="0" TL_RX_RAM_RDATA_LATENCY="2" TL_RX_RAM_WRITE_LATENCY="0" TL_TX_RAM_RADDR_LATENCY="0" TL_TX_RAM_RDATA_LATENCY="2" USER_CLK_FREQ="3" VC0_CPL_INFINITE="TRUE" VC0_RX_RAM_LIMIT="7FF" VC0_TOTAL_CREDITS_CD="461" VC0_TOTAL_CREDITS_CH="36" VC0_TOTAL_CREDITS_NPD="24" VC0_TOTAL_CREDITS_NPH="12" VC0_TOTAL_CREDITS_PD="437" VC0_TOTAL_CREDITS_PH="32" VC0_TX_LASTPACKET="29" VC_CAP_ON="FALSE" stringID="NGDBUILD_CORE_PARAMETERS" value="v7_pcie"/>
+              <item DEV_CAP_EXT_TAG_SUPPORTED="FALSE" DEV_CAP_MAX_PAYLOAD_SUPPORTED="2" DEV_CAP_PHANTOM_FUNCTIONS_SUPPORT="0" DISABLE_SCRAMBLING="FALSE" DSN_CAP_ON="TRUE" ENABLE_RX_TD_ECRC_TRIM="DISABLE_LANE_REVERSAL=TRUE" LINK_CAP_MAX_LINK_SPEED="1" LINK_CAP_MAX_LINK_WIDTH="04" LINK_STATUS_SLOT_CLOCK_CONFIG="FALSE" MSIX_CAP_ON="FALSE" MSI_CAP_MULTIMSGCAP="0" MSI_CAP_MULTIMSG_EXTENSION="0" MSI_CAP_ON="TRUE" PCIE_CAP_DEVICE_PORT_TYPE="0000" REF_CLK_FREQ="0" REVISION_ID="06" TL_RX_RAM_RADDR_LATENCY="0" TL_RX_RAM_RDATA_LATENCY="2" TL_RX_RAM_WRITE_LATENCY="0" TL_TX_RAM_RADDR_LATENCY="0" TL_TX_RAM_RDATA_LATENCY="2" USER_CLK_FREQ="2" VC0_CPL_INFINITE="TRUE" VC0_RX_RAM_LIMIT="7FF" VC0_TOTAL_CREDITS_CD="461" VC0_TOTAL_CREDITS_CH="36" VC0_TOTAL_CREDITS_NPD="24" VC0_TOTAL_CREDITS_NPH="12" VC0_TOTAL_CREDITS_PD="437" VC0_TOTAL_CREDITS_PH="32" VC0_TX_LASTPACKET="29" VC_CAP_ON="FALSE" stringID="NGDBUILD_CORE_PARAMETERS" value="v7_pcie"/>
             </scope>
             <scope stringID="NGDBUILD_CORE_INSTANCE" value="v7_sfifo_15x128">
               <item stringID="NGDBUILD_CORE_INFO" type="fifo_generator_v9_3" value="v7_sfifo_15x128"/>

@@ -83,11 +83,11 @@ utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path v7_pcie/exam
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path v7_pcie/example_design/xilinx_pcie_2_1_ep_7x_04_lane_gen2_xc7a200t-fbg676-2-PCIE_X0Y0.ucf
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path v7_pcie/example_design/xilinx_pcie_2_1_ep_7x_04_lane_gen1_xc7a200t-fbg676-2_AC701.ucf
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 
-utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path v7_pcie/example_design/xilinx_pcie_2_1_ep_7x_04_lane_gen2_xc7a200t-fbg676-2-PCIE_X0Y0.xdc
+utilities_xmdf::xmdfSetData $instance FileSet $fcount relative_path v7_pcie/example_design/xilinx_pcie_2_1_ep_7x_04_lane_gen1_xc7a200t-fbg676-2_AC701.xdc
 utilities_xmdf::xmdfSetData $instance FileSet $fcount type Ignore
 incr fcount
 

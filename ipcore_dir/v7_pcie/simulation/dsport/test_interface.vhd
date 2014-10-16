@@ -92,7 +92,7 @@ constant COMPLETER_ID_CFG              : std_logic_vector(15 downto 0) := X"01A0
 constant DEV_ID                        : std_logic_vector(15 downto 0) := X"6024";
 constant VEN_ID                        : std_logic_vector(15 downto 0) := X"10EE";
 constant DEV_VEN_ID                    : std_logic_vector(31 downto 0) := (DEV_ID & VEN_ID);
-constant MAX_LINK_SPEED                : integer := 2;
+constant MAX_LINK_SPEED                : integer := 1;
 
 signal trn_trem_n_c    : std_logic_vector ((8  - 1) downto 0 );
 signal trn_td_c        : std_logic_vector ((64 - 1) downto 0 );

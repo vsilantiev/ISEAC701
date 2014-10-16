@@ -75,6 +75,10 @@ entity xilinx_pcie_2_1_ep_7x is
   pci_exp_rxp                   : in std_logic_vector(3 downto 0);
   pci_exp_rxn                   : in std_logic_vector(3 downto 0);
 
+  led_0                         : out std_logic;
+  led_1                         : out std_logic;
+  led_2                         : out std_logic;
+  led_3 	                      : out std_logic;
 
   sys_clk_p                     : in std_logic;
   sys_clk_n                     : in std_logic;
@@ -506,8 +510,9 @@ architecture rtl of xilinx_pcie_2_1_ep_7x is
      end if;
    end get_gt_lnk_spd_cfg;
 
+  signal user_clk_heartbeat       : std_logic_vector(25 downto 0);
 
-  constant USER_CLK_FREQ        : integer := 3;
+  constant USER_CLK_FREQ        : integer := 2;
   constant USER_CLK2_DIV2       : string  := "FALSE";
   constant USERCLK2_FREQ        : integer := get_userClk2(USER_CLK2_DIV2,USER_CLK_FREQ);
   constant LNK_SPD              : integer := get_gt_lnk_spd_cfg(PL_FAST_TRAIN);
@@ -689,7 +694,42 @@ begin
 --  sys_reset_c              <= not sys_rst_n_c;
 --  user_reset_i             <= not user_reset;
 
+  user_reset_i             <= not user_reset;
 
+
+  led_0_obuf : OBUF
+     port map(
+       O       => led_0,
+       I       => sys_rst_n_c);
+
+  led_1_obuf : OBUF
+     port map(
+       O       => led_1,
+       I       => user_reset_i);
+
+  led_2_obuf : OBUF
+     port map(
+       O       => led_2,
+       I       => user_lnk_up);
+
+  led_3_obuf : OBUF
+     port map(
+       O       => led_3,
+       I       => user_clk_heartbeat(25));
+
+
+
+
+  process(user_clk)
+  begin
+    if (user_clk'event and user_clk='1') then
+      if (sys_rst_n_c = '0') then
+        user_clk_heartbeat <= (others => '0')  after TCQ;
+      else
+        user_clk_heartbeat <= std_logic_vector(unsigned(user_clk_heartbeat) + 1) after TCQ;
+      end if;
+    end if;
+  end process;
 
 
   

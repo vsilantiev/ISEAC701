@@ -411,9 +411,9 @@ WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line
 WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1637: Assignment to dma_host2board_done ignored, since the identifier is never used
 WARNING:HDLCompiler:92 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1643: user_reset should be on the sensitivity list of the process
 WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1650: Assignment to user_reset_q ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1751: Assignment to cfg_pcie_link_state_n ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1806: Assignment to trn_tstr ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1824: Assignment to trn_fc_sel ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1753: Assignment to cfg_pcie_link_state_n ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1808: Assignment to trn_tstr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 1826: Assignment to trn_fc_sel ignored, since the identifier is never used
 WARNING:HDLCompiler:439 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 834: Formal port dlm_rv of mode in cannot be associated with actual port dlm_rv of mode out
 INFO:HDLCompiler:1408 - "/home/vladimir/ISEAC701/MySource/tlpControl.vhd" Line 79. dlm_rv is declared here
 WARNING:HDLCompiler:439 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" Line 835: Formal port dlm_rd of mode in cannot be associated with actual port dlm_rd of mode out
@@ -628,11 +628,11 @@ WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/v7_pcie_gt_rx_valid_filter_7
 WARNING:HDLCompiler:1127 - "/home/vladimir/ISEAC701/v7_pcie_gt_rx_valid_filter_7x.vhd" Line 250: Assignment to eios_detected ignored, since the identifier is never used
 Going to verilog side to elaborate module v7_pcie_pipe_wrapper
 
-Elaborating module <v7_pcie_pipe_wrapper(PCIE_SIM_MODE="FALSE",PCIE_SIM_SPEEDUP="FALSE",PCIE_SIM_TX_EIDLE_DRIVE_LEVEL="1",PCIE_GT_DEVICE="GTP",PCIE_USE_MODE="1.0",PCIE_PLL_SEL="CPLL",PCIE_AUX_CDR_GEN3_EN="TRUE",PCIE_LPM_DFE="LPM",PCIE_LPM_DFE_GEN3="DFE",PCIE_EXT_CLK="FALSE",PCIE_POWER_SAVING="TRUE",PCIE_ASYNC_EN="FALSE",PCIE_TXBUF_EN="FALSE",PCIE_RXBUF_EN="TRUE",PCIE_TXSYNC_MODE=0,PCIE_RXSYNC_MODE=0,PCIE_CHAN_BOND=1,PCIE_CHAN_BOND_EN="TRUE",PCIE_LANE=4,PCIE_LINK_SPEED=3,PCIE_REFCLK_FREQ=0,PCIE_USERCLK1_FREQ=4,PCIE_USERCLK2_FREQ=4,PCIE_TX_EIDLE_ASSERT_DELAY=2,PCIE_RXEQ_MODE_GEN3=1,PCIE_OOBCLK_MODE=1,PCIE_JTAG_MODE=0,PCIE_DEBUG_MODE=0)>.
+Elaborating module <v7_pcie_pipe_wrapper(PCIE_SIM_MODE="FALSE",PCIE_SIM_SPEEDUP="FALSE",PCIE_SIM_TX_EIDLE_DRIVE_LEVEL="1",PCIE_GT_DEVICE="GTP",PCIE_USE_MODE="1.0",PCIE_PLL_SEL="CPLL",PCIE_AUX_CDR_GEN3_EN="TRUE",PCIE_LPM_DFE="LPM",PCIE_LPM_DFE_GEN3="DFE",PCIE_EXT_CLK="FALSE",PCIE_POWER_SAVING="TRUE",PCIE_ASYNC_EN="FALSE",PCIE_TXBUF_EN="FALSE",PCIE_RXBUF_EN="TRUE",PCIE_TXSYNC_MODE=0,PCIE_RXSYNC_MODE=0,PCIE_CHAN_BOND=1,PCIE_CHAN_BOND_EN="TRUE",PCIE_LANE=4,PCIE_LINK_SPEED=3,PCIE_REFCLK_FREQ=0,PCIE_USERCLK1_FREQ=3,PCIE_USERCLK2_FREQ=3,PCIE_TX_EIDLE_ASSERT_DELAY=2,PCIE_RXEQ_MODE_GEN3=1,PCIE_OOBCLK_MODE=1,PCIE_JTAG_MODE=0,PCIE_DEBUG_MODE=0)>.
 
-Elaborating module <v7_pcie_pipe_clock(PCIE_ASYNC_EN="FALSE",PCIE_TXBUF_EN="FALSE",PCIE_LANE=4,PCIE_LINK_SPEED=3,PCIE_REFCLK_FREQ=0,PCIE_USERCLK1_FREQ=4,PCIE_USERCLK2_FREQ=4,PCIE_OOBCLK_MODE=1,PCIE_DEBUG_MODE=0)>.
+Elaborating module <v7_pcie_pipe_clock(PCIE_ASYNC_EN="FALSE",PCIE_TXBUF_EN="FALSE",PCIE_LANE=4,PCIE_LINK_SPEED=3,PCIE_REFCLK_FREQ=0,PCIE_USERCLK1_FREQ=3,PCIE_USERCLK2_FREQ=3,PCIE_OOBCLK_MODE=1,PCIE_DEBUG_MODE=0)>.
 
-Elaborating module <MMCME2_ADV(BANDWIDTH="OPTIMIZED",CLKOUT4_CASCADE="FALSE",COMPENSATION="ZHOLD",STARTUP_WAIT="FALSE",DIVCLK_DIVIDE=1,CLKFBOUT_MULT_F=10,CLKFBOUT_PHASE=0.0,CLKFBOUT_USE_FINE_PS="FALSE",CLKOUT0_DIVIDE_F=8,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT0_USE_FINE_PS="FALSE",CLKOUT1_DIVIDE=4,CLKOUT1_PHASE=0.0,CLKOUT1_DUTY_CYCLE=0.5,CLKOUT1_USE_FINE_PS="FALSE",CLKOUT2_DIVIDE=4,CLKOUT2_PHASE=0.0,CLKOUT2_DUTY_CYCLE=0.5,CLKOUT2_USE_FINE_PS="FALSE",CLKOUT3_DIVIDE=4,CLKOUT3_PHASE=0.0,CLKOUT3_DUTY_CYCLE=0.5,CLKOUT3_USE_FINE_PS="FALSE",CLKOUT4_DIVIDE=20,CLKOUT4_PHASE=0.0,CLKOUT4_DUTY_CYCLE=0.5,CLKOUT4_USE_FINE_PS="FALSE",CLKIN1_PERIOD=10,REF_JITTER1=0.01)>.
+Elaborating module <MMCME2_ADV(BANDWIDTH="OPTIMIZED",CLKOUT4_CASCADE="FALSE",COMPENSATION="ZHOLD",STARTUP_WAIT="FALSE",DIVCLK_DIVIDE=1,CLKFBOUT_MULT_F=10,CLKFBOUT_PHASE=0.0,CLKFBOUT_USE_FINE_PS="FALSE",CLKOUT0_DIVIDE_F=8,CLKOUT0_PHASE=0.0,CLKOUT0_DUTY_CYCLE=0.5,CLKOUT0_USE_FINE_PS="FALSE",CLKOUT1_DIVIDE=4,CLKOUT1_PHASE=0.0,CLKOUT1_DUTY_CYCLE=0.5,CLKOUT1_USE_FINE_PS="FALSE",CLKOUT2_DIVIDE=8,CLKOUT2_PHASE=0.0,CLKOUT2_DUTY_CYCLE=0.5,CLKOUT2_USE_FINE_PS="FALSE",CLKOUT3_DIVIDE=8,CLKOUT3_PHASE=0.0,CLKOUT3_DUTY_CYCLE=0.5,CLKOUT3_USE_FINE_PS="FALSE",CLKOUT4_DIVIDE=20,CLKOUT4_PHASE=0.0,CLKOUT4_DUTY_CYCLE=0.5,CLKOUT4_USE_FINE_PS="FALSE",CLKIN1_PERIOD=10,REF_JITTER1=0.01)>.
 
 Elaborating module <BUFGCTRL>.
 
@@ -730,114 +730,114 @@ Synthesizing Unit <v6pcieDMA>.
         UPSTREAM_FACING = "TRUE"
         C_DATA_WIDTH = 64
 WARNING:Xst:647 - Input <userclk_66MHz> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <ctl_rd> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <dlm_td> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <debug_in_1i> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <debug_in_2i> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <debug_in_3i> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <debug_in_4i> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <tab_we> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <tab_wa> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <tab_wd> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <protocol_rst> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <ctl_rv> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <ctl_ttake> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <ctl_tstop> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <ctl_reset> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <dlm_tv> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <eb_FIFO_wsof> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <eb_FIFO_weof> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <pio_reading_status> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <DMA_us_Done> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <DMA_us_Busy> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <DMA_ds_Done> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <DMA_ds_Busy> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <DG_Reset> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1894: Output port <DG_Mask> of the instance <theTlpControl> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2108: Output port <user_rd_doutB> of the instance <DDRs_ctrl_module> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2108: Output port <DDR_blinker> of the instance <DDRs_ctrl_module> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2108: Output port <Sim_Zeichen> of the instance <DDRs_ctrl_module> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2108: Output port <fifofull> of the instance <DDRs_ctrl_module> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2108: Output port <fifoprog_full> of the instance <DDRs_ctrl_module> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2184: Output port <H2B_rd_dout> of the instance <LoopBack_FIFO_Off.queue_buffer0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2184: Output port <H2B_rd_data_count> of the instance <LoopBack_FIFO_Off.queue_buffer0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2184: Output port <B2H_wr_data_count> of the instance <LoopBack_FIFO_Off.queue_buffer0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2184: Output port <H2B_rd_pempty> of the instance <LoopBack_FIFO_Off.queue_buffer0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2184: Output port <H2B_rd_empty> of the instance <LoopBack_FIFO_Off.queue_buffer0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2184: Output port <H2B_rd_valid> of the instance <LoopBack_FIFO_Off.queue_buffer0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <PIPE_RXOUTCLK_OUT> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <PIPE_PCLK_SEL_OUT> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <fc_cpld> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <fc_cplh> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <fc_npd> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <fc_nph> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <fc_pd> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <fc_ph> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_mgmt_do> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_status> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_command> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_lcommand> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_dcommand2> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_pcie_link_state> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_pmcsr_powerstate> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_data> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <pl_sel_lnk_width> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <pl_ltssm_state> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <pl_lane_reversal_mode> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <pl_tx_pm_state> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <pl_rx_pm_state> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <pl_initial_link_width> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_vc_tcvc_map> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <PIPE_TXOUTCLK_OUT> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <PIPE_GEN3_OUT> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <tx_cfg_req> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <tx_err_drop> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_mgmt_rd_wr_done> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_pmcsr_pme_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_pmcsr_pme_status> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_received_func_lvl_rst> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_err_cpl_rdy> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_interrupt_msixenable> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_interrupt_msixfm> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_to_turnoff> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_bridge_serr_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_slot_control_electromech_il_ctl_pulse> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_root_control_syserr_corr_err_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_root_control_syserr_non_fatal_err_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_root_control_syserr_fatal_err_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_root_control_pme_int_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_aer_rooterr_corr_err_reporting_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_aer_rooterr_non_fatal_err_reporting_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_aer_rooterr_fatal_err_reporting_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_aer_rooterr_corr_err_received> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_aer_rooterr_non_fatal_err_received> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_aer_rooterr_fatal_err_received> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_err_cor> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_err_non_fatal> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_err_fatal> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_pm_as_nak> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_pm_pme> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_pme_to_ack> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_assert_int_a> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_assert_int_b> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_assert_int_c> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_assert_int_d> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_deassert_int_a> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_deassert_int_b> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_deassert_int_c> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_deassert_int_d> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_msg_received_setslotpowerlimit> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <pl_sel_lnk_rate> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <pl_phy_lnk_up> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <pl_link_upcfg_cap> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <pl_link_gen2_cap> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <pl_link_partner_gen2_supported> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <pl_directed_change_done> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <pl_received_hot_rst> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_err_aer_headerlog_set> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_aer_ecrc_check_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2277: Output port <cfg_aer_ecrc_gen_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <ctl_rd> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <dlm_td> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <debug_in_1i> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <debug_in_2i> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <debug_in_3i> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <debug_in_4i> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <tab_we> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <tab_wa> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <tab_wd> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <protocol_rst> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <ctl_rv> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <ctl_ttake> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <ctl_tstop> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <ctl_reset> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <dlm_tv> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <eb_FIFO_wsof> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <eb_FIFO_weof> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <pio_reading_status> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <DMA_us_Done> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <DMA_us_Busy> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <DMA_ds_Done> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <DMA_ds_Busy> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <DG_Reset> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 1896: Output port <DG_Mask> of the instance <theTlpControl> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2110: Output port <user_rd_doutB> of the instance <DDRs_ctrl_module> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2110: Output port <DDR_blinker> of the instance <DDRs_ctrl_module> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2110: Output port <Sim_Zeichen> of the instance <DDRs_ctrl_module> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2110: Output port <fifofull> of the instance <DDRs_ctrl_module> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2110: Output port <fifoprog_full> of the instance <DDRs_ctrl_module> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2186: Output port <H2B_rd_dout> of the instance <LoopBack_FIFO_Off.queue_buffer0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2186: Output port <H2B_rd_data_count> of the instance <LoopBack_FIFO_Off.queue_buffer0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2186: Output port <B2H_wr_data_count> of the instance <LoopBack_FIFO_Off.queue_buffer0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2186: Output port <H2B_rd_pempty> of the instance <LoopBack_FIFO_Off.queue_buffer0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2186: Output port <H2B_rd_empty> of the instance <LoopBack_FIFO_Off.queue_buffer0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2186: Output port <H2B_rd_valid> of the instance <LoopBack_FIFO_Off.queue_buffer0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <PIPE_RXOUTCLK_OUT> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <PIPE_PCLK_SEL_OUT> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <fc_cpld> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <fc_cplh> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <fc_npd> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <fc_nph> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <fc_pd> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <fc_ph> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_mgmt_do> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_status> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_command> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_lcommand> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_dcommand2> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_pcie_link_state> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_pmcsr_powerstate> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_data> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <pl_sel_lnk_width> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <pl_ltssm_state> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <pl_lane_reversal_mode> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <pl_tx_pm_state> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <pl_rx_pm_state> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <pl_initial_link_width> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_vc_tcvc_map> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <PIPE_TXOUTCLK_OUT> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <PIPE_GEN3_OUT> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <tx_cfg_req> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <tx_err_drop> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_mgmt_rd_wr_done> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_pmcsr_pme_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_pmcsr_pme_status> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_received_func_lvl_rst> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_err_cpl_rdy> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_interrupt_msixenable> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_interrupt_msixfm> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_to_turnoff> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_bridge_serr_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_slot_control_electromech_il_ctl_pulse> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_root_control_syserr_corr_err_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_root_control_syserr_non_fatal_err_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_root_control_syserr_fatal_err_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_root_control_pme_int_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_aer_rooterr_corr_err_reporting_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_aer_rooterr_non_fatal_err_reporting_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_aer_rooterr_fatal_err_reporting_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_aer_rooterr_corr_err_received> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_aer_rooterr_non_fatal_err_received> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_aer_rooterr_fatal_err_received> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_err_cor> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_err_non_fatal> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_err_fatal> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_pm_as_nak> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_pm_pme> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_pme_to_ack> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_assert_int_a> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_assert_int_b> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_assert_int_c> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_assert_int_d> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_deassert_int_a> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_deassert_int_b> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_deassert_int_c> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_deassert_int_d> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_msg_received_setslotpowerlimit> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <pl_sel_lnk_rate> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <pl_phy_lnk_up> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <pl_link_upcfg_cap> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <pl_link_gen2_cap> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <pl_link_partner_gen2_supported> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <pl_directed_change_done> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <pl_received_hot_rst> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_err_aer_headerlog_set> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_aer_ecrc_check_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/vladimir/ISEAC701/MySource/v6eb_pcie.vhd" line 2279: Output port <cfg_aer_ecrc_gen_en> of the instance <v7_pcie_i> is unconnected or connected to loadless signal.
 WARNING:Xst:2935 - Signal 'dlm_rd', unconnected in block 'v6pcieDMA', is tied to its initial value (00000000000000000000000000000000).
 WARNING:Xst:653 - Signal <fc_sel> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <cfg_pciecap_interrupt_msgnum> is used but never assigned. This sourceless signal will be automatically connected to value GND.
@@ -2788,7 +2788,7 @@ Synthesizing Unit <v7_pcie>.
         CFG_SUBSYS_VEND_ID = "0000000010000100"
         CFG_SUBSYS_ID = "1010101110110011"
         ALLOW_X8_GEN2 = "FALSE"
-        PIPE_PIPELINE_STAGES = 1
+        PIPE_PIPELINE_STAGES = 0
         AER_BASE_PTR = "000000000000"
         AER_CAP_ECRC_CHECK_CAPABLE = "FALSE"
         AER_CAP_ECRC_GEN_CAPABLE = "FALSE"
@@ -2838,13 +2838,13 @@ Synthesizing Unit <v7_pcie>.
         LINK_CAP_ASPM_OPTIONALITY = "FALSE"
         LINK_CAP_DLL_LINK_ACTIVE_REPORTING_CAP = "FALSE"
         LINK_CAP_LINK_BANDWIDTH_NOTIFICATION_CAP = "FALSE"
-        LINK_CAP_MAX_LINK_SPEED = "0010"
-        LINK_CAP_MAX_LINK_SPEED_int = 2
+        LINK_CAP_MAX_LINK_SPEED = "0001"
+        LINK_CAP_MAX_LINK_SPEED_int = 1
         LINK_CAP_MAX_LINK_WIDTH = "00000100"
         LINK_CAP_MAX_LINK_WIDTH_int = 4
         LINK_CTRL2_DEEMPHASIS = "FALSE"
         LINK_CTRL2_HW_AUTONOMOUS_SPEED_DISABLE = "FALSE"
-        LINK_CTRL2_TARGET_LINK_SPEED = "0010"
+        LINK_CTRL2_TARGET_LINK_SPEED = "0000"
         LINK_STATUS_SLOT_CLOCK_CONFIG = "FALSE"
         LL_ACK_TIMEOUT = "0000000000000000"
         LL_ACK_TIMEOUT_EN = "FALSE"
@@ -2925,7 +2925,7 @@ Synthesizing Unit <v7_pcie>.
         UR_ATOMIC = "FALSE"
         UR_INV_REQ = "FALSE"
         UR_PRS_RESPONSE = "FALSE"
-        USER_CLK_FREQ = 3
+        USER_CLK_FREQ = 2
         USER_CLK2_DIV2 = "FALSE"
         VC_BASE_PTR = "000000000000"
         VC_CAP_NEXTPTR = "000000000000"
@@ -3175,7 +3175,7 @@ Synthesizing Unit <v7_pcie_pcie_top>.
     Related source file is "/home/vladimir/ISEAC701/v7_pcie_pcie_top.vhd".
         C_DATA_WIDTH = 64
         C_REM_WIDTH = 1
-        PIPE_PIPELINE_STAGES = 1
+        PIPE_PIPELINE_STAGES = 0
         AER_BASE_PTR = "000000000000"
         AER_CAP_ECRC_CHECK_CAPABLE = "FALSE"
         AER_CAP_ECRC_GEN_CAPABLE = "FALSE"
@@ -3269,8 +3269,8 @@ Synthesizing Unit <v7_pcie_pcie_top>.
         LINK_CAP_L1_EXIT_LATENCY_GEN1 = 7
         LINK_CAP_L1_EXIT_LATENCY_GEN2 = 7
         LINK_CAP_LINK_BANDWIDTH_NOTIFICATION_CAP = "FALSE"
-        LINK_CAP_MAX_LINK_SPEED = "0010"
-        LINK_CAP_MAX_LINK_SPEED_int = 2
+        LINK_CAP_MAX_LINK_SPEED = "0001"
+        LINK_CAP_MAX_LINK_SPEED_int = 1
         LINK_CAP_MAX_LINK_WIDTH = "00000100"
         LINK_CAP_MAX_LINK_WIDTH_int = 4
         LINK_CAP_RSVD_23 = 0
@@ -3278,7 +3278,7 @@ Synthesizing Unit <v7_pcie_pcie_top>.
         LINK_CONTROL_RCB = 0
         LINK_CTRL2_DEEMPHASIS = "FALSE"
         LINK_CTRL2_HW_AUTONOMOUS_SPEED_DISABLE = "FALSE"
-        LINK_CTRL2_TARGET_LINK_SPEED = "0010"
+        LINK_CTRL2_TARGET_LINK_SPEED = "0000"
         LINK_STATUS_SLOT_CLOCK_CONFIG = "FALSE"
         LL_ACK_TIMEOUT = "0000000000000000"
         LL_ACK_TIMEOUT_EN = "FALSE"
@@ -3436,7 +3436,7 @@ Synthesizing Unit <v7_pcie_pcie_top>.
         UR_INV_REQ = "FALSE"
         UR_PRS_RESPONSE = "FALSE"
         USER_CLK2_DIV2 = "FALSE"
-        USER_CLK_FREQ = 3
+        USER_CLK_FREQ = 2
         USE_RID_PINS = "FALSE"
         VC0_CPL_INFINITE = "TRUE"
         VC0_RX_RAM_LIMIT = "0011111111111"
@@ -3753,8 +3753,8 @@ Synthesizing Unit <v7_pcie_pcie_7x>.
         LINK_CAP_L1_EXIT_LATENCY_GEN1 = 7
         LINK_CAP_L1_EXIT_LATENCY_GEN2 = 7
         LINK_CAP_LINK_BANDWIDTH_NOTIFICATION_CAP = "FALSE"
-        LINK_CAP_MAX_LINK_SPEED = "0010"
-        LINK_CAP_MAX_LINK_SPEED_int = 2
+        LINK_CAP_MAX_LINK_SPEED = "0001"
+        LINK_CAP_MAX_LINK_SPEED_int = 1
         LINK_CAP_MAX_LINK_WIDTH = "00000100"
         LINK_CAP_MAX_LINK_WIDTH_int = 4
         LINK_CAP_RSVD_23 = 0
@@ -3762,7 +3762,7 @@ Synthesizing Unit <v7_pcie_pcie_7x>.
         LINK_CONTROL_RCB = 0
         LINK_CTRL2_DEEMPHASIS = "FALSE"
         LINK_CTRL2_HW_AUTONOMOUS_SPEED_DISABLE = "FALSE"
-        LINK_CTRL2_TARGET_LINK_SPEED = "0010"
+        LINK_CTRL2_TARGET_LINK_SPEED = "0000"
         LINK_STATUS_SLOT_CLOCK_CONFIG = "FALSE"
         LL_ACK_TIMEOUT = "0000000000000000"
         LL_ACK_TIMEOUT_EN = "FALSE"
@@ -3920,7 +3920,7 @@ Synthesizing Unit <v7_pcie_pcie_7x>.
         UR_INV_REQ = "FALSE"
         UR_PRS_RESPONSE = "FALSE"
         USER_CLK2_DIV2 = "FALSE"
-        USER_CLK_FREQ = 3
+        USER_CLK_FREQ = 2
         USE_RID_PINS = "FALSE"
         VC0_CPL_INFINITE = "TRUE"
         VC0_RX_RAM_LIMIT = "0011111111111"
@@ -3987,7 +3987,7 @@ Synthesizing Unit <v7_pcie_pcie_bram_top_7x>.
     Related source file is "/home/vladimir/ISEAC701/v7_pcie_pcie_bram_top_7x.vhd".
         IMPL_TARGET = "HARD"
         DEV_CAP_MAX_PAYLOAD_SUPPORTED = 2
-        LINK_CAP_MAX_LINK_SPEED = 2
+        LINK_CAP_MAX_LINK_SPEED = 1
         LINK_CAP_MAX_LINK_WIDTH = 4
         VC0_TX_LASTPACKET = 29
         TLM_TX_OVERHEAD = 24
@@ -4004,7 +4004,7 @@ Unit <v7_pcie_pcie_bram_top_7x> synthesized.
 
 Synthesizing Unit <v7_pcie_pcie_brams_7x>.
     Related source file is "/home/vladimir/ISEAC701/v7_pcie_pcie_brams_7x.vhd".
-        LINK_CAP_MAX_LINK_SPEED = 2
+        LINK_CAP_MAX_LINK_SPEED = 1
         LINK_CAP_MAX_LINK_WIDTH = 4
         IMPL_TARGET = "HARD"
         NUM_BRAMS = 4
@@ -4017,7 +4017,7 @@ Unit <v7_pcie_pcie_brams_7x> synthesized.
 
 Synthesizing Unit <v7_pcie_pcie_bram_7x>.
     Related source file is "/home/vladimir/ISEAC701/v7_pcie_pcie_bram_7x.vhd".
-        LINK_CAP_MAX_LINK_SPEED = 2
+        LINK_CAP_MAX_LINK_SPEED = 1
         LINK_CAP_MAX_LINK_WIDTH = 4
         IMPL_TARGET = "HARD"
         DOB_REG = 1
@@ -4203,7 +4203,7 @@ Unit <BRAM_TDP_MACRO> synthesized.
 Synthesizing Unit <v7_pcie_pcie_pipe_pipeline>.
     Related source file is "/home/vladimir/ISEAC701/v7_pcie_pcie_pipe_pipeline.vhd".
         LINK_CAP_MAX_LINK_WIDTH_int = 4
-        PIPE_PIPELINE_STAGES = 1
+        PIPE_PIPELINE_STAGES = 0
 WARNING:Xst:647 - Input <pipe_tx4_char_is_k_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <pipe_tx4_data_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <pipe_tx4_powerdown_i> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -4263,36 +4263,20 @@ Unit <v7_pcie_pcie_pipe_pipeline> synthesized.
 
 Synthesizing Unit <v7_pcie_pcie_pipe_misc>.
     Related source file is "/home/vladimir/ISEAC701/v7_pcie_pcie_pipe_misc.vhd".
-        PIPE_PIPELINE_STAGES = 1
-    Found 1-bit register for signal <pipe_tx_reset_q>.
-    Found 1-bit register for signal <pipe_tx_rate_q>.
-    Found 1-bit register for signal <pipe_tx_deemph_q>.
-    Found 3-bit register for signal <pipe_tx_margin_q>.
-    Found 1-bit register for signal <pipe_tx_rcvr_det_q>.
-    WARNING:Xst:2404 -  FFs/Latches <pipe_tx_swing_q<0:0>> (without init value) have a constant value of 0 in block <v7_pcie_pcie_pipe_misc>.
+        PIPE_PIPELINE_STAGES = 0
+WARNING:Xst:647 - Input <pipe_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rst_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
-	inferred   7 D-type flip-flop(s).
+	no macro.
 Unit <v7_pcie_pcie_pipe_misc> synthesized.
 
 Synthesizing Unit <v7_pcie_pcie_pipe_lane>.
     Related source file is "/home/vladimir/ISEAC701/v7_pcie_pcie_pipe_lane.vhd".
-        PIPE_PIPELINE_STAGES = 1
-    Found 16-bit register for signal <pipe_rx_data_q>.
-    Found 1-bit register for signal <pipe_rx_valid_q>.
-    Found 1-bit register for signal <pipe_rx_chanisaligned_q>.
-    Found 3-bit register for signal <pipe_rx_status_q>.
-    Found 1-bit register for signal <pipe_rx_phy_status_q>.
-    Found 1-bit register for signal <pipe_rx_elec_idle_q>.
-    Found 1-bit register for signal <pipe_rx_polarity_q>.
-    Found 1-bit register for signal <pipe_tx_compliance_q>.
-    Found 2-bit register for signal <pipe_tx_char_is_k_q>.
-    Found 16-bit register for signal <pipe_tx_data_q>.
-    Found 1-bit register for signal <pipe_tx_elec_idle_q>.
-    Found 2-bit register for signal <pipe_tx_powerdown_q>.
-    Found 2-bit register for signal <pipe_rx_char_is_k_q>.
+        PIPE_PIPELINE_STAGES = 0
+WARNING:Xst:647 - Input <pipe_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rst_n> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Summary:
-	inferred  48 D-type flip-flop(s).
-	inferred   1 Multiplexer(s).
+	no macro.
 Unit <v7_pcie_pcie_pipe_lane> synthesized.
 
 Synthesizing Unit <v7_pcie_gt_top>.
@@ -4300,7 +4284,7 @@ Synthesizing Unit <v7_pcie_gt_top>.
         LINK_CAP_MAX_LINK_WIDTH_int = 4
         REF_CLK_FREQ = 0
         USER_CLK2_DIV2 = "FALSE"
-        USER_CLK_FREQ = 3
+        USER_CLK_FREQ = 2
         PL_FAST_TRAIN = "FALSE"
         PCIE_EXT_CLK = "FALSE"
         PCIE_USE_MODE = "1.0"
@@ -4417,8 +4401,8 @@ Synthesizing Unit <v7_pcie_pipe_wrapper>.
         PCIE_LANE = 4
         PCIE_LINK_SPEED = 3
         PCIE_REFCLK_FREQ = 0
-        PCIE_USERCLK1_FREQ = 4
-        PCIE_USERCLK2_FREQ = 4
+        PCIE_USERCLK1_FREQ = 3
+        PCIE_USERCLK2_FREQ = 3
         PCIE_TX_EIDLE_ASSERT_DELAY = 2
         PCIE_RXEQ_MODE_GEN3 = 1
         PCIE_OOBCLK_MODE = 1
@@ -4521,8 +4505,8 @@ Synthesizing Unit <v7_pcie_pipe_clock>.
         PCIE_LANE = 4
         PCIE_LINK_SPEED = 3
         PCIE_REFCLK_FREQ = 0
-        PCIE_USERCLK1_FREQ = 4
-        PCIE_USERCLK2_FREQ = 4
+        PCIE_USERCLK1_FREQ = 3
+        PCIE_USERCLK2_FREQ = 3
         PCIE_OOBCLK_MODE = 1
         PCIE_DEBUG_MODE = 0
     Set property "ASYNC_REG = TRUE" for signal <pclk_sel_reg1>.
@@ -4715,8 +4699,8 @@ Synthesizing Unit <v7_pcie_qpll_reset>.
     Found 4-bit 15-to-1 multiplexer for signal <fsm[3]_GND_939_o_wide_mux_35_OUT> created at line 199.
 INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal QRST_QPLLPD_IN may hinder XST clustering optimizations.
 INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal QRST_RATE[1]_GND_939_o_mux_2_OUT may hinder XST clustering optimizations.
-INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal mmcm_lock_reg1_GND_939_o_MUX_5063_o may hinder XST clustering optimizations.
-INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal qplllock_reg1[0]_GND_939_o_MUX_5065_o may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal mmcm_lock_reg1_GND_939_o_MUX_5051_o may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal qplllock_reg1[0]_GND_939_o_MUX_5053_o may hinder XST clustering optimizations.
 INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal rate_reg1[1]_GND_939_o_mux_6_OUT may hinder XST clustering optimizations.
 INFO:Xst:2774 - HDL ADVISOR - ASYNC_REG property attached to signal rate_reg2 may hinder XST clustering optimizations.
     Summary:
@@ -5317,9 +5301,9 @@ Synthesizing Unit <v7_pcie_rxeq_scan>.
     -----------------------------------------------------------------------
     Found 22-bit adder for signal <converge_cnt[21]_GND_945_o_add_35_OUT> created at line 297.
     Found 1-bit adder for signal <adapt_done_cnt_PWR_104_o_add_39_OUT<0>> created at line 319.
-INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal RXEQSCAN_PRESET_VALID_GND_945_o_MUX_5291_o may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal RXEQSCAN_PRESET_VALID_GND_945_o_MUX_5279_o may hinder XST clustering optimizations.
 INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal RXEQSCAN_TXPRESET[3]_GND_945_o_mux_2_OUT may hinder XST clustering optimizations.
-INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal preset_valid_reg1_GND_945_o_MUX_5293_o may hinder XST clustering optimizations.
+INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal preset_valid_reg1_GND_945_o_MUX_5281_o may hinder XST clustering optimizations.
 INFO:Xst:2774 - HDL ADVISOR - KEEP property attached to signal txcoeff_reg1[17]_GND_945_o_mux_8_OUT may hinder XST clustering optimizations.
     Summary:
 	inferred   2 Adder/Subtractor(s).
@@ -5514,8 +5498,8 @@ Macro Statistics
  64-bit subtractor                                     : 2
  8-bit adder                                           : 3
  8-bit subtractor                                      : 4
-# Registers                                            : 2115
- 1-bit register                                        : 1509
+# Registers                                            : 2058
+ 1-bit register                                        : 1477
  10-bit register                                       : 8
  11-bit register                                       : 1
  12-bit register                                       : 10
@@ -5523,15 +5507,15 @@ Macro Statistics
  13-bit register                                       : 8
  14-bit register                                       : 1
  15-bit register                                       : 2
- 16-bit register                                       : 34
+ 16-bit register                                       : 26
  17-bit register                                       : 8
  18-bit register                                       : 28
  19-bit register                                       : 8
- 2-bit register                                        : 70
+ 2-bit register                                        : 58
  20-bit register                                       : 2
  22-bit register                                       : 9
  26-bit register                                       : 2
- 3-bit register                                        : 47
+ 3-bit register                                        : 42
  30-bit register                                       : 1
  32-bit register                                       : 53
  33-bit register                                       : 2
@@ -5564,7 +5548,7 @@ Macro Statistics
  6-bit comparator greater                              : 1
  6-bit comparator lessequal                            : 2
  8-bit comparator equal                                : 5
-# Multiplexers                                         : 4392
+# Multiplexers                                         : 4388
  1-bit 2-to-1 multiplexer                              : 3568
  1-bit 3-to-1 multiplexer                              : 1
  1-bit 4-to-1 multiplexer                              : 66
@@ -5579,7 +5563,7 @@ Macro Statistics
  16-bit 8-to-1 multiplexer                             : 1
  18-bit 2-to-1 multiplexer                             : 36
  19-bit 2-to-1 multiplexer                             : 12
- 2-bit 2-to-1 multiplexer                              : 61
+ 2-bit 2-to-1 multiplexer                              : 57
  22-bit 2-to-1 multiplexer                             : 14
  3-bit 2-to-1 multiplexer                              : 45
  3-bit 8-to-1 multiplexer                              : 4
@@ -6729,8 +6713,8 @@ Macro Statistics
  8-bit up counter                                      : 2
 # Accumulators                                         : 1
  12-bit up accumulator                                 : 1
-# Registers                                            : 14124
- Flip-Flops                                            : 14124
+# Registers                                            : 13925
+ Flip-Flops                                            : 13925
 # Comparators                                          : 44
  10-bit comparator equal                               : 1
  10-bit comparator greater                             : 1
@@ -8064,6 +8048,10 @@ Optimizing unit <BRAM_TDP_MACRO> ...
 
 Optimizing unit <v7_pcie_pcie_pipe_pipeline> ...
 
+Optimizing unit <v7_pcie_pcie_pipe_misc> ...
+
+Optimizing unit <v7_pcie_pcie_pipe_lane> ...
+
 Optimizing unit <v6pcieDMA> ...
 
 Optimizing unit <v7_pcie> ...
@@ -8143,10 +8131,6 @@ Optimizing unit <v7_pcie_axi_basic_rx_pipeline> ...
 
 Optimizing unit <v7_pcie_axi_basic_rx_null_gen> ...
 WARNING:Xst:1293 - FF/Latch <reg_pkt_len_counter_11> has a constant value of 0 in block <v7_pcie_axi_basic_rx_null_gen>. This FF/Latch will be trimmed during the optimization process.
-
-Optimizing unit <v7_pcie_pcie_pipe_misc> ...
-
-Optimizing unit <v7_pcie_pcie_pipe_lane> ...
 
 Optimizing unit <ADC_emul> ...
 
@@ -8609,7 +8593,6 @@ WARNING:Xst:2677 - Node <m_axis_rx_tuser_xhdl1_17> of sequential type is unconne
 WARNING:Xst:2677 - Node <m_axis_rx_tuser_xhdl1_18> of sequential type is unconnected in block <rx_pipeline_inst>.
 WARNING:Xst:2677 - Node <m_axis_rx_tuser_xhdl1_19> of sequential type is unconnected in block <rx_pipeline_inst>.
 WARNING:Xst:2677 - Node <m_axis_rx_tuser_xhdl1_20> of sequential type is unconnected in block <rx_pipeline_inst>.
-WARNING:Xst:2677 - Node <pipe_tx_reset_q> of sequential type is unconnected in block <pipe_misc_i>.
 WARNING:Xst:2677 - Node <reg11_rd_0> of sequential type is unconnected in block <ad9467_1>.
 WARNING:Xst:2677 - Node <reg11_rd_1> of sequential type is unconnected in block <ad9467_1>.
 WARNING:Xst:2677 - Node <reg11_rd_2> of sequential type is unconnected in block <ad9467_1>.
@@ -10926,22 +10909,22 @@ WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/qpll_reset.qpll_rese
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/qpll_reset.qpll_reset_i Conflict on KEEP property on signal QRST_CPLLLOCK[3]_PWR_97_o_mux_1_OUT<3> and QRST_CPLLLOCK[3]_PWR_97_o_mux_1_OUT<2> QRST_CPLLLOCK[3]_PWR_97_o_mux_1_OUT<2> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/qpll_reset.qpll_reset_i Conflict on KEEP property on signal QRST_CPLLLOCK[3]_PWR_97_o_mux_1_OUT<2> and QRST_CPLLLOCK[3]_PWR_97_o_mux_1_OUT<1> QRST_CPLLLOCK[3]_PWR_97_o_mux_1_OUT<1> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/qpll_reset.qpll_reset_i Conflict on KEEP property on signal QRST_CPLLLOCK[3]_PWR_97_o_mux_1_OUT<1> and QRST_CPLLLOCK[3]_PWR_97_o_mux_1_OUT<0> QRST_CPLLLOCK[3]_PWR_97_o_mux_1_OUT<0> signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i Conflict on KEEP property on signal USER_RESETOVRD_START_GND_940_o_MUX_5074_o and USER_RATE_RXSYNC_GND_940_o_MUX_5093_o USER_RATE_RXSYNC_GND_940_o_MUX_5093_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i Conflict on KEEP property on signal USER_RATE_RXSYNC_GND_940_o_MUX_5093_o and USER_RATE_GEN3_GND_940_o_MUX_5095_o USER_RATE_GEN3_GND_940_o_MUX_5095_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i Conflict on KEEP property on signal USER_RESETOVRD_START_GND_940_o_MUX_5074_o and USER_RATE_RXSYNC_GND_940_o_MUX_5093_o USER_RATE_RXSYNC_GND_940_o_MUX_5093_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i Conflict on KEEP property on signal USER_RATE_RXSYNC_GND_940_o_MUX_5093_o and USER_RATE_GEN3_GND_940_o_MUX_5095_o USER_RATE_GEN3_GND_940_o_MUX_5095_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_user_i Conflict on KEEP property on signal USER_RESETOVRD_START_GND_940_o_MUX_5074_o and USER_RATE_RXSYNC_GND_940_o_MUX_5093_o USER_RATE_RXSYNC_GND_940_o_MUX_5093_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_user_i Conflict on KEEP property on signal USER_RATE_RXSYNC_GND_940_o_MUX_5093_o and USER_RATE_GEN3_GND_940_o_MUX_5095_o USER_RATE_GEN3_GND_940_o_MUX_5095_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_user_i Conflict on KEEP property on signal USER_RESETOVRD_START_GND_940_o_MUX_5074_o and USER_RATE_RXSYNC_GND_940_o_MUX_5093_o USER_RATE_RXSYNC_GND_940_o_MUX_5093_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_user_i Conflict on KEEP property on signal USER_RATE_RXSYNC_GND_940_o_MUX_5093_o and USER_RATE_GEN3_GND_940_o_MUX_5095_o USER_RATE_GEN3_GND_940_o_MUX_5095_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5160_o and SYNC_RXSYNC_START_GND_942_o_MUX_5170_o SYNC_RXSYNC_START_GND_942_o_MUX_5170_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5160_o and SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5174_o SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5174_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5160_o and SYNC_RXSYNC_START_GND_942_o_MUX_5170_o SYNC_RXSYNC_START_GND_942_o_MUX_5170_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5160_o and SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5174_o SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5174_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5160_o and SYNC_RXSYNC_START_GND_942_o_MUX_5170_o SYNC_RXSYNC_START_GND_942_o_MUX_5170_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5160_o and SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5174_o SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5174_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5160_o and SYNC_RXSYNC_START_GND_942_o_MUX_5170_o SYNC_RXSYNC_START_GND_942_o_MUX_5170_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5160_o and SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5174_o SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5174_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i Conflict on KEEP property on signal USER_RESETOVRD_START_GND_940_o_MUX_5062_o and USER_RATE_RXSYNC_GND_940_o_MUX_5081_o USER_RATE_RXSYNC_GND_940_o_MUX_5081_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_user_i Conflict on KEEP property on signal USER_RATE_RXSYNC_GND_940_o_MUX_5081_o and USER_RATE_GEN3_GND_940_o_MUX_5083_o USER_RATE_GEN3_GND_940_o_MUX_5083_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i Conflict on KEEP property on signal USER_RESETOVRD_START_GND_940_o_MUX_5062_o and USER_RATE_RXSYNC_GND_940_o_MUX_5081_o USER_RATE_RXSYNC_GND_940_o_MUX_5081_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_user_i Conflict on KEEP property on signal USER_RATE_RXSYNC_GND_940_o_MUX_5081_o and USER_RATE_GEN3_GND_940_o_MUX_5083_o USER_RATE_GEN3_GND_940_o_MUX_5083_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_user_i Conflict on KEEP property on signal USER_RESETOVRD_START_GND_940_o_MUX_5062_o and USER_RATE_RXSYNC_GND_940_o_MUX_5081_o USER_RATE_RXSYNC_GND_940_o_MUX_5081_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_user_i Conflict on KEEP property on signal USER_RATE_RXSYNC_GND_940_o_MUX_5081_o and USER_RATE_GEN3_GND_940_o_MUX_5083_o USER_RATE_GEN3_GND_940_o_MUX_5083_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_user_i Conflict on KEEP property on signal USER_RESETOVRD_START_GND_940_o_MUX_5062_o and USER_RATE_RXSYNC_GND_940_o_MUX_5081_o USER_RATE_RXSYNC_GND_940_o_MUX_5081_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_user_i Conflict on KEEP property on signal USER_RATE_RXSYNC_GND_940_o_MUX_5081_o and USER_RATE_GEN3_GND_940_o_MUX_5083_o USER_RATE_GEN3_GND_940_o_MUX_5083_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5148_o and SYNC_RXSYNC_START_GND_942_o_MUX_5158_o SYNC_RXSYNC_START_GND_942_o_MUX_5158_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5148_o and SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5162_o SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5162_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5148_o and SYNC_RXSYNC_START_GND_942_o_MUX_5158_o SYNC_RXSYNC_START_GND_942_o_MUX_5158_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5148_o and SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5162_o SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5162_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5148_o and SYNC_RXSYNC_START_GND_942_o_MUX_5158_o SYNC_RXSYNC_START_GND_942_o_MUX_5158_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5148_o and SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5162_o SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5162_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5148_o and SYNC_RXSYNC_START_GND_942_o_MUX_5158_o SYNC_RXSYNC_START_GND_942_o_MUX_5158_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_sync_i Conflict on KEEP property on signal SYNC_GEN3_GND_942_o_MUX_5148_o and SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5162_o SYNC_RXSYNC_DONEM_IN_GND_942_o_MUX_5162_o signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<5> and EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<4> EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<4> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<4> and EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<3> EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<3> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<3> and EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<2> EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<2> signal will be lost.
@@ -10985,9 +10968,9 @@ WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_eq
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<2> EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<2> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<1> EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<1> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<0> EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<0> signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_GEN3_GND_944_o_MUX_5222_o EQ_GEN3_GND_944_o_MUX_5222_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5222_o and EQ_RXEQ_USER_EN_GND_944_o_MUX_5223_o EQ_RXEQ_USER_EN_GND_944_o_MUX_5223_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5222_o and EQ_RXEQ_USER_MODE_GND_944_o_MUX_5242_o EQ_RXEQ_USER_MODE_GND_944_o_MUX_5242_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_GEN3_GND_944_o_MUX_5210_o EQ_GEN3_GND_944_o_MUX_5210_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5210_o and EQ_RXEQ_USER_EN_GND_944_o_MUX_5211_o EQ_RXEQ_USER_EN_GND_944_o_MUX_5211_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5210_o and EQ_RXEQ_USER_MODE_GND_944_o_MUX_5230_o EQ_RXEQ_USER_MODE_GND_944_o_MUX_5230_o signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<5> and EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<4> EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<4> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<4> and EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<3> EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<3> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<3> and EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<2> EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<2> signal will be lost.
@@ -11031,9 +11014,9 @@ WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_eq
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<2> EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<2> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<1> EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<1> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<0> EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<0> signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_GEN3_GND_944_o_MUX_5222_o EQ_GEN3_GND_944_o_MUX_5222_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5222_o and EQ_RXEQ_USER_EN_GND_944_o_MUX_5223_o EQ_RXEQ_USER_EN_GND_944_o_MUX_5223_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5222_o and EQ_RXEQ_USER_MODE_GND_944_o_MUX_5242_o EQ_RXEQ_USER_MODE_GND_944_o_MUX_5242_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_GEN3_GND_944_o_MUX_5210_o EQ_GEN3_GND_944_o_MUX_5210_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5210_o and EQ_RXEQ_USER_EN_GND_944_o_MUX_5211_o EQ_RXEQ_USER_EN_GND_944_o_MUX_5211_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5210_o and EQ_RXEQ_USER_MODE_GND_944_o_MUX_5230_o EQ_RXEQ_USER_MODE_GND_944_o_MUX_5230_o signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<5> and EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<4> EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<4> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<4> and EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<3> EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<3> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<3> and EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<2> EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<2> signal will be lost.
@@ -11077,9 +11060,9 @@ WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_eq
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<2> EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<2> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<1> EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<1> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<0> EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<0> signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_GEN3_GND_944_o_MUX_5222_o EQ_GEN3_GND_944_o_MUX_5222_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5222_o and EQ_RXEQ_USER_EN_GND_944_o_MUX_5223_o EQ_RXEQ_USER_EN_GND_944_o_MUX_5223_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5222_o and EQ_RXEQ_USER_MODE_GND_944_o_MUX_5242_o EQ_RXEQ_USER_MODE_GND_944_o_MUX_5242_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_GEN3_GND_944_o_MUX_5210_o EQ_GEN3_GND_944_o_MUX_5210_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5210_o and EQ_RXEQ_USER_EN_GND_944_o_MUX_5211_o EQ_RXEQ_USER_EN_GND_944_o_MUX_5211_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5210_o and EQ_RXEQ_USER_MODE_GND_944_o_MUX_5230_o EQ_RXEQ_USER_MODE_GND_944_o_MUX_5230_o signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<5> and EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<4> EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<4> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<4> and EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<3> EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<3> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<3> and EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<2> EQ_TXEQ_DEEMPH_IN[5]_GND_944_o_mux_3_OUT<2> signal will be lost.
@@ -11123,12 +11106,12 @@ WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_eq
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<2> EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<2> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<1> EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<1> signal will be lost.
 WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<0> EQ_RXEQ_TXPRESET[3]_GND_944_o_mux_7_OUT<0> signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_GEN3_GND_944_o_MUX_5222_o EQ_GEN3_GND_944_o_MUX_5222_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5222_o and EQ_RXEQ_USER_EN_GND_944_o_MUX_5223_o EQ_RXEQ_USER_EN_GND_944_o_MUX_5223_o signal will be lost.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5222_o and EQ_RXEQ_USER_MODE_GND_944_o_MUX_5242_o EQ_RXEQ_USER_MODE_GND_944_o_MUX_5242_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_RXEQ_CONTROL[1]_GND_944_o_mux_4_OUT<0> and EQ_GEN3_GND_944_o_MUX_5210_o EQ_GEN3_GND_944_o_MUX_5210_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5210_o and EQ_RXEQ_USER_EN_GND_944_o_MUX_5211_o EQ_RXEQ_USER_EN_GND_944_o_MUX_5211_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_eq.pipe_eq_i Conflict on KEEP property on signal EQ_GEN3_GND_944_o_MUX_5210_o and EQ_RXEQ_USER_MODE_GND_944_o_MUX_5230_o EQ_RXEQ_USER_MODE_GND_944_o_MUX_5230_o signal will be lost.
 WARNING:Xst:2677 - Node <MWr_on_Pool> of sequential type is unconnected in block <Rx_Input_Delays>.
 WARNING:Xst:1293 - FF/Latch <ovrd> has a constant value of 0 in block <qpll_reset.qpll_reset_i>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_quad.pipe_common.qpll_drp_i Conflict on KEEP property on signal DRP_GEN3_GND_946_o_MUX_5308_o and DRP_OVRD_GND_946_o_MUX_5307_o DRP_OVRD_GND_946_o_MUX_5307_o signal will be lost.
+WARNING:Xst:638 - in unit v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_quad.pipe_common.qpll_drp_i Conflict on KEEP property on signal DRP_GEN3_GND_946_o_MUX_5296_o and DRP_OVRD_GND_946_o_MUX_5295_o DRP_OVRD_GND_946_o_MUX_5295_o signal will be lost.
 WARNING:Xst:1293 - FF/Latch <index_0> has a constant value of 0 in block <pipe_lane[3].gtp_pipe_drp.gtp_pipe_drp_i>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1293 - FF/Latch <index_1> has a constant value of 0 in block <pipe_lane[3].gtp_pipe_drp.gtp_pipe_drp_i>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1293 - FF/Latch <index_2> has a constant value of 0 in block <pipe_lane[3].gtp_pipe_drp.gtp_pipe_drp_i>. This FF/Latch will be trimmed during the optimization process.
@@ -11284,8 +11267,8 @@ Unit <ad9467_1> processed.
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 8416
- Flip-Flops                                            : 8416
+# Registers                                            : 8218
+ Flip-Flops                                            : 8218
 # Shift Registers                                      : 20
  2-bit shift register                                  : 3
  3-bit shift register                                  : 17
@@ -11311,11 +11294,11 @@ Top Level Output File Name         : v6pcieDMA.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 12653
+# BELS                             : 12646
 #      GND                         : 76
-#      INV                         : 332
+#      INV                         : 333
 #      LUT1                        : 669
-#      LUT2                        : 2391
+#      LUT2                        : 2383
 #      LUT3                        : 1005
 #      LUT4                        : 1303
 #      LUT5                        : 1014
@@ -11324,16 +11307,16 @@ Primitive and Black Box Usage:
 #      MUXF7                       : 95
 #      VCC                         : 53
 #      XORCY                       : 1319
-# FlipFlops/Latches                : 9262
-#      FD                          : 1933
+# FlipFlops/Latches                : 9064
+#      FD                          : 1925
 #      FDC                         : 2142
 #      FDCE                        : 2743
 #      FDE                         : 391
 #      FDP                         : 283
 #      FDPE                        : 49
-#      FDR                         : 1110
+#      FDR                         : 925
 #      FDRE                        : 500
-#      FDS                         : 30
+#      FDS                         : 25
 #      FDSE                        : 71
 #      IDDR_2CLK                   : 9
 #      LD                          : 1
@@ -11368,18 +11351,18 @@ Selected Device : 7a200tfbg676-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            9262  out of  269200     3%  
- Number of Slice LUTs:                10050  out of  134600     7%  
-    Number used as Logic:              9645  out of  134600     7%  
+ Number of Slice Registers:            9064  out of  269200     3%  
+ Number of Slice LUTs:                10043  out of  134600     7%  
+    Number used as Logic:              9638  out of  134600     7%  
     Number used as Memory:              405  out of  46200     0%  
        Number used as SRL:              405
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:  13476
-   Number with an unused Flip Flop:    4214  out of  13476    31%  
-   Number with an unused LUT:          3426  out of  13476    25%  
-   Number of fully used LUT-FF pairs:  5836  out of  13476    43%  
-   Number of unique control sets:       299
+ Number of LUT Flip Flop pairs used:  13279
+   Number with an unused Flip Flop:    4215  out of  13279    31%  
+   Number with an unused LUT:          3236  out of  13279    24%  
+   Number of fully used LUT-FF pairs:  5828  out of  13279    43%  
+   Number of unique control sets:       290
 
 IO Utilization: 
  Number of IOs:                          53
@@ -11413,7 +11396,7 @@ Clock Information:
 Clock Signal                                                                                | Clock buffer(FF name)                              | Load  |
 --------------------------------------------------------------------------------------------+----------------------------------------------------+-------+
 v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2                      | BUFG                                               | 6504  |
-v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz                    | BUFGCTRL                                           | 2399  |
+v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz                    | BUFGCTRL                                           | 2201  |
 v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1                      | BUFG                                               | 8     |
 adc_clk_in_p                                                                                | IBUFGDS+BUFG                                       | 862   |
 delay_clk                                                                                   | BUFGP                                              | 9     |
@@ -11426,19 +11409,19 @@ INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered
 
 Asynchronous Control Signals Information:
 ----------------------------------------
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-Control Signal                                                                                                                                                                                                                                                                                                                                                      | Buffer(FF name)                                                                                                                                                                                                                    | Load  |
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/DBITERR(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/XST_GND:G)| NONE(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram)| 228   |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[3].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[3].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[3].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[0].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[0].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[0].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[1].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[1].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[1].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[2].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[2].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[2].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
-v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                         | 2     |
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                                                                                                                                                                                                                                                                                                                                                      | Buffer(FF name)                                                                                                                                                                                                                     | Load  |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/DBITERR(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/XST_GND:G)| NONE(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram)| 228   |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[3].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[3].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[3].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[0].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[0].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[0].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[1].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[1].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[1].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[2].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[2].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[2].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 
 Timing Summary:
 ---------------
@@ -11489,7 +11472,7 @@ Delay:               4.314ns (Levels of Logic = 10)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz'
   Clock period: 3.437ns (frequency: 290.985MHz)
-  Total number of paths / destination ports: 12351 / 3158
+  Total number of paths / destination ports: 12032 / 2864
 -------------------------------------------------------------------------
 Delay:               3.437ns (Levels of Logic = 5)
   Source:            v7_pcie_i/gt_top_i/gt_rx_valid_filter[3].GT_RX_VALID_FILTER_7x_inst/gt_rxdata_q_3 (FF)
@@ -11636,7 +11619,7 @@ Offset:              2.512ns (Levels of Logic = 5)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz'
-  Total number of paths / destination ports: 119 / 119
+  Total number of paths / destination ports: 34 / 34
 -------------------------------------------------------------------------
 Offset:              1.360ns (Levels of Logic = 4)
   Source:            sys_reset_n (PAD)
@@ -11760,26 +11743,31 @@ Offset:              0.737ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz'
-  Total number of paths / destination ports: 101 / 101
+  Total number of paths / destination ports: 109 / 97
 -------------------------------------------------------------------------
-Offset:              1.044ns (Levels of Logic = 3)
-  Source:            v7_pcie_i/gt_top_i/phy_rdy_n_int (FF)
-  Destination:       v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_block_i:SYSRSTN (PAD)
+Offset:              1.475ns (Levels of Logic = 5)
+  Source:            v7_pcie_i/gt_top_i/gt_rx_valid_filter[0].GT_RX_VALID_FILTER_7x_inst/gt_rxvalid_q (FF)
+  Destination:       v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_block_i:PIPERX0CHARISK1 (PAD)
   Source Clock:      v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz rising
 
-  Data Path: v7_pcie_i/gt_top_i/phy_rdy_n_int to v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_block_i:SYSRSTN
+  Data Path: v7_pcie_i/gt_top_i/gt_rx_valid_filter[0].GT_RX_VALID_FILTER_7x_inst/gt_rxvalid_q to v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_block_i:PIPERX0CHARISK1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDC:C->Q            323   0.398   0.523  phy_rdy_n_int (phy_rdy_n_int)
-     end scope: 'v7_pcie_i/gt_top_i:phy_rdy_n'
-     begin scope: 'v7_pcie_i/pcie_top_i:phy_rdy_n'
-     INV:I->O              0   0.123   0.000  phy_rdy1_INV_0 (phy_rdy)
-     begin scope: 'v7_pcie_i/pcie_top_i/pcie_7x_i:sys_rst_n'
-    PCIE_2_1:SYSRSTN           0.000          pcie_block_i
+     FDR:C->Q              7   0.398   0.633  gt_rxvalid_q (gt_rxvalid_q)
+     LUT3:I0->O            1   0.105   0.339  Mmux_USER_RXCHARISK<1>11 (USER_RXCHARISK<1>)
+     end scope: 'v7_pcie_i/gt_top_i/gt_rx_valid_filter[0].GT_RX_VALID_FILTER_7x_inst:USER_RXCHARISK<1>'
+     end scope: 'v7_pcie_i/gt_top_i:pipe_rx0_char_is_k<1>'
+     begin scope: 'v7_pcie_i/pcie_top_i:pipe_rx0_char_is_k_gt<1>'
+     begin scope: 'v7_pcie_i/pcie_top_i/pcie_pipe_pipeline_i:pipe_rx0_char_is_k_i<1>'
+     begin scope: 'v7_pcie_i/pcie_top_i/pcie_pipe_pipeline_i/pipe_lane_0_i:pipe_rx_char_is_k_i<1>'
+     end scope: 'v7_pcie_i/pcie_top_i/pcie_pipe_pipeline_i/pipe_lane_0_i:pipe_rx_char_is_k_o<1>'
+     end scope: 'v7_pcie_i/pcie_top_i/pcie_pipe_pipeline_i:pipe_rx0_char_is_k_o<1>'
+     begin scope: 'v7_pcie_i/pcie_top_i/pcie_7x_i:pipe_rx0_char_is_k<1>'
+    PCIE_2_1:PIPERX0CHARISK1        0.000          pcie_block_i
     ----------------------------------------
-    Total                      1.044ns (0.521ns logic, 0.523ns route)
-                                       (49.9% logic, 50.1% route)
+    Total                      1.475ns (0.503ns logic, 0.972ns route)
+                                       (34.1% logic, 65.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived_G'
@@ -11884,15 +11872,15 @@ v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2|    4.314
 =========================================================================
 
 
-Total REAL time to Xst completion: 100.00 secs
-Total CPU time to Xst completion: 95.62 secs
+Total REAL time to Xst completion: 116.00 secs
+Total CPU time to Xst completion: 111.60 secs
  
 --> 
 
 
-Total memory usage is 673824 kilobytes
+Total memory usage is 673248 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings : 5175 (   0 filtered)
+Number of warnings : 5177 (   0 filtered)
 Number of infos    :  694 (   0 filtered)
 

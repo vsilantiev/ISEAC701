@@ -64,7 +64,7 @@ use ieee.numeric_std.all; --for bit_vector conversion to integer
 entity pcie_2_1_rport_7x is
   generic (
     CFG_VEND_ID                                    : std_logic_vector := X"10EE";
-    CFG_DEV_ID                                     : std_logic_vector := X"7124";
+    CFG_DEV_ID                                     : std_logic_vector := X"7114";
     CFG_REV_ID                                     : std_logic_vector := X"00";
     CFG_SUBSYS_VEND_ID                             : std_logic_vector := X"10EE";
     CFG_SUBSYS_ID                                  : std_logic_vector := X"0007";

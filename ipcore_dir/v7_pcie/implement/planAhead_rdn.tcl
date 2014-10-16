@@ -54,7 +54,7 @@ add_files -norecurse {../../example_design/EP_MEM.vhd}
 add_files -norecurse {../../example_design/PIO_TO_CTRL.vhd}
 add_files -norecurse {../../example_design/PIO_RX_ENGINE.vhd}
 add_files -norecurse {../../example_design/PIO_TX_ENGINE.vhd}
-read_xdc ../../example_design/xilinx_pcie_2_1_ep_7x_04_lane_gen2_xc7a200t-fbg676-2-PCIE_X0Y0.xdc
+read_xdc ../../example_design/xilinx_pcie_2_1_ep_7x_04_lane_gen1_xc7a200t-fbg676-2_AC701.xdc
 synth_design -flatten_hierarchy none
 opt_design
 place_design

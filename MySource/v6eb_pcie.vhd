@@ -1704,14 +1704,16 @@ begin
 --  trn_rrem_n_my    <= not trn_rrem; -- ?????????
   
   
-   trn_rrem_n_in <= X"0F" when (trn_rrem(0) = '1') else 
-                     X"00";
+ ------  trn_rrem_n_in <= X"0F" when (trn_rrem(0) = '1') else 
+ ----------                    X"00";
 							
 							
-  trn_trem(0)   <= '0' when trn_trem_n_out(0) = '1' else '1';
+ ----------- trn_trem(0)   <= '0' when trn_trem_n_out(0) = '1' else '1';
   
-  trn_rrem_n(0)    <= not trn_rrem(0); -- ?????????
+ -------------- trn_rrem_n(0)    <= not trn_rrem(0); -- ?????????
   
+  trn_trem(0)					<= not trn_trem_n(0);
+  trn_rrem_n(0)					<= not trn_rrem(0);
   
   trn_tsof              <= not trn_tsof_n;
   trn_teof              <= not trn_teof_n;
@@ -1888,7 +1890,7 @@ begin
 -- tlp control module
 -- ---------------------------------------------------------------
 
- ------ trn_rrem_n(7 downto 1) <= X"0" & trn_rrem_n(0) & trn_rrem_n(0) & trn_rrem_n(0); --УДАЛИЛ !!!!!!!!!
+  trn_rrem_n(7 downto 1) <= X"0" & trn_rrem_n(0) & trn_rrem_n(0) & trn_rrem_n(0); --УДАЛИЛ !!!!!!!!!
  -------- trn_rrem_n_my(7 downto 1) <= X"0" & trn_rrem_n_my(0) & trn_rrem_n_my(0) & trn_rrem_n_my(0);
    theTlpControl:
    tlpControl 
@@ -2070,7 +2072,7 @@ begin
            trn_rsof_n                  => trn_rsof_n              ,
            trn_reof_n                  => trn_reof_n              ,
            trn_rerrfwd_n               => trn_rerrfwd_n           ,
-           trn_rrem_n                  => trn_rrem_n_in,--trn_rrem_n              ,
+           trn_rrem_n                  => trn_rrem_n,--trn_rrem_n              ,
            trn_rd                      => trn_rd                  ,
                                                         
            cfg_interrupt_n             => cfg_interrupt_n         ,
@@ -2086,7 +2088,7 @@ begin
            trn_rdst_rdy_n              => trn_rdst_rdy_n          ,
            trn_tsof_n                  => trn_tsof_n              ,
            trn_teof_n                  => trn_teof_n              ,
-           trn_trem_n                  => trn_trem_n_out,--trn_trem_n              ,
+           trn_trem_n                  => trn_trem_n,--trn_trem_n              ,
            trn_td                      => trn_td                  ,
 
            Format_Shower               => Format_Shower           ,
@@ -2570,7 +2572,7 @@ begin
     trn_tsrc_rdy           => trn_tsrc_rdy,--trn_tsrc_rdy_n,--trn_tsrc_rdy,
     trn_tdst_rdy           => trn_tdst_rdy,--trn_tdst_rdy_n,--trn_tdst_rdy,
     trn_tsrc_dsc           => trn_tsrc_dsc,--trn_tsrc_dsc_n,--trn_tsrc_dsc,
-    trn_trem            	=> trn_trem,--trn_trem_n(0),--trn_trem, ???
+    trn_trem(0)            	=> trn_trem(0),--trn_trem_n(0),--trn_trem, ???
     trn_terrfwd            => trn_terrfwd,--trn_terrfwd_n,--trn_terrfwd,
     trn_tstr               => '0',
     trn_tecrc_gen          => '0',
@@ -2581,7 +2583,7 @@ begin
     trn_rsrc_rdy           => trn_rsrc_rdy,--trn_rsrc_rdy_n,--trn_rsrc_rdy,
     trn_rdst_rdy           => trn_rdst_rdy,--trn_rdst_rdy_n,--trn_rdst_rdy,
     trn_rsrc_dsc           => trn_rsrc_dsc,--trn_rsrc_dsc_n,--trn_rsrc_dsc,
-    trn_rrem            	=> trn_rrem,--trn_rrem_n(0),--trn_rrem, ???
+    trn_rrem(0)            	=> trn_rrem(0),--trn_rrem_n(0),--trn_rrem, ???
     trn_rerrfwd            => trn_rerrfwd,--trn_rerrfwd_n,--trn_rerrfwd,
     trn_rbar_hit				=> trn_rbar_hit--trn_rbar_hit ?? wtf 7 ??
 );    
