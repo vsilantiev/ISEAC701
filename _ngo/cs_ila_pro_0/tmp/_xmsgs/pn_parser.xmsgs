@@ -5,10 +5,10 @@
 <!--     behavior or data corruption.  It is strongly advised that -->
 <!--     users do not edit the contents of this file.              -->
 <!--                                                               -->
-<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+<!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/_ngo/cs_ila_pro_0/tmp/_cg/ila_pro_0.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/vsilantiev/Documents/ISEAC701new/_ngo/cs_ila_pro_0/tmp/_cg/ila_pro_0.vhd&quot; into library work</arg>
 </msg>
 
 </messages>
