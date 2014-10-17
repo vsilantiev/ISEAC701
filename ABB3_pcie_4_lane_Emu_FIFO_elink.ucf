@@ -57,28 +57,6 @@
 
 CONFIG PART = xc7a200t-fbg676-2;
 
-#########################################################################################################################
-# User Constraints
-#########################################################################################################################
-
-###############################################################################
-# User Time Names / User Time Groups / Time Specs
-###############################################################################
-
-###############################################################################
-# User Physical Constraints
-###############################################################################
-
-#########################################################################################################################
-# End User Constraints
-#########################################################################################################################
-#
-#
-#
-#########################################################################################################################
-# PCIE Core Constraints
-#########################################################################################################################
-
 ###############################################################################
 # Pinout and Related I/O Constraints
 ###############################################################################
@@ -104,15 +82,6 @@ NET "sys_reset_n" IOSTANDARD = LVCMOS33;
 NET "sys_reset_n" PULLUP;
 
 #
-# LED Status Indicators for Example Design.
-# LED 0-2 should be ON if link is up and functioning correctly
-# LED 3 should be blinking if user applicaiton is receiving valid clock
-#
-#NET  "led_0"              LOC = M26     | IOSTANDARD = LVCMOS33;  # System Reset
-#NET  "led_1"              LOC = T24     | IOSTANDARD = LVCMOS33;  # User Reset
-#NET  "led_2"              LOC = T25     | IOSTANDARD = LVCMOS33;  # User Link Up
-#NET  "led_3"              LOC = R26     | IOSTANDARD = LVCMOS33;  # User Clk Heartbeat
-#
 # SYS clock 100 MHz (input) signal. The sys_clk_p and sys_clk_n
 # signals are the PCI Express reference clock. Virtex-7 GT
 # Transceiver architecture requires the use of a dedicated clock
@@ -122,6 +91,7 @@ NET "sys_reset_n" PULLUP;
 # Please refer to the Virtex-7 GT Transceiver User Guide
 # (UG) for guidelines regarding clock resource selection.
 #
+
 INST "refclk_ibuf" LOC = IBUFDS_GTE2_X0Y2;
 
 #
@@ -201,7 +171,6 @@ NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].gtp_pipe_rate.gtp_pipe_rate_
 
 TIMESPEC TS_PIPE_RATE = FROM "MC_PIPE" TS_CLK_USERCLK * 0.5;
 
-
 NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/gtp_pipe_reset.gtp_pipe_reset_i/pllreset" TIG;
 NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/qpll_reset.qpll_reset_i/*" TIG;
 
@@ -213,14 +182,12 @@ NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/qpll_reset.qpll_reset_i/*" TIG;
 # End PCIe Core Constraints
 #########################################################################################################################
 
-NET "userclk_200MHz_n" TIG;
-NET "userclk_200MHz_n" LOC = P3;
-NET "userclk_200MHz_n" IOSTANDARD = LVDS_25;
-NET "userclk_200MHz_p" TIG;
-NET "userclk_200MHz_p" LOC = R3;
-NET "userclk_200MHz_p" IOSTANDARD = LVDS_25;
-NET "userclk_200MHz_p" PERIOD = 200 MHz HIGH 50 %;
-NET "userclk_200MHz_p" TIG;
+NET "userclk_200MHz_p" LOC = "R3" | TNM_NET = "userclk_200MHz_p" | IOSTANDARD = LVDS_25;
+NET "userclk_200MHz_p" DIFF_TERM = "TRUE" | TIG;
+TIMESPEC TS_userclk_200MHz_p = PERIOD "userclk_200MHz_p" 200 MHz HIGH 50%;
+NET "userclk_200MHz_n" LOC = "P3" | TNM_NET = "userclk_200MHz_n" | IOSTANDARD = LVDS_25;
+NET "userclk_200MHz_n" DIFF_TERM = "TRUE" | TIG;
+TIMESPEC TS_userclk_200MHz_n = PERIOD "userclk_200MHz_p" 200 MHz HIGH 50%;
 
 
 NET "adc_clk_in_p" LOC = D19;
@@ -288,10 +255,12 @@ NET "adc_data_in_n[7]" DIFF_TERM = "TRUE";
 #NET real_strobe_signal LOC = "V34" | IOSTANDARD = "LVCMOS25";   
 #NET real_soa_signal LOC = "W34" | IOSTANDARD = "LVCMOS25";  
 
-NET "adc_clk_in_p" TNM_NET = "adc_clk_in_p";
-TIMESPEC TS_adc_clk_in_p = PERIOD "adc_clk_in_p" 125 MHz;
-NET "adc_clk_in_n" TNM_NET = "adc_clk_in_n";
-TIMESPEC TS_adc_clk_in_n = PERIOD "adc_clk_in_n" 125 MHz;
+NET "adc_clk_in_p" TNM_NET = "adc_clk_in_p" | IOSTANDARD = LVDS_25;
+NET "adc_clk_in_p" DIFF_TERM = "TRUE";
+TIMESPEC TS_adc_clk_in_p = PERIOD "adc_clk_in_p" 100 MHz HIGH 50%;
+NET "adc_clk_in_n" TNM_NET = "adc_clk_in_n" | IOSTANDARD = LVDS_25;
+NET "adc_clk_in_n" DIFF_TERM = "TRUE";
+TIMESPEC TS_adc_clk_in_n = PERIOD "adc_clk_in_n" 100 MHz HIGH 50%;
 
 # PlanAhead Generated IO constraints 
 

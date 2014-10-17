@@ -459,22 +459,14 @@ architecture Behavioral of v6pcieDMA is
 			user_int_2o: out std_logic;
 			user_int_3o: out std_logic;
 			adcclock: 	 out std_logic;
-			
 			fifowr_clk   : OUT  std_logic;
 			fifowr_en    : OUT  std_logic;
 			fifodin      : OUT  std_logic_VECTOR(72-1 downto 0);
 			fifofull     : IN std_logic;
-			fifoprog_full:IN std_logic;
-			
+			fifoprog_full:IN std_logic;			
 			 real_strobe_signal : out std_logic;
 			 real_soa_signal : out std_logic;
-			 resetfifo : out std_logic
-		
-			
-			-- DMA status
-			--dma_host2board_busy: in std_logic; 
-			--dma_host2board_done: in std_logic
-			 
+			 resetfifo : out std_logic	 
   );
 end component;
 
@@ -500,76 +492,14 @@ end component;
     fifo_rd_valid: in std_logic; 
     inout_logic_cw_ce: in std_logic := '1'; 
     inout_logic_cw_clk: in std_logic; 
-  ---  reg01_td: in std_logic_vector(31 downto 0); 
-  ---  reg01_tv: in std_logic; 
-  ---  reg02_td: in std_logic_vector(31 downto 0); 
-  ---  reg02_tv: in std_logic; 
-  ---  reg03_td: in std_logic_vector(31 downto 0); 
-  ---  reg03_tv: in std_logic; 
-  ---  reg04_td: in std_logic_vector(31 downto 0); 
-  ---  reg04_tv: in std_logic; 
-  ---  reg05_td: in std_logic_vector(31 downto 0); 
-  ---  reg05_tv: in std_logic; 
-   --- reg06_td: in std_logic_vector(31 downto 0); 
-  ---  reg06_tv: in std_logic; 
-  ---  reg07_td: in std_logic_vector(31 downto 0); 
-  ---  reg07_tv: in std_logic; 
-  ---  reg08_td: in std_logic_vector(31 downto 0); 
-  ---  reg08_tv: in std_logic; 
-  ---  reg09_td: in std_logic_vector(31 downto 0); 
-  ---  reg09_tv: in std_logic; 
-  ---  reg10_td: in std_logic_vector(31 downto 0); 
-  ---  reg10_tv: in std_logic; 
-   --- reg11_td: in std_logic_vector(31 downto 0); 
-  ---  reg11_tv: in std_logic; 
-   --- reg12_td: in std_logic_vector(31 downto 0); 
-   --- reg12_tv: in std_logic; 
-  ---  reg13_td: in std_logic_vector(31 downto 0); 
-  ---  reg13_tv: in std_logic; 
-  ---  reg14_td: in std_logic_vector(31 downto 0); 
-  ---  reg14_tv: in std_logic; 
-    --rst_i: in std_logic; 
     user_logic_cw_ce: in std_logic := '1'; 
     user_logic_cw_clk: in std_logic; 
     bram_rd_addr: out std_logic_vector(11 downto 0); 
-    --bram_wr_addr: out std_logic_vector(11 downto 0); 
-    --bram_wr_din: out std_logic_vector(63 downto 0); 
     bram_wr_en: out std_logic_vector(7 downto 0); 
     fifo_rd_en: out std_logic; 
     fifo_wr_din: out std_logic_vector(71 downto 0); 
     fifo_wr_en: out std_logic; 
-   --- reg01_rd: out std_logic_vector(31 downto 0); 
-   --- reg01_rv: out std_logic; 
-   --- reg02_rd: out std_logic_vector(31 downto 0); 
-   --- reg02_rv: out std_logic; 
-   --- reg03_rd: out std_logic_vector(31 downto 0); 
-   --- reg03_rv: out std_logic; 
-   --- reg04_rd: out std_logic_vector(31 downto 0); 
-   --- reg04_rv: out std_logic; 
-   --- reg05_rd: out std_logic_vector(31 downto 0); 
-   --- reg05_rv: out std_logic; 
-   --- reg06_rd: out std_logic_vector(31 downto 0); 
-   --- reg06_rv: out std_logic; 
-   --- reg07_rd: out std_logic_vector(31 downto 0); 
-   --- reg07_rv: out std_logic; 
-   --- reg08_rd: out std_logic_vector(31 downto 0); 
-   --- reg08_rv: out std_logic; 
-   --- reg09_rd: out std_logic_vector(31 downto 0); 
-   --- reg09_rv: out std_logic; 
-   --- reg10_rd: out std_logic_vector(31 downto 0); 
-   --- reg10_rv: out std_logic; 
-   --- reg11_rd: out std_logic_vector(31 downto 0); 
-   --- reg11_rv: out std_logic; 
-   --- reg12_rd: out std_logic_vector(31 downto 0); 
-   --- reg12_rv: out std_logic; 
-   --- reg13_rd: out std_logic_vector(31 downto 0); 
-   --- reg13_rv: out std_logic; 
-   --- reg14_rd: out std_logic_vector(31 downto 0); 
-   --- reg14_rv: out std_logic; 
     rst_o: out std_logic --;
-   -- user_int_1o: out std_logic; 
-    --user_int_2o: out std_logic;
-   -- user_int_3o: out std_logic
   );
 end component;
 
@@ -1527,116 +1457,11 @@ begin
 			 real_strobe_signal => real_strobe_signal,
 			 real_soa_signal => real_soa_signal,
 			resetfifo => resetfifo
-			
-			--DMA_Host2Board_Busy => DMA_Host2Board_Busy,
-			--DMA_Host2Board_Done => DMA_Host2Board_Done
 			);
 
--- END PART ADC
-
-
-
- ------  LoopBack_Off_UserLogic:  if not USE_LOOPBACK_TEST generate
-
---S SIMONE: My Custom User Logic!!
- ------- pcie_userlogic_00_x0: PCIe_UserLogic_00
- ------   port map (
- ------		inout_logic_cw_ce   => '1',
-	------	inout_logic_cw_clk  => trn_clk,
-	------	user_logic_cw_ce    => '1',
-	------	user_logic_cw_clk   => clk_200MHz,
-  ------    fifo_rd_count  => user_rd_data_count,
-  ------    fifo_rd_dout   => user_rd_dout      ,
-  ------    fifo_rd_empty  => user_rd_empty     ,
-   ------   fifo_rd_pempty => user_rd_pempty    ,
-   ------   fifo_wr_full   => user_wr_full      , 
-   ------   fifo_wr_pfull  => user_wr_pfull     ,
-   ------   fifo_rd_en 		=> user_rd_en        , 
-   ------   fifo_wr_din 	=> user_wr_din       ,
-   ------   fifo_wr_en 		=> user_wr_en        ,
-   ------   fifo_rd_valid	=> user_rd_valid     ,
-   ------   fifo_wr_count  => user_wr_data_count,
-   ------   bram_rd_addr 	=> user_rd_addrB     ,
-      --bram_wr_addr 	=>  user_wr_addrA     ,
-      --bram_wr_din 	=>  user_wr_dinA      ,
-   ------   bram_wr_en 		=> user_wr_weA       ,
-    ------  bram_rd_dout   => user_rd_doutB     , 
-  	------	DMA_Host2Board_Busy => DMA_Host2Board_Busy,
-  	------	DMA_Host2Board_Done => DMA_Host2Board_Done,
-  ---		reg01_td 		=> reg01_td,					        
-  ---    reg01_tv 		=> reg01_tv,                     
-   ---   reg02_td 		=> reg02_td,                      
-   ---   reg02_tv 		=> reg02_tv,                     
-   ---   reg03_td 		=> reg03_td,                 
-  ---    reg03_tv 		=> reg03_tv,                        
-   ---   reg04_td 		=> reg04_td,                 
-  ---    reg04_tv 		=> reg04_tv,                        
-  ---    reg05_td 		=> reg05_td,                 
-   ---   reg05_tv 		=> reg05_tv,                        
- ---     reg06_td 		=> reg06_td,                 
- ---     reg06_tv 		=> reg06_tv,                        
- ---     reg07_td 		=> reg07_td,                 
-  ---      reg07_tv 		=> reg07_tv,                        
-                                              
- ---     reg08_td 		=> reg08_td,                 
-  ---    reg08_tv 		=> reg08_tv,                        
-  ---    reg09_td 		=> reg09_td,                 
- ---     reg09_tv 		=> reg09_tv,                        
- ---     reg10_td 		=> reg10_td,                 
-    ---  reg10_tv 		=> reg10_tv,                        
- ---     reg11_td 		=> reg11_td,                 
- ---     reg11_tv 		=> reg11_tv,                        
- ---     reg12_td 		=> reg12_td,                 
- ---     reg12_tv 		=> reg12_tv,                        
- ---     reg13_td 		=> reg13_td,                 
-  ---    reg13_tv 		=> reg13_tv,                        
-  ---    reg14_td 		=> reg14_td,                 
-  ---    reg14_tv 		=> reg14_tv,                        
-  --    reg01_rd 		=> reg01_rd,                      
-  --    reg01_rv 		=> reg01_rv,                    
- ---     reg02_rd 		=> reg02_rd,                     
- ---     reg02_rv 		=> reg02_rv,
- ---     reg03_rd 		=> reg03_rd,
- ---     reg03_rv 		=> reg03_rv,
- ---     reg04_rd 		=> reg04_rd,
- ---     reg04_rv 		=> reg04_rv,
- ---     reg05_rd 		=> reg05_rd,
- ---     reg05_rv 		=> reg05_rv,
- ---     reg06_rd 		=> reg06_rd,
- ---     reg06_rv 		=> reg06_rv,
- ---     reg07_rd 		=> reg07_rd,
- ---     reg07_rv 		=> reg07_rv,
- ---     reg08_rd 		=> reg08_rd,
-  ---    reg08_rv 		=> reg08_rv,
-  ---    reg09_rd 		=> reg09_rd,
- ---     reg09_rv 		=> reg09_rv,
- ---     reg10_rd 		=> reg10_rd,
- ---     reg10_rv 		=> reg10_rv,
- ---     reg11_rd 		=> reg11_rd,
-  ---    reg11_rv 		=> reg11_rv,
- ---     reg12_rd 		=> reg12_rd,
- ---     reg12_rv 		=> reg12_rv,
- ---     reg13_rd 		=> reg13_rd,
-  ---    reg13_rv 		=> reg13_rv,
-  ---    reg14_rd 		=> reg14_rd,
-  ---    reg14_rv 		=> reg14_rv,
-	--	user_int_1o    => CTL_irq,
-	--	user_int_2o    => DAQ_irq,
-	--	user_int_3o    => DLM_irq,
-   ------   debug_in_1i    => debug_in_1i,
-    ------  debug_in_2i    => debug_in_2i,
-   ------   debug_in_3i    => debug_in_3i,
-   ------   debug_in_4i    => debug_in_4i,
-      --rst_i 			=> trn_reset_n,
-   ------   rst_o 			=> user_rst_o
-   ------ );
-
- ------  end generate;
 
 	DMA_Host2Board_Busy <= '0'; --DMA_ds_Busy;
 	DMA_Host2Board_Done <= DMA_ds_Done;
- --  LEDs_IO_pin(5) <= DMA_ds_Done;
- --  LEDs_IO_pin(7) <= DMA_us_Done;
 
   process (trn_clk)
   begin
@@ -1693,25 +1518,6 @@ begin
   trn_reset_n_int1 <= not user_reset;
   trn_lnk_up_n_int1 <= not user_lnk_up;
   
-  
-  
--- trn_rrem_n <= X"0F" when (trn_rrem_n_my(0) = '1') else 
- --                    X"00";
-							
-							
- -- trn_trem(0)   <= '0' when trn_trem_n(0) = '1' else '1';
-  
---  trn_rrem_n_my    <= not trn_rrem; -- ?????????
-  
-  
- ------  trn_rrem_n_in <= X"0F" when (trn_rrem(0) = '1') else 
- ----------                    X"00";
-							
-							
- ----------- trn_trem(0)   <= '0' when trn_trem_n_out(0) = '1' else '1';
-  
- -------------- trn_rrem_n(0)    <= not trn_rrem(0); -- ?????????
-  
   trn_trem(0)					<= not trn_trem_n(0);
   trn_rrem_n(0)					<= not trn_rrem(0);
   
@@ -1727,23 +1533,18 @@ begin
   trn_tsrc_dsc          <= not trn_tsrc_dsc_n; -- in bridge <= out tlp
   trn_rsrc_dsc_n        <= not trn_rsrc_dsc;
 
---trn_tsrc_dsc_n          <= not trn_tsrc_dsc;
+
   trn_terrfwd           <= not trn_terrfwd_n;
   trn_rerrfwd_n         <= not trn_rerrfwd;
---trn_terrfwd_n           <= not trn_terrfwd;
+
 
   trn_rdst_rdy          <= not trn_rdst_rdy_n;
   trn_tdst_rdy_n        <= not trn_tdst_rdy; -- c моста in tlp <= out bridge
 
 
- -- trn_rnp_ok            <= not trn_rnp_ok_n;
   trn_rnp_ok            <= not trn_rnp_ok_n;
   rx_np_ok					<= trn_rnp_ok;
 
- --  trn_rbar_hit_n        <= 	not trn_rbar_hit(7) & not trn_rbar_hit(6) &
- --                            not trn_rbar_hit(5) & not trn_rbar_hit(4) &
- --                            not trn_rbar_hit(3) & not trn_rbar_hit(2) &
- --                           not trn_rbar_hit(1) & not trn_rbar_hit(0);
    trn_rbar_hit_n        <=  not trn_rbar_hit(6) &
                              not trn_rbar_hit(5) & not trn_rbar_hit(4) &
                              not trn_rbar_hit(3) & not trn_rbar_hit(2) &
@@ -1751,9 +1552,6 @@ begin
 
 
    cfg_pcie_link_state_n <= not cfg_pcie_link_state(2) & not cfg_pcie_link_state(1) & not cfg_pcie_link_state(0);
-
-    ------------trn_reset_n           <= not user_reset;
-    -------------trn_lnk_up_n          <= not user_lnk_up;
 
 
    cfg_mgmt_byte_en      <= not cfg_byte_en_n(3) & not cfg_byte_en_n(2) & not cfg_byte_en_n(1) & not cfg_byte_en_n(0);
@@ -1782,12 +1580,9 @@ begin
    cfg_interrupt_rdy_n   <= not cfg_interrupt_rdy;
   
 
---  cfg_interrupt_assert_n <= not cfg_interrupt_assert;
    cfg_interrupt_assert <= not cfg_interrupt_assert_n;
 
-	
---	cfg_to_turnoff      <= not cfg_to_turnoff_n; -- out <= in не используется
---   cfg_rd_wr_done_n      <= not cfg_rd_wr_done; 
+
 	 
 	
 	
@@ -1890,8 +1685,7 @@ begin
 -- tlp control module
 -- ---------------------------------------------------------------
 
-  trn_rrem_n(7 downto 1) <= X"0" & trn_rrem_n(0) & trn_rrem_n(0) & trn_rrem_n(0); --УДАЛИЛ !!!!!!!!!
- -------- trn_rrem_n_my(7 downto 1) <= X"0" & trn_rrem_n_my(0) & trn_rrem_n_my(0) & trn_rrem_n_my(0);
+  trn_rrem_n(7 downto 1) <= X"0" & trn_rrem_n(0) & trn_rrem_n(0) & trn_rrem_n(0); 
    theTlpControl:
    tlpControl 
    port map (
@@ -2541,14 +2335,10 @@ begin
 	-- trn_tcfg_gnt_n		   => trn_tcfg_gnt_n,
 	-- tx_cfg_gnt					=> tx_cfg_gnt,
 	 
-	 
-  
-  
     user_clk               => trn_clk,
     user_reset             => user_reset,
     user_lnk_up            => user_lnk_up,
-  -- user_reset             => user_reset,
-  -- user_lnk_up            => user_lnk_up,
+
 
 
     s_axis_tx_tdata        => s_axis_tx_tdata,
@@ -2567,25 +2357,25 @@ begin
     m_axis_rx_tuser        => m_axis_rx_tuser,
 
     trn_td                 => trn_td,
-    trn_tsof               => trn_tsof,--trn_tsof_n,--trn_tsof,
-    trn_teof               => trn_teof,--trn_teof_n,--trn_teof,
-    trn_tsrc_rdy           => trn_tsrc_rdy,--trn_tsrc_rdy_n,--trn_tsrc_rdy,
-    trn_tdst_rdy           => trn_tdst_rdy,--trn_tdst_rdy_n,--trn_tdst_rdy,
-    trn_tsrc_dsc           => trn_tsrc_dsc,--trn_tsrc_dsc_n,--trn_tsrc_dsc,
-    trn_trem(0)            	=> trn_trem(0),--trn_trem_n(0),--trn_trem, ???
-    trn_terrfwd            => trn_terrfwd,--trn_terrfwd_n,--trn_terrfwd,
+    trn_tsof               => trn_tsof,
+    trn_teof               => trn_teof,
+    trn_tsrc_rdy           => trn_tsrc_rdy,
+    trn_tdst_rdy           => trn_tdst_rdy,
+    trn_tsrc_dsc           => trn_tsrc_dsc,
+    trn_trem(0)            	=> trn_trem(0),
+    trn_terrfwd            => trn_terrfwd,
     trn_tstr               => '0',
     trn_tecrc_gen          => '0',
 
     trn_rd                 => trn_rd,
-    trn_rsof               => trn_rsof,--trn_rsof_n,--trn_rsof,
-    trn_reof               => trn_reof,--trn_reof_n,--trn_reof,
-    trn_rsrc_rdy           => trn_rsrc_rdy,--trn_rsrc_rdy_n,--trn_rsrc_rdy,
-    trn_rdst_rdy           => trn_rdst_rdy,--trn_rdst_rdy_n,--trn_rdst_rdy,
-    trn_rsrc_dsc           => trn_rsrc_dsc,--trn_rsrc_dsc_n,--trn_rsrc_dsc,
-    trn_rrem(0)            	=> trn_rrem(0),--trn_rrem_n(0),--trn_rrem, ???
-    trn_rerrfwd            => trn_rerrfwd,--trn_rerrfwd_n,--trn_rerrfwd,
-    trn_rbar_hit				=> trn_rbar_hit--trn_rbar_hit ?? wtf 7 ??
+    trn_rsof               => trn_rsof,
+    trn_reof               => trn_reof,
+    trn_rsrc_rdy           => trn_rsrc_rdy,
+    trn_rdst_rdy           => trn_rdst_rdy,
+    trn_rsrc_dsc           => trn_rsrc_dsc,
+    trn_rrem(0)            	=> trn_rrem(0),
+    trn_rerrfwd            => trn_rerrfwd,
+    trn_rbar_hit				=> trn_rbar_hit
 );    
 
 
