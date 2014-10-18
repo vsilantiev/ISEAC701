@@ -1,16 +1,16 @@
-Release 14.2 - xst P.28xd (nt64)
-Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.10 secs
  
 --> Reading design: v6pcieDMA.prj
 
@@ -566,44 +566,44 @@ Elaborating entity <v7_pcie_pcie_brams_7x> (architecture <pcie_7x>) with generic
 Elaborating entity <v7_pcie_pcie_bram_7x> (architecture <v7_pcie>) with generics from library <work>.
 
 Elaborating entity <BRAM_TDP_MACRO> (architecture <bram_V>) with generics from library <unimacro>.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 877: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 903: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 925: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 233: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 302: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 576: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 373: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 375: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 464: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 466: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 552: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 944: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 627: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 657: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1110: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1237: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 739: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 740: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 762: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 791: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 820: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1429: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1430: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1431: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1432: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1433: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1450: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1451: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1452: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1453: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1454: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1569: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1587: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:321 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 2261: Comparison between arrays of unequal length always returns FALSE.
-WARNING:HDLCompiler:634 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1408: Net <dia_pattern[31]> does not have a driver.
-WARNING:HDLCompiler:634 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1409: Net <dib_pattern[31]> does not have a driver.
-WARNING:HDLCompiler:634 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1410: Net <dipa_pattern[3]> does not have a driver.
-WARNING:HDLCompiler:634 - "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1411: Net <dipb_pattern[3]> does not have a driver.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 878: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 904: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 926: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 234: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 303: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 577: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 374: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 376: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 465: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 467: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 553: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 945: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 628: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 658: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1111: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1238: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 740: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 741: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 763: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 792: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 821: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1430: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1431: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1432: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1433: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1434: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1451: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1452: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1453: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1454: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1455: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1570: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1588: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:321 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 2262: Comparison between arrays of unequal length always returns FALSE.
+WARNING:HDLCompiler:634 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1409: Net <dia_pattern[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1410: Net <dib_pattern[31]> does not have a driver.
+WARNING:HDLCompiler:634 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1411: Net <dipa_pattern[3]> does not have a driver.
+WARNING:HDLCompiler:634 - "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd" Line 1412: Net <dipb_pattern[3]> does not have a driver.
 
 Elaborating entity <v7_pcie_pcie_pipe_pipeline> (architecture <rtl>) with generics from library <work>.
 
@@ -4027,7 +4027,7 @@ INFO:Xst:3210 - "C:\Users\vsilantiev\Documents\ISEAC701new\v7_pcie_pcie_bram_7x.
 Unit <v7_pcie_pcie_bram_7x> synthesized.
 
 Synthesizing Unit <BRAM_TDP_MACRO>.
-    Related source file is "N:/P.28xd/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd".
+    Related source file is "N:/P.20131013/rtf/devlib/vhdl/src/unimacro/BRAM_TDP_MACRO.vhd".
         BRAM_SIZE = "36Kb"
         DEVICE = "7SERIES"
         DOA_REG = 0
@@ -11409,7 +11409,7 @@ Asynchronous Control Signals Information:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                                                                                                                                                                                                                                                                                      | Buffer(FF name)                                                                                                                                                                                                                     | Load  |
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/DBITERR(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/XST_GND:G)| NONE(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[50].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram)| 228   |
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/DBITERR(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/XST_GND:G)| NONE(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[47].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram)| 228   |
 v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
 v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
 v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/REGCEA(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                                                                     | NONE(v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                                          | 2     |
@@ -11869,12 +11869,12 @@ v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2|    4.314
 =========================================================================
 
 
-Total REAL time to Xst completion: 171.00 secs
-Total CPU time to Xst completion: 170.91 secs
+Total REAL time to Xst completion: 167.00 secs
+Total CPU time to Xst completion: 167.23 secs
  
 --> 
 
-Total memory usage is 519960 kilobytes
+Total memory usage is 531956 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings : 5177 (   0 filtered)

@@ -1,9 +1,9 @@
 --------------------------------------------------------------------------------
-Release 14.7 Trace  (lin64)
+Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 2 -n
-3 -fastpaths -xml v6pcieDMA.twx v6pcieDMA.ncd -o v6pcieDMA.twr v6pcieDMA.pcf
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml v6pcieDMA.twx v6pcieDMA.ncd -o v6pcieDMA.twr v6pcieDMA.pcf
 -ucf ABB3_pcie_4_lane_Emu_FIFO_elink.ucf
 
 Design file:              v6pcieDMA.ncd
@@ -4674,14 +4674,14 @@ Design statistics:
 ------------------------------------Footnotes-----------------------------------
 1)  The minimum period statistic assumes all single cycle delays.
 
-Analysis completed Thu Oct 16 20:28:50 2014 
+Analysis completed Sat Oct 18 14:20:04 2014 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 1177 MB
+Peak Memory Usage: 984 MB
 
 
 

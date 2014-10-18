@@ -5,10 +5,10 @@
 --   ____  ____
 --  /   /\/   /
 -- /___/  \  /    Vendor     : Xilinx
--- \   \   \/     Version    : 14.2
+-- \   \   \/     Version    : 14.7
 --  \   \         Application: XILINX CORE Generator
 --  /   /         Filename   : ila_pro_0.vhd
--- /___/   /\     Timestamp  : Fri Oct 17 20:49:19 Московское время (зима) 2014
+-- /___/   /\     Timestamp  : Sat Oct 18 13:54:35 Московское время (зима) 2014
 -- \   \  /  \
 --  \___\/\___\
 --
