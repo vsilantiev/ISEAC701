@@ -2230,10 +2230,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings: 1453
 
-Total memory usage is 653872 kilobytes
+Total memory usage is 653528 kilobytes
 
 Writing NGD file "v6pcieDMA.ngd" ...
-Total REAL time to NGDBUILD completion:  57 sec
-Total CPU time to NGDBUILD completion:   57 sec
+Total REAL time to NGDBUILD completion:  54 sec
+Total CPU time to NGDBUILD completion:   54 sec
 
 Writing NGDBUILD log file "v6pcieDMA.bld"...

@@ -11,7 +11,7 @@ Target Device  : xc7a200t
 Target Package : fbg676
 Target Speed   : -2
 Mapper Version : artix7 -- $Revision: 1.55 $
-Mapped Date    : Thu Oct 16 20:06:30 2014
+Mapped Date    : Sat Oct 18 13:33:11 2014
 
 Design Summary
 --------------
@@ -117,8 +117,8 @@ Specific Feature Utilization:
 Average Fanout of Non-Clock Nets:                3.52
 
 Peak Memory Usage:  1866 MB
-Total REAL time to MAP completion:  17 mins 39 secs 
-Total CPU time to MAP completion:   17 mins 37 secs 
+Total REAL time to MAP completion:  17 mins 3 secs 
+Total CPU time to MAP completion:   17 mins 2 secs 
 
 Table of Contents
 -----------------

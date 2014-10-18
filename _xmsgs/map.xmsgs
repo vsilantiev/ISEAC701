@@ -14,7 +14,7 @@
 <msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">m_axis_rx_tuser&lt;20&gt;</arg> has no load.
 </msg>
 
-<msg type="info" file="LIT" num="395" delta="old" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">2948</arg> more times for the following (max. 5 shown):
+<msg type="info" file="LIT" num="395" delta="new" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">2948</arg> more times for the following (max. 5 shown):
 <arg fmt="%s" index="3">m_axis_rx_tuser&lt;19&gt;,
 m_axis_rx_tuser&lt;18&gt;,
 m_axis_rx_tuser&lt;17&gt;,
@@ -39,7 +39,7 @@ To see the details of these <arg fmt="%s" index="4">info</arg> messages, please 
 of frag <arg fmt="%s" index="2">RST</arg> connected to power/ground net <arg fmt="%s" index="3">v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/CLK_GEN3</arg>
 </msg>
 
-<msg type="warning" file="Pack" num="2159" delta="old" >The carry multiplexer output signal &quot;<arg fmt="%s" index="1">ad9467_1/reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_inv1</arg>&quot; drives <arg fmt="%d" index="2">3</arg> distinct carry input pins.  Xilinx recommends replicating logic to eliminate carry chain branches.
+<msg type="warning" file="Pack" num="2159" delta="new" >The carry multiplexer output signal &quot;<arg fmt="%s" index="1">ad9467_1/reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_inv1</arg>&quot; drives <arg fmt="%d" index="2">3</arg> distinct carry input pins.  Xilinx recommends replicating logic to eliminate carry chain branches.
 </msg>
 
 <msg type="warning" file="Pack" num="2949" delta="old" >The I/O component <arg fmt="%s" index="1">userclk_200MHz_n</arg> uses an DQS_BIAS attribute with I/O standard <arg fmt="%s" index="2">LVDS_25</arg>. The DQS_BIAS attribute will be ignored since the selected I/O standard does not support DQS_BIAS usage.

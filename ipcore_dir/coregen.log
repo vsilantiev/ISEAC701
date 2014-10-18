@@ -1,36 +1,65 @@
 INFO:sim:172 - Generating IP...
 Applying current project options...
 Finished applying current project options.
-WARNING:sim - A core named 'v7_pcie' already exists in the project. Output
-   products for this core may be overwritten.
-Resolving generics for 'v7_pcie'...
-WARNING:sim - A core named 'v7_pcie' already exists in the project. Output
-   products for this core may be overwritten.
-Applying external generics to 'v7_pcie'...
+WARNING:sim - A core named 'v7_eb_fifo_counted_resized' already exists in the
+   project. Output products for this core may be overwritten.
+Resolving generics for 'v7_eb_fifo_counted_resized'...
+WARNING:sim - A core named 'v7_eb_fifo_counted_resized' already exists in the
+   project. Output products for this core may be overwritten.
+Applying external generics to 'v7_eb_fifo_counted_resized'...
+Delivering associated files for 'v7_eb_fifo_counted_resized'...
+Delivering EJava files for 'v7_eb_fifo_counted_resized'...
+Generating implementation netlist for 'v7_eb_fifo_counted_resized'...
+INFO:sim - Pre-processing HDL files for 'v7_eb_fifo_counted_resized'...
+WARNING:sim - BlackBox generator run option '-ifmt' found multiple times. Only
+   the first occurence is considered.
+Running synthesis for 'v7_eb_fifo_counted_resized'
+Running ngcbuild...
+Writing VHO instantiation template for 'v7_eb_fifo_counted_resized'...
+Writing VHDL behavioral simulation model for 'v7_eb_fifo_counted_resized'...
+WARNING:sim - Overwriting existing file
+   /home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_eb_fifo_counted_resized/doc/fif
+   o_generator_v9_3_vinfo.html with file from view xilinx_documentation
+Delivered 3 files into directory
+/home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_eb_fifo_counted_resized
 Delivered 1 file into directory
-/home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_pcie
-Delivering associated files for 'v7_pcie'...
-WARNING:sim - Component pcie_7x_v1_11 does not have a valid model name for VHDL
-   synthesis
-Delivering EJava files for 'v7_pcie'...
-Delivered 2 files into directory
-/home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_pcie
+/home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_eb_fifo_counted_resized
 Generating ASY schematic symbol...
-INFO:sim:993 - The selected IP does not support an ASY schematic symbol.
 INFO:sim:949 - Finished generation of ASY schematic symbol.
-WARNING:sim - The chosen IP does not support an SYM schematic symbol.
+Generating SYM schematic symbol for 'v7_eb_fifo_counted_resized'...
 Generating metadata file...
+Regenerating ISE project file for 'v7_eb_fifo_counted_resized'...
 Generating ISE project...
-XCO file found: v7_pcie.xco
-XMDF file found: v7_pcie_xmdf.tcl
-Adding /home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_pcie.vho -view all
--origin_type imported
-WARNING:TclTasksC:2111 - The "top" property is not applicable yet (value="").
-WARNING: This core has no top-level
+XCO file found: v7_eb_fifo_counted_resized.xco
+XMDF file found: v7_eb_fifo_counted_resized_xmdf.tcl
+Adding /home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_eb_fifo_counted_resized.asy
+-view all -origin_type imported
+Adding /home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_eb_fifo_counted_resized.ngc
+-view all -origin_type created
+Checking file
+"/home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_eb_fifo_counted_resized.ngc" for
+project device match ...
+File "/home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_eb_fifo_counted_resized.ngc"
+device information matches project device.
+Adding /home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_eb_fifo_counted_resized.sym
+-view all -origin_type imported
+Adding /home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_eb_fifo_counted_resized.vhd
+-view all -origin_type created
+INFO:HDLCompiler:1061 - Parsing VHDL file
+   "/home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_eb_fifo_counted_resized.vhd"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding /home/vladimir/ISEAC701/ipcore_dir/tmp/_cg/v7_eb_fifo_counted_resized.vho
+-view all -origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/v7_eb_fifo_counted_resized"
 Generating README file...
 Generating FLIST file...
 INFO:sim:948 - Finished FLIST file generation.
 Launching README viewer...
 Moving files to output directory...
 Finished moving files to output directory
-Wrote CGP file for project 'v7_pcie'.
+Wrote CGP file for project 'v7_eb_fifo_counted_resized'.

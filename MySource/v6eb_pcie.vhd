@@ -1638,18 +1638,18 @@ begin
  --  LEDs_IO_pin(5) <= DMA_ds_Done;
  --  LEDs_IO_pin(7) <= DMA_us_Done;
 
-  process (trn_clk)
+  process (user_clk)
   begin
    if (user_reset = '1') then
        s_axis_tx_tready_i <= '0' after TCQ;
-   elsif (trn_clk'event and trn_clk = '1') then
+   elsif (user_clk'event and user_clk = '1') then
        s_axis_tx_tready_i <= s_axis_tx_tready after TCQ;
    end if;
   end process;
 
-  process(trn_clk)
+  process(user_clk)
   begin
-    if (trn_clk'event and trn_clk='1') then
+    if (user_clk'event and user_clk='1') then
      if (user_reset = '1') then
        user_reset_q  <= '1' after TCQ;
        user_lnk_up_q <= '0' after TCQ;
@@ -1808,6 +1808,8 @@ begin
 	trn_tstr					<= not trn_tstr_n;
 
    trn_tbuf_av				<= tx_buf_av;
+
+	trn_clk					<= user_clk;
 
    cfg_err_cor_n              <= '1';
    cfg_err_ur_n               <= '1';
@@ -2313,7 +2315,7 @@ begin
   -- 3. AXI-S Interface                                                                                            --
   -------------------------------------------------------------------------------------------------------------------
   -- Common
-  user_clk_out                               => trn_clk ,
+  user_clk_out                               => user_clk,--trn_clk ,
   user_reset_out                             => user_reset,
   user_lnk_up                                => user_lnk_up,
 
@@ -2544,7 +2546,7 @@ begin
 	 
   
   
-    user_clk               => trn_clk,
+    user_clk               => user_clk,--trn_clk,
     user_reset             => user_reset,
     user_lnk_up            => user_lnk_up,
   -- user_reset             => user_reset,
