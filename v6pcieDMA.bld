@@ -2,9 +2,9 @@ Release 14.7 ngdbuild P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
--intstyle ise -dd _ngo -sd MyUserLogic/UserLogic_00 -sd ipcore_dir -sd
-ipcore_dir_ISE13.3 -nt timestamp -uc ABB3_pcie_4_lane_Emu_FIFO_elink.ucf -p
-xc7a200t-fbg676-2 v6pcieDMA_cs.ngc v6pcieDMA.ngd
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc
+ABB3_pcie_4_lane_Emu_FIFO_elink.ucf -p xc7a200t-fbg676-2 v6pcieDMA_cs.ngc
+v6pcieDMA.ngd
 
 Reading NGO file "C:/Users/vsilantiev/Documents/ISEAC701new/v6pcieDMA_cs.ngc"
 ...
@@ -13,26 +13,6 @@ Done.
 
 Annotating constraints to design from ucf file
 "ABB3_pcie_4_lane_Emu_FIFO_elink.ucf" ...
-WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
-   'DDRs_ctrl_module/DDR_pipe_read_D_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbi
-   v5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.s
-   ngfifo36e1' of type FIFO36E1 has been changed from 'VIRTEX6' to '7SERIES' to
-   correct post-ngdbuild and timing simulation for this primitive.  In order for
-   functional simulation to be correct, the value of SIM_DEVICE should be
-   changed in this same manner in the source netlist or constraint file. For
-   additional information on retargeting this primitive to 7SERIES, please see
-   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
-   n.pdf.
-WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
-   'DDRs_ctrl_module/DDR_pipe_read_C_fifo/U0/xst_fifo_generator/gconvfifo.rf/gbi
-   v5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf36e1_inst.s
-   ngfifo36e1' of type FIFO36E1 has been changed from 'VIRTEX6' to '7SERIES' to
-   correct post-ngdbuild and timing simulation for this primitive.  In order for
-   functional simulation to be correct, the value of SIM_DEVICE should be
-   changed in this same manner in the source netlist or constraint file. For
-   additional information on retargeting this primitive to 7SERIES, please see
-   http://www.xilinx.com/support/documentation/sw_manuals/ug429_7Series_Migratio
-   n.pdf.
 Resolving constraint associations...
 Checking Constraint Associations...
 WARNING:ConstraintSystem:119 - Constraint <NET "userclk_66MHz" IOSTANDARD =
@@ -61,20 +41,6 @@ INFO:ConstraintSystem - The Period constraint <NET "userclk_200MHz_p" PERIOD =
 Done...
 
 Checking expanded design ...
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<20>' has no driver
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<19>' has no driver
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<18>' has no driver
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<17>' has no driver
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<16>' has no driver
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<15>' has no driver
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<14>' has no driver
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<13>' has no driver
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<12>' has no driver
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<11>' has no driver
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<10>' has no driver
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<9>' has no driver
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<1>' has no driver
-WARNING:NgdBuild:452 - logical net 'm_axis_rx_tuser<0>' has no driver
 WARNING:NgdBuild:452 - logical net 'cfg_dstatus<15>' has no driver
 WARNING:NgdBuild:452 - logical net 'cfg_dstatus<14>' has no driver
 WARNING:NgdBuild:452 - logical net 'cfg_dstatus<13>' has no driver
@@ -88,18 +54,8 @@ WARNING:NgdBuild:452 - logical net 'cfg_dstatus<6>' has no driver
 WARNING:NgdBuild:452 - logical net 'cfg_dstatus<5>' has no driver
 WARNING:NgdBuild:452 - logical net 'cfg_dstatus<4>' has no driver
 WARNING:NgdBuild:452 - logical net 'cfg_dcommand<15>' has no driver
-WARNING:NgdBuild:452 - logical net 'user_wr_addrA<11>' has no driver
-WARNING:NgdBuild:452 - logical net 'user_wr_addrA<10>' has no driver
-WARNING:NgdBuild:452 - logical net 'user_wr_addrA<9>' has no driver
-WARNING:NgdBuild:452 - logical net 'user_wr_addrA<8>' has no driver
-WARNING:NgdBuild:452 - logical net 'user_wr_addrA<7>' has no driver
-WARNING:NgdBuild:452 - logical net 'user_wr_addrA<6>' has no driver
-WARNING:NgdBuild:452 - logical net 'user_wr_addrA<5>' has no driver
-WARNING:NgdBuild:452 - logical net 'user_wr_addrA<4>' has no driver
-WARNING:NgdBuild:452 - logical net 'user_wr_addrA<3>' has no driver
-WARNING:NgdBuild:452 - logical net 'user_wr_addrA<2>' has no driver
-WARNING:NgdBuild:452 - logical net 'user_wr_addrA<1>' has no driver
-WARNING:NgdBuild:452 - logical net 'user_wr_addrA<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'trn_rsrc_dsc_n' has no driver
+WARNING:NgdBuild:452 - logical net 'trn_rerrfwd_n' has no driver
 WARNING:NgdBuild:452 - logical net 'reg11_rd<31>' has no driver
 WARNING:NgdBuild:452 - logical net 'reg11_rd<30>' has no driver
 WARNING:NgdBuild:452 - logical net 'reg11_rd<29>' has no driver
@@ -484,72 +440,6 @@ WARNING:NgdBuild:452 - logical net 'eb_din<3>' has no driver
 WARNING:NgdBuild:452 - logical net 'eb_din<2>' has no driver
 WARNING:NgdBuild:452 - logical net 'eb_din<1>' has no driver
 WARNING:NgdBuild:452 - logical net 'eb_din<0>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_Mask<1>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_Mask<0>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<63>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<62>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<61>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<60>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<59>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<58>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<57>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<56>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<55>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<54>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<53>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<52>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<51>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<50>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<49>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<48>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<47>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<46>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<45>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<44>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<43>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<42>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<41>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<40>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<39>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<38>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<37>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<36>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<35>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<34>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<33>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<32>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<31>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<30>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<29>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<28>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<27>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<26>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<25>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<24>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<23>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<22>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<21>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<20>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<19>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<18>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<17>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<16>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<15>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<14>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<13>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<12>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<11>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<10>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<9>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<8>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<7>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<6>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<5>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<4>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<3>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<2>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<1>' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_din<0>' has no driver
 WARNING:NgdBuild:452 - logical net 'reg07_tv' has no driver
 WARNING:NgdBuild:452 - logical net 'reg08_tv' has no driver
 WARNING:NgdBuild:452 - logical net 'reg09_tv' has no driver
@@ -559,260 +449,422 @@ WARNING:NgdBuild:452 - logical net 'reg12_tv' has no driver
 WARNING:NgdBuild:452 - logical net 'reg13_tv' has no driver
 WARNING:NgdBuild:452 - logical net 'reg14_tv' has no driver
 WARNING:NgdBuild:452 - logical net 'eb_we' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_sof' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_eof' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_v' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_FA' has no driver
-WARNING:NgdBuild:452 - logical net 'DDR_wr_Shift' has no driver
-WARNING:NgdBuild:452 - logical net 's_axis_tx_tkeep<3>' has no driver
-WARNING:NgdBuild:452 - logical net 's_axis_tx_tkeep<2>' has no driver
-WARNING:NgdBuild:452 - logical net 's_axis_tx_tkeep<1>' has no driver
-WARNING:NgdBuild:452 - logical net 's_axis_tx_tkeep<0>' has no driver
-WARNING:NgdBuild:452 - logical net 's_axis_tx_tuser<2>' has no driver
-WARNING:NgdBuild:452 - logical net 's_axis_tx_tuser<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'trn_terrfwd_n' has no driver
+WARNING:NgdBuild:452 - logical net 'trn_tsrc_dsc_n' has no driver
 WARNING:NgdBuild:452 - logical net 'eb_pfull' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<15>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<14>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<13>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<12>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<11>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<10>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<9>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<8>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<7>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<6>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<5>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<4>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<3>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<2>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<1>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_status<0>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<15>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<14>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<13>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<12>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<11>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<9>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<7>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<6>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<5>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<4>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_command<3>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_lstatus<12>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_lstatus<10>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_lstatus<3>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_lstatus<2>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_lcommand<15>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_lcommand<14>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_lcommand<13>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_lcommand<12>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_lcommand<2>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dcommand2<15>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dcommand2<14>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dcommand2<13>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_dcommand2<12>' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_mgmt_rd_wr_done' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_err_aer_headerlog_set' has no
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<15>' has no
    driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_err_cpl_rdy' has no driver
-WARNING:NgdBuild:452 - logical net 'v7_pcie_i/cfg_received_func_lvl_rst' has no
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<14>' has no
    driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<13>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<12>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<11>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<10>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<8>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<1>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_status<0>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_command<15>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_command<14>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_command<13>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_command<12>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_command<11>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_command<9>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_command<7>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_command<6>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_command<5>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_command<4>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_command<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_lstatus<12>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_lstatus<10>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_lstatus<3>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_lstatus<2>' has no
+   driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_lcommand<15>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_lcommand<14>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_lcommand<13>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_lcommand<12>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_lcommand<2>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_dcommand2<15>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_dcommand2<14>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_dcommand2<13>' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'pcie_axi_trn_bridge_i/cfg_dcommand2<12>' has
+   no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/s_axis_tx_tuser<3>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/s_axis_tx_tuser<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/s_axis_tx_tuser<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<20>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<19>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<18>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<17>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<16>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<15>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<14>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<13>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<12>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<11>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<17>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<10>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<16>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<9>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<15>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<1>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<14>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/m_axis_rx_tuser<0>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<13>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/cfg_mgmt_rd_wr_done' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<12>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/cfg_err_aer_headerlog_set' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<11>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/cfg_err_cpl_rdy' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<10>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/cfg_received_func_lvl_rst' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<9>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<17>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<8>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<16>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<7>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<15>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<6>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<14>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<5>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<13>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<4>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<12>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<3>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<11>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<2>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<10>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<1>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<9>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<0>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<8>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_TXEQ_DONE<0>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<7>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_LFFS_SEL<0>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<6>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_DONE<0>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<5>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<35>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<4>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<34>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<3>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<33>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<2>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<32>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<1>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<31>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<0>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<30>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_TXEQ_DONE<0>'
+   has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<29>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_LFFS_SEL<0
+   >' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<28>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_DONE<0>'
+   has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<27>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<35>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<26>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<34>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<25>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<33>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<24>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<32>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<23>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<31>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<22>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<30>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<21>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<29>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<20>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<28>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<19>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<27>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<18>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<26>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_TXEQ_DONE<1>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<25>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_LFFS_SEL<1>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<24>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_DONE<1>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<23>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<53>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<22>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<52>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<21>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<51>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<20>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<50>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<19>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<49>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<18>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<48>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_TXEQ_DONE<1>'
+   has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<47>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_LFFS_SEL<1
+   >' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<46>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_DONE<1>'
+   has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<45>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<53>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<44>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<52>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<43>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<51>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<42>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<50>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<41>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<49>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<40>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<48>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<39>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<47>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<38>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<46>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<37>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<45>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<36>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<44>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_TXEQ_DONE<2>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<43>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_LFFS_SEL<2>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<42>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_DONE<2>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<41>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<71>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<40>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<70>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<39>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<69>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<38>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<68>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<37>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<67>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<36>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<66>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_TXEQ_DONE<2>'
+   has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<65>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_LFFS_SEL<2
+   >' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<64>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_DONE<2>'
+   has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<63>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<71>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<62>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<70>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<61>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<69>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<60>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<68>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<59>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<67>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<58>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<66>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<57>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<65>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<56>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<64>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<55>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<63>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEFF<54>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<62>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_TXEQ_DONE<3>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<61>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_LFFS_SEL<3>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<60>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_DONE<3>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<59>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/pcie_top_i/axi_basic_top_i/np_counter<2>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<58>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/pcie_top_i/axi_basic_top_i/np_counter<1>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<57>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/pcie_top_i/axi_basic_top_i/np_counter<0>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<56>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tkeep<3>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<55>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tkeep<2>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_NEW_TXCOEF
+   F<54>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tkeep<1>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_TXEQ_DONE<3>'
+   has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tkeep<0>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_LFFS_SEL<3
+   >' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_is_eof<2>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/PIPE_RXEQ_DONE<3>'
+   has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_is_eof<1>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/axi_basic_top_i/np_counter<2>'
+   has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_is_eof<0>' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/axi_basic_top_i/np_counter<1>'
+   has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_tvalid' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/axi_basic_top_i/np_counter<0>'
+   has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/pcie_top_i/pcie_pipe_pipeline_i/pipe_tx_reset_o' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_t
+   keep<3>' has no driver
 WARNING:NgdBuild:452 - logical net
-   'v7_pcie_i/pcie_top_i/pcie_pipe_pipeline_i/pipe_tx_swing_o' has no driver
-WARNING:NgdBuild:452 - logical net 'theTlpControl/trn_rerrfwd_n' has no driver
-WARNING:NgdBuild:452 - logical net 'theTlpControl/trn_rsrc_dsc_n' has no driver
+   'pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_t
+   keep<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_t
+   keep<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_t
+   keep<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_is_e
+   of<2>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_is_e
+   of<1>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_is_e
+   of<0>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/null_rx_t
+   valid' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/pcie_pipe_pipeline_i/pipe_tx_rese
+   t_o' has no driver
+WARNING:NgdBuild:452 - logical net
+   'pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/pcie_pipe_pipeline_i/pipe_tx_swin
+   g_o' has no driver
 WARNING:NgdBuild:452 - logical net 'theTlpControl/ctl_rd<31>' has no driver
 WARNING:NgdBuild:452 - logical net 'theTlpControl/ctl_rd<30>' has no driver
 WARNING:NgdBuild:452 - logical net 'theTlpControl/ctl_rd<29>' has no driver
@@ -946,6 +998,51 @@ WARNING:NgdBuild:452 - logical net 'theTlpControl/ctl_rv' has no driver
 WARNING:NgdBuild:452 - logical net 'theTlpControl/ctl_ttake' has no driver
 WARNING:NgdBuild:452 - logical net 'theTlpControl/ctl_reset' has no driver
 WARNING:NgdBuild:452 - logical net 'theTlpControl/dlm_tv' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<43>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<42>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<41>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<40>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<39>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<38>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<37>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<36>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<35>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<34>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<31>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<30>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<29>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<28>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<26>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<25>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<24>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<23>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<22>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<21>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<20>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<19>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<18>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<17>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<16>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<15>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<14>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<13>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<12>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<11>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<10>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<9>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<8>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<7>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<6>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<5>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<4>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<3>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_din<0>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_sof' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_v' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/DDR_rdc_Shift' has no driver
 WARNING:NgdBuild:452 - logical net 'theTlpControl/pioCplD_Qout<101>' has no
    driver
 WARNING:NgdBuild:452 - logical net 'theTlpControl/pioCplD_Qout<100>' has no
@@ -1014,6 +1111,16 @@ WARNING:NgdBuild:452 - logical net 'theTlpControl/pioCplD_Qout<13>' has no
    driver
 WARNING:NgdBuild:452 - logical net 'theTlpControl/pioCplD_Qout<12>' has no
    driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/usTlp_Qout<127>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/usTlp_Qout<126>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/usTlp_Qout<125>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/usTlp_Qout<124>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/usTlp_Qout<123>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/usTlp_Qout<122>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/usTlp_Qout<121>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/usTlp_Qout<120>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/usTlp_Qout<119>' has no driver
+WARNING:NgdBuild:452 - logical net 'theTlpControl/usTlp_Qout<118>' has no driver
 WARNING:NgdBuild:452 - logical net 'theTlpControl/usTlp_Qout<101>' has no driver
 WARNING:NgdBuild:452 - logical net 'theTlpControl/usTlp_Qout<100>' has no driver
 WARNING:NgdBuild:452 - logical net 'theTlpControl/usTlp_Qout<99>' has no driver
@@ -2229,12 +2336,12 @@ Partition Implementation Status
 
 NGDBUILD Design Results Summary:
   Number of errors:     0
-  Number of warnings: 1453
+  Number of warnings: 1422
 
-Total memory usage is 389748 kilobytes
+Total memory usage is 346484 kilobytes
 
 Writing NGD file "v6pcieDMA.ngd" ...
-Total REAL time to NGDBUILD completion:  52 sec
-Total CPU time to NGDBUILD completion:   51 sec
+Total REAL time to NGDBUILD completion:  39 sec
+Total CPU time to NGDBUILD completion:   39 sec
 
 Writing NGDBUILD log file "v6pcieDMA.bld"...

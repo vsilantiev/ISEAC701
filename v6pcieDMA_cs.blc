@@ -2,15 +2,13 @@ Release 14.7 ngcbuild P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Command Line: ngcbuild.exe -dd C:/Users/vsilantiev/Documents/ISEAC701new/_ngo
--sd MyUserLogic/UserLogic_00 -sd ipcore_dir -sd ipcore_dir_ISE13.3 -p
-xc7a200t-fbg676-2 -i C:\Users\vsilantiev\Documents\ISEAC701new\v6pcieDMA.ngc
+-sd ipcore_dir -p xc7a200t-fbg676-2 -i
+C:\Users\vsilantiev\Documents\ISEAC701new\v6pcieDMA.ngc
 C:\Users\vsilantiev\Documents\ISEAC701new\v6pcieDMA_cs.ngc
 
 Reading NGO file "C:/Users/vsilantiev/Documents/ISEAC701new/v6pcieDMA.ngc" ...
 Loading design module "ipcore_dir/v7_mBuf_128x72.ngc"...
 Loading design module "ipcore_dir/v7_sfifo_15x128.ngc"...
-Loading design module "ipcore_dir/fifomodule.ngc"...
-Loading design module "ipcore_dir/v6_prime_fifo_plain.ngc"...
 Loading design module "ipcore_dir/v7_eb_fifo_counted_resized.ngc"...
 
 Partition Implementation Status
@@ -24,7 +22,7 @@ NGCBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 251416 kilobytes
+Total memory usage is 250136 kilobytes
 
 Writing NGC file "C:/Users/vsilantiev/Documents/ISEAC701new/v6pcieDMA_cs.ngc"
 ...

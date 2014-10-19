@@ -377,7 +377,7 @@ always @ (posedge clk)
 
 
  //  always @(posedge clk) begin 
-always @(posedge clk) begin
+always @(posedge trn_clk) begin
 
    if (!reset) begin
 	
@@ -536,7 +536,7 @@ always @(posedge clk) begin
   end
 
 //  always @(posedge clk) begin
-always @(posedge clk) begin 
+always @(posedge trn_clk) begin 
     if (!reset) begin
       bram_addr <= 0;
 	   count <= 0;
