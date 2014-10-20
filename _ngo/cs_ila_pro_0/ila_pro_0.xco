@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.7
-# Date: Mon Oct 20 06:31:31 2014
+# Date: Mon Oct 20 12:16:47 2014
 #
 ##############################################################
 #
@@ -124,7 +124,7 @@ CSET trigger_port_width_13=1
 CSET trigger_port_width_14=1
 CSET trigger_port_width_15=1
 CSET trigger_port_width_16=1
-CSET trigger_port_width_2=208
+CSET trigger_port_width_2=256
 CSET trigger_port_width_3=223
 CSET trigger_port_width_4=224
 CSET trigger_port_width_5=1
@@ -138,4 +138,4 @@ CSET use_rpms=true
 MISC pkg_timestamp=2013-10-13T14:13:15Z
 # END Extra information
 GENERATE
-# CRC: a6274a7f
+# CRC: 2aea4e91

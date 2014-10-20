@@ -101,7 +101,8 @@ architecture Behavioral of v6pcieDMA is
     ---------------------------------------------------------
 
     -- Common
-    trn_clk                        : inout STD_LOGIC; 
+	 
+    trn_clk                        : out STD_LOGIC; 
     trn_reset_n                    : out STD_LOGIC; 
     trn_lnk_up_n                   : out STD_LOGIC; 
 
@@ -1719,7 +1720,7 @@ begin
       ---------------------------------------------------------
       -- 2. Transaction (TRN) Interface
       ---------------------------------------------------------
-
+		
       -- Common
       trn_clk           =>     trn_clk               ,
       trn_reset_n       =>     trn_reset_n_int1      ,

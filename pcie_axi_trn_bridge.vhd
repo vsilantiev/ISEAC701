@@ -98,7 +98,7 @@ entity pcie_axi_trn_bridge is
     ---------------------------------------------------------
 
     -- Common
-    trn_clk                        : inout STD_LOGIC; 
+    trn_clk                        : out STD_LOGIC; 
     trn_reset_n                    : out STD_LOGIC; 
     trn_lnk_up_n                   : out STD_LOGIC; 
 
@@ -1071,9 +1071,9 @@ begin
   gen_trn_rsof_64 : if (C_DATA_WIDTH = 64) generate
   begin
   
-    in_pckt_register : process(trn_clk)
+    in_pckt_register : process(user_clk)
     begin
-      if rising_edge(trn_clk) then
+      if rising_edge(user_clk) then
         if user_reset = '1' then -- Add user_reset (_q)
           in_packet_reg <= '0';
         elsif (m_axis_rx_tvalid = '1' and m_axis_rx_tready_int = '1') then
@@ -1115,10 +1115,10 @@ begin
   
   --Regenerate trn_rsrc_dsc
   --Used clock. Latency may have been added
-  trn_rsrc_dsc_reg : process(trn_clk)
+  trn_rsrc_dsc_reg : process(user_clk)
   begin
   
-    if rising_edge(trn_clk) then
+    if rising_edge(user_clk) then
       if user_reset = '1' then -- add _q
         trn_rsrc_dsc <= '1';     
       else

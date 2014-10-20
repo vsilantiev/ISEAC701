@@ -257,22 +257,22 @@
 <msg type="warning" file="HDLCompiler" num="751" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 718: Redeclaration of ansi port <arg fmt="%s" index="1">user_int_3o</arg> is not allowed
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 506: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">user_rd_en</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 507: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">user_rd_en</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 867: Using initial value <arg fmt="%s" index="1">&quot;00&quot;</arg> for <arg fmt="%s" index="2">protocol_link_act</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 868: Using initial value <arg fmt="%s" index="1">&quot;00&quot;</arg> for <arg fmt="%s" index="2">protocol_link_act</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 873: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">ctl_tv</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 874: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">ctl_tv</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 874: Using initial value <arg fmt="%s" index="1">&quot;00000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">ctl_td</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 875: Using initial value <arg fmt="%s" index="1">&quot;00000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">ctl_td</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 877: Using initial value <arg fmt="%s" index="1">&quot;00000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">ctl_status</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 878: Using initial value <arg fmt="%s" index="1">&quot;00000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">ctl_status</arg> since it is never assigned
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 885: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">dg_running</arg> since it is never assigned
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 886: Using initial value <arg fmt="%s" index="1">&apos;0&apos;</arg> for <arg fmt="%s" index="2">dg_running</arg> since it is never assigned
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="872" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 265: Using initial value of <arg fmt="%s" index="1">delay_ld</arg> since it is never assigned
@@ -311,22 +311,22 @@
 <msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 689: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 1246: Assignment to <arg fmt="%s" index="1">dma_host2board_busy</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 1247: Assignment to <arg fmt="%s" index="1">dma_host2board_busy</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 1247: Assignment to <arg fmt="%s" index="1">dma_host2board_done</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 1248: Assignment to <arg fmt="%s" index="1">dma_host2board_done</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="439" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 545: Formal port <arg fmt="%s" index="1">dlm_rv</arg> of mode <arg fmt="%s" index="2">in</arg> cannot be associated with actual port <arg fmt="%s" index="3">dlm_rv</arg> of mode <arg fmt="%s" index="4">out</arg>
+<msg type="warning" file="HDLCompiler" num="439" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 546: Formal port <arg fmt="%s" index="1">dlm_rv</arg> of mode <arg fmt="%s" index="2">in</arg> cannot be associated with actual port <arg fmt="%s" index="3">dlm_rv</arg> of mode <arg fmt="%s" index="4">out</arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="439" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 546: Formal port <arg fmt="%s" index="1">dlm_rd</arg> of mode <arg fmt="%s" index="2">in</arg> cannot be associated with actual port <arg fmt="%s" index="3">dlm_rd</arg> of mode <arg fmt="%s" index="4">out</arg>
+<msg type="warning" file="HDLCompiler" num="439" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 547: Formal port <arg fmt="%s" index="1">dlm_rd</arg> of mode <arg fmt="%s" index="2">in</arg> cannot be associated with actual port <arg fmt="%s" index="3">dlm_rd</arg> of mode <arg fmt="%s" index="4">out</arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="439" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 548: Formal port <arg fmt="%s" index="1">dlm_tv</arg> of mode <arg fmt="%s" index="2">out</arg> cannot be associated with actual port <arg fmt="%s" index="3">dlm_tv</arg> of mode <arg fmt="%s" index="4">in</arg>
+<msg type="warning" file="HDLCompiler" num="439" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 549: Formal port <arg fmt="%s" index="1">dlm_tv</arg> of mode <arg fmt="%s" index="2">out</arg> cannot be associated with actual port <arg fmt="%s" index="3">dlm_tv</arg> of mode <arg fmt="%s" index="4">in</arg>
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="439" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 549: Formal port <arg fmt="%s" index="1">dlm_td</arg> of mode <arg fmt="%s" index="2">out</arg> cannot be associated with actual port <arg fmt="%s" index="3">dlm_td</arg> of mode <arg fmt="%s" index="4">in</arg>
+<msg type="warning" file="HDLCompiler" num="439" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 550: Formal port <arg fmt="%s" index="1">dlm_td</arg> of mode <arg fmt="%s" index="2">out</arg> cannot be associated with actual port <arg fmt="%s" index="3">dlm_td</arg> of mode <arg fmt="%s" index="4">in</arg>
 </msg>
 
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/RxIn_Delays.vhd" Line 805: Assignment to <arg fmt="%s" index="1">iord_type_i</arg> ignored, since the identifier is never used
@@ -731,271 +731,271 @@
 <msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/pcie_axi_trn_bridge.vhd" Line 596: Net &lt;<arg fmt="%s" index="1">trn_tecrc_gen</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 397: Net &lt;<arg fmt="%s" index="1">DDR_wr_full</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 398: Net &lt;<arg fmt="%s" index="1">DDR_wr_full</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 405: Net &lt;<arg fmt="%s" index="1">DDR_rdc_full</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 406: Net &lt;<arg fmt="%s" index="1">DDR_rdc_full</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 408: Net &lt;<arg fmt="%s" index="1">DDR_FIFO_Empty</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 409: Net &lt;<arg fmt="%s" index="1">DDR_FIFO_Empty</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 409: Net &lt;<arg fmt="%s" index="1">DDR_FIFO_RdQout[63]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 410: Net &lt;<arg fmt="%s" index="1">DDR_FIFO_RdQout[63]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 411: Net &lt;<arg fmt="%s" index="1">DDR_Ready</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 412: Net &lt;<arg fmt="%s" index="1">DDR_Ready</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 501: Net &lt;<arg fmt="%s" index="1">eb_we_up</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 502: Net &lt;<arg fmt="%s" index="1">eb_we_up</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 869: Net &lt;<arg fmt="%s" index="1">daq_rstop</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 870: Net &lt;<arg fmt="%s" index="1">daq_rstop</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 880: Net &lt;<arg fmt="%s" index="1">dlm_rv</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 881: Net &lt;<arg fmt="%s" index="1">dlm_rv</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 881: Net &lt;<arg fmt="%s" index="1">dlm_rd[31]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd" Line 882: Net &lt;<arg fmt="%s" index="1">dlm_rd[31]</arg>&gt; does not have a driver.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">userclk_66MHz</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1146</arg>: Output port &lt;<arg fmt="%s" index="3">bram_wr_addr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ad9467_1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1147</arg>: Output port &lt;<arg fmt="%s" index="3">bram_wr_addr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ad9467_1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1146</arg>: Output port &lt;<arg fmt="%s" index="3">fifodin</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ad9467_1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1147</arg>: Output port &lt;<arg fmt="%s" index="3">fifodin</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ad9467_1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1146</arg>: Output port &lt;<arg fmt="%s" index="3">strobe_adc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ad9467_1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1147</arg>: Output port &lt;<arg fmt="%s" index="3">strobe_adc</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ad9467_1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1146</arg>: Output port &lt;<arg fmt="%s" index="3">adcclock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ad9467_1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1147</arg>: Output port &lt;<arg fmt="%s" index="3">adcclock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">ad9467_1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">ctl_rd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">ctl_rd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">dlm_td</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">dlm_td</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">debug_in_1i</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">debug_in_1i</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">debug_in_2i</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">debug_in_2i</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">debug_in_3i</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">debug_in_3i</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">debug_in_4i</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">debug_in_4i</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_Mask</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_Mask</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_din</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_din</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_rdc_din</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_rdc_din</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">tab_we</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">tab_we</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">tab_wa</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">tab_wa</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">tab_wd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">tab_wd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">protocol_rst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">protocol_rst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">ctl_rv</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">ctl_rv</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">ctl_ttake</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">ctl_ttake</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">ctl_tstop</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">ctl_tstop</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">ctl_reset</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">ctl_reset</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">dlm_tv</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">dlm_tv</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">eb_FIFO_wsof</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">eb_FIFO_wsof</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">eb_FIFO_weof</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">eb_FIFO_weof</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">pio_reading_status</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">pio_reading_status</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DMA_us_Done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DMA_us_Done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DMA_us_Busy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DMA_us_Busy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DMA_ds_Done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DMA_ds_Done</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DMA_ds_Busy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DMA_ds_Busy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_sof</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_sof</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_eof</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_eof</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_FA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_FA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_Shift</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_wr_Shift</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_rdc_sof</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_rdc_sof</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_rdc_eof</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_rdc_eof</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_rdc_v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_rdc_v</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_rdc_FA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_rdc_FA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_rdc_Shift</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_rdc_Shift</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_FIFO_RdEn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DDR_FIFO_RdEn</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DG_Reset</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DG_Reset</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1378</arg>: Output port &lt;<arg fmt="%s" index="3">DG_Mask</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1379</arg>: Output port &lt;<arg fmt="%s" index="3">DG_Mask</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">theTlpControl</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1601</arg>: Output port &lt;<arg fmt="%s" index="3">H2B_rd_dout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LoopBack_FIFO_Off.queue_buffer0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1602</arg>: Output port &lt;<arg fmt="%s" index="3">H2B_rd_dout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LoopBack_FIFO_Off.queue_buffer0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1601</arg>: Output port &lt;<arg fmt="%s" index="3">H2B_rd_data_count</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LoopBack_FIFO_Off.queue_buffer0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1602</arg>: Output port &lt;<arg fmt="%s" index="3">H2B_rd_data_count</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LoopBack_FIFO_Off.queue_buffer0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1601</arg>: Output port &lt;<arg fmt="%s" index="3">B2H_wr_data_count</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LoopBack_FIFO_Off.queue_buffer0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1602</arg>: Output port &lt;<arg fmt="%s" index="3">B2H_wr_data_count</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LoopBack_FIFO_Off.queue_buffer0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1601</arg>: Output port &lt;<arg fmt="%s" index="3">H2B_rd_pempty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LoopBack_FIFO_Off.queue_buffer0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1602</arg>: Output port &lt;<arg fmt="%s" index="3">H2B_rd_pempty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LoopBack_FIFO_Off.queue_buffer0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1601</arg>: Output port &lt;<arg fmt="%s" index="3">H2B_rd_empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LoopBack_FIFO_Off.queue_buffer0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1602</arg>: Output port &lt;<arg fmt="%s" index="3">H2B_rd_empty</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LoopBack_FIFO_Off.queue_buffer0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1601</arg>: Output port &lt;<arg fmt="%s" index="3">H2B_rd_valid</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LoopBack_FIFO_Off.queue_buffer0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1602</arg>: Output port &lt;<arg fmt="%s" index="3">H2B_rd_valid</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">LoopBack_FIFO_Off.queue_buffer0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_cpld</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_cpld</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_cplh</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_cplh</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_npd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_npd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_nph</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_nph</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_pd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_pd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_ph</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">trn_fc_ph</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_do</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_do</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_status</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_status</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_command</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_command</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_lcommand</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_lcommand</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_dcommand2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_dcommand2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pcie_link_state_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pcie_link_state_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pmcsr_powerstate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pmcsr_powerstate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">pl_initial_link_width</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">pl_initial_link_width</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">pl_lane_reversal_mode</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">pl_lane_reversal_mode</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">pl_ltssm_state</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">pl_ltssm_state</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">pl_sel_link_width</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">pl_sel_link_width</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">trn_tcfg_req_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">trn_tcfg_req_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">trn_terr_drop_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">trn_terr_drop_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_rd_wr_done_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_rd_wr_done_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_err_cpl_rdy_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_err_cpl_rdy_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_interrupt_msixenable</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_interrupt_msixenable</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_interrupt_msixfm</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_interrupt_msixfm</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_to_turnoff_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_to_turnoff_n</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pmcsr_pme_en</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pmcsr_pme_en</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pmcsr_pme_status</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pmcsr_pme_status</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">pl_link_gen2_capable</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">pl_link_gen2_capable</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">pl_link_partner_gen2_supported</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">pl_link_partner_gen2_supported</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">pl_link_upcfg_capable</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">pl_link_upcfg_capable</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">pl_received_hot_rst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">pl_received_hot_rst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1697</arg>: Output port &lt;<arg fmt="%s" index="3">pl_sel_link_rate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">/home/vladimir/NEWAC701/ISEAC701/MySource/v6eb_pcie.vhd</arg>&quot; line <arg fmt="%s" index="2">1698</arg>: Output port &lt;<arg fmt="%s" index="3">pl_sel_link_rate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_axi_trn_bridge_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">DDR_FIFO_RdQout</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
@@ -1053,6 +1053,9 @@
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">reg14_td</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">trn_clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">reg07_tv</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -6469,6 +6472,102 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 <msg type="warning" file="Xst" num="1896" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m_axis_rx_tuser_xhdl1_16</arg>&gt; has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">v7_pcie_axi_basic_rx_pipeline</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_33</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_34</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_35</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_36</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_37</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_38</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_39</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_40</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_42</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_43</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_44</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_45</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_46</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_47</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_48</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_49</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_50</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_51</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_52</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_53</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_54</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_55</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_56</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_57</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_58</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_59</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_60</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_61</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_62</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_63</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
+</msg>
+
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data2_reg_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
 </msg>
 
@@ -6659,102 +6758,6 @@ You should achieve better results by setting this init to <arg fmt="%i" index="3
 </msg>
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data1_reg_63</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_33</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_34</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_35</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_36</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_37</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_38</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_39</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_40</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_41</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_42</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_43</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_44</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_45</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_46</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_47</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_48</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_49</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_50</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_51</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_52</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_53</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_54</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_55</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_56</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_57</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_58</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_59</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_60</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_61</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_62</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">debug_data3_reg_63</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ADC_emul</arg>&gt;.
 </msg>
 
 <msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">trn_Blinker_cnt_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">tlpControl</arg>&gt;.
