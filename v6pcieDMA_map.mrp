@@ -1,4 +1,4 @@
-Release 14.7 Map P.20131013 (nt64)
+Release 14.7 Map P.20131013 (lin64)
 Xilinx Mapping Report File for Design 'v6pcieDMA'
 
 Design Information
@@ -11,7 +11,7 @@ Target Device  : xc7a200t
 Target Package : fbg676
 Target Speed   : -2
 Mapper Version : artix7 -- $Revision: 1.55 $
-Mapped Date    : Sat Oct 18 13:55:49 2014
+Mapped Date    : Mon Oct 20 14:11:26 2014
 
 Design Summary
 --------------
@@ -116,9 +116,9 @@ Specific Feature Utilization:
   Number of RPM macros:           12
 Average Fanout of Non-Clock Nets:                3.52
 
-Peak Memory Usage:  1335 MB
-Total REAL time to MAP completion:  19 mins 40 secs 
-Total CPU time to MAP completion:   19 mins 38 secs 
+Peak Memory Usage:  1866 MB
+Total REAL time to MAP completion:  15 mins 47 secs 
+Total CPU time to MAP completion:   15 mins 46 secs 
 
 Table of Contents
 -----------------

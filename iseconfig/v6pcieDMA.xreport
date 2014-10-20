@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-10-18T13:47:46</DateModified>
+  <DateModified>2014-10-20T13:58:44</DateModified>
   <ModuleName>v6pcieDMA</ModuleName>
-  <SummaryTimeStamp>2014-10-16T17:42:14</SummaryTimeStamp>
-  <ImplementationReportsDirectory>C:/Users/vsilantiev/Documents/ISEAC701new\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2014-10-20T10:27:04</SummaryTimeStamp>
+  <ImplementationReportsDirectory>/home/vladimir/NEWAC701/ISEAC701/</ImplementationReportsDirectory>
   <DateInitialized>2014-10-10T10:59:44</DateInitialized>
-  <SavedFilePath>C:/Users/vsilantiev/Documents/ISEAC701new/iseconfig/v6pcieDMA.xreport</SavedFilePath>
+  <SavedFilePath>/home/vladimir/NEWAC701/ISEAC701/iseconfig/v6pcieDMA.xreport</SavedFilePath>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
  <body>

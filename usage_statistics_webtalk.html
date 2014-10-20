@@ -11,13 +11,13 @@
 </TR>
 <TR ALIGN=LEFT>
 <TD BGCOLOR='#FFFF99'><B>OS Platform:</B></TD>
-<TD><xtag-property name="OSPlatform">NT64</xtag-property></TD>
+<TD><xtag-property name="OSPlatform">LIN64</xtag-property></TD>
 <TD BGCOLOR='#FFFF99'><B>Target Device:</B></TD>
 <TD><xtag-property name="TargetDevice">xc7a200t</xtag-property></TD>
 </TR>
 <TR ALIGN=LEFT>
 <TD BGCOLOR='#FFFF99'><B>Project ID (random number)</B></TD>
-<TD><xtag-property name="RandomID">6ff349b6a1dd4fd99c2fd2cdd21e12f2</xtag-property>.<xtag-property name="ProjectID">2F64AA255D4543289C50EFE80FFB0AA4</xtag-property>.<xtag-property name="ProjectIteration">68</xtag-property></TD>
+<TD><xtag-property name="RandomID">f5b9b9e19a2c4579839faeaeb323ef70</xtag-property>.<xtag-property name="ProjectID">2F64AA255D4543289C50EFE80FFB0AA4</xtag-property>.<xtag-property name="ProjectIteration">68</xtag-property></TD>
 <TD BGCOLOR='#FFFF99'><B>Target Package:</B></TD>
 <TD><xtag-property name="TargetPackage">fbg676</xtag-property></TD>
 </TR>
@@ -29,7 +29,7 @@
 </TR>
 <TR ALIGN=LEFT>
 <TD BGCOLOR='#FFFF99'><B>Date Generated</B></TD>
-<TD><xtag-property name="Date Generated">2014-10-18T14:23:55</xtag-property></TD>
+<TD><xtag-property name="Date Generated">2014-10-20T14:02:17</xtag-property></TD>
 <TD BGCOLOR='#FFFF99'><B>Tool Flow</B></TD>
 <TD><xtag-property name="ToolFlow">ISE</xtag-property></TD>
 </TR>
@@ -6772,14 +6772,75 @@
 <LI><xtag-cmdline>par -w -intstyle ise -ol high -xe n -mt off &lt;fname&gt;.ncd &lt;fname&gt;.ncd &lt;fname&gt;.pcf</xtag-cmdline></LI>
 <LI><xtag-cmdline>trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml &lt;fname&gt;.twx &lt;fname&gt;.ncd -o &lt;fname&gt;.twr &lt;fname&gt;.pcf -ucf &lt;fname&gt;.ucf</xtag-cmdline></LI>
 <LI><xtag-cmdline>bitgen -intstyle ise -f &lt;fname&gt;.ut &lt;fname&gt;.ncd</xtag-cmdline></LI>
+<LI><xtag-cmdline>bitgen -intstyle ise -f &lt;fname&gt;.ut &lt;fname&gt;.ncd</xtag-cmdline></LI>
 </xtag-section></UL></TD></TR>
 </TABLE>
 &nbsp;<BR><TABLE BORDER CELLSPACING=0 WIDTH='100%'><xtag-section name="RunStatistics"><TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD COLSPAN=8><B>Software Quality</B></TD></TR><TR ALIGN=LEFT><TD COLSPAN=8><B>Run Statistics</B></TD></TR><TR ALIGN=CENTER BGCOLOR='#FFFF99'><TD><B>Program Name</B></TD><TD><B>Runs Started</B></TD><TD><B>Runs Finished</B></TD><TD><B>Errors</B></TD><TD><B>Fatal Errors</B></TD><TD><B>Internal Errors</B></TD><TD><B>Exceptions</B></TD><TD><B>Core Dumps</B></TD></TR>
 
 <tr>
+  <td><xtag-program-name>_impact</xtag-program-name></td>
+  <td><xtag-total-run-started>68</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>60</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
+<tr>
   <td><xtag-program-name>bitgen</xtag-program-name></td>
+  <td><xtag-total-run-started>404</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>400</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
+<tr>
+  <td><xtag-program-name>compxlib</xtag-program-name></td>
   <td><xtag-total-run-started>1</xtag-total-run-started></td>
   <td><xtag-total-run-finished>1</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
+<tr>
+  <td><xtag-program-name>cse_server</xtag-program-name></td>
+  <td><xtag-total-run-started>527</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>453</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
+<tr>
+  <td><xtag-program-name>edif2ngd</xtag-program-name></td>
+  <td><xtag-total-run-started>10</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>10</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
+<tr>
+  <td><xtag-program-name>elfcheck</xtag-program-name></td>
+  <td><xtag-total-run-started>26</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>26</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
+<tr>
+  <td><xtag-program-name>libgen</xtag-program-name></td>
+  <td><xtag-total-run-started>770</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>456</xtag-total-run-finished></td>
   <td><xtag-total-error>0</xtag-total-error></td>
   <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
   <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
@@ -6788,8 +6849,28 @@
 </tr>
 <tr>
   <td><xtag-program-name>map</xtag-program-name></td>
-  <td><xtag-total-run-started>1</xtag-total-run-started></td>
-  <td><xtag-total-run-finished>1</xtag-total-run-finished></td>
+  <td><xtag-total-run-started>520</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>449</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
+<tr>
+  <td><xtag-program-name>netgen</xtag-program-name></td>
+  <td><xtag-total-run-started>25</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>24</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
+<tr>
+  <td><xtag-program-name>ngc2edif</xtag-program-name></td>
+  <td><xtag-total-run-started>17</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>17</xtag-total-run-finished></td>
   <td><xtag-total-error>0</xtag-total-error></td>
   <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
   <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
@@ -6798,8 +6879,8 @@
 </tr>
 <tr>
   <td><xtag-program-name>ngcbuild</xtag-program-name></td>
-  <td><xtag-total-run-started>2</xtag-total-run-started></td>
-  <td><xtag-total-run-finished>2</xtag-total-run-finished></td>
+  <td><xtag-total-run-started>1556</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>1556</xtag-total-run-finished></td>
   <td><xtag-total-error>0</xtag-total-error></td>
   <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
   <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
@@ -6808,8 +6889,8 @@
 </tr>
 <tr>
   <td><xtag-program-name>ngdbuild</xtag-program-name></td>
-  <td><xtag-total-run-started>1</xtag-total-run-started></td>
-  <td><xtag-total-run-finished>1</xtag-total-run-finished></td>
+  <td><xtag-total-run-started>653</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>639</xtag-total-run-finished></td>
   <td><xtag-total-error>0</xtag-total-error></td>
   <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
   <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
@@ -6818,8 +6899,8 @@
 </tr>
 <tr>
   <td><xtag-program-name>par</xtag-program-name></td>
-  <td><xtag-total-run-started>1</xtag-total-run-started></td>
-  <td><xtag-total-run-finished>1</xtag-total-run-finished></td>
+  <td><xtag-total-run-started>451</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>422</xtag-total-run-finished></td>
   <td><xtag-total-error>0</xtag-total-error></td>
   <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
   <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
@@ -6827,9 +6908,9 @@
   <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
 </tr>
 <tr>
-  <td><xtag-program-name>trce</xtag-program-name></td>
-  <td><xtag-total-run-started>1</xtag-total-run-started></td>
-  <td><xtag-total-run-finished>1</xtag-total-run-finished></td>
+  <td><xtag-program-name>platgen</xtag-program-name></td>
+  <td><xtag-total-run-started>220</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>84</xtag-total-run-finished></td>
   <td><xtag-total-error>0</xtag-total-error></td>
   <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
   <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
@@ -6837,7 +6918,17 @@
   <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
 </tr>
 <tr>
-  <td><xtag-program-name>xst</xtag-program-name></td>
+  <td><xtag-program-name>psf2Edward</xtag-program-name></td>
+  <td><xtag-total-run-started>23</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>23</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
+<tr>
+  <td><xtag-program-name>reportgen</xtag-program-name></td>
   <td><xtag-total-run-started>2</xtag-total-run-started></td>
   <td><xtag-total-run-finished>2</xtag-total-run-finished></td>
   <td><xtag-total-error>0</xtag-total-error></td>
@@ -6846,8 +6937,67 @@
   <td><xtag-total-exception>0</xtag-total-exception></td>
   <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
 </tr>
+<tr>
+  <td><xtag-program-name>simgen</xtag-program-name></td>
+  <td><xtag-total-run-started>2</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>2</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
+<tr>
+  <td><xtag-program-name>trce</xtag-program-name></td>
+  <td><xtag-total-run-started>407</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>406</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
+<tr>
+  <td><xtag-program-name>xdsgen</xtag-program-name></td>
+  <td><xtag-total-run-started>18</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>18</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
+<tr>
+  <td><xtag-program-name>xps</xtag-program-name></td>
+  <td><xtag-total-run-started>58</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>42</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
+<tr>
+  <td><xtag-program-name>xst</xtag-program-name></td>
+  <td><xtag-total-run-started>3545</xtag-total-run-started></td>
+  <td><xtag-total-run-finished>3508</xtag-total-run-finished></td>
+  <td><xtag-total-error>0</xtag-total-error></td>
+  <td><xtag-total-fatal-error>0</xtag-total-fatal-error></td>
+  <td><xtag-total-internal-error>0</xtag-total-internal-error></td>
+  <td><xtag-total-exception>0</xtag-total-exception></td>
+  <td><xtag-total-core-dump>0</xtag-total-core-dump></td>
+</tr>
 </xtag-section></TABLE>
+&nbsp;<BR><TABLE BORDER CELLSPACING=0 WIDTH='100%'>
+<xtag-section name="ISEHelpViewerData">
+<TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD COLSPAN=2><B>Help Statistics</B></TD></TR>
+<TR VALIGN=TOP><TD COLSPAN=2><xtag-group><B><xtag-group-name name="OpenedHelpFiles">
+Help files</xtag-group-name></B></TD></TR>
+<TR><TD><xtag-search-item>/doc/usenglish/isehelp/dsm_p_defining_location_messages_reports.htm</xtag-search-item> ( <xtag-count-property>1</xtag-count-property> )</TD>
+<TD><xtag-search-item>/doc/usenglish/isehelp/ise_r_using_xilinx_online_help.htm</xtag-search-item> ( <xtag-count-property>1</xtag-count-property> )</TD>
 
+</TR><TR><TD><xtag-search-item>/doc/usenglish/platform_studio/ps_p_app_launching_sdk.htm</xtag-search-item> ( <xtag-count-property>1</xtag-count-property> )</TD>
+</TR></xtag-group></xtag-section></TABLE>
 &nbsp;<BR><TABLE BORDER CELLSPACING=0 WIDTH='100%'>
 <xtag-section name="Project Statistics">
 <TR ALIGN=CENTER BGCOLOR='#99CCFF'><TD COLSPAN=2><B>Project Statistics</B></TD></TR>

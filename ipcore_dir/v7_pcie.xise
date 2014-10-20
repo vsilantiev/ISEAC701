@@ -17,7 +17,6 @@
   <files/>
 
   <properties>
-    <property xil_pn:name="Compile EDK Simulation Library" xil_pn:value="false" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Device" xil_pn:value="xc7a200t" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Device Family" xil_pn:value="Artix7" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Implementation Stop View" xil_pn:value="PreSynthesis" xil_pn:valueState="non-default"/>

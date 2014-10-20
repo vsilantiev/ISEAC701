@@ -1,12 +1,13 @@
-Release 14.7 ngcbuild P.20131013 (nt64)
+Release 14.7 ngcbuild P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Command Line: ngcbuild.exe -dd C:/Users/vsilantiev/Documents/ISEAC701new/_ngo
--sd MyUserLogic/UserLogic_00 -sd ipcore_dir -sd ipcore_dir_ISE13.3 -p
-xc7a200t-fbg676-2 -i C:\Users\vsilantiev\Documents\ISEAC701new\v6pcieDMA.ngc
-C:\Users\vsilantiev\Documents\ISEAC701new\v6pcieDMA_cs.ngc
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngcbuild -dd
+/home/vladimir/NEWAC701/ISEAC701/_ngo -sd ipcore_dir -sd ipcore_dir_ISE13.3 -p
+xc7a200t-fbg676-2 -i /home/vladimir/NEWAC701/ISEAC701/v6pcieDMA.ngc
+/home/vladimir/NEWAC701/ISEAC701/v6pcieDMA_cs.ngc
 
-Reading NGO file "C:/Users/vsilantiev/Documents/ISEAC701new/v6pcieDMA.ngc" ...
+Prepending components to an absolute path is invalid.
+Reading NGO file "/home/vladimir/NEWAC701/ISEAC701/v6pcieDMA.ngc" ...
 Loading design module "ipcore_dir/v7_mBuf_128x72.ngc"...
 Loading design module "ipcore_dir/v7_sfifo_15x128.ngc"...
 Loading design module "ipcore_dir/fifomodule.ngc"...
@@ -24,12 +25,10 @@ NGCBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 251416 kilobytes
+Total memory usage is 488560 kilobytes
 
-Writing NGC file "C:/Users/vsilantiev/Documents/ISEAC701new/v6pcieDMA_cs.ngc"
-...
-Total REAL time to NGCBUILD completion:  7 sec
-Total CPU time to NGCBUILD completion:   7 sec
+Writing NGC file "/home/vladimir/NEWAC701/ISEAC701/v6pcieDMA_cs.ngc" ...
+Total REAL time to NGCBUILD completion:  4 sec
+Total CPU time to NGCBUILD completion:   4 sec
 
-Writing NGCBUILD log file
-"C:/Users/vsilantiev/Documents/ISEAC701new/v6pcieDMA_cs.blc"...
+Writing NGCBUILD log file "/home/vladimir/NEWAC701/ISEAC701/v6pcieDMA_cs.blc"...
