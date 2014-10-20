@@ -1,5 +1,5 @@
 The following files were generated for 'ila_pro_0' in directory
-C:\Users\vsilantiev\Documents\ISEAC701new\_ngo\cs_ila_pro_0\
+/home/vladimir/NEWAC701/ISEAC701/_ngo/cs_ila_pro_0/
 
 XCO file generator:
    Generate an XCO file for compatibility with legacy flows.

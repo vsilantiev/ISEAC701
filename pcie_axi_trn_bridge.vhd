@@ -493,6 +493,9 @@ architecture Behavioral of pcie_axi_trn_bridge is
   signal tx_err_drop            : std_logic;
   signal tx_cfg_gnt             : std_logic;
   signal s_axis_tx_tready       : std_logic;
+  
+  signal s_axis_tx_tready_i       : std_logic;
+  
   signal s_axis_tx_tuser        : std_logic_vector (3 downto 0);
   signal s_axis_tx_tdata        : std_logic_vector((C_DATA_WIDTH - 1) downto 0);
   signal s_axis_tx_tkeep        : std_logic_vector((C_DATA_WIDTH/8 - 1) downto 0);
@@ -612,7 +615,7 @@ architecture Behavioral of pcie_axi_trn_bridge is
   signal trn_tsrc_rdy_derived : std_logic := '0';
   signal in_packet_reg        : std_logic;
   signal m_axis_rx_tready_int : std_logic;
-  
+  constant TCQ                  : time           := 1 ps;
 begin
 
 
@@ -869,6 +872,31 @@ begin
 
 );
 
+
+--  process (trn_clk)
+--  begin
+--   if (user_reset = '1') then
+--       s_axis_tx_tready_i <= '0' after TCQ;
+--   elsif (trn_clk'event and trn_clk = '1') then
+--       s_axis_tx_tready_i <= s_axis_tx_tready after TCQ;
+--   end if;
+--  end process;
+
+--  process(trn_clk)
+--  begin
+--    if (trn_clk'event and trn_clk='1') then
+--     if (user_reset = '1') then
+--       user_reset_q  <= '1' after TCQ;
+--       user_lnk_up_q <= '0' after TCQ;
+--     else
+--       user_reset_q  <= user_reset after TCQ;
+--       user_lnk_up_q <= user_lnk_up after TCQ;
+--     end if;
+--    end if;
+--  end process;
+
+
+
   tx_cfg_gnt <= not trn_tcfg_gnt_n;	-- IN NOT SIGNAL
 
   trn_clk		<= user_clk;
@@ -1015,8 +1043,8 @@ begin
   
   s_axis_tx_tvalid <= trn_tsrc_rdy_derived or trn_tsof or trn_teof;
   
-  trn_tdst_rdy         <= s_axis_tx_tready;
-  trn_tdst_rdy_int     <= s_axis_tx_tready;
+  trn_tdst_rdy         <= s_axis_tx_tready; -- add _i
+  trn_tdst_rdy_int     <= s_axis_tx_tready; -- add _i
                        
   s_axis_tx_tlast      <= trn_teof;
   
@@ -1043,10 +1071,10 @@ begin
   gen_trn_rsof_64 : if (C_DATA_WIDTH = 64) generate
   begin
   
-    in_pckt_register : process(user_clk)
+    in_pckt_register : process(trn_clk)
     begin
-      if rising_edge(user_clk) then
-        if user_reset = '1' then
+      if rising_edge(trn_clk) then
+        if user_reset = '1' then -- Add user_reset (_q)
           in_packet_reg <= '0';
         elsif (m_axis_rx_tvalid = '1' and m_axis_rx_tready_int = '1') then
           in_packet_reg <= not(m_axis_rx_tlast);
@@ -1091,10 +1119,10 @@ begin
   begin
   
     if rising_edge(trn_clk) then
-      if user_reset = '1' then
+      if user_reset = '1' then -- add _q
         trn_rsrc_dsc <= '1';     
       else
-        trn_rsrc_dsc <= not(user_lnk_up);
+        trn_rsrc_dsc <= not(user_lnk_up); -- add _q
       end if;
     end if;
   end process;
@@ -1140,8 +1168,7 @@ begin
   end generate;  
   
   trn_rerrfwd <= m_axis_rx_tuser(1);
-  
- -- trn_rbar_hit <= '0' & m_axis_rx_tuser(8 downto 2);
+
 trn_rbar_hit <= m_axis_rx_tuser(8 downto 2);
 
 end Behavioral; 
