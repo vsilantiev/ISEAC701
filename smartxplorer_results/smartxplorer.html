@@ -196,7 +196,7 @@
 
 	<div>
         Release 14.7 SmartXplorer <br />Copyright(c) 1995-2010 <a href="http://www.xilinx.com"> Xilinx </a>, Inc. All rights reserved. <br /> <br />
-	<b> smartxplorer -p xc7a200t-fbg676-2 -b -wd smartxplorer_results v6pcieDMA.ngd -to "-v 3 -s 2 -n 3 -fastpaths -xml v6pcieDMA.twx " -max_runs 7 <b/> <br />
+	<b> smartxplorer -p xc7a200t-fbg676-2 -b -wd smartxplorer_results v6pcieDMA.ngd -to "-v 3 -s 2 -n 3 -fastpaths -xml v6pcieDMA.twx -ucf ABB3_pcie_4_lane_Emu_FIFO_elink.ucf" -max_runs 7 <b/> <br />
 
 	<br />
 
@@ -226,33 +226,6 @@
 
     <tbody>
          
-        <tr class="bestStrategyCellColor" >
-        <td id="strat3"><span
-        onmouseover="sxtooltip_show('stratTt3', 'strat3', 20, 20);"
-        onmouseout="sxtooltip_hide('stratTt3');">
-        MapTimingExtraEffort
-        </span></td>
-        <div id="stratTt3" class="sxtooltip">
-        map  -ol high -xe n -t 3 -w ; par  -ol high 
-        </div>
-
-        
-        <td id="host0"><span
-        onmouseover="sxtooltip_show('hostTt0', 'host0', 20, 20)"
-        onmouseout="sxtooltip_hide('hostTt0');">
-        ubuntu
-        </span></td>
-        <div id="hostTt0" class="sxtooltip">
-        Linux, x86_64, 4-processor, 12G RAM
-        </div> 
-        <td><a href=run3/v6pcieDMA_sx.log target=_blank>run3</a></td>
-        <td><b> Done <b/></td>
-        <td><a href=run3/v6pcieDMA.twx.html target=_blank>12355</a></td>
-        <td><a href=run3/v6pcieDMA.twx.html target=_blank>-1.005ns</a></td>
-        <td>10,186 (7%)</td>
-        <td>11,715 (4%)</td>
-        
-        <td>0h 15m 0s</td></tr>
         <tr >
         <td id="strat1"><span
         onmouseover="sxtooltip_show('stratTt1', 'strat1', 20, 20);"
@@ -273,13 +246,13 @@
         Linux, x86_64, 4-processor, 12G RAM
         </div> 
         <td><a href=run1/v6pcieDMA_sx.log target=_blank>run1</a></td>
-        <td><b> Done <b/></td>
-        <td><a href=run1/v6pcieDMA.twx.html target=_blank>21478</a></td>
-        <td><a href=run1/v6pcieDMA.twx.html target=_blank>-1.590ns</a></td>
-        <td>9,983 (7%)</td>
-        <td>11,715 (4%)</td>
+        <td>Aborted</td>
+        <td>357101</td>
+        <td>None</td>
+        <td>10,115 (7%)</td>
+        <td>11,502 (4%)</td>
         
-        <td>0h 19m 35s</td></tr>
+        <td>0h 36m 46s</td></tr>
         <tr class="defaultCellColor" >
         <td id="strat2"><span
         onmouseover="sxtooltip_show('stratTt2', 'strat2', 20, 20);"
@@ -290,23 +263,34 @@
         map  -ol high -xe n -logic_opt on -t 2 -w ; par  -ol high -xe n 
         </div>
 
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
         
-        <td id="host0"><span
-        onmouseover="sxtooltip_show('hostTt0', 'host0', 20, 20)"
-        onmouseout="sxtooltip_hide('hostTt0');">
-        ubuntu
+        <td>None</td></tr>
+        <tr >
+        <td id="strat3"><span
+        onmouseover="sxtooltip_show('stratTt3', 'strat3', 20, 20);"
+        onmouseout="sxtooltip_hide('stratTt3');">
+        MapTimingExtraEffort
         </span></td>
-        <div id="hostTt0" class="sxtooltip">
-        Linux, x86_64, 4-processor, 12G RAM
-        </div> 
-        <td><a href=run2/v6pcieDMA_sx.log target=_blank>run2</a></td>
-        <td><b> Done <b/></td>
-        <td><a href=run2/v6pcieDMA.twx.html target=_blank>25187</a></td>
-        <td><a href=run2/v6pcieDMA.twx.html target=_blank>-1.284ns</a></td>
-        <td>10,116 (7%)</td>
-        <td>11,715 (4%)</td>
+        <div id="stratTt3" class="sxtooltip">
+        map  -ol high -xe n -t 3 -w ; par  -ol high 
+        </div>
+
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
         
-        <td>0h 19m 55s</td></tr>
+        <td>None</td></tr>
         <tr class="defaultCellColor" >
         <td id="strat4"><span
         onmouseover="sxtooltip_show('stratTt4', 'strat4', 20, 20);"
@@ -317,23 +301,15 @@
         map  -ol high -xe n -logic_opt on -register_duplication on -t 2 -w ; par  -ol high -xe n 
         </div>
 
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
         
-        <td id="host0"><span
-        onmouseover="sxtooltip_show('hostTt0', 'host0', 20, 20)"
-        onmouseout="sxtooltip_hide('hostTt0');">
-        ubuntu
-        </span></td>
-        <div id="hostTt0" class="sxtooltip">
-        Linux, x86_64, 4-processor, 12G RAM
-        </div> 
-        <td><a href=run4/v6pcieDMA_sx.log target=_blank>run4</a></td>
-        <td><b> Done <b/></td>
-        <td><a href=run4/v6pcieDMA.twx.html target=_blank>24896</a></td>
-        <td><a href=run4/v6pcieDMA.twx.html target=_blank>-1.201ns</a></td>
-        <td>10,119 (7%)</td>
-        <td>11,743 (4%)</td>
-        
-        <td>0h 18m 40s</td></tr>
+        <td>None</td></tr>
         <tr >
         <td id="strat5"><span
         onmouseover="sxtooltip_show('stratTt5', 'strat5', 20, 20);"
@@ -344,23 +320,15 @@
         map  -ol high -register_duplication on -t 3 -w ; par  -ol high 
         </div>
 
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
         
-        <td id="host0"><span
-        onmouseover="sxtooltip_show('hostTt0', 'host0', 20, 20)"
-        onmouseout="sxtooltip_hide('hostTt0');">
-        ubuntu
-        </span></td>
-        <div id="hostTt0" class="sxtooltip">
-        Linux, x86_64, 4-processor, 12G RAM
-        </div> 
-        <td><a href=run5/v6pcieDMA_sx.log target=_blank>run5</a></td>
-        <td><b> Done <b/></td>
-        <td><a href=run5/v6pcieDMA.twx.html target=_blank>16751</a></td>
-        <td><a href=run5/v6pcieDMA.twx.html target=_blank>-0.977ns</a></td>
-        <td>10,200 (7%)</td>
-        <td>11,715 (4%)</td>
-        
-        <td>0h 15m 5s</td></tr>
+        <td>None</td></tr>
         <tr class="defaultCellColor" >
         <td id="strat6"><span
         onmouseover="sxtooltip_show('stratTt6', 'strat6', 20, 20);"
@@ -371,23 +339,15 @@
         map  -ol high -logic_opt on -pr b -w  ; par  -ol high -xe c 
         </div>
 
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
         
-        <td id="host0"><span
-        onmouseover="sxtooltip_show('hostTt0', 'host0', 20, 20)"
-        onmouseout="sxtooltip_hide('hostTt0');">
-        ubuntu
-        </span></td>
-        <div id="hostTt0" class="sxtooltip">
-        Linux, x86_64, 4-processor, 12G RAM
-        </div> 
-        <td><a href=run6/v6pcieDMA_sx.log target=_blank>run6</a></td>
-        <td><b> Done <b/></td>
-        <td><a href=run6/v6pcieDMA.twx.html target=_blank>15872</a></td>
-        <td><a href=run6/v6pcieDMA.twx.html target=_blank>-0.809ns</a></td>
-        <td>10,270 (7%)</td>
-        <td>11,711 (4%)</td>
-        
-        <td>0h 15m 35s</td></tr>
+        <td>None</td></tr>
         <tr >
         <td id="strat7"><span
         onmouseover="sxtooltip_show('stratTt7', 'strat7', 20, 20);"
@@ -398,29 +358,21 @@
         map  -ol high -logic_opt on -register_duplication on -pr b -w ; par  -ol high -xe c 
         </div>
 
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
+        <td>None</td>
         
-        <td id="host0"><span
-        onmouseover="sxtooltip_show('hostTt0', 'host0', 20, 20)"
-        onmouseout="sxtooltip_hide('hostTt0');">
-        ubuntu
-        </span></td>
-        <div id="hostTt0" class="sxtooltip">
-        Linux, x86_64, 4-processor, 12G RAM
-        </div> 
-        <td><a href=run7/v6pcieDMA_sx.log target=_blank>run7</a></td>
-        <td><b> Done <b/></td>
-        <td><a href=run7/v6pcieDMA.twx.html target=_blank>15063</a></td>
-        <td><a href=run7/v6pcieDMA.twx.html target=_blank>-0.621ns</a></td>
-        <td>10,271 (7%)</td>
-        <td>11,712 (4%)</td>
-        
-        <td>0h 15m 10s</td></tr>
+        <td>None</td></tr>
     </tbody>
     </table>
 
     <br />     <br />
 
-        <h3>Best Strategy: MapTimingExtraEffort (run3), Timing Score: 12355, Runtime: 0h 15m 0s</h3>
+        <h3>Best Strategy: None (None), Timing Score: None, Runtime: None</h3>
 
         <table id="t3" class="toplevel"
                 multiple="true" alternateRows="true" maxSortable="1"
@@ -435,15 +387,6 @@
 
         <tbody>
              
-        <tr >
-        <td> map v6pcieDMA.ngd -ol high -xe n -t 3 -w -p xc7a200t-fbg676-2 -o v6pcieDMA_map.ncd /home/vladimir/ISEAC701/smartxplorer_results/run3/v6pcieDMA.pcf
-<br><br></td></tr>
-        <tr class="alternateCellColor" >
-        <td> par v6pcieDMA_map.ncd -ol high -w v6pcieDMA.ncd /home/vladimir/ISEAC701/smartxplorer_results/run3/v6pcieDMA.pcf
-<br><br></td></tr>
-        <tr >
-        <td> trce /home/vladimir/ISEAC701/smartxplorer_results/run3/v6pcieDMA.ncd /home/vladimir/ISEAC701/smartxplorer_results/run3/v6pcieDMA.pcf -xml /home/vladimir/ISEAC701/smartxplorer_results/run3/v6pcieDMA.twx -v 3 -s 2 -n 3 -fastpaths -o /home/vladimir/ISEAC701/smartxplorer_results/run3/v6pcieDMA.twr
-<br><br></td></tr>
         </tbody>
         </table>
 

@@ -226,9 +226,9 @@ WARNING:HDLCompiler:751 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Lin
 WARNING:HDLCompiler:751 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 319: Redeclaration of ansi port real_strobe_signal is not allowed
 WARNING:HDLCompiler:751 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 320: Redeclaration of ansi port real_soa_signal is not allowed
 WARNING:HDLCompiler:751 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 321: Redeclaration of ansi port resetfifo is not allowed
-WARNING:HDLCompiler:751 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 716: Redeclaration of ansi port user_int_1o is not allowed
-WARNING:HDLCompiler:751 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 717: Redeclaration of ansi port user_int_2o is not allowed
-WARNING:HDLCompiler:751 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 718: Redeclaration of ansi port user_int_3o is not allowed
+WARNING:HDLCompiler:751 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 713: Redeclaration of ansi port user_int_1o is not allowed
+WARNING:HDLCompiler:751 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 714: Redeclaration of ansi port user_int_2o is not allowed
+WARNING:HDLCompiler:751 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 715: Redeclaration of ansi port user_int_3o is not allowed
 Parsing VHDL file "/home/vladimir/NEWAC701/ISEAC701/ipcore_dir/v7_eb_fifo_counted_resized.vhd" into library work
 Parsing entity <v7_eb_fifo_counted_resized>.
 Parsing architecture <v7_eb_fifo_counted_resized_a> of entity <v7_eb_fifo_counted_resized>.
@@ -370,15 +370,13 @@ Elaborating module <ADC_emul(WIDTH=16)>.
 WARNING:HDLCompiler:872 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 265: Using initial value of delay_ld since it is never assigned
 WARNING:HDLCompiler:872 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 266: Using initial value of delay_wdata since it is never assigned
 WARNING:HDLCompiler:872 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 290: Using initial value of adc_dmode since it is never assigned
-WARNING:HDLCompiler:1127 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 329: Assignment to adc_or ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 329: Assignment to real_data ignored, since the identifier is never used
 WARNING:HDLCompiler:413 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 499: Result of 64-bit expression is truncated to fit in 32-bit target.
 WARNING:HDLCompiler:413 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 511: Result of 64-bit expression is truncated to fit in 32-bit target.
 WARNING:HDLCompiler:413 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 518: Result of 64-bit expression is truncated to fit in 32-bit target.
 WARNING:HDLCompiler:413 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 525: Result of 64-bit expression is truncated to fit in 32-bit target.
 WARNING:HDLCompiler:1127 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 380: Assignment to debug_data_reg ignored, since the identifier is never used
-WARNING:HDLCompiler:413 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 643: Result of 13-bit expression is truncated to fit in 12-bit target.
-WARNING:HDLCompiler:413 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 644: Result of 13-bit expression is truncated to fit in 12-bit target.
-WARNING:HDLCompiler:413 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 689: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "/home/vladimir/NEWAC701/ISEAC701/MySource/Emul.v" Line 688: Result of 3-bit expression is truncated to fit in 2-bit target.
 
 Elaborating module <FDPE(INIT=1'b1)>.
 
@@ -817,7 +815,6 @@ WARNING:Xst:647 - Input <reg11_td> is never used. This port will be preserved an
 WARNING:Xst:647 - Input <reg12_td> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <reg13_td> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <reg14_td> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-WARNING:Xst:647 - Input <trn_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <reg07_tv> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <reg08_tv> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <reg09_tv> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
@@ -839,10 +836,6 @@ WARNING:Xst:653 - Signal <adcclock> is used but never assigned. This sourceless 
 WARNING:Xst:653 - Signal <user_int_1o> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <user_int_2o> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <user_int_3o> is used but never assigned. This sourceless signal will be automatically connected to value GND.
-    Found 8-bit register for signal <adc_data_n>.
-    Found 8-bit register for signal <adc_dmux_a>.
-    Found 8-bit register for signal <adc_dmux_b>.
-    Found 16-bit register for signal <real_data>.
     Found 32-bit register for signal <reg01_rd_current_reflength>.
     Found 1-bit register for signal <reg02_rd_work_status>.
     Found 32-bit register for signal <reg03_strobe_length_cur>.
@@ -874,93 +867,29 @@ WARNING:Xst:653 - Signal <user_int_3o> is used but never assigned. This sourcele
     Found 32-bit register for signal <wasfifoerror>.
     Found 32-bit register for signal <fifowasoverflowonvalue>.
     Found 1-bit register for signal <fifowasoverflow>.
-    Found 1-bit register for signal <real_data_out<63>>.
-    Found 1-bit register for signal <real_data_out<62>>.
-    Found 1-bit register for signal <real_data_out<61>>.
-    Found 1-bit register for signal <real_data_out<60>>.
-    Found 1-bit register for signal <real_data_out<59>>.
-    Found 1-bit register for signal <real_data_out<58>>.
-    Found 1-bit register for signal <real_data_out<57>>.
-    Found 1-bit register for signal <real_data_out<56>>.
-    Found 1-bit register for signal <real_data_out<55>>.
-    Found 1-bit register for signal <real_data_out<54>>.
-    Found 1-bit register for signal <real_data_out<53>>.
-    Found 1-bit register for signal <real_data_out<52>>.
-    Found 1-bit register for signal <real_data_out<51>>.
-    Found 1-bit register for signal <real_data_out<50>>.
-    Found 1-bit register for signal <real_data_out<49>>.
-    Found 1-bit register for signal <real_data_out<48>>.
-    Found 1-bit register for signal <real_data_out<47>>.
-    Found 1-bit register for signal <real_data_out<46>>.
-    Found 1-bit register for signal <real_data_out<45>>.
-    Found 1-bit register for signal <real_data_out<44>>.
-    Found 1-bit register for signal <real_data_out<43>>.
-    Found 1-bit register for signal <real_data_out<42>>.
-    Found 1-bit register for signal <real_data_out<41>>.
-    Found 1-bit register for signal <real_data_out<40>>.
-    Found 1-bit register for signal <real_data_out<39>>.
-    Found 1-bit register for signal <real_data_out<38>>.
-    Found 1-bit register for signal <real_data_out<37>>.
-    Found 1-bit register for signal <real_data_out<36>>.
-    Found 1-bit register for signal <real_data_out<35>>.
-    Found 1-bit register for signal <real_data_out<34>>.
-    Found 1-bit register for signal <real_data_out<33>>.
-    Found 1-bit register for signal <real_data_out<32>>.
-    Found 1-bit register for signal <real_data_out<31>>.
-    Found 1-bit register for signal <real_data_out<30>>.
-    Found 1-bit register for signal <real_data_out<29>>.
-    Found 1-bit register for signal <real_data_out<28>>.
-    Found 1-bit register for signal <real_data_out<27>>.
-    Found 1-bit register for signal <real_data_out<26>>.
-    Found 1-bit register for signal <real_data_out<25>>.
-    Found 1-bit register for signal <real_data_out<24>>.
-    Found 1-bit register for signal <real_data_out<23>>.
-    Found 1-bit register for signal <real_data_out<22>>.
-    Found 1-bit register for signal <real_data_out<21>>.
-    Found 1-bit register for signal <real_data_out<20>>.
-    Found 1-bit register for signal <real_data_out<19>>.
-    Found 1-bit register for signal <real_data_out<18>>.
-    Found 1-bit register for signal <real_data_out<17>>.
-    Found 1-bit register for signal <real_data_out<16>>.
-    Found 1-bit register for signal <real_data_out<15>>.
-    Found 1-bit register for signal <real_data_out<14>>.
-    Found 1-bit register for signal <real_data_out<13>>.
-    Found 1-bit register for signal <real_data_out<12>>.
-    Found 1-bit register for signal <real_data_out<11>>.
-    Found 1-bit register for signal <real_data_out<10>>.
-    Found 1-bit register for signal <real_data_out<9>>.
-    Found 1-bit register for signal <real_data_out<8>>.
-    Found 1-bit register for signal <real_data_out<7>>.
-    Found 1-bit register for signal <real_data_out<6>>.
-    Found 1-bit register for signal <real_data_out<5>>.
-    Found 1-bit register for signal <real_data_out<4>>.
-    Found 1-bit register for signal <real_data_out<3>>.
-    Found 1-bit register for signal <real_data_out<2>>.
-    Found 1-bit register for signal <real_data_out<1>>.
-    Found 1-bit register for signal <real_data_out<0>>.
+    Found 64-bit register for signal <real_data_out>.
     Found 8-bit register for signal <delay_rst_cnt>.
-    Found 8-bit register for signal <adc_data_p>.
     Found 64-bit adder for signal <debug_data1_reg[63]_GND_9_o_add_29_OUT> created at line 510.
     Found 64-bit adder for signal <debug_data2_reg[63]_GND_9_o_add_33_OUT> created at line 517.
     Found 64-bit adder for signal <debug_data3_reg[63]_GND_9_o_add_37_OUT> created at line 524.
     Found 32-bit adder for signal <strobe_counter[31]_GND_9_o_add_80_OUT> created at line 603.
     Found 32-bit adder for signal <soa_counter[31]_GND_9_o_add_83_OUT> created at line 614.
-    Found 12-bit adder for signal <bram_addr[11]_GND_9_o_add_85_OUT> created at line 643.
-    Found 32-bit adder for signal <wasfifoerror[31]_GND_9_o_add_96_OUT> created at line 679.
-    Found 32-bit adder for signal <reflength_counter[31]_GND_9_o_add_105_OUT> created at line 688.
-    Found 2-bit adder for signal <count[1]_GND_9_o_add_106_OUT> created at line 689.
-    Found 8-bit adder for signal <delay_rst_cnt[7]_GND_9_o_add_148_OUT> created at line 759.
+    Found 32-bit adder for signal <wasfifoerror[31]_GND_9_o_add_94_OUT> created at line 678.
+    Found 32-bit adder for signal <reflength_counter[31]_GND_9_o_add_101_OUT> created at line 687.
+    Found 2-bit adder for signal <count[1]_GND_9_o_add_102_OUT> created at line 688.
+    Found 8-bit adder for signal <delay_rst_cnt[7]_GND_9_o_add_138_OUT> created at line 722.
+    Found 64-bit 4-to-1 multiplexer for signal <count[1]_real_data_out[63]_wide_mux_96_OUT> created at line 625.
     Found 32-bit comparator greater for signal <GND_9_o_reg02_td[31]_LessThan_19_o> created at line 442
     Found 32-bit comparator greater for signal <GND_9_o_reg06_td[31]_LessThan_26_o> created at line 485
     Found 32-bit comparator equal for signal <reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o> created at line 581
-    Found 32-bit comparator greater for signal <n0101> created at line 601
-    Found 32-bit comparator greater for signal <n0105> created at line 612
-    Found 32-bit comparator equal for signal <fifowasoverflowonvalue[31]_reflength_counter[31]_equal_92_o> created at line 664
+    Found 32-bit comparator greater for signal <n0097> created at line 601
+    Found 32-bit comparator greater for signal <n0101> created at line 612
+    Found 32-bit comparator equal for signal <fifowasoverflowonvalue[31]_reflength_counter[31]_equal_90_o> created at line 663
     Summary:
-	inferred  10 Adder/Subtractor(s).
-	inferred 941 D-type flip-flop(s).
+	inferred   9 Adder/Subtractor(s).
+	inferred 893 D-type flip-flop(s).
 	inferred   6 Comparator(s).
-	inferred  11 Multiplexer(s).
+	inferred  12 Multiplexer(s).
 Unit <ADC_emul> synthesized.
 
 Synthesizing Unit <tlpControl>.
@@ -2741,7 +2670,7 @@ Synthesizing Unit <v7_pcie>.
         CMD_INTX_IMPLEMENTED = "TRUE"
         CPL_TIMEOUT_DISABLE_SUPPORTED = "FALSE"
         CPL_TIMEOUT_RANGES_SUPPORTED = "0010"
-        DEV_CAP_ENDPOINT_L0S_LATENCY = 0
+        DEV_CAP_ENDPOINT_L0S_LATENCY = 7
         DEV_CAP_ENDPOINT_L1_LATENCY = 7
         DEV_CAP_EXT_TAG_SUPPORTED = "FALSE"
         DEV_CAP_MAX_PAYLOAD_SUPPORTED = 2
@@ -3146,7 +3075,7 @@ Synthesizing Unit <v7_pcie_pcie_top>.
         DEV_CAP2_TPH_COMPLETER_SUPPORTED = "00000000"
         DEV_CAP_ENABLE_SLOT_PWR_LIMIT_SCALE = "TRUE"
         DEV_CAP_ENABLE_SLOT_PWR_LIMIT_VALUE = "TRUE"
-        DEV_CAP_ENDPOINT_L0S_LATENCY = 0
+        DEV_CAP_ENDPOINT_L0S_LATENCY = 7
         DEV_CAP_ENDPOINT_L1_LATENCY = 7
         DEV_CAP_EXT_TAG_SUPPORTED = "FALSE"
         DEV_CAP_FUNCTION_LEVEL_RESET_CAPABLE = "FALSE"
@@ -3630,7 +3559,7 @@ Synthesizing Unit <v7_pcie_pcie_7x>.
         DEV_CAP2_TPH_COMPLETER_SUPPORTED = "00000000"
         DEV_CAP_ENABLE_SLOT_PWR_LIMIT_SCALE = "TRUE"
         DEV_CAP_ENABLE_SLOT_PWR_LIMIT_VALUE = "TRUE"
-        DEV_CAP_ENDPOINT_L0S_LATENCY = 0
+        DEV_CAP_ENDPOINT_L0S_LATENCY = 7
         DEV_CAP_ENDPOINT_L1_LATENCY = 7
         DEV_CAP_EXT_TAG_SUPPORTED = "FALSE"
         DEV_CAP_FUNCTION_LEVEL_RESET_CAPABLE = "FALSE"
@@ -5379,12 +5308,12 @@ Macro Statistics
  4x3-bit single-port Read Only RAM                     : 4
  8x18-bit single-port Read Only RAM                    : 2
  8x8-bit single-port Read Only RAM                     : 1
-# Adders/Subtractors                                   : 138
+# Adders/Subtractors                                   : 137
  1-bit adder                                           : 4
  10-bit adder                                          : 1
  10-bit addsub                                         : 1
  10-bit subtractor                                     : 3
- 12-bit adder                                          : 4
+ 12-bit adder                                          : 3
  12-bit subtractor                                     : 3
  13-bit adder                                          : 2
  13-bit subtractor                                     : 2
@@ -5414,8 +5343,8 @@ Macro Statistics
  64-bit subtractor                                     : 2
  8-bit adder                                           : 3
  8-bit subtractor                                      : 4
-# Registers                                            : 2040
- 1-bit register                                        : 1462
+# Registers                                            : 1972
+ 1-bit register                                        : 1398
  10-bit register                                       : 7
  11-bit register                                       : 1
  12-bit register                                       : 9
@@ -5423,7 +5352,7 @@ Macro Statistics
  13-bit register                                       : 8
  14-bit register                                       : 1
  15-bit register                                       : 2
- 16-bit register                                       : 25
+ 16-bit register                                       : 24
  17-bit register                                       : 8
  18-bit register                                       : 28
  19-bit register                                       : 8
@@ -5443,9 +5372,9 @@ Macro Statistics
  52-bit register                                       : 2
  58-bit register                                       : 1
  6-bit register                                        : 44
- 64-bit register                                       : 68
+ 64-bit register                                       : 69
  7-bit register                                        : 3
- 8-bit register                                        : 28
+ 8-bit register                                        : 24
  9-bit register                                        : 4
 # Latches                                              : 1
  1-bit latch                                           : 1
@@ -5464,7 +5393,7 @@ Macro Statistics
  6-bit comparator greater                              : 1
  6-bit comparator lessequal                            : 2
  8-bit comparator equal                                : 5
-# Multiplexers                                         : 4363
+# Multiplexers                                         : 4364
  1-bit 2-to-1 multiplexer                              : 3553
  1-bit 3-to-1 multiplexer                              : 1
  1-bit 4-to-1 multiplexer                              : 64
@@ -5493,7 +5422,7 @@ Macro Statistics
  5-bit 2-to-1 multiplexer                              : 20
  6-bit 2-to-1 multiplexer                              : 34
  64-bit 2-to-1 multiplexer                             : 91
- 64-bit 4-to-1 multiplexer                             : 1
+ 64-bit 4-to-1 multiplexer                             : 2
  7-bit 2-to-1 multiplexer                              : 4
  8-bit 2-to-1 multiplexer                              : 25
 # FSMs                                                 : 43
@@ -6294,15 +6223,14 @@ WARNING:Xst:2404 -  FFs/Latches <reg06_rd<31:1>> (without init value) have a con
 WARNING:Xst:2404 -  FFs/Latches <DDR_rdc_din_i<63:44>> (without init value) have a constant value of 0 in block <tx_Mem_Reader>.
 
 Synthesizing (advanced) Unit <ADC_emul>.
-The following registers are absorbed into counter <debug_data3_reg>: 1 register on signal <debug_data3_reg>.
 The following registers are absorbed into counter <debug_data2_reg>: 1 register on signal <debug_data2_reg>.
-The following registers are absorbed into counter <delay_rst_cnt>: 1 register on signal <delay_rst_cnt>.
-The following registers are absorbed into counter <count>: 1 register on signal <count>.
-The following registers are absorbed into counter <reflength_counter>: 1 register on signal <reflength_counter>.
 The following registers are absorbed into counter <debug_data1_reg>: 1 register on signal <debug_data1_reg>.
-The following registers are absorbed into counter <bram_addr>: 1 register on signal <bram_addr>.
-The following registers are absorbed into counter <wasfifoerror>: 1 register on signal <wasfifoerror>.
+The following registers are absorbed into counter <debug_data3_reg>: 1 register on signal <debug_data3_reg>.
+The following registers are absorbed into counter <delay_rst_cnt>: 1 register on signal <delay_rst_cnt>.
+The following registers are absorbed into counter <reflength_counter>: 1 register on signal <reflength_counter>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
 The following registers are absorbed into counter <strobe_counter>: 1 register on signal <strobe_counter>.
+The following registers are absorbed into counter <wasfifoerror>: 1 register on signal <wasfifoerror>.
 The following registers are absorbed into counter <soa_counter>: 1 register on signal <soa_counter>.
 Unit <ADC_emul> synthesized (advanced).
 
@@ -6615,8 +6543,7 @@ Macro Statistics
  64-bit subtractor                                     : 2
  8-bit adder                                           : 1
  8-bit subtractor                                      : 4
-# Counters                                             : 45
- 12-bit up counter                                     : 1
+# Counters                                             : 44
  2-bit down counter                                    : 1
  2-bit up counter                                      : 10
  20-bit up counter                                     : 2
@@ -6628,8 +6555,8 @@ Macro Statistics
  6-bit updown counter                                  : 1
  64-bit up counter                                     : 5
  8-bit up counter                                      : 2
-# Registers                                            : 13900
- Flip-Flops                                            : 13900
+# Registers                                            : 13864
+ Flip-Flops                                            : 13864
 # Comparators                                          : 44
  10-bit comparator equal                               : 1
  10-bit comparator greater                             : 1
@@ -6645,7 +6572,7 @@ Macro Statistics
  6-bit comparator greater                              : 1
  6-bit comparator lessequal                            : 2
  8-bit comparator equal                                : 5
-# Multiplexers                                         : 4702
+# Multiplexers                                         : 4703
  1-bit 2-to-1 multiplexer                              : 3947
  1-bit 3-to-1 multiplexer                              : 1
  1-bit 4-to-1 multiplexer                              : 64
@@ -6674,7 +6601,7 @@ Macro Statistics
  5-bit 2-to-1 multiplexer                              : 20
  6-bit 2-to-1 multiplexer                              : 25
  64-bit 2-to-1 multiplexer                             : 85
- 64-bit 4-to-1 multiplexer                             : 1
+ 64-bit 4-to-1 multiplexer                             : 2
  7-bit 2-to-1 multiplexer                              : 4
  8-bit 2-to-1 multiplexer                              : 24
 # FSMs                                                 : 43
@@ -6695,7 +6622,19 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <addr_reg_5> has a c
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <addr_reg_6> has a constant value of 0 in block <v7_pcie_gtp_pipe_drp>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <addr_reg_7> has a constant value of 0 in block <v7_pcie_gtp_pipe_drp>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <addr_reg_8> has a constant value of 0 in block <v7_pcie_gtp_pipe_drp>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg13_rd_31> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bram_addr_0> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bram_addr_1> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bram_addr_2> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bram_addr_3> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bram_addr_4> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bram_addr_5> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bram_addr_6> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bram_addr_7> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bram_addr_8> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bram_addr_9> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bram_addr_10> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <bram_addr_11> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_31> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_30> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_29> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_28> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
@@ -6705,28 +6644,28 @@ WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_25> (witho
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_24> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_23> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_22> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_21> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_20> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_19> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_18> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_17> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_16> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_15> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_14> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_13> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_12> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_11> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_10> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_9> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_8> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_7> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_6> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_5> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_4> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_3> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_2> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_1> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_0> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_1> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_2> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_3> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_4> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_5> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_6> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_7> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_8> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_9> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_10> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_11> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_12> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_13> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_14> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_15> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_16> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_17> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_18> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_19> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_20> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg13_rd_21> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <dlm_rd_r_21> (without init value) has a constant value of 0 in block <Regs_Group>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dlm_rd_r_20> (without init value) has a constant value of 0 in block <Regs_Group>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dlm_rd_r_19> (without init value) has a constant value of 0 in block <Regs_Group>. This FF/Latch will be trimmed during the optimization process.
@@ -7228,6 +7167,56 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <m_axis_rx_tuser_xhd
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <m_axis_rx_tuser_xhdl1_13> has a constant value of 0 in block <v7_pcie_axi_basic_rx_pipeline>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <m_axis_rx_tuser_xhdl1_15> has a constant value of 0 in block <v7_pcie_axi_basic_rx_pipeline>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <m_axis_rx_tuser_xhdl1_16> has a constant value of 0 in block <v7_pcie_axi_basic_rx_pipeline>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_63> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_62> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_59> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_58> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_57> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_56> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_55> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_54> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_50> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_49> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_31> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_30> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_27> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_26> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_25> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_1> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_2> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_6> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_7> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_8> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_9> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_10> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_11> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_14> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_15> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_17> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_18> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_22> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_23> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_24> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_17> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_18> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_22> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_23> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_24> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_25> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_26> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_27> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_30> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_31> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_15> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_14> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_11> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_10> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_9> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_8> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_7> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_6> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_2> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_1> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <debug_data3_reg_32> of sequential type is unconnected in block <ADC_emul>.
 WARNING:Xst:2677 - Node <debug_data3_reg_33> of sequential type is unconnected in block <ADC_emul>.
 WARNING:Xst:2677 - Node <debug_data3_reg_34> of sequential type is unconnected in block <ADC_emul>.
@@ -8019,6 +8008,52 @@ Optimizing unit <v7_pcie_axi_basic_rx_null_gen> ...
 WARNING:Xst:1293 - FF/Latch <reg_pkt_len_counter_11> has a constant value of 0 in block <v7_pcie_axi_basic_rx_null_gen>. This FF/Latch will be trimmed during the optimization process.
 
 Optimizing unit <ADC_emul> ...
+WARNING:Xst:1710 - FF/Latch <real_data_out_37> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_38> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_39> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_40> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_41> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_42> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_43> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_44> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_45> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_46> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_47> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_48> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_51> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_52> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_53> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_60> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_61> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_0> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_3> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_4> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_5> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_12> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_13> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_16> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_19> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_20> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_21> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_28> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_29> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_32> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_33> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_34> (without init value) has a constant value of 0 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_35> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <real_data_out_36> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_29> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_28> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_21> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_20> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_19> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_16> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_13> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_12> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_5> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_4> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_3> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <reg07_rd_0> (without init value) has a constant value of 1 in block <ADC_emul>. This FF/Latch will be trimmed during the optimization process.
 
 Optimizing unit <tlpControl> ...
 
@@ -8062,6 +8097,14 @@ WARNING:Xst:1426 - The value init of the FF/Latch reg_tkeep_2 hinder the constan
    You should achieve better results by setting this init to 1.
 WARNING:Xst:1426 - The value init of the FF/Latch reg_tkeep_3 hinder the constant cleaning in the block rx_pipeline_inst.
    You should achieve better results by setting this init to 1.
+WARNING:Xst:1710 - FF/Latch <eb_FIFO_Status_r1_30> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <eb_FIFO_Status_r1_31> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_0> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_1> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_2> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_3> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_4> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_5> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_6> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_7> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_8> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
@@ -8082,11 +8125,16 @@ WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_22> (without init value) has a c
 WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_23> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_24> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_25> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_26> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_27> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_28> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_29> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_30> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_25> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_26> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_27> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_28> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_29> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_30> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_31> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Sys_IRQ_i_8> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Sys_IRQ_i_7> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Sys_IRQ_i_6> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <General_Status_i_31> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <eb_FIFO_OverWritten> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <General_Status_i_15> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
@@ -8105,14 +8153,8 @@ WARNING:Xst:1710 - FF/Latch <eb_FIFO_Status_r1_26> (without init value) has a co
 WARNING:Xst:1710 - FF/Latch <eb_FIFO_Status_r1_27> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <eb_FIFO_Status_r1_28> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <eb_FIFO_Status_r1_29> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <eb_FIFO_Status_r1_30> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <eb_FIFO_Status_r1_31> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_0> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_1> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_2> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_3> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_4> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_5> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Irpt_Qout_to_TLP_8> (without init value) has a constant value of 0 in block <tx_Itf>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Irpt_Qout_to_TLP_9> (without init value) has a constant value of 0 in block <tx_Itf>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <Irpt_Qout_to_TLP_10> (without init value) has a constant value of 0 in block <tx_Itf>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <Irpt_Qout_to_TLP_11> (without init value) has a constant value of 0 in block <tx_Itf>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <Irpt_Qout_to_TLP_32> (without init value) has a constant value of 0 in block <tx_Itf>. This FF/Latch will be trimmed during the optimization process.
@@ -8139,6 +8181,11 @@ WARNING:Xst:1710 - FF/Latch <ChBuf_WrDin_i_16> (without init value) has a consta
 WARNING:Xst:1710 - FF/Latch <ChBuf_WrDin_i_18> (without init value) has a constant value of 0 in block <ds_DMA_StateMachine>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <ChBuf_WrDin_i_95> (without init value) has a constant value of 0 in block <ds_DMA_StateMachine>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <DMA_Status_i_3> (without init value) has a constant value of 0 in block <Upstream_DMA_Engine>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_26> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_27> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_28> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_29> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_30> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <H2B_FIFO_Status_r1_31> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <B2H_FIFO_Status_r1_18> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <B2H_FIFO_Status_r1_19> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
@@ -8163,11 +8210,6 @@ WARNING:Xst:1710 - FF/Latch <Irpt_Qout_to_TLP_4> (without init value) has a cons
 WARNING:Xst:1710 - FF/Latch <Irpt_Qout_to_TLP_5> (without init value) has a constant value of 0 in block <tx_Itf>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <Irpt_Qout_to_TLP_6> (without init value) has a constant value of 0 in block <tx_Itf>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <Irpt_Qout_to_TLP_7> (without init value) has a constant value of 0 in block <tx_Itf>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Irpt_Qout_to_TLP_8> (without init value) has a constant value of 0 in block <tx_Itf>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Irpt_Qout_to_TLP_9> (without init value) has a constant value of 0 in block <tx_Itf>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg02_rd_r_20> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg02_rd_r_21> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg02_rd_r_22> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg02_rd_r_23> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg02_rd_r_24> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg02_rd_r_25> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
@@ -8191,6 +8233,11 @@ WARNING:Xst:1710 - FF/Latch <reg06_rd_r_11> (without init value) has a constant 
 WARNING:Xst:1710 - FF/Latch <reg06_rd_r_12> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg06_rd_r_13> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg06_rd_r_14> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg06_rd_r_15> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg06_rd_r_16> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg06_rd_r_17> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg06_rd_r_18> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg06_rd_r_19> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1293 - FF/Latch <txdlyen> has a constant value of 0 in block <pipe_lane[3].pipe_sync_i>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1293 - FF/Latch <txdlyen> has a constant value of 0 in block <pipe_lane[2].pipe_sync_i>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1293 - FF/Latch <txdlyen> has a constant value of 0 in block <pipe_lane[1].pipe_sync_i>. This FF/Latch will be trimmed during the optimization process.
@@ -8217,6 +8264,22 @@ WARNING:Xst:1710 - FF/Latch <reg02_rd_r_16> (without init value) has a constant 
 WARNING:Xst:1710 - FF/Latch <reg02_rd_r_17> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg02_rd_r_18> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg02_rd_r_19> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg02_rd_r_20> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg02_rd_r_21> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg02_rd_r_22> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_26> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_27> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_30> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_31> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_0> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_1> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_2> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_3> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_4> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_5> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_6> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_7> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg08_rd_r_8> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg08_rd_r_9> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg08_rd_r_10> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg08_rd_r_11> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
@@ -8233,21 +8296,6 @@ WARNING:Xst:1710 - FF/Latch <reg08_rd_r_21> (without init value) has a constant 
 WARNING:Xst:1710 - FF/Latch <reg08_rd_r_22> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg08_rd_r_23> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg08_rd_r_24> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_25> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_26> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_27> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_28> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_29> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_30> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_31> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Sys_IRQ_i_8> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Sys_IRQ_i_7> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Sys_IRQ_i_6> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg06_rd_r_15> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg06_rd_r_16> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg06_rd_r_17> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg06_rd_r_18> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg06_rd_r_19> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg06_rd_r_20> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg06_rd_r_21> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg06_rd_r_22> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
@@ -8260,15 +8308,22 @@ WARNING:Xst:1710 - FF/Latch <reg06_rd_r_28> (without init value) has a constant 
 WARNING:Xst:1710 - FF/Latch <reg06_rd_r_29> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg06_rd_r_30> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1710 - FF/Latch <reg06_rd_r_31> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_0> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_1> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_2> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_3> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_4> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_5> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_6> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_7> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <reg08_rd_r_8> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_1> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_2> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_6> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_7> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_8> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_9> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_10> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_11> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_14> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_15> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_17> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_18> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_22> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_23> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_24> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <reg07_rd_r_25> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Sys_Error_i_20> (without init value) has a constant value of 0 in block <Memory_Space>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <trn_rsrc_dsc> of sequential type is unconnected in block <pcie_axi_trn_bridge_i>.
 WARNING:Xst:2677 - Node <qpllpd> of sequential type is unconnected in block <qpll_reset.qpll_reset_i>.
@@ -8536,18 +8591,6 @@ WARNING:Xst:2677 - Node <debug_data3_reg_28> of sequential type is unconnected i
 WARNING:Xst:2677 - Node <debug_data3_reg_29> of sequential type is unconnected in block <ad9467_1>.
 WARNING:Xst:2677 - Node <debug_data3_reg_30> of sequential type is unconnected in block <ad9467_1>.
 WARNING:Xst:2677 - Node <debug_data3_reg_31> of sequential type is unconnected in block <ad9467_1>.
-WARNING:Xst:2677 - Node <bram_addr_0> of sequential type is unconnected in block <ad9467_1>.
-WARNING:Xst:2677 - Node <bram_addr_1> of sequential type is unconnected in block <ad9467_1>.
-WARNING:Xst:2677 - Node <bram_addr_2> of sequential type is unconnected in block <ad9467_1>.
-WARNING:Xst:2677 - Node <bram_addr_3> of sequential type is unconnected in block <ad9467_1>.
-WARNING:Xst:2677 - Node <bram_addr_4> of sequential type is unconnected in block <ad9467_1>.
-WARNING:Xst:2677 - Node <bram_addr_5> of sequential type is unconnected in block <ad9467_1>.
-WARNING:Xst:2677 - Node <bram_addr_6> of sequential type is unconnected in block <ad9467_1>.
-WARNING:Xst:2677 - Node <bram_addr_7> of sequential type is unconnected in block <ad9467_1>.
-WARNING:Xst:2677 - Node <bram_addr_8> of sequential type is unconnected in block <ad9467_1>.
-WARNING:Xst:2677 - Node <bram_addr_9> of sequential type is unconnected in block <ad9467_1>.
-WARNING:Xst:2677 - Node <bram_addr_10> of sequential type is unconnected in block <ad9467_1>.
-WARNING:Xst:2677 - Node <bram_addr_11> of sequential type is unconnected in block <ad9467_1>.
 WARNING:Xst:2677 - Node <DDR_wr_v_i> of sequential type is unconnected in block <theTlpControl>.
 WARNING:Xst:2677 - Node <DDR_wr_FA_A_r1> of sequential type is unconnected in block <theTlpControl>.
 WARNING:Xst:2677 - Node <DDR_wr_sof_A_r1> of sequential type is unconnected in block <theTlpControl>.
@@ -11210,34 +11253,15 @@ Processing Unit <Upstream_DMA_Engine> :
 	Found 3-bit shift register for signal <usTlp_empty_r3>.
 Unit <Upstream_DMA_Engine> processed.
 
-Processing Unit <ad9467_1> :
-	Found 3-bit shift register for signal <real_data_0>.
-	Found 3-bit shift register for signal <real_data_1>.
-	Found 3-bit shift register for signal <real_data_2>.
-	Found 3-bit shift register for signal <real_data_3>.
-	Found 3-bit shift register for signal <real_data_4>.
-	Found 3-bit shift register for signal <real_data_5>.
-	Found 3-bit shift register for signal <real_data_6>.
-	Found 3-bit shift register for signal <real_data_7>.
-	Found 3-bit shift register for signal <real_data_8>.
-	Found 3-bit shift register for signal <real_data_9>.
-	Found 3-bit shift register for signal <real_data_10>.
-	Found 3-bit shift register for signal <real_data_11>.
-	Found 3-bit shift register for signal <real_data_12>.
-	Found 3-bit shift register for signal <real_data_13>.
-	Found 3-bit shift register for signal <real_data_14>.
-	Found 3-bit shift register for signal <real_data_15>.
-Unit <ad9467_1> processed.
-
 =========================================================================
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 8113
- Flip-Flops                                            : 8113
-# Shift Registers                                      : 20
+# Registers                                            : 7997
+ Flip-Flops                                            : 7997
+# Shift Registers                                      : 4
  2-bit shift register                                  : 3
- 3-bit shift register                                  : 17
+ 3-bit shift register                                  : 1
 
 =========================================================================
 
@@ -11262,22 +11286,22 @@ Primitive and Black Box Usage:
 ------------------------------
 # BELS                             : 12571
 #      GND                         : 72
-#      INV                         : 325
+#      INV                         : 324
 #      LUT1                        : 669
-#      LUT2                        : 2440
-#      LUT3                        : 1001
-#      LUT4                        : 1233
-#      LUT5                        : 996
-#      LUT6                        : 2906
-#      MUXCY                       : 1465
+#      LUT2                        : 2435
+#      LUT3                        : 1034
+#      LUT4                        : 1213
+#      LUT5                        : 992
+#      LUT6                        : 2902
+#      MUXCY                       : 1466
 #      MUXF7                       : 95
 #      VCC                         : 50
 #      XORCY                       : 1319
-# FlipFlops/Latches                : 8928
+# FlipFlops/Latches                : 8796
 #      FD                          : 1898
 #      FDC                         : 2129
-#      FDCE                        : 2669
-#      FDE                         : 390
+#      FDCE                        : 2649
+#      FDE                         : 278
 #      FDP                         : 281
 #      FDPE                        : 48
 #      FDR                         : 927
@@ -11289,8 +11313,8 @@ Primitive and Black Box Usage:
 # RAMS                             : 66
 #      FIFO36E1                    : 1
 #      RAMB36E1                    : 65
-# Shift Registers                  : 404
-#      SRLC16E                     : 404
+# Shift Registers                  : 388
+#      SRLC16E                     : 388
 # Clock Buffers                    : 7
 #      BUFG                        : 5
 #      BUFGCTRL                    : 1
@@ -11317,18 +11341,18 @@ Selected Device : 7a200tfbg676-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            8928  out of  269200     3%  
- Number of Slice LUTs:                 9974  out of  134600     7%  
-    Number used as Logic:              9570  out of  134600     7%  
-    Number used as Memory:              404  out of  46200     0%  
-       Number used as SRL:              404
+ Number of Slice Registers:            8796  out of  269200     3%  
+ Number of Slice LUTs:                 9957  out of  134600     7%  
+    Number used as Logic:              9569  out of  134600     7%  
+    Number used as Memory:              388  out of  46200     0%  
+       Number used as SRL:              388
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:  13098
-   Number with an unused Flip Flop:    4170  out of  13098    31%  
-   Number with an unused LUT:          3124  out of  13098    23%  
-   Number of fully used LUT-FF pairs:  5804  out of  13098    44%  
-   Number of unique control sets:       279
+ Number of LUT Flip Flop pairs used:  12939
+   Number with an unused Flip Flop:    4143  out of  12939    32%  
+   Number with an unused LUT:          2982  out of  12939    23%  
+   Number of fully used LUT-FF pairs:  5814  out of  12939    44%  
+   Number of unique control sets:       275
 
 IO Utilization: 
  Number of IOs:                          53
@@ -11361,11 +11385,11 @@ Clock Information:
 ----------------------------------------------------------------------------------------------+----------------------------------------------------+-------+
 Clock Signal                                                                                  | Clock buffer(FF name)                              | Load  |
 ----------------------------------------------------------------------------------------------+----------------------------------------------------+-------+
-pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2  | BUFG                                               | 6378  |
+pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2  | BUFG                                               | 6715  |
 pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz| BUFGCTRL                                           | 2201  |
 pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1  | BUFG                                               | 8     |
 pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived_G(pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived_G:O)  | NONE(*)(pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived)| 1     |
-adc_clk_in_p                                                                                  | IBUFGDS+BUFG                                       | 849   |
+adc_clk_in_p                                                                                  | IBUFGDS+BUFG                                       | 364   |
 delay_clk                                                                                     | BUFGP                                              | 9     |
 ----------------------------------------------------------------------------------------------+----------------------------------------------------+-------+
 (*) This 1 clock signal(s) are generated by combinatorial logic,
@@ -11378,7 +11402,7 @@ Asynchronous Control Signals Information:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                                                                                                                                                                                                                                                                                      | Buffer(FF name)                                                                                                                                                                                                                     | Load  |
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/DBITERR(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/XST_GND:G)| NONE(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram)| 228   |
+LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/DBITERR(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/XST_GND:G)| NONE(LoopBack_FIFO_Off.queue_buffer0/U0_B2H/U0/xst_fifo_generator/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[44].ram.r/v6_noinit.ram/SDP.SIMPLE_PRIM36.ram)| 228   |
 pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/REGCEA(pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                         | NONE(pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                    | 2     |
 pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/REGCEA(pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                         | NONE(pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                    | 2     |
 pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/REGCEA(pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/XST_GND:G)                                                                                                                         | NONE(pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/ramb_bl.ramb36_dp_bl.ram36_bl)                                                                                    | 2     |
@@ -11405,7 +11429,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2'
   Clock period: 4.236ns (frequency: 236.083MHz)
-  Total number of paths / destination ports: 75892 / 15714
+  Total number of paths / destination ports: 97786 / 16435
 -------------------------------------------------------------------------
 Delay:               4.236ns (Levels of Logic = 7)
   Source:            pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/axi_basic_top_i/rx_inst/rx_null_gen_inst/reg_pkt_len_counter_4 (FF)
@@ -11433,10 +11457,10 @@ Delay:               4.236ns (Levels of Logic = 7)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz'
-  Clock period: 3.346ns (frequency: 298.864MHz)
+  Clock period: 3.333ns (frequency: 300.030MHz)
   Total number of paths / destination ports: 12032 / 2864
 -------------------------------------------------------------------------
-Delay:               3.346ns (Levels of Logic = 4)
+Delay:               3.333ns (Levels of Logic = 4)
   Source:            pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/gt_rx_valid_filter[3].GT_RX_VALID_FILTER_7x_inst/gt_rxdata_q_10 (FF)
   Destination:       pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/gt_rx_valid_filter[3].GT_RX_VALID_FILTER_7x_inst/reg_symbol_after_eios (FF)
   Source Clock:      pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz rising
@@ -11447,32 +11471,32 @@ Delay:               3.346ns (Levels of Logic = 4)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDR:C->Q              2   0.398   0.456  gt_rxdata_q_10 (gt_rxdata_q_10)
-     LUT2:I0->O            2   0.105   0.798  Mmux_state_eios_det[4]_GND_908_o_Mux_23_o11_SW0 (N2)
-     LUT6:I0->O            2   0.105   0.654  Mmux_state_eios_det[4]_GND_908_o_Mux_23_o11 (Mmux_state_eios_det[4]_GND_908_o_Mux_23_o11)
+     LUT2:I0->O            2   0.105   0.785  Mmux_state_eios_det[4]_GND_908_o_Mux_23_o11_SW0 (N2)
+     LUT6:I1->O            2   0.105   0.654  Mmux_state_eios_det[4]_GND_908_o_Mux_23_o11 (Mmux_state_eios_det[4]_GND_908_o_Mux_23_o11)
      LUT4:I0->O            2   0.105   0.604  Mmux_state_eios_det[4]_GND_908_o_Mux_23_o121 (Mmux_state_eios_det[4]_GND_908_o_Mux_23_o12)
      LUT4:I1->O            1   0.105   0.000  Mmux_state_eios_det[4]_GND_908_o_Mux_23_o12 (state_eios_det[4]_GND_908_o_Mux_23_o)
      FDR:D                     0.015          reg_symbol_after_eios
     ----------------------------------------
-    Total                      3.346ns (0.833ns logic, 2.513ns route)
-                                       (24.9% logic, 75.1% route)
+    Total                      3.333ns (0.833ns logic, 2.500ns route)
+                                       (25.0% logic, 75.0% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'adc_clk_in_p'
-  Clock period: 4.124ns (frequency: 242.497MHz)
-  Total number of paths / destination ports: 136273 / 1668
+  Clock period: 3.941ns (frequency: 253.760MHz)
+  Total number of paths / destination ports: 67870 / 596
 -------------------------------------------------------------------------
-Delay:               4.124ns (Levels of Logic = 45)
-  Source:            ad9467_1/reg01_rd_current_reflength_2 (FF)
+Delay:               3.941ns (Levels of Logic = 45)
+  Source:            ad9467_1/reflength_counter_2 (FF)
   Destination:       ad9467_1/reflength_counter_31 (FF)
   Source Clock:      adc_clk_in_p rising
   Destination Clock: adc_clk_in_p rising
 
-  Data Path: ad9467_1/reg01_rd_current_reflength_2 to ad9467_1/reflength_counter_31
+  Data Path: ad9467_1/reflength_counter_2 to ad9467_1/reflength_counter_31
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             2   0.398   0.798  reg01_rd_current_reflength_2 (reg01_rd_current_reflength_2)
-     LUT6:I0->O            1   0.105   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_lut<0> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_lut<0>)
+     FDR:C->Q              4   0.398   0.616  reflength_counter_2 (reflength_counter_2)
+     LUT6:I3->O            1   0.105   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_lut<0> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_lut<0>)
      MUXCY:S->O            1   0.392   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<0> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<0>)
      MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<1> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<1>)
      MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<2> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<2>)
@@ -11483,7 +11507,7 @@ Delay:               4.124ns (Levels of Logic = 45)
      MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<7> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<7>)
      MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<8> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<8>)
      MUXCY:CI->O           1   0.025   0.000  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<9> (Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<9>)
-     MUXCY:CI->O         111   0.025   0.502  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<10> (reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o)
+     MUXCY:CI->O         106   0.025   0.501  Mcompar_reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o_cy<10> (reflength_counter[31]_reg01_rd_current_reflength[31]_equal_79_o)
      LUT2:I1->O            1   0.105   0.000  Mcount_reflength_counter_lut<0> (Mcount_reflength_counter_lut<0>)
      MUXCY:S->O            1   0.392   0.000  Mcount_reflength_counter_cy<0> (Mcount_reflength_counter_cy<0>)
      MUXCY:CI->O           1   0.025   0.000  Mcount_reflength_counter_cy<1> (Mcount_reflength_counter_cy<1>)
@@ -11519,8 +11543,8 @@ Delay:               4.124ns (Levels of Logic = 45)
      XORCY:CI->O           1   0.417   0.000  Mcount_reflength_counter_xor<31> (Mcount_reflength_counter31)
      FDR:D                     0.015          reflength_counter_31
     ----------------------------------------
-    Total                      4.124ns (2.824ns logic, 1.300ns route)
-                                       (68.5% logic, 31.5% route)
+    Total                      3.941ns (2.824ns logic, 1.117ns route)
+                                       (71.7% logic, 28.3% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'delay_clk'
@@ -11546,7 +11570,7 @@ Delay:               1.834ns (Levels of Logic = 9)
      MUXCY:CI->O           1   0.025   0.000  Mcount_delay_rst_cnt_cy<4> (Mcount_delay_rst_cnt_cy<4>)
      MUXCY:CI->O           1   0.025   0.000  Mcount_delay_rst_cnt_cy<5> (Mcount_delay_rst_cnt_cy<5>)
      MUXCY:CI->O           0   0.025   0.000  Mcount_delay_rst_cnt_cy<6> (Mcount_delay_rst_cnt_cy<6>)
-     XORCY:CI->O           1   0.417   0.000  Mcount_delay_rst_cnt_xor<7> (Result<7>)
+     XORCY:CI->O           1   0.417   0.000  Mcount_delay_rst_cnt_xor<7> (Result<7>3)
      FDE:D                     0.015          delay_rst_cnt_7
     ----------------------------------------
     Total                      1.834ns (1.495ns logic, 0.339ns route)
@@ -11554,7 +11578,7 @@ Delay:               1.834ns (Levels of Logic = 9)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2'
-  Total number of paths / destination ports: 352 / 264
+  Total number of paths / destination ports: 709 / 621
 -------------------------------------------------------------------------
 Offset:              2.283ns (Levels of Logic = 5)
   Source:            pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_block_i:TRNTBUFAV4 (PAD)
@@ -11591,7 +11615,7 @@ Offset:              1.360ns (Levels of Logic = 4)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           174   0.001   0.495  sys_reset_n_ibuf (sys_reset_n_c)
+     IBUF:I->O           169   0.001   0.494  sys_reset_n_ibuf (sys_reset_n_c)
      begin scope: 'pcie_axi_trn_bridge_i:sys_rst_n'
      begin scope: 'pcie_axi_trn_bridge_i/v7_pcie_i:sys_rst_n'
      begin scope: 'pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i:sys_rst_n'
@@ -11627,9 +11651,9 @@ Offset:              0.980ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'adc_clk_in_p'
-  Total number of paths / destination ports: 631 / 631
+  Total number of paths / destination ports: 162 / 162
 -------------------------------------------------------------------------
-Offset:              1.597ns (Levels of Logic = 3)
+Offset:              1.596ns (Levels of Logic = 3)
   Source:            sys_reset_n (PAD)
   Destination:       ad9467_1/fifowasoverflowonvalue_2 (FF)
   Destination Clock: adc_clk_in_p rising
@@ -11638,12 +11662,12 @@ Offset:              1.597ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           174   0.001   0.607  sys_reset_n_ibuf (sys_reset_n_c)
+     IBUF:I->O           169   0.001   0.606  sys_reset_n_ibuf (sys_reset_n_c)
      begin scope: 'ad9467_1:reset'
      LUT2:I0->O          126   0.105   0.486  Mcount_count_val1 (Mcount_count_val)
      FDR:R                     0.397          count_0
     ----------------------------------------
-    Total                      1.597ns (0.503ns logic, 1.094ns route)
+    Total                      1.596ns (0.503ns logic, 1.093ns route)
                                        (31.5% logic, 68.5% route)
 
 =========================================================================
@@ -11790,8 +11814,8 @@ Clock to Setup on destination clock adc_clk_in_p
                                                                                             | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                                                                                |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 --------------------------------------------------------------------------------------------+---------+---------+---------+---------+
-adc_clk_in_p                                                                                |    4.124|         |         |         |
-pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2|    4.667|         |         |         |
+adc_clk_in_p                                                                                |    3.941|         |         |         |
+pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2|    4.123|         |         |         |
 --------------------------------------------------------------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock delay_clk
@@ -11815,7 +11839,7 @@ Clock to Setup on destination clock pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pip
                                                                                               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                                                                                  |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------------------------------------------------------------------------------------+---------+---------+---------+---------+
-pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz|    3.346|         |         |         |
+pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz|    3.333|         |         |         |
 ----------------------------------------------------------------------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2
@@ -11823,7 +11847,7 @@ Clock to Setup on destination clock pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pip
                                                                                             | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                                                                                |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 --------------------------------------------------------------------------------------------+---------+---------+---------+---------+
-adc_clk_in_p                                                                                |    1.624|         |         |         |
+adc_clk_in_p                                                                                |    0.757|         |         |         |
 pcie_axi_trn_bridge_i/trn_tsrc_rdy_derived_G                                                |         |    3.430|         |         |
 pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2|    4.236|         |         |         |
 --------------------------------------------------------------------------------------------+---------+---------+---------+---------+
@@ -11831,15 +11855,15 @@ pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_cloc
 =========================================================================
 
 
-Total REAL time to Xst completion: 107.00 secs
-Total CPU time to Xst completion: 103.01 secs
+Total REAL time to Xst completion: 111.00 secs
+Total CPU time to Xst completion: 106.78 secs
  
 --> 
 
 
-Total memory usage is 670624 kilobytes
+Total memory usage is 670120 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings : 5265 (   0 filtered)
+Number of warnings : 5378 (   0 filtered)
 Number of infos    :  723 (   0 filtered)
 

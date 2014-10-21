@@ -2,505 +2,157 @@ PING ubuntu (127.0.1.1) 56(84) bytes of data.
 
 --- ubuntu ping statistics ---
 2 packets transmitted, 2 received, 0% packet loss, time 999ms
-rtt min/avg/max/mdev = 0.033/0.033/0.034/0.005 ms
+rtt min/avg/max/mdev = 0.019/0.023/0.028/0.006 ms
 
 launching strategy on machine: ubuntu
-'/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/smartxplorer'  --runStrategy  '/home/vladimir/ISEAC701/smartxplorer_results/run1'   '/home/vladimir/ISEAC701/smartxplorer_results/run1/v6pcieDMA.ngd'  xc7a200t-fbg676-2  '/home/vladimir/ISEAC701/smartxplorer_results/run1/v6pcieDMA_sx.log'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/ubuntu_0.stat'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/smartxplorer.env'   'None'  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:sp:clslhome:clslvladimir:clslISEAC701:sp:dsp:spxc7a200t:dsfbg676:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spv6pcieDMA.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp1:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapRunTime:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sq:slhome:slvladimir:slISEAC701:sq:cc map par
-ubuntu_0 waiting on /home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/.sx.keepAlive.ubuntu_0
-ubuntu_0 ubuntu_0.stat 1413443896.6 1413443896.56 1413443911.53
+'/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/smartxplorer'  --runStrategy  '/home/vladimir/NEWAC701/ISEAC701/smartxplorer_results/run1'   '/home/vladimir/NEWAC701/ISEAC701/smartxplorer_results/run1/v6pcieDMA.ngd'  xc7a200t-fbg676-2  '/home/vladimir/NEWAC701/ISEAC701/smartxplorer_results/run1/v6pcieDMA_sx.log'   '/home/vladimir/NEWAC701/ISEAC701/smartxplorer_results/.smartxplorer/ubuntu_0.stat'   '/home/vladimir/NEWAC701/ISEAC701/smartxplorer_results/.smartxplorer/smartxplorer.env'   'None'  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:sp:clslhome:clslvladimir:clslNEWAC701:clslISEAC701:sp:dsp:spxc7a200t:dsfbg676:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spv6pcieDMA.twx:sp:dsucf:spABB3_pcie_4_lane_Emu_FIFO_elink.ucf:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp1:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapRunTime:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sq:slhome:slvladimir:slNEWAC701:slISEAC701:sq:cc map par
+ubuntu_0 waiting on /home/vladimir/NEWAC701/ISEAC701/smartxplorer_results/.smartxplorer/.sx.keepAlive.ubuntu_0
+ubuntu_0 ubuntu_0.stat 1413870374.78 1413870374.75 1413870389.73
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413443926.6 1413443911.53 1413443941.56
+ubuntu_0 ubuntu_0.stat 1413870404.81 1413870389.73 1413870419.75
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413443956.62 1413443941.56 1413443971.57
+ubuntu_0 ubuntu_0.stat 1413870434.84 1413870419.75 1413870449.77
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413443986.65 1413443971.57 1413444001.59
+ubuntu_0 ubuntu_0.stat 1413870464.87 1413870449.77 1413870479.8
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444016.66 1413444001.59 1413444031.62
+ubuntu_0 ubuntu_0.stat 1413870494.9 1413870479.8 1413870509.82
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444046.67 1413444031.62 1413444061.63
+ubuntu_0 ubuntu_0.stat 1413870524.92 1413870509.82 1413870539.84
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444076.69 1413444061.63 1413444091.65
+ubuntu_0 ubuntu_0.stat 1413870554.95 1413870539.84 1413870569.87
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444106.7 1413444091.65 1413444121.68
+ubuntu_0 ubuntu_0.stat 1413870584.97 1413870569.87 1413870599.89
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444136.72 1413444121.68 1413444151.69
+ubuntu_0 ubuntu_0.stat 1413870615.0 1413870599.89 1413870629.9
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444166.73 1413444151.69 1413444181.72
+ubuntu_0 ubuntu_0.stat 1413870645.03 1413870629.9 1413870659.92
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444196.76 1413444181.72 1413444211.74
+ubuntu_0 ubuntu_0.stat 1413870675.05 1413870659.92 1413870689.94
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444226.78 1413444211.74 1413444241.76
+ubuntu_0 ubuntu_0.stat 1413870705.08 1413870689.94 1413870719.96
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444256.81 1413444241.76 1413444271.77
+ubuntu_0 ubuntu_0.stat 1413870735.1 1413870719.96 1413870749.98
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444286.83 1413444271.77 1413444301.79
+ubuntu_0 ubuntu_0.stat 1413870765.12 1413870749.98 1413870779.99
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444316.86 1413444301.79 1413444331.8
+ubuntu_0 ubuntu_0.stat 1413870795.15 1413870779.99 1413870810.01
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444346.89 1413444331.8 1413444361.82
+ubuntu_0 ubuntu_0.stat 1413870825.16 1413870810.01 1413870840.03
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444376.92 1413444361.82 1413444391.84
+ubuntu_0 ubuntu_0.stat 1413870855.19 1413870840.03 1413870870.05
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444406.93 1413444391.84 1413444421.86
+ubuntu_0 ubuntu_0.stat 1413870885.22 1413870870.05 1413870900.08
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444436.95 1413444421.86 1413444451.88
+ubuntu_0 ubuntu_0.stat 1413870915.25 1413870900.08 1413870930.1
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444466.97 1413444451.88 1413444481.9
+ubuntu_0 ubuntu_0.stat 1413870945.28 1413870930.1 1413870960.12
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444496.99 1413444481.9 1413444511.92
+ubuntu_0 ubuntu_0.stat 1413870975.31 1413870960.12 1413870990.15
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444527.01 1413444511.92 1413444541.94
+ubuntu_0 ubuntu_0.stat 1413871005.33 1413870990.15 1413871020.17
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444557.04 1413444541.94 1413444571.96
+ubuntu_0 ubuntu_0.stat 1413871035.33 1413871020.17 1413871050.18
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444587.06 1413444571.96 1413444601.99
+ubuntu_0 ubuntu_0.stat 1413871065.36 1413871050.18 1413871080.21
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444617.09 1413444601.99 1413444632.0
+ubuntu_0 ubuntu_0.stat 1413871095.39 1413871080.21 1413871110.23
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444647.12 1413444632.0 1413444662.02
+ubuntu_0 ubuntu_0.stat 1413871125.4 1413871110.23 1413871140.25
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444677.14 1413444662.02 1413444692.03
+ubuntu_0 ubuntu_0.stat 1413871155.43 1413871140.25 1413871170.27
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444707.17 1413444692.03 1413444722.05
+ubuntu_0 ubuntu_0.stat 1413871185.46 1413871170.27 1413871200.3
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444737.19 1413444722.05 1413444752.07
+ubuntu_0 ubuntu_0.stat 1413871215.48 1413871200.3 1413871230.33
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444767.19 1413444752.07 1413444782.09
+ubuntu_0 ubuntu_0.stat 1413871245.51 1413871230.33 1413871260.35
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444797.21 1413444782.09 1413444812.11
+ubuntu_0 ubuntu_0.stat 1413871275.54 1413871260.35 1413871290.36
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444827.24 1413444812.11 1413444842.13
+ubuntu_0 ubuntu_0.stat 1413871305.57 1413871290.36 1413871320.38
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444857.27 1413444842.13 1413444872.15
+ubuntu_0 ubuntu_0.stat 1413871335.6 1413871320.38 1413871350.41
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444887.27 1413444872.15 1413444902.17
+ubuntu_0 ubuntu_0.stat 1413871365.63 1413871350.41 1413871380.43
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444917.3 1413444902.17 1413444932.19
+ubuntu_0 ubuntu_0.stat 1413871395.65 1413871380.43 1413871410.45
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444947.32 1413444932.19 1413444962.21
+ubuntu_0 ubuntu_0.stat 1413871425.68 1413871410.45 1413871440.47
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413444977.35 1413444962.21 1413444992.23
+ubuntu_0 ubuntu_0.stat 1413871455.71 1413871440.47 1413871470.5
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445007.36 1413444992.23 1413445022.25
+ubuntu_0 ubuntu_0.stat 1413871485.71 1413871470.5 1413871500.51
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445037.39 1413445022.25 1413445052.27
+ubuntu_0 ubuntu_0.stat 1413871515.74 1413871500.51 1413871530.54
 ubuntu_0 no new lines in stat file
-New best strategy: MapRunTime score: 21478
-launching strategy on machine: ubuntu
-'/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/smartxplorer'  --runStrategy  '/home/vladimir/ISEAC701/smartxplorer_results/run2'   '/home/vladimir/ISEAC701/smartxplorer_results/run2/v6pcieDMA.ngd'  xc7a200t-fbg676-2  '/home/vladimir/ISEAC701/smartxplorer_results/run2/v6pcieDMA_sx.log'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/ubuntu_0.stat'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/smartxplorer.env'   'None'  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:dslogic_opt:spon:sp:dst:sp2:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:sp:clslhome:clslvladimir:clslISEAC701:sp:dsp:spxc7a200t:dsfbg676:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spv6pcieDMA.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp2:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapLogicOpt:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sq:slhome:slvladimir:slISEAC701:sq:cc map par
-ubuntu_0 ubuntu_0.stat 1413445067.42 1413445088.31 1413445088.34
-ubuntu_0 ubuntu_0.stat 1413445088.37 1413445088.34 1413445103.32
-ubuntu_0 ubuntu_0.stat 1413445097.45 1413445103.32 1413445103.32
+ubuntu_0 ubuntu_0.stat 1413871545.76 1413871530.54 1413871560.55
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445118.39 1413445103.32 1413445133.34
+ubuntu_0 ubuntu_0.stat 1413871575.78 1413871560.55 1413871590.57
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445148.41 1413445133.34 1413445163.36
+ubuntu_0 ubuntu_0.stat 1413871605.81 1413871590.57 1413871620.59
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445178.43 1413445163.36 1413445193.37
+ubuntu_0 ubuntu_0.stat 1413871635.84 1413871620.59 1413871650.62
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445208.44 1413445193.37 1413445223.39
+ubuntu_0 ubuntu_0.stat 1413871665.86 1413871650.62 1413871680.64
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445238.45 1413445223.39 1413445253.41
+ubuntu_0 ubuntu_0.stat 1413871695.89 1413871680.64 1413871710.66
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445268.48 1413445253.41 1413445283.43
+ubuntu_0 ubuntu_0.stat 1413871725.92 1413871710.66 1413871740.68
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445298.48 1413445283.43 1413445313.45
+ubuntu_0 ubuntu_0.stat 1413871755.95 1413871740.68 1413871770.7
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445328.5 1413445313.45 1413445343.47
+ubuntu_0 ubuntu_0.stat 1413871785.98 1413871770.7 1413871800.73
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445358.51 1413445343.47 1413445373.5
+ubuntu_0 ubuntu_0.stat 1413871816.0 1413871800.73 1413871830.75
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445388.54 1413445373.5 1413445403.52
+ubuntu_0 ubuntu_0.stat 1413871846.03 1413871830.75 1413871860.77
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445418.55 1413445403.52 1413445433.54
+ubuntu_0 ubuntu_0.stat 1413871876.06 1413871860.77 1413871890.78
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445448.57 1413445433.54 1413445463.55
+ubuntu_0 ubuntu_0.stat 1413871906.08 1413871890.78 1413871920.81
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445478.6 1413445463.55 1413445493.57
+ubuntu_0 ubuntu_0.stat 1413871936.11 1413871920.81 1413871950.82
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445508.6 1413445493.57 1413445523.59
+ubuntu_0 ubuntu_0.stat 1413871966.14 1413871950.82 1413871980.84
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445538.63 1413445523.59 1413445553.61
+ubuntu_0 ubuntu_0.stat 1413871996.16 1413871980.84 1413872010.86
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445568.65 1413445553.61 1413445583.64
+ubuntu_0 ubuntu_0.stat 1413872026.19 1413872010.86 1413872040.88
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445598.65 1413445583.64 1413445613.66
+ubuntu_0 ubuntu_0.stat 1413872056.19 1413872040.88 1413872070.91
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445628.68 1413445613.66 1413445643.68
+ubuntu_0 ubuntu_0.stat 1413872086.22 1413872070.91 1413872100.92
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445658.71 1413445643.68 1413445673.7
-ubuntu_0 ubuntu_0.stat 1413445688.71 1413445673.7 1413445688.71
+ubuntu_0 ubuntu_0.stat 1413872116.24 1413872100.92 1413872130.94
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445718.73 1413445688.71 1413445718.73
+ubuntu_0 ubuntu_0.stat 1413872146.27 1413872130.94 1413872160.96
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445748.75 1413445718.73 1413445748.75
+ubuntu_0 ubuntu_0.stat 1413872176.28 1413872160.96 1413872190.98
 ubuntu_0 no new lines in stat file
+ubuntu_0 ubuntu_0.stat 1413872206.3 1413872190.98 1413872221.0
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445778.77 1413445748.75 1413445793.78
+ubuntu_0 ubuntu_0.stat 1413872236.33 1413872221.0 1413872251.02
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445808.8 1413445793.78 1413445823.8
+ubuntu_0 ubuntu_0.stat 1413872266.36 1413872251.02 1413872281.05
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445838.82 1413445823.8 1413445853.81
+ubuntu_0 ubuntu_0.stat 1413872296.39 1413872281.05 1413872311.07
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445868.85 1413445853.81 1413445883.83
+ubuntu_0 ubuntu_0.stat 1413872326.42 1413872311.07 1413872341.09
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445898.86 1413445883.83 1413445913.85
+ubuntu_0 ubuntu_0.stat 1413872356.44 1413872341.09 1413872371.11
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445928.89 1413445913.85 1413445943.87
+ubuntu_0 ubuntu_0.stat 1413872386.47 1413872371.11 1413872401.13
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445958.9 1413445943.87 1413445973.88
+ubuntu_0 ubuntu_0.stat 1413872416.49 1413872401.13 1413872431.16
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413445988.93 1413445973.88 1413446003.9
+ubuntu_0 ubuntu_0.stat 1413872446.5 1413872431.16 1413872461.18
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446018.96 1413446003.9 1413446033.91
+ubuntu_0 ubuntu_0.stat 1413872476.53 1413872461.18 1413872491.2
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446048.96 1413446033.91 1413446063.93
+ubuntu_0 ubuntu_0.stat 1413872506.53 1413872491.2 1413872521.22
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446078.96 1413446063.93 1413446093.95
+ubuntu_0 ubuntu_0.stat 1413872536.56 1413872521.22 1413872551.24
 ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446108.98 1413446093.95 1413446123.96
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446138.98 1413446123.96 1413446153.98
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446169.01 1413446153.98 1413446184.0
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446199.04 1413446184.01 1413446214.03
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446229.07 1413446214.03 1413446244.05
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446259.1 1413446244.05 1413446274.07
-launching strategy on machine: ubuntu
-'/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/smartxplorer'  --runStrategy  '/home/vladimir/ISEAC701/smartxplorer_results/run3'   '/home/vladimir/ISEAC701/smartxplorer_results/run3/v6pcieDMA.ngd'  xc7a200t-fbg676-2  '/home/vladimir/ISEAC701/smartxplorer_results/run3/v6pcieDMA_sx.log'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/ubuntu_0.stat'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/smartxplorer.env'   'None'  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:dst:sp3:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:sp:clslhome:clslvladimir:clslISEAC701:sp:dsp:spxc7a200t:dsfbg676:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spv6pcieDMA.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp3:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapTimingExtraEffort:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sq:slhome:slvladimir:slISEAC701:sq:cc map par
-ubuntu_0 ubuntu_0.stat 1413446289.1 1413446295.09 1413446295.13
-ubuntu_0 ubuntu_0.stat 1413446295.16 1413446295.13 1413446310.1
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446325.17 1413446310.1 1413446340.13
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446355.2 1413446340.13 1413446370.14
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446385.23 1413446370.14 1413446400.17
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446415.25 1413446400.17 1413446430.19
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446445.28 1413446430.19 1413446460.21
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446475.31 1413446460.21 1413446490.23
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446505.33 1413446490.23 1413446520.25
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446535.36 1413446520.25 1413446550.27
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446565.36 1413446550.27 1413446580.29
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446595.39 1413446580.29 1413446610.31
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446625.42 1413446610.31 1413446640.33
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446655.43 1413446640.33 1413446670.35
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446685.46 1413446670.35 1413446700.36
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446715.48 1413446700.36 1413446730.37
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446745.5 1413446730.37 1413446760.39
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446775.5 1413446760.39 1413446790.41
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446805.53 1413446790.41 1413446820.43
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446835.55 1413446820.43 1413446850.44
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446865.57 1413446850.44 1413446880.46
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446895.6 1413446880.46 1413446910.48
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446925.63 1413446910.48 1413446940.5
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446955.65 1413446940.5 1413446970.53
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413446985.68 1413446970.53 1413447000.55
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447015.69 1413447000.55 1413447030.57
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447045.71 1413447030.57 1413447060.58
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447075.74 1413447060.58 1413447090.59
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447105.76 1413447090.59 1413447120.61
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447135.79 1413447120.61 1413447150.63
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447165.82 1413447150.63 1413447180.65
-New best strategy: MapTimingExtraEffort score: 12355
-launching strategy on machine: ubuntu
-'/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/smartxplorer'  --runStrategy  '/home/vladimir/ISEAC701/smartxplorer_results/run4'   '/home/vladimir/ISEAC701/smartxplorer_results/run4/v6pcieDMA.ngd'  xc7a200t-fbg676-2  '/home/vladimir/ISEAC701/smartxplorer_results/run4/v6pcieDMA_sx.log'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/ubuntu_0.stat'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/smartxplorer.env'   'None'  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:dslogic_opt:spon:sp:dsregister_duplication:spon:sp:dst:sp2:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:sp:clslhome:clslvladimir:clslISEAC701:sp:dsp:spxc7a200t:dsfbg676:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spv6pcieDMA.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp4:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spn:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapLogicOptRegDup:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sq:slhome:slvladimir:slISEAC701:sq:cc map par
-ubuntu_0 ubuntu_0.stat 1413447195.85 1413447206.69 1413447206.72
-ubuntu_0 ubuntu_0.stat 1413447206.76 1413447206.72 1413447216.73
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447236.79 1413447216.73 1413447246.75
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447266.8 1413447246.75 1413447276.77
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447296.81 1413447276.77 1413447306.8
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447326.82 1413447306.8 1413447336.82
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447356.82 1413447336.82 1413447366.84
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447386.84 1413447366.84 1413447396.86
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447416.86 1413447396.86 1413447426.87
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447446.89 1413447426.87 1413447456.9
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447476.92 1413447456.9 1413447486.92
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447506.92 1413447486.92 1413447516.93
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447536.94 1413447516.93 1413447546.96
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447566.97 1413447546.96 1413447576.98
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447597.0 1413447576.98 1413447607.0
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447627.02 1413447607.0 1413447637.02
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447657.05 1413447637.02 1413447667.04
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447687.07 1413447667.04 1413447697.06
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447717.1 1413447697.06 1413447727.08
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447747.12 1413447727.08 1413447757.09
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447777.15 1413447757.09 1413447787.11
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447807.16 1413447787.11 1413447817.13
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447837.19 1413447817.13 1413447847.15
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447867.21 1413447847.15 1413447877.18
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447897.24 1413447877.18 1413447907.2
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447927.26 1413447907.2 1413447937.21
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447957.29 1413447937.21 1413447967.23
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413447987.32 1413447967.23 1413447997.25
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448017.33 1413447997.25 1413448027.27
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448047.35 1413448027.27 1413448057.28
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448077.38 1413448057.28 1413448087.3
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448107.41 1413448087.3 1413448117.32
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448137.42 1413448117.32 1413448147.34
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448167.44 1413448147.34 1413448177.35
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448197.46 1413448177.35 1413448207.36
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448227.49 1413448207.36 1413448237.39
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448257.5 1413448237.39 1413448267.4
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448287.52 1413448267.4 1413448297.42
-ubuntu_0 no new lines in stat file
-launching strategy on machine: ubuntu
-'/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/smartxplorer'  --runStrategy  '/home/vladimir/ISEAC701/smartxplorer_results/run5'   '/home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA.ngd'  xc7a200t-fbg676-2  '/home/vladimir/ISEAC701/smartxplorer_results/run5/v6pcieDMA_sx.log'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/ubuntu_0.stat'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/smartxplorer.env'   'None'  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsregister_duplication:spon:sp:dst:sp3:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:sp:clslhome:clslvladimir:clslISEAC701:sp:dsp:spxc7a200t:dsfbg676:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spv6pcieDMA.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp5:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapRegDup:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sq:slhome:slvladimir:slISEAC701:sq:cc map par
-ubuntu_0 ubuntu_0.stat 1413448317.55 1413448338.46 1413448338.49
-ubuntu_0 ubuntu_0.stat 1413448338.52 1413448338.49 1413448348.5
-ubuntu_0 ubuntu_0.stat 1413448347.58 1413448348.5 1413448348.5
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448368.54 1413448348.5 1413448378.52
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448398.56 1413448378.52 1413448408.54
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448428.59 1413448408.54 1413448438.57
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448458.6 1413448438.57 1413448468.59
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448488.63 1413448468.59 1413448498.61
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448518.64 1413448498.61 1413448528.64
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448548.64 1413448528.64 1413448558.65
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448578.65 1413448558.65 1413448588.68
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448608.67 1413448588.68 1413448618.7
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448638.69 1413448618.7 1413448648.72
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448668.71 1413448648.72 1413448678.75
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448698.72 1413448678.75 1413448708.77
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448728.75 1413448708.77 1413448738.79
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448758.78 1413448738.79 1413448768.82
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448788.8 1413448768.82 1413448798.85
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448818.82 1413448798.85 1413448828.87
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448848.84 1413448828.87 1413448858.89
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448878.84 1413448858.89 1413448888.92
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448908.87 1413448888.92 1413448918.93
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448938.87 1413448918.93 1413448948.96
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448968.89 1413448948.96 1413448978.97
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413448998.92 1413448978.97 1413449008.98
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449028.95 1413449008.98 1413449039.01
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449058.98 1413449039.01 1413449069.02
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449089.01 1413449069.02 1413449099.04
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449119.04 1413449099.04 1413449129.06
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449149.07 1413449129.06 1413449159.08
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449179.09 1413449159.08 1413449189.1
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449209.11 1413449189.1 1413449219.12
-ubuntu_0 no new lines in stat file
-launching strategy on machine: ubuntu
-'/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/smartxplorer'  --runStrategy  '/home/vladimir/ISEAC701/smartxplorer_results/run6'   '/home/vladimir/ISEAC701/smartxplorer_results/run6/v6pcieDMA.ngd'  xc7a200t-fbg676-2  '/home/vladimir/ISEAC701/smartxplorer_results/run6/v6pcieDMA_sx.log'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/ubuntu_0.stat'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/smartxplorer.env'   'None'  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dslogic_opt:spon:sp:dspr:spb:sp:dsw:sp:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:sp:clslhome:clslvladimir:clslISEAC701:sp:dsp:spxc7a200t:dsfbg676:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spv6pcieDMA.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp6:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spc:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapLogicOptIOReg:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sq:slhome:slvladimir:slISEAC701:sq:cc map par
-ubuntu_0 ubuntu_0.stat 1413449239.14 1413449255.16 1413449255.19
-ubuntu_0 ubuntu_0.stat 1413449255.22 1413449255.19 1413449270.17
-ubuntu_0 ubuntu_0.stat 1413449269.16 1413449270.17 1413449270.17
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449285.25 1413449270.17 1413449300.19
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449315.26 1413449300.19 1413449330.21
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449345.28 1413449330.21 1413449360.22
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449375.31 1413449360.22 1413449390.24
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449405.34 1413449390.24 1413449420.27
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449435.35 1413449420.27 1413449450.29
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449465.37 1413449450.29 1413449480.31
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449495.4 1413449480.31 1413449510.34
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449525.4 1413449510.34 1413449540.36
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449555.43 1413449540.36 1413449570.37
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449585.46 1413449570.37 1413449600.4
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449615.48 1413449600.4 1413449630.42
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449645.51 1413449630.42 1413449660.45
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449675.53 1413449660.45 1413449690.47
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449705.55 1413449690.47 1413449720.49
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449735.58 1413449720.49 1413449750.5
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449765.6 1413449750.5 1413449780.52
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449795.63 1413449780.52 1413449810.55
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449825.66 1413449810.55 1413449840.57
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449855.68 1413449840.57 1413449870.59
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449885.7 1413449870.59 1413449900.61
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449915.71 1413449900.61 1413449930.64
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449945.71 1413449930.64 1413449960.65
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413449975.74 1413449960.65 1413449990.68
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450005.77 1413449990.68 1413450020.7
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450035.79 1413450020.7 1413450050.72
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450065.8 1413450050.72 1413450080.74
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450095.81 1413450080.74 1413450110.75
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450125.81 1413450110.75 1413450140.77
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450155.84 1413450140.77 1413450170.8
-ubuntu_0 no new lines in stat file
-launching strategy on machine: ubuntu
-'/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/smartxplorer'  --runStrategy  '/home/vladimir/ISEAC701/smartxplorer_results/run7'   '/home/vladimir/ISEAC701/smartxplorer_results/run7/v6pcieDMA.ngd'  xc7a200t-fbg676-2  '/home/vladimir/ISEAC701/smartxplorer_results/run7/v6pcieDMA_sx.log'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/ubuntu_0.stat'   '/home/vladimir/ISEAC701/smartxplorer_results/.smartxplorer/smartxplorer.env'   'None'  :oc:sqmap:sq:cl:sp:sq:sp:dsol:sphigh:sp:dslogic_opt:spon:sp:dsregister_duplication:spon:sp:dspr:spb:sp:dsw:sp:sq:cm:sp:sqpower:sq:cl:sp:sqoff:sq:cm:sp:sqbitgen:sq:cl:sp:sqon:sq:cm:sp:sqsynplify:sq:cl:sp:sq:sq:cm:sp:sqngdbuild:sq:cl:sp:sq:dssd:sp:clslhome:clslvladimir:clslISEAC701:sp:dsp:spxc7a200t:dsfbg676:ds2:sq:cm:sp:sqtrce:sq:cl:sp:sq:dsv:sp3:sp:dss:sp2:sp:dsn:sp3:sp:dsfastpaths:sp:dsxml:spv6pcieDMA.twx:sp:sq:cm:sp:sqmax_score:sq:cl:spNone:cm:sp:sqindex:sq:cl:sp7:cm:sp:sqpar:sq:cl:sp:sq:sp:dsol:sphigh:sp:dsxe:spc:sp:sq:cm:sp:sqname:sq:cl:sp:sqMapLogicOptRegDupIOReg:sq:cm:sp:sqxst:sq:cl:sp:sq:sq:cm:sp:sqarea:sq:cl:sp:os:sqlut:sq:cm:sp:sqslice_reg:sq:cs:cm:sp:sqversion:sq:cl:sp:sq14.7:sq:cm:sp:sqenv:sq:cl:sp:sq:oc:cc:sq:cm:sp:sqsxLaunchDir:sq:cl:sp:sq:slhome:slvladimir:slISEAC701:sq:cc map par
-ubuntu_0 ubuntu_0.stat 1413450185.84 1413450206.83 1413450206.87
-ubuntu_0 ubuntu_0.stat 1413450206.91 1413450206.87 1413450221.84
-ubuntu_0 ubuntu_0.stat 1413450215.87 1413450221.84 1413450221.84
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450236.93 1413450221.84 1413450251.87
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450266.96 1413450251.87 1413450281.89
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450296.99 1413450281.89 1413450311.91
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450327.0 1413450311.91 1413450341.93
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450357.03 1413450341.93 1413450371.93
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450387.03 1413450371.93 1413450401.95
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450417.06 1413450401.95 1413450431.98
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450447.06 1413450431.98 1413450461.99
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450477.07 1413450461.99 1413450492.01
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450507.07 1413450492.01 1413450522.03
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450537.1 1413450522.03 1413450552.05
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450567.13 1413450552.05 1413450582.07
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450597.14 1413450582.07 1413450612.09
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450627.17 1413450612.09 1413450642.11
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450657.2 1413450642.11 1413450672.12
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450687.22 1413450672.12 1413450702.14
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450717.24 1413450702.14 1413450732.15
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450747.26 1413450732.15 1413450762.18
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450777.26 1413450762.18 1413450792.2
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450807.28 1413450792.2 1413450822.22
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450837.29 1413450822.22 1413450852.24
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450867.31 1413450852.24 1413450882.26
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450897.34 1413450882.26 1413450912.28
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450927.36 1413450912.28 1413450942.3
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450957.39 1413450942.3 1413450972.31
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413450987.41 1413450972.31 1413451002.34
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413451017.44 1413451002.34 1413451032.36
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413451047.47 1413451032.36 1413451062.38
-ubuntu_0 no new lines in stat file
-ubuntu_0 ubuntu_0.stat 1413451077.49 1413451062.38 1413451092.4
-ubuntu_0 no new lines in stat file
-ubuntu_0 is Idle
+kill -9 6087
+kill -9 31853
+kill -9 31853

@@ -3,10 +3,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
 ise -dd _ngo -sd ipcore_dir -nt timestamp -uc
-ABB3_pcie_4_lane_Emu_FIFO_elink.ucf -p xc7a200t-fbg676-2 v6pcieDMA_cs.ngc
+ABB3_pcie_4_lane_Emu_FIFO_elink.ucf -p xc7a200t-fbg676-2 v6pcieDMA.ngc
 v6pcieDMA.ngd
 
-Reading NGO file "/home/vladimir/NEWAC701/ISEAC701/v6pcieDMA_cs.ngc" ...
+Reading NGO file "/home/vladimir/NEWAC701/ISEAC701/v6pcieDMA.ngc" ...
+Loading design module "ipcore_dir/v7_mBuf_128x72.ngc"...
+Loading design module "ipcore_dir/v7_sfifo_15x128.ngc"...
+Loading design module "ipcore_dir/v7_eb_fifo_counted_resized.ngc"...
 Gathering constraint information from source properties...
 Done.
 
@@ -2337,10 +2340,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings: 1422
 
-Total memory usage is 652040 kilobytes
+Total memory usage is 559040 kilobytes
 
 Writing NGD file "v6pcieDMA.ngd" ...
-Total REAL time to NGDBUILD completion:  54 sec
-Total CPU time to NGDBUILD completion:   54 sec
+Total REAL time to NGDBUILD completion:  41 sec
+Total CPU time to NGDBUILD completion:   41 sec
 
 Writing NGDBUILD log file "v6pcieDMA.bld"...

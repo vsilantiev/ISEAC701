@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/ISEAC701/ipcore_dir/v7_sfifo_15x128.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/vladimir/NEWAC701/ISEAC701/ipcore_dir/v7_sfifo_15x128.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

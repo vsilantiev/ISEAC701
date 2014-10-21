@@ -1,5 +1,5 @@
 The following files were generated for 'icon_pro' in directory
-/home/vladimir/Migration_ml2ac/LASTESVER/AC701605SEREGA/ml605/_ngo/cs_icon_pro/
+/home/vladimir/NEWAC701/ISEAC701/_ngo/cs_icon_pro/
 
 XCO file generator:
    Generate an XCO file for compatibility with legacy flows.

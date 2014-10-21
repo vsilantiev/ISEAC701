@@ -2,41 +2,6 @@
 <DARoots Version="1" Minor="26">
   <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PPRDIR/../ipcore_dir/v7_mBuf_128x72.ncf">
-      <FileInfo>
-        <Attr Name="UsedInImplementation" Val="1"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../ipcore_dir/v7_eb_fifo_counted_resized.ncf">
-      <FileInfo>
-        <Attr Name="UsedInImplementation" Val="1"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../ipcore_dir/v7_sfifo_15x128.ncf">
-      <FileInfo>
-        <Attr Name="UsedInImplementation" Val="1"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../ipcore_dir/fifomodule.ncf">
-      <FileInfo>
-        <Attr Name="UsedInImplementation" Val="1"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../ipcore_dir_ISE13.3/v6_eb_fifo_counted_new.ncf">
-      <FileInfo>
-        <Attr Name="UsedInImplementation" Val="1"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../ipcore_dir_ISE13.3/v6_bram4096x64.ncf">
-      <FileInfo>
-        <Attr Name="UsedInImplementation" Val="1"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../ipcore_dir_ISE13.3/v6_mBuf_128x72.ncf">
-      <FileInfo>
-        <Attr Name="UsedInImplementation" Val="1"/>
-      </FileInfo>
-    </File>
     <Config>
       <Option Name="ConstrsType" Val="UCF"/>
     </Config>

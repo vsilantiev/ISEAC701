@@ -1,2 +1,5 @@
-/home/vladimir/NEWAC701/ISEAC701/v6pcieDMA_cs.ngc 1413822035
+/home/vladimir/NEWAC701/ISEAC701/v6pcieDMA.ngc 1413915650
+ipcore_dir/v7_mBuf_128x72.ngc 1413783194
+ipcore_dir/v7_sfifo_15x128.ngc 1413783194
+ipcore_dir/v7_eb_fifo_counted_resized.ngc 1413783194
 OK

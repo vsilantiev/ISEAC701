@@ -377,7 +377,7 @@ always @ (posedge clk)
 
 
  //  always @(posedge clk) begin 
-always @(posedge clk) begin
+always @(posedge trn_clk) begin
 
    if (!reset) begin
 	
@@ -625,23 +625,22 @@ always @(posedge clk) begin
 					case (count)
 				  0: 
 					begin
-						 real_data_out[63:48] <= real_data[15:0];
+						 real_data_out[63:48] <= 'd12345;// real_data[15:0];
 					 	fifowr_en <= 0;				
 					end
 				  1:
 						begin
-					 	real_data_out[15:0] <= real_data[15:0];	
+					 	real_data_out[15:0] <=  'd12345;//real_data[15:0];	
 						 fifowr_en <= 0;
 						 end
 				  2: 
 						begin
-					 	real_data_out[31:16] <= real_data[15:0];
+					 	real_data_out[31:16] <= 'd12345;// real_data[15:0];
 						 fifowr_en <= 0;
 						 end
 				  3: begin
-						 real_data_out[47:32] <= real_data[15:0]; 
-						 bram_addr <= bram_addr + 1;
-						 count_ref <= count_ref + 1;
+						 real_data_out[47:32] <=  'd12345;//real_data[15:0]; 
+					 
 						
 						 if (fifofull == 1)
 						 begin
@@ -696,7 +695,6 @@ always @(posedge clk) begin
 		if (reg06_rd_testbandwith_speed==1)
 		begin
 		  fifowr_en<=1;
-//	fifo_re <= 1;
 		end
 				
 			
@@ -710,46 +708,11 @@ always @(posedge clk) begin
 	 begin
 		curstrobe  <= ~curstrobe;
 	 end 
-		//strobe_adc  <= 0;
   end
 
   reg user_int_1o;
   reg user_int_2o;
   reg user_int_3o;
-   
-  always @(posedge clk) begin
-  //  count_irq <= 0;
-  //  if (count_ref <= 10) 
-	//     user_int_1o <= 1;
-   //  else		 
-	//	  user_int_1o <= 0;
-	 
-  end
-	
-	
-//	
-/*Strobe signal*/
-//	
-/*
-always @ (posedge clk or negedge reset)
-    begin
-        if (!reset)
-            begin
-                r_acc<=0;
-                r_out<=0;
-            end
-        else if (r==r_acc)
-                begin
-                    r_acc<=0;
-                    r_out<=1;
-                end
-                else
-                begin  
-                    r_out<=0;
-                    r_acc<=r_acc+1;
-                end
-    end
-*/
 
   // The delay elements need calibration from a delay controller and it needs a
   // reset (it also asserts locked after the controller is up and running).

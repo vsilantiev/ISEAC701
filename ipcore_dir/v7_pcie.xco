@@ -1,7 +1,7 @@
 ##############################################################
 #
 # Xilinx Core Generator version 14.7
-# Date: Thu Oct 16 13:21:49 2014
+# Date: Tue Oct 21 13:50:43 2014
 #
 ##############################################################
 #
@@ -39,7 +39,7 @@ SET vhdlsim = true
 SELECT 7_Series_Integrated_Block_for_PCI_Express xilinx.com:ip:pcie_7x:1.11
 # END Select
 # BEGIN Parameters
-CSET acceptable_l0s_latency=Maximum_of_64_ns
+CSET acceptable_l0s_latency=No_limit
 CSET acceptable_l1_latency=No_limit
 CSET ack_nak_timeout_func=Absolute
 CSET ack_nak_timeout_value=0000
@@ -265,4 +265,4 @@ CSET xlnx_ref_board=AC701
 MISC pkg_timestamp=2013-06-19T17:03:47Z
 # END Extra information
 GENERATE
-# CRC: 749e27e7
+# CRC: 4969f95d

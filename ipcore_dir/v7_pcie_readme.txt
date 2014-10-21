@@ -1,5 +1,5 @@
 The following files were generated for 'v7_pcie' in directory
-/home/vladimir/ISEAC701/ipcore_dir/
+/home/vladimir/NEWAC701/ISEAC701/ipcore_dir/
 
 Generate XCO file:
    CORE Generator input file containing the parameters used to generate a core.

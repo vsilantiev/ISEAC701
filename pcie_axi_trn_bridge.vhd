@@ -969,10 +969,10 @@ begin
 
 --DWORD Reordering between AXI and TRN interface--
 
-  gen_axis_txdata_64 : if (C_DATA_WIDTH = 64) generate
-  begin 
+  --gen_axis_txdata_64 : if (C_DATA_WIDTH = 64) generate
+  --begin 
       s_axis_tx_tdata <= trn_td(31 downto 0) & trn_td(63 downto 32);
-  end generate;
+  --end generate;
   
   gen_axis_txdata_128 : if (C_DATA_WIDTH = 128) generate
   begin 
@@ -1045,18 +1045,19 @@ begin
   
   trn_tdst_rdy         <= s_axis_tx_tready; -- add _i
   trn_tdst_rdy_int     <= s_axis_tx_tready; -- add _i
-                       
+  --trn_tdst_rdy_int1	  <= s_axis_tx_tready;
+	
   s_axis_tx_tlast      <= trn_teof;
   
   m_axis_rx_tready     <= trn_rdst_rdy;--POHOGE ZADERGKA
   m_axis_rx_tready_int <= trn_rdst_rdy;
   
+  --m_axis_rx_tready_int1 <= trn_rdst_rdy;
     
   
-  gen_trn_rd_64 : if (C_DATA_WIDTH = 64) generate
-  begin 
+ 
     trn_rd <= m_axis_rx_tdata( 31 downto  0) & m_axis_rx_tdata( 63 downto 32);
-  end generate;
+ 
     
   gen_trn_rd_128 : if (C_DATA_WIDTH = 128) generate
   begin
@@ -1068,8 +1069,8 @@ begin
   --Used clock. Latency may have been added
   
   
-  gen_trn_rsof_64 : if (C_DATA_WIDTH = 64) generate
-  begin
+  --gen_trn_rsof_64 : if (C_DATA_WIDTH = 64) generate
+  --begin
   
     in_pckt_register : process(user_clk)
     begin
@@ -1084,7 +1085,7 @@ begin
   
     trn_rsof <= m_axis_rx_tvalid and not(in_packet_reg);
   
-  end generate;
+ -- end generate;
   
   gen_trn_rsof_128 : if (C_DATA_WIDTH = 128) generate
   begin
@@ -1096,12 +1097,12 @@ begin
   
   
   
-  gen_trn_reof_64 : if (C_DATA_WIDTH = 64) generate
-  begin
+ -- gen_trn_reof_64 : if (C_DATA_WIDTH = 64) generate
+ -- begin
   
     trn_reof <= m_axis_rx_tlast;
   
-  end generate;
+ -- end generate;
   
   gen_trn_reof_128 : if (C_DATA_WIDTH = 128) generate
   begin
@@ -1132,8 +1133,8 @@ begin
   is_eof <= m_axis_rx_tuser(21 downto 17);
   
   
-  gen_trn_rrem_64 : if (C_DATA_WIDTH = 64) generate
-  begin
+  --gen_trn_rrem_64 : if (C_DATA_WIDTH = 64) generate
+ -- begin
                    
     CMB_TRN_RREM : process(m_axis_rx_tlast,m_axis_rx_tkeep)
     begin
@@ -1147,7 +1148,7 @@ begin
        trn_rrem(0) <= '1';
       end if;
     end process;                
-  end generate;
+  --end generate;
   
   gen_trn_rrem_128 : if (C_DATA_WIDTH = 128) generate
   begin

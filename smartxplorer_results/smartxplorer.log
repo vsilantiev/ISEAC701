@@ -1,24 +1,24 @@
 
 Release 14.7 SmartXplorer
 Copyright(c) 1995-2010 Xilinx, Inc. All rights reserved.
-smartxplorer -p xc7a200t-fbg676-2 -b -wd smartxplorer_results v6pcieDMA.ngd -to "-v 3 -s 2 -n 3 -fastpaths -xml v6pcieDMA.twx " -max_runs 7
+smartxplorer -p xc7a200t-fbg676-2 -b -wd smartxplorer_results v6pcieDMA.ngd -to "-v 3 -s 2 -n 3 -fastpaths -xml v6pcieDMA.twx -ucf ABB3_pcie_4_lane_Emu_FIFO_elink.ucf" -max_runs 7
 
 SmartXplorer Settings: 
 
-designName=/home/vladimir/ISEAC701/v6pcieDMA.ngd 
-write_dir=/home/vladimir/ISEAC701/smartxplorer_results 
+designName=/home/vladimir/NEWAC701/ISEAC701/v6pcieDMA.ngd 
+write_dir=/home/vladimir/NEWAC701/ISEAC701/smartxplorer_results 
 host_list=None 
 part=xc7a200t-fbg676-2 
 strategy_file=None 
 notify=None 
-source_dir=/home/vladimir/ISEAC701 
+source_dir=/home/vladimir/NEWAC701/ISEAC701 
 batch_mode=True 
 run_all_strategies=False 
 list_all_strategies=False 
 remote_command=rsh
 area_report="lut;slice_reg"
 power_options=off
-trce_options="-v 3 -s 2 -n 3 -fastpaths -xml v6pcieDMA.twx "
+trce_options="-v 3 -s 2 -n 3 -fastpaths -xml v6pcieDMA.twx -ucf ABB3_pcie_4_lane_Emu_FIFO_elink.ucf"
 max_runs=7
 
 WARNING: No host list file specified. Using only local machine.
@@ -29,21 +29,7 @@ See file 'smartxplorer.html' for real-time report.
 Running SmartXplorer strategies...
 
 
-######################################################################
- BestStrategy : MapTimingExtraEffort
-######################################################################
- Run index                           : run3
- Map options                         : -ol high -xe n -t 3 -w 
- Par options                         : -ol high 
- Number of Luts                      : 10,186 (7%)
- Number of Slice Registers           : 11,715 (4%)
- Achieved Timing Score               : 12355
- Worst Case Slack                : -1.005ns
+Ctrl C detected
+INFO: ...Killing all jobs
 
-######################################################################
-
-Total Real Time:7246.4(secs)
-SmartXplorer Done
-
-
-SmartXplorer Done. See file 'smartxplorer.txt' for detailed report.
+SmartXplorer Aborted.

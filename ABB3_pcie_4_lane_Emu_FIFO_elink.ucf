@@ -172,14 +172,14 @@ INST "pcie_axi_trn_bridge_i/v7_pcie_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_br
 
 NET "sys_clk_c" TNM_NET = "SYSCLK";
 NET "pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_125mhz" TNM_NET = "CLK_125";
-#NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_250mhz" TNM_NET = "CLK_250";
-#NET "v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_250mhz" TIG;
+#NET "pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_250mhz" TNM_NET = "CLK_250";
+#NET "pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/clk_250mhz" TIG;
 NET "pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk1" TNM_NET = "CLK_USERCLK";
 NET "pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2" TNM_NET = "CLK_USERCLK2";
 NET "pcie_axi_trn_bridge_i/v7_pcie_i/gt_top_i/pipe_wrapper_i/pipe_clock_int.pipe_clock_i/userclk2" TIG;
 
 TIMESPEC TS_SYSCLK = PERIOD "SYSCLK" 100 MHz HIGH 50 %;
-#TIMESPEC TS_CLK_250 = PERIOD "CLK_250" TS_SYSCLK * 2.5 HIGH 50 % PRIORITY 2;
+#TIMESPEC TS_CLK_250 = PERIOD "CLK_250" TS_SYSCLK * 2.5 HIGH 50 % PRIORITY 1;
 TIMESPEC TS_CLK_125 = PERIOD "CLK_125" TS_SYSCLK * 1.25 HIGH 50 % PRIORITY 1;
 TIMESPEC TS_CLK_USERCLK = PERIOD "CLK_USERCLK" TS_SYSCLK * 1.25 HIGH 50 %;
 TIMESPEC TS_CLK_USERCLK2 = PERIOD "CLK_USERCLK2" TS_SYSCLK * 1.25 HIGH 50 %;
@@ -289,9 +289,9 @@ NET "adc_data_in_n[7]" DIFF_TERM = "TRUE";
 #NET real_soa_signal LOC = "W34" | IOSTANDARD = "LVCMOS25";  
 
 NET "adc_clk_in_p" TNM_NET = "adc_clk_in_p";
-TIMESPEC TS_adc_clk_in_p = PERIOD "adc_clk_in_p" 125 MHz;
+TIMESPEC TS_adc_clk_in_p = PERIOD "adc_clk_in_p" 100 MHz HIGH 50%;
 NET "adc_clk_in_n" TNM_NET = "adc_clk_in_n";
-TIMESPEC TS_adc_clk_in_n = PERIOD "adc_clk_in_n" 125 MHz;
+TIMESPEC TS_adc_clk_in_n = PERIOD "adc_clk_in_n" 100 MHz HIGH 50%;
 
 # PlanAhead Generated IO constraints 
 

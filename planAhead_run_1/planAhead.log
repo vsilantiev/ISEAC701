@@ -1,10 +1,10 @@
 #-----------------------------------------------------------
 # PlanAhead v14.7 (64-bit)
 # Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
-# Start of session at: Thu Oct 16 14:01:31 2014
-# Process ID: 18352
-# Log file: /home/vladimir/ISEAC701/planAhead_run_1/planAhead.log
-# Journal file: /home/vladimir/ISEAC701/planAhead_run_1/planAhead.jou
+# Start of session at: Tue Oct 21 10:39:47 2014
+# Process ID: 513
+# Log file: /home/vladimir/NEWAC701/ISEAC701/planAhead_run_1/planAhead.log
+# Journal file: /home/vladimir/NEWAC701/ISEAC701/planAhead_run_1/planAhead.jou
 #-----------------------------------------------------------
 INFO: [Common 17-78] Attempting to get a license: PlanAhead
 INFO: [Common 17-290] Got license for PlanAhead
@@ -12,27 +12,19 @@ INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/IS
 Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
 Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
 start_gui
-source /home/vladimir/ISEAC701/pa.fromNetlist.tcl
-# create_project -name v6pcie -dir "/home/vladimir/ISEAC701/planAhead_run_1" -part xc7a200tfbg676-2
-# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
-# set_property edif_top_file "/home/vladimir/ISEAC701/v6pcieDMA_cs.ngc" [ get_property srcset [ current_run ] ]
-# add_files -norecurse { {/home/vladimir/ISEAC701} {MyUserLogic/UserLogic_00} {ipcore_dir} {ipcore_dir_ISE13.3} }
-# add_files [list {ipcore_dir/v7_mBuf_128x72.ncf}] -fileset [get_property constrset [current_run]]
-# add_files [list {ipcore_dir/v7_eb_fifo_counted_resized.ncf}] -fileset [get_property constrset [current_run]]
-# add_files [list {ipcore_dir/v7_sfifo_15x128.ncf}] -fileset [get_property constrset [current_run]]
-# add_files [list {ipcore_dir/fifomodule.ncf}] -fileset [get_property constrset [current_run]]
-# add_files [list {ipcore_dir_ISE13.3/v6_eb_fifo_counted_new.ncf}] -fileset [get_property constrset [current_run]]
-# add_files [list {ipcore_dir_ISE13.3/v6_bram4096x64.ncf}] -fileset [get_property constrset [current_run]]
-# add_files [list {ipcore_dir_ISE13.3/v6_mBuf_128x72.ncf}] -fileset [get_property constrset [current_run]]
+source /home/vladimir/NEWAC701/ISEAC701/pa.fromNetlist.tcl
+# create_project -name v6pcie -dir "/home/vladimir/NEWAC701/ISEAC701/planAhead_run_1" -part xc7a200tfbg676-2
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2642.688 ; gain = 30.246
 INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'current_run' was cancelled
 INFO: [Common 17-344] 'source' was cancelled
 exit
 ERROR: [#UNDEF] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
-HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
 HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
 HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
 HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
- (See /home/vladimir/ISEAC701/planAhead_pid18352.debug)
+ (See /home/vladimir/NEWAC701/ISEAC701/planAhead_pid513.debug)
 ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
-INFO: [Common 17-206] Exiting PlanAhead at Thu Oct 16 14:01:52 2014...
+INFO: [Common 17-206] Exiting PlanAhead at Tue Oct 21 10:40:13 2014...
 INFO: [Common 17-83] Releasing license: PlanAhead

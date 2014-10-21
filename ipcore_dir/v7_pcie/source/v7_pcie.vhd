@@ -95,7 +95,7 @@ entity v7_pcie is
     CPL_TIMEOUT_DISABLE_SUPPORTED                  : string     := "FALSE";
     CPL_TIMEOUT_RANGES_SUPPORTED                   : bit_vector := X"2";
 
-    DEV_CAP_ENDPOINT_L0S_LATENCY                   : integer    := 0;
+    DEV_CAP_ENDPOINT_L0S_LATENCY                   : integer    := 7;
     DEV_CAP_ENDPOINT_L1_LATENCY                    : integer    := 7;
     DEV_CAP_EXT_TAG_SUPPORTED                      : string     := "FALSE";
     DEV_CAP_MAX_PAYLOAD_SUPPORTED                  : integer    := 2;
